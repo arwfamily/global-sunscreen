@@ -20,6 +20,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install deps for the Australia sheet reader
+        run: pip install --quiet pandas openpyxl
+
       - name: Collect Canada LNHPD
         env:
           PYTHONUNBUFFERED: "1"
@@ -27,6 +30,23 @@ jobs:
           # the state file resumes either way). Daily runs need far less.
           BUDGET: ${{ github.event_name == 'workflow_dispatch' && '60000' || '4000' }}
         run: python collect_ca_lnhpd.py
+
+      - name: Ingest any newly uploaded ARTG PDFs
+        # Turns data/raw/au/pdf_in/*.pdf into data/raw/au/pdf/{ARTG_ID}.txt.
+        # The PDFs themselves are downloaded by hand in a browser — TGA
+        # disallows automated access — but everything after that is scripted.
+        run: |
+          sudo apt-get install -y -qq poppler-utils >/dev/null 2>&1 || true
+          pip install --quiet pdfplumber
+          python ingest_au_pdfs.py
+
+      - name: Build Australia from ARTG export + manual PDFs
+        # No network: reads data/raw/au/*.xlsx (official TGA "Export data")
+        # and data/raw/au/pdf/{ARTG_ID}.txt (hand-saved PDF text). Safe to
+        # run every time; it rebuilds canonical from whatever is in raw.
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: python collect_au_artg.py
 
       - name: Commit
         run: |
