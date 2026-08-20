@@ -34,7 +34,14 @@ sys.stdout.reconfigure(line_buffering=True)
 from adapters.ca_lnhpd import build_record, scope_of
 
 BASE = "https://health-products.canada.ca/api/natural-licences"
-UA = "TinySafe-Ingredients/1.0 (baby product safety research)"
+# The plain UA + 60 s timeout combination died on GitHub runners: page 1
+# answered, pages 2+ all timed out. Health Canada is slow for large
+# uncapped pages, so we ask like a browser and wait longer.
+UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 "
+      "(KHTML, like Gecko) Version/17.4 Safari/605.1.15")
+HEADERS = {"User-Agent": UA, "Accept": "application/json, text/plain, */*",
+           "Accept-Language": "en-CA,en;q=0.9"}
+TIMEOUT = 180
 ROOT = Path(__file__).parent
 OUT = ROOT / "data" / "canonical" / "ca_ingredients.jsonl"
 # Append-only observation log. OUT holds the CURRENT formulation of each
@@ -51,18 +58,22 @@ BULK = ("productlicence", "productpurpose", "medicinalingredient")
 _calls = [0]
 
 
-def get(path: str, tries: int = 3):
+def get(path: str, tries: int = 4):
     url = f"{BASE}/{path}"
     for attempt in range(tries):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA})
-            with urllib.request.urlopen(req, timeout=60) as r:
-                _calls[0] += 1
-                return json.loads(r.read().decode("utf-8"))
+            req = urllib.request.Request(url, headers=HEADERS)
+            t0 = time.time()
+            with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+                body = r.read().decode("utf-8")
+            _calls[0] += 1
+            return json.loads(body), round(time.time() - t0, 1)
         except Exception as e:  # noqa: BLE001
-            print(f"  [!] {path[:60]} attempt {attempt+1}: {e}", file=sys.stderr)
-            time.sleep(2 * (attempt + 1))
-    return None
+            wait = 5 * (2 ** attempt)          # 5, 10, 20, 40 s
+            print(f"  [!] {path[:70]} attempt {attempt+1}/{tries}: {e} "
+                  f"— waiting {wait}s", file=sys.stderr)
+            time.sleep(wait)
+    return None, None
 
 
 def unwrap(data):
@@ -104,18 +115,26 @@ def git_checkpoint(label):
         return
     if sh("git", "commit", "-m", f"ca-lnhpd: {label}")[0] != 0:
         return
+    branch = (sh("git", "rev-parse", "--abbrev-ref", "HEAD")[1] or "main")
     for attempt in range(4):
-        if sh("git", "push")[0] == 0:
+        rc, err = sh("git", "push", "origin", f"HEAD:{branch}")
+        if rc == 0:
             print(f"  [*] checkpoint {label}: pushed")
             return
-        if attempt == 0:
-            sh("git", "fetch", "--unshallow")
-        sh("git", "fetch", "origin")
-        if sh("git", "rebase", "origin/HEAD")[0] != 0:
+        # Print git's own words. The first version swallowed them, so a
+        # failed push looked identical whatever the cause — and the run
+        # ended with the work committed locally and lost with the runner.
+        print(f"  [!] checkpoint {label}: push attempt {attempt+1} failed: "
+              f"{err[:300]}", file=sys.stderr)
+        sh("git", "fetch", "origin", branch)
+        rc2, err2 = sh("git", "rebase", f"origin/{branch}")
+        if rc2 != 0:
             sh("git", "rebase", "--abort")
-            sh("git", "pull", "--rebase", "--autostash")
+            print(f"  [!] rebase failed: {err2[:200]}", file=sys.stderr)
         time.sleep(3)
-    print(f"  [!] checkpoint {label}: push failed", file=sys.stderr)
+    print(f"  [!] checkpoint {label}: could not push after 4 attempts — the "
+          f"commit exists locally; the workflow's final step will retry",
+          file=sys.stderr)
 
 
 def load_state():
@@ -129,7 +148,10 @@ def save_state(st):
     STATE.write_text(json.dumps(st, indent=1))
 
 
-def walk_bulk(table, state):
+_stalled = []
+
+
+def walk_bulk(table, state, stalled=_stalled):
     """Page through one bulk table into data/raw/, resuming from state."""
     rows = []
     cache = RAW / f"{table}.jsonl"
@@ -139,11 +161,16 @@ def walk_bulk(table, state):
     page = state["pages"].get(table, 0) + 1
     total_pages = None
     with cache.open("a") as f:
-        announced = False
+        announced, last_sig = False, None
         while _calls[0] < BUDGET:
-            data = get(f"{table}/?lang=en&type=json&page={page}")
+            data, secs = get(f"{table}/?lang=en&type=json&page={page}")
             if data is None:
-                print(f"  [!] {table} page {page} unreachable — stopping table")
+                # Not a budget problem and not the end of the data — the
+                # server stopped answering. Save and checkpoint what we have
+                # so the next dispatch resumes from exactly here.
+                print(f"  [!] {table}: page {page} unreachable after retries "
+                      f"— saving progress and stopping this table")
+                stalled.append(table)
                 break
             batch, meta = unwrap(data)
             if total_pages is None and meta.get("total"):
@@ -160,6 +187,18 @@ def walk_bulk(table, state):
                 state["pages"][table] = "done"
                 print(f"[{table}] complete: {len(rows)} rows")
                 break
+            # Guard against an endpoint that ignores ?page= and keeps
+            # returning the same first record: that would loop forever and
+            # duplicate the whole table into the cache.
+            sig = json.dumps(batch[0], sort_keys=True)[:300]
+            if sig == last_sig:
+                state["pages"][table] = "done"
+                print(f"[{table}] page {page} repeats page {page-1} — the "
+                      f"endpoint ignores ?page=; treating {len(rows)} rows as "
+                      f"the complete table")
+                break
+            last_sig = sig
+            print(f"  [{table}] page {page}: {len(batch)} rows in {secs}s")
             for row in batch:
                 f.write(json.dumps(row, ensure_ascii=False) + "\n")
                 rows.append(row)
@@ -199,7 +238,11 @@ def main():
         else:
             tables[t] = walk_bulk(t, state)
             if state["pages"].get(t) != "done":
-                print(f"[*] budget spent inside {t} — re-run to continue")
+                why = ("the server stopped responding" if t in _stalled
+                       else "the per-run request budget ran out")
+                print(f"[*] {t} incomplete — {why}. Progress is saved; "
+                      f"re-run to continue from page "
+                      f"{state['pages'].get(t, 0) + 1}.")
                 git_checkpoint(f"{t} partial")
                 return
 
