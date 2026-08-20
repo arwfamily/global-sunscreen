@@ -65,6 +65,29 @@ def get(path: str, tries: int = 3):
     return None
 
 
+def unwrap(data):
+    """LNHPD answers in TWO shapes and the difference is not documented.
+
+    Some tables return {"metadata": {...}, "data": [...]}; others return a
+    bare JSON array with no envelope at all (the API guide's own
+    non-medicinal-ingredient sample is a bare list). The first live run died
+    on this — a bare list has no .get(). Normalise here, once, and let every
+    caller work with (rows, meta).
+
+    A bare list also means NO pagination metadata, so the walker cannot know
+    the total up front: it pages until a page comes back empty.
+    """
+    if isinstance(data, list):
+        return data, {}
+    if isinstance(data, dict):
+        rows = data.get("data")
+        if rows is None:
+            rows = []
+        meta = (data.get("metadata") or {}).get("pagination") or {}
+        return rows, meta
+    return [], {}
+
+
 def git_checkpoint(label):
     if not os.environ.get("GITHUB_ACTIONS"):
         return
@@ -116,18 +139,26 @@ def walk_bulk(table, state):
     page = state["pages"].get(table, 0) + 1
     total_pages = None
     with cache.open("a") as f:
+        announced = False
         while _calls[0] < BUDGET:
             data = get(f"{table}/?lang=en&type=json&page={page}")
             if data is None:
                 print(f"  [!] {table} page {page} unreachable — stopping table")
                 break
-            meta = (data.get("metadata") or {}).get("pagination") or {}
+            batch, meta = unwrap(data)
             if total_pages is None and meta.get("total"):
                 total_pages = -(-int(meta["total"]) // int(meta.get("limit") or 100))
                 print(f"[{table}] total={meta['total']} pages={total_pages} "
                       f"(resuming at {page})")
-            batch = data.get("data") or []
+                announced = True
+            elif not announced:
+                print(f"[{table}] bare-list response (no pagination metadata) "
+                      f"— paging until empty, resuming at {page}")
+                announced = True
             if not batch:
+                # An empty page is the end for both shapes.
+                state["pages"][table] = "done"
+                print(f"[{table}] complete: {len(rows)} rows")
                 break
             for row in batch:
                 f.write(json.dumps(row, ensure_ascii=False) + "\n")
@@ -139,7 +170,7 @@ def walk_bulk(table, state):
                 git_checkpoint(f"{table} page {page}")
                 print(f"  [{table}] page {page}/{total_pages or '?'} "
                       f"rows={len(rows)}")
-            if not meta.get("next"):
+            if meta and not meta.get("next"):
                 state["pages"][table] = "done"
                 print(f"[{table}] complete: {len(rows)} rows")
                 break
@@ -203,15 +234,11 @@ def main():
             print(f"[*] budget reached — {len(targets) - len(enriched)} "
                   f"products still to enrich; re-run to continue")
             break
-        non = get(f"nonmedicinalingredient/?lang=en&type=json&id={pid}") or {}
-        rou = get(f"productroute/?lang=en&type=json&id={pid}") or {}
-        dos = get(f"productdose/?lang=en&type=json&id={pid}") or {}
-        rec = build_record(
-            lics[pid], purposes.get(pid, []), medicinal.get(pid, []),
-            non.get("data") or (non if isinstance(non, list) else []),
-            rou.get("data") or (rou if isinstance(rou, list) else []),
-            dos.get("data") or (dos if isinstance(dos, list) else []),
-        )
+        non, _ = unwrap(get(f"nonmedicinalingredient/?lang=en&type=json&id={pid}"))
+        rou, _ = unwrap(get(f"productroute/?lang=en&type=json&id={pid}"))
+        dos, _ = unwrap(get(f"productdose/?lang=en&type=json&id={pid}"))
+        rec = build_record(lics[pid], purposes.get(pid, []),
+                           medicinal.get(pid, []), non, rou, dos)
         record_observation(rec, store.get(rec["id"]), today)
         store[rec["id"]] = rec
         enriched.add(pid)
