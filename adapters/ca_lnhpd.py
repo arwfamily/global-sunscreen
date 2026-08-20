@@ -24,6 +24,8 @@ Everything joins on lnhpd_id. licence_number (NPN, 8 digits) is the public,
 stable, on-label identifier — it is the record id; we never invent one.
 """
 
+import hashlib
+import json
 import re
 
 # Purpose text is how Canada tells us what a product IS. Sunscreen purposes
@@ -101,4 +103,24 @@ def build_record(lic, purposes, medicinal, nonmedicinal, routes, doses):
         rec["mineral_only"] = bool(active_names) and active_names <= MINERAL_UV
     if BABY_RE.search(" ".join(purposes) + " " + name):
         rec["baby_flag_source"] = "purpose_or_name"
+    # --- formulation fingerprint (the whole point of the time series) -------
+    # A stable hash of WHAT IS IN THE PRODUCT, deliberately excluding
+    # everything that is not formulation (dates, status flags, company
+    # renames). When this hash changes between runs, the manufacturer
+    # reformulated — that event is the asset, and it is invisible unless we
+    # fingerprint every observation. Actives are sorted (register order is
+    # not meaningful); inactives keep source order, because for a full
+    # ingredient list the order is itself information.
+    fp = {
+        "actives": sorted(
+            (str(a["name"] or "").strip().lower(), a["quantity"], a["unit"])
+            for a in actives),
+        "inactives": [str(i or "").strip().lower() for i in rec["inactives"]],
+        "dosage_form": dosage.strip().lower(),
+    }
+    rec["formulation_hash"] = hashlib.sha1(
+        json.dumps(fp, sort_keys=True, ensure_ascii=False).encode()
+    ).hexdigest()[:16]
+    rec["n_actives"] = len(actives)
+    rec["n_inactives"] = len(rec["inactives"])
     return rec
