@@ -36,6 +36,11 @@ BASE = "https://health-products.canada.ca/api/natural-licences"
 UA = "TinySafe-Ingredients/1.0 (baby product safety research)"
 ROOT = Path(__file__).parent
 OUT = ROOT / "data" / "canonical" / "ca_ingredients.jsonl"
+# Append-only observation log. OUT holds the CURRENT formulation of each
+# product; HIST holds every formulation we have ever seen, one line per
+# (product, formulation) with the dates we saw it. Reformulations are only
+# visible if you never overwrite — the register itself does not keep history.
+HIST = ROOT / "data" / "canonical" / "ca_formulation_history.jsonl"
 RAW = ROOT / "data" / "raw" / "ca_lnhpd"
 STATE = ROOT / "data" / "ca_lnhpd_state.json"
 SLEEP = 0.25
@@ -201,6 +206,7 @@ def main():
             rou.get("data") or (rou if isinstance(rou, list) else []),
             dos.get("data") or (dos if isinstance(dos, list) else []),
         )
+        record_observation(rec, store.get(rec["id"]), today)
         store[rec["id"]] = rec
         enriched.add(pid)
         done_this_run += 1
@@ -220,9 +226,91 @@ def main():
     sun = [r for r in store.values() if r.get("scope") == "sunscreen"]
     mineral = [r for r in sun if r.get("mineral_only")]
     baby = [r for r in store.values() if r.get("baby_flag_source")]
+    baby_sun = [r for r in sun if r.get("baby_flag_source")]
     print(f"\n[*] store={len(store)} records -> {OUT}")
     print(f"[*] sunscreens={len(sun)}  mineral-only={len(mineral)}  "
-          f"baby-flagged={len(baby)}  (API calls this run: {_calls[0]})")
+          f"baby-flagged={len(baby)}  baby sunscreens={len(baby_sun)}  "
+          f"(API calls this run: {_calls[0]})")
+    # Formulation-depth report: this is the A-track deliverable, not a
+    # product count. How rich is each formulation record we just captured?
+    if baby_sun:
+        depths = sorted(r.get("n_inactives", 0) for r in baby_sun)
+        mid = depths[len(depths) // 2]
+        zinc = [r for r in baby_sun
+                if any("zinc" in str(a["name"]).lower() for a in r["actives"])]
+        print(f"[*] baby sunscreen formulations: median inactives={mid}, "
+              f"range {depths[0]}-{depths[-1]}, zinc-containing={len(zinc)}")
+    if HIST.exists():
+        changes = [json.loads(l) for l in HIST.open() if l.strip()]
+        reform = [c for c in changes if c["change"] == "reformulated"]
+        meta = [c for c in changes if c["change"] == "metadata"]
+        print(f"[*] history: {len(changes)} observations "
+              f"({len(reform)} reformulations, {len(meta)} metadata-only "
+              f"changes) -> {HIST}")
+
+
+# Fields whose change is worth logging even when the formulation is
+# identical: a relabel, a company rename, a licence revision. These are NOT
+# reformulations, but they are events — "this brand revised its label four
+# times without touching the formula" is itself a finding.
+META_TRACKED = ("revised_date", "product_name", "company", "dosage_form",
+                "purposes", "populations", "status_active",
+                "attested_monograph")
+
+
+def record_observation(rec, previous, today):
+    """Append an observation whenever ANYTHING we track changes.
+
+    Two kinds of change, deliberately separated so neither hides the other:
+      change="reformulated"  the ingredient fingerprint moved — the actives,
+                             their amounts, the full inactive list, or the
+                             dosage form is different. The A-track signal.
+      change="metadata"      the formulation is byte-identical but a tracked
+                             field moved (relabel, rename, licence revision,
+                             status flip, age-range change).
+    Nothing is discarded either way: every observation carries the FULL
+    formulation snapshot plus the metadata diff, so the history file alone
+    can reconstruct what a product looked like on any date we saw it.
+    """
+    reformulated = (not previous
+                    or previous.get("formulation_hash") != rec["formulation_hash"])
+    meta_diff = {}
+    if previous:
+        for k in META_TRACKED:
+            if previous.get(k) != rec.get(k):
+                meta_diff[k] = {"from": previous.get(k), "to": rec.get(k)}
+    if not reformulated and not meta_diff:
+        return  # genuinely nothing new to say about this product today
+    entry = {
+        "id": rec["id"],
+        "observed": today,
+        "change": ("new" if not previous
+                   else "reformulated" if reformulated else "metadata"),
+        "formulation_hash": rec["formulation_hash"],
+        "previous_hash": (previous or {}).get("formulation_hash"),
+        "meta_changed": meta_diff or None,
+        # Full snapshot, every time — the point is to be able to replay a
+        # product's formulation history without needing any other file.
+        "product_name": rec.get("product_name"),
+        "company": rec.get("company"),
+        "dosage_form": rec.get("dosage_form"),
+        "licence_date": rec.get("licence_date"),
+        "revised_date": rec.get("revised_date"),
+        "status_active": rec.get("status_active"),
+        "attested_monograph": rec.get("attested_monograph"),
+        "scope": rec.get("scope"),
+        "purposes": rec.get("purposes"),
+        "populations": rec.get("populations"),
+        "uv_filters": rec.get("uv_filters"),
+        "mineral_only": rec.get("mineral_only"),
+        "actives": rec.get("actives"),
+        "inactives": rec.get("inactives"),
+        "n_actives": rec.get("n_actives"),
+        "n_inactives": rec.get("n_inactives"),
+    }
+    HIST.parent.mkdir(parents=True, exist_ok=True)
+    with HIST.open("a") as f:
+        f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
 
 def write_store(store):
