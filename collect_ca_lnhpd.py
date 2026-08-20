@@ -21,6 +21,7 @@ Run:  python collect_ca_lnhpd.py           # normal, budgeted
       BUDGET=999999 python collect_ca_lnhpd.py   # unlimited (first backfill)
 """
 
+import datetime
 import json
 import os
 import sys
@@ -151,6 +152,11 @@ def walk_bulk(table, state):
 def main():
     OUT.parent.mkdir(parents=True, exist_ok=True)
     state = load_state()
+    # Observation date for the history log. Defined up front because BOTH
+    # phases stamp records with it — the first version defined it only
+    # inside the bulk walk, so Phase B crashed with NameError the moment it
+    # reached the first in-scope product (2026-08-21 run).
+    today = datetime.date.today().isoformat()
 
     # ---- Phase A: the three walkable tables --------------------------------
     tables = {}
