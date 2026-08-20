@@ -1,0 +1,43 @@
+name: Collect ingredient registers
+
+on:
+  schedule:
+    - cron: "17 6 * * *"      # LNHPD refreshes daily
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0      # in-run checkpoints rebase; shallow can't
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect Canada LNHPD
+        env:
+          PYTHONUNBUFFERED: "1"
+          # First backfill: set BUDGET high once (or dispatch repeatedly —
+          # the state file resumes either way). Daily runs need far less.
+          BUDGET: ${{ github.event_name == 'workflow_dispatch' && '60000' || '4000' }}
+        run: python collect_ca_lnhpd.py
+
+      - name: Commit
+        run: |
+          git config user.name "ingredients-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && echo "nothing to commit" && exit 0
+          git commit -m "collect: $(date -u +%Y-%m-%d)"
+          for i in 1 2 3 4; do
+            git push && exit 0
+            git fetch origin && git pull --rebase --autostash || true
+            sleep 3
+          done
+          echo "::error::push failed"; exit 1
