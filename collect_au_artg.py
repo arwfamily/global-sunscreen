@@ -37,28 +37,53 @@ HIST = ROOT / "data" / "canonical" / "au_formulation_history.jsonl"
 REQUIRED = ("ARTG ID", "Product Name", "Active Ingredients")
 
 
+def _read_any(path):
+    """Yield dict rows from .jsonl (preferred), .csv, or .xlsx.
+
+    JSONL is the format we keep in the repo: git stores it as text, so a
+    later export shows up as a readable diff (which products appeared or
+    disappeared), and there is no binary-mangling risk. GitHub's web
+    uploader flagged the original .xlsx for line-ending "normalisation",
+    which would have silently corrupted it. Spreadsheets are still accepted
+    for convenience, but converting to JSONL is the recommended path.
+    """
+    if path.endswith(".jsonl"):
+        with open(path) as f:
+            for line in f:
+                if line.strip():
+                    yield json.loads(line)
+        return
+    import pandas as pd           # only needed for the spreadsheet path
+    df = pd.read_excel(path) if path.endswith(".xlsx") else pd.read_csv(path)
+    for _, r in df.iterrows():
+        yield {k: (None if pd.isna(v) else v) for k, v in r.items()}
+
+
 def load_rows():
     """Read every export file in data/raw/au/, newest last so it wins."""
-    import pandas as pd
-    rows, files = {}, sorted(glob.glob(str(RAW / "*.xlsx"))
-                             + glob.glob(str(RAW / "*.csv")))
+    rows, files = {}, sorted(glob.glob(str(RAW / "*.jsonl"))
+                             + glob.glob(str(RAW / "*.csv"))
+                             + glob.glob(str(RAW / "*.xlsx")))
     if not files:
         sys.exit(f"[!] no export files in {RAW} — add the TGA 'Export data' "
-                 f"download there first")
+                 f"download (converted to .jsonl) there first")
     for f in files:
-        df = pd.read_excel(f) if f.endswith(".xlsx") else pd.read_csv(f)
-        missing = [c for c in REQUIRED if c not in df.columns]
-        if missing:
-            print(f"  [!] {os.path.basename(f)}: missing {missing} — skipped")
-            continue
-        n = 0
-        for _, r in df.iterrows():
+        n, checked = 0, False
+        for r in _read_any(f):
+            if not checked:
+                missing = [c for c in REQUIRED if c not in r]
+                if missing:
+                    print(f"  [!] {os.path.basename(f)}: missing {missing} "
+                          f"— skipped")
+                    break
+                checked = True
             aid = str(r.get("ARTG ID") or "").strip()
             if not aid or aid.lower() == "nan":
                 continue
             rows[aid] = r          # later file wins for the same ARTG ID
             n += 1
-        print(f"  [*] {os.path.basename(f)}: {n} rows")
+        if n:
+            print(f"  [*] {os.path.basename(f)}: {n} rows")
     return rows
 
 
