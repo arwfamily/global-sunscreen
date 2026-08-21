@@ -30,8 +30,18 @@ import re
 
 # Purpose text is how Canada tells us what a product IS. Sunscreen purposes
 # are formulaic ("Helps prevent sunburn", "provides broad spectrum...").
+# 2026-08-21: this used to include a bare `sunburn`, which matched every
+# product whose purpose text merely mentions sunburn as something it soothes
+# — zinc ointments, calamine, anti-itch creams, even a fibre laxative whose
+# text says "burning sensation". 2,309 "sunscreens" came back, 361 of them
+# without any UV filter at all. A sunscreen makes a PROTECTION claim, so
+# require protection semantics, not the word.
 SUNSCREEN_RE = re.compile(
-    r"sunscreen|sunburn|sun protection|SPF|UVA|UVB|ultraviolet", re.I)
+    r"sunscreen|écran solaire|"
+    r"(?:prevent|protect|protection|prevents|protects|helps? prevent|"
+    r"helps? protect)\w*[^.]{0,40}sunburn|"
+    r"sunburn protection|sun protection factor|\bSPF\b|"
+    r"UVA\s*/?\s*UVB|broad[- ]spectrum", re.I)
 SKINCARE_RE = re.compile(
     r"\b(skin|diaper|nappy|rash|moisturi[sz]|emollient|dermal|eczema|"
     r"chafing|barrier cream|lip balm|cleanser|baby wash|topical)\b", re.I)
@@ -42,11 +52,21 @@ BABY_RE = re.compile(
 MINERAL_UV = {"zinc oxide", "titanium dioxide"}
 
 
-def scope_of(purposes, product_name, dosage_form):
-    """Which bucket a product falls in. Purpose text wins; name is backup."""
+def scope_of(purposes, product_name, dosage_form, active_names=None):
+    """Which bucket a product falls in. Purpose text wins; name is backup.
+
+    `active_names` is optional because scope is decided twice: once before
+    enrichment (cheap, text only, deliberately generous — it decides who is
+    worth four API calls) and again after, when the actives are known. In
+    LNHPD a sunscreen is a mineral sunscreen by construction: chemical
+    filters make a product a drug with a DIN, so it is not in this register
+    at all. A product with no ZnO/TiO2 therefore cannot be a sunscreen here,
+    whatever its purpose text says.
+    """
     blob = " ".join(purposes) + " " + (product_name or "")
     if SUNSCREEN_RE.search(blob):
-        return "sunscreen"
+        if active_names is None or (active_names & MINERAL_UV):
+            return "sunscreen"
     if SKINCARE_RE.search(blob) or re.search(
             r"\b(cream|lotion|ointment|balm|salve|gel)\b", dosage_form or "", re.I):
         return "skincare"
@@ -70,7 +90,7 @@ def build_record(lic, purposes, medicinal, nonmedicinal, routes, doses):
     npn = str(lic.get("licence_number") or "").strip()
     name = lic.get("product_name") or ""
     dosage = lic.get("dosage_form") or ""
-    scope = scope_of(purposes, name, dosage)
+    scope = scope_of(purposes, name, dosage, active_names)
     rec = {
         "id": f"CA:NPN-{npn}" if npn else f"CA:lnhpd-{lic.get('lnhpd_id')}",
         "id_scheme": "npn" if npn else "lnhpd_id",
@@ -101,8 +121,17 @@ def build_record(lic, purposes, medicinal, nonmedicinal, routes, doses):
         # The Sunnytime question, answered per product by the register itself.
         rec["uv_filters"] = sorted(active_names & MINERAL_UV) or sorted(active_names)
         rec["mineral_only"] = bool(active_names) and active_names <= MINERAL_UV
-    if BABY_RE.search(" ".join(purposes) + " " + name):
-        rec["baby_flag_source"] = "purpose_or_name"
+    # Two independent signals, recorded separately: what the register says
+    # the product is for, and what the marketing says. Previously only the
+    # text was read, so every product came back baby=0 even though 223 of
+    # them are registered for infants.
+    pops = " ".join(rec["populations"]).lower()
+    baby_pop = bool(re.search(r"infant|child|all ages", pops))
+    baby_txt = bool(BABY_RE.search(" ".join(purposes) + " " + name))
+    if baby_pop or baby_txt:
+        rec["baby"] = True
+        rec["baby_flag_source"] = ",".join(
+            s for s, on in (("population", baby_pop), ("purpose_or_name", baby_txt)) if on)
     # --- formulation fingerprint (the whole point of the time series) -------
     # A stable hash of WHAT IS IN THE PRODUCT, deliberately excluding
     # everything that is not formulation (dates, status flags, company
