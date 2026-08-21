@@ -99,6 +99,13 @@ jobs:
           CA_SCOPES: "sunscreen"
         run: python collect_ca_lnhpd.py
 
+      # Scope is a judgement about records we already hold, so a corrected
+      # rule can be applied without asking Health Canada for anything again.
+      # Idempotent and offline: once the store is clean this drops nothing.
+      - name: Re-apply the scope rule to the stored records
+        if: always()
+        run: python rescope_ca.py
+
       - name: Publish
         if: always()
         run: |
