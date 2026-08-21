@@ -52,34 +52,65 @@ jobs:
         run: python collect_au_artg.py
 
       - name: Commit and push (always — including commits made mid-run)
-        # The collectors commit their own checkpoints as they go. The first
-        # version of this step said "nothing to commit" and exited 0 when a
-        # checkpoint had already committed but FAILED to push — so the work
-        # sat in a local commit and died with the runner. Now the step stages
-        # anything new, then pushes whenever the branch is ahead of origin,
-        # and fails loudly with git's actual error if it cannot.
+        # 2026-08-21 rewrite. The previous version died with
+        #   "cannot rebase: You have unstaged changes"
+        # because a later collector writes files after this step stages, and
+        # with "fatal: no rebase in progress" because an aborted rebase was
+        # never cleaned up. Three fixes, all of them things this repo has
+        # actually been bitten by:
+        #   - clear an interrupted rebase before touching anything;
+        #   - --autostash, so files written after staging cannot block it;
+        #   - push HEAD:<branch> by name, so a detached HEAD cannot strand
+        #     the run's commits (that is what killed the recall repo run).
         if: always()
         run: |
-          set -o pipefail
-          git config user.name "ingredients-bot"
-          git config user.email "actions@users.noreply.github.com"
+          set -uo pipefail
           BRANCH="${GITHUB_REF_NAME:-main}"
-          git add data/
+
+          if [ -d .git/rebase-merge ] || [ -d .git/rebase-apply ]; then
+            echo "::warning::clearing an interrupted rebase"
+            git rebase --abort || git rebase --quit || true
+          fi
+
+          git config user.name  "ingredients-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A data/
           if ! git diff --cached --quiet; then
             git commit -m "collect: $(date -u +%Y-%m-%d)"
           else
             echo "no new files to stage"
           fi
+
           git fetch origin "$BRANCH"
           AHEAD=$(git rev-list --count "origin/$BRANCH..HEAD")
           echo "commits waiting to push: $AHEAD"
           if [ "$AHEAD" -eq 0 ]; then echo "nothing to push"; exit 0; fi
+
           for i in 1 2 3 4; do
             if git push origin "HEAD:$BRANCH"; then
               echo "pushed $AHEAD commit(s)"; exit 0
             fi
-            echo "push attempt $i failed - rebasing onto origin/$BRANCH"
-            git fetch origin "$BRANCH" && git rebase "origin/$BRANCH" || git rebase --abort
-            sleep 5
+            echo "push attempt $i failed - replaying onto origin/$BRANCH"
+            git fetch origin "$BRANCH"
+            if ! git rebase --autostash "origin/$BRANCH"; then
+              git rebase --abort || true
+              echo "::error::rebase onto origin/$BRANCH failed - conflicting history"
+              break
+            fi
+            sleep $((i * 5))
           done
-          echo "::error::could not push $AHEAD commit(s)"; exit 1
+          echo "::error::could not push $AHEAD commit(s) - see the artifact below"
+          exit 1
+
+      # A persistence path that does not involve git at all. Runs even when
+      # everything above failed, so a long collection run can never end with
+      # its data existing nowhere.
+      - name: Safety net - upload data regardless of outcome
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-${{ github.run_id }}
+          path: data/
+          retention-days: 30
+          if-no-files-found: warn
+
