@@ -8,10 +8,10 @@
   "categories_kept": [
    "sunscreen"
   ],
-  "corpus_size": 13285,
+  "corpus_size": 13291,
   "corpus_version": "2026-08-26",
   "last_verified": "2026-08-26",
-  "records": 6516,
+  "records": 6521,
   "source": "https://raw.githubusercontent.com/arwfamily/tinysafe-dailymed-scraper-v2/main/data/canonical/us_sunscreens.jsonl"
  }
 }
