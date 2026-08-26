@@ -1,0 +1,216 @@
+{
+ "generated_from": {
+  "AU": 502,
+  "CA": 1910
+ },
+ "total_products": 2412,
+ "total_with_full_ingredients": 1896,
+ "distinct_ingredients_after_normalisation": 3357,
+ "ingredients_present_in_every_jurisdiction": [],
+ "top_ingredients": [
+  [
+   "water",
+   1354
+  ],
+  [
+   "glycerin",
+   1047
+  ],
+  [
+   "caprylic/capric triglyceride",
+   828
+  ],
+  [
+   "iron oxides",
+   753
+  ],
+  [
+   "polyhydroxystearic acid",
+   746
+  ],
+  [
+   "phenoxyethanol",
+   692
+  ],
+  [
+   "triethoxycaprylylsilane",
+   603
+  ],
+  [
+   "silica",
+   596
+  ],
+  [
+   "dimethicone",
+   596
+  ],
+  [
+   "caprylyl glycol",
+   555
+  ],
+  [
+   "xanthan gum",
+   533
+  ],
+  [
+   "ethylhexylglycerin",
+   524
+  ],
+  [
+   "stearic acid",
+   507
+  ],
+  [
+   "tocopherol",
+   496
+  ],
+  [
+   "butylene glycol",
+   487
+  ],
+  [
+   "mica",
+   476
+  ],
+  [
+   "sodium chloride",
+   396
+  ],
+  [
+   "butyloctyl salicylate",
+   388
+  ],
+  [
+   "c12-15 alkyl benzoate",
+   360
+  ],
+  [
+   "propanediol",
+   360
+  ],
+  [
+   "lecithin",
+   358
+  ],
+  [
+   "aluminum hydroxide",
+   343
+  ],
+  [
+   "cyclopentasiloxane",
+   343
+  ],
+  [
+   "alumina",
+   339
+  ],
+  [
+   "sodium hyaluronate",
+   331
+  ],
+  [
+   "helianthus annuus (sunflower) seed oil",
+   330
+  ],
+  [
+   "citric acid",
+   324
+  ],
+  [
+   "magnesium sulfate",
+   308
+  ],
+  [
+   "disteardimonium hectorite",
+   304
+  ],
+  [
+   "titanium dioxide",
+   302
+  ],
+  [
+   "bisabolol",
+   300
+  ],
+  [
+   "aloe barbadensis leaf juice",
+   289
+  ],
+  [
+   "potassium sorbate",
+   276
+  ],
+  [
+   "fragrance",
+   274
+  ],
+  [
+   "cetearyl alcohol",
+   256
+  ],
+  [
+   "1,2-hexanediol",
+   250
+  ],
+  [
+   "isostearic acid",
+   234
+  ],
+  [
+   "coco-caprylate/caprate",
+   233
+  ],
+  [
+   "sodium benzoate",
+   230
+  ],
+  [
+   "disodium edta",
+   228
+  ]
+ ],
+ "per_jurisdiction": {
+  "AU": {
+   "products": 502,
+   "with_full_ingredients": 0,
+   "mineral_only": 131,
+   "baby_labelled": 55,
+   "median_ingredients": null,
+   "zinc_median_percent": 22.75,
+   "zinc_median_is_estimate": false,
+   "publishes": "actives with mg/g, excipients alphabetical (hand-read from PDFs)",
+   "last_verified": null,
+   "shared_formulation": {
+    "clusters": 0,
+    "products": 0,
+    "cross_company_clusters": 0,
+    "cross_company_products": 0
+   }
+  },
+  "CA": {
+   "products": 1910,
+   "with_full_ingredients": 1896,
+   "mineral_only": 1896,
+   "baby_labelled": 110,
+   "median_ingredients": 27,
+   "zinc_median_percent": null,
+   "zinc_median_is_estimate": false,
+   "publishes": "actives with exact %, inactive names only (mineral filters only — chemical-filter sunscreens are DIN/DPD and not in LNHPD)",
+   "last_verified": null,
+   "shared_formulation": {
+    "clusters": 93,
+    "products": 223,
+    "cross_company_clusters": 19,
+    "cross_company_products": 46
+   }
+  }
+ },
+ "caveats": [
+  "Counts are comparable only where the registers publish the same thing — see per_jurisdiction.publishes before quoting a share.",
+  "Canada covers mineral-filter sunscreens only (NHP). Chemical sunscreens are regulated as drugs (DIN) and are not in LNHPD.",
+  "US concentrations are not publishable yet: the upstream scraper drops the SPL strength unit, so 50 may be 5% or 50%. Ingredient presence, filter systems and formulation clusters are unaffected; percentages are not.",
+  "The US corpus is cast on 19 UV-filter UNIIs, so a sunscreen using only a filter outside that set is not collected.",
+  "Australia's excipient lists are alphabetical, so no concentration can be inferred from their order.",
+  "Korea publishes no concentrations; ingredient position is a proxy, not a measurement."
+ ]
+}
