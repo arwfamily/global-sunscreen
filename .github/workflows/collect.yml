@@ -51,6 +51,12 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          # The branch tip, not the commit that triggered the run. Without
+          # this every job checks out the same starting tree, so a later job
+          # cannot see what an earlier one pushed — which is how the United
+          # States went missing from the global build while its 6,516
+          # records sat in the repo.
+          ref: ${{ github.ref_name }}
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -115,6 +121,12 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          # The branch tip, not the commit that triggered the run. Without
+          # this every job checks out the same starting tree, so a later job
+          # cannot see what an earlier one pushed — which is how the United
+          # States went missing from the global build while its 6,516
+          # records sat in the repo.
+          ref: ${{ github.ref_name }}
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -165,6 +177,12 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          # The branch tip, not the commit that triggered the run. Without
+          # this every job checks out the same starting tree, so a later job
+          # cannot see what an earlier one pushed — which is how the United
+          # States went missing from the global build while its 6,516
+          # records sat in the repo.
+          ref: ${{ github.ref_name }}
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
