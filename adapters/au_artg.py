@@ -12,9 +12,14 @@ Two inputs, deliberately separate:
   1. The official Export data spreadsheet — bulk, sanctioned, no scraping.
      Gives ARTG ID, product name, sponsor, and actives with quantities.
      This is the spine.
-  2. Per-product PDF text (the "Download PDF" on an ARTG entry), pasted or
-     saved by hand into data/raw/au/pdf/{ARTG_ID}.txt. This is the ONLY
-     place excipients appear. tga.gov.au disallows automated access, so
+  2. Per-product excipients, which appear ONLY in the "Download PDF" of an
+     ARTG entry. Two hand-collected forms are accepted, in this order:
+       a. data/raw/au/au_sunscreens.json — the curated transcription
+          (501 products, 9,069 ingredient lines as of 2026-08-25). This is
+          the maintained file: new PDFs are transcribed into it.
+       b. data/raw/au/pdf/{ARTG_ID}.txt — raw PDF text for anything not yet
+          in the JSON.
+     The JSON wins where both exist, because it is the checked copy. tga.gov.au disallows automated access, so
      these arrive manually and the adapter simply reads whatever is there —
      a product with no PDF yet is still a valid record, just without the
      inactive list. Coverage is reported, never faked.
@@ -104,12 +109,24 @@ def parse_pdf_excipients(text):
     return names
 
 
-def build_record(row, pdf_text=None, observed=None):
+def build_record(row, pdf_text=None, observed=None,
+                 manual_excipients=None, data_status=None):
     artg_id = str(row.get("ARTG ID") or "").strip()
     name = str(row.get("Product Name") or "").strip()
     actives = parse_actives(row.get("Active Ingredients"))
     active_names = {a["name"].strip().lower() for a in actives if a["name"]}
-    inactives = parse_pdf_excipients(pdf_text)
+    # Excipients: curated JSON first, raw PDF text second, nothing third.
+    # Which one it was is recorded — a list of 20 excipients transcribed by
+    # hand and a list of 20 parsed out of a PDF are not the same evidence.
+    if manual_excipients:
+        inactives = [str(i).strip() for i in manual_excipients if str(i).strip()]
+        excipient_source = "curated_json"
+    elif pdf_text:
+        inactives = parse_pdf_excipients(pdf_text)
+        excipient_source = "pdf_text"
+    else:
+        inactives = []
+        excipient_source = None
     spf = SPF_RE.search(name)
     zinc = next((a["percent_w_w"] for a in actives
                  if a["name"].strip().lower() == "zinc oxide"), None)
@@ -132,7 +149,14 @@ def build_record(row, pdf_text=None, observed=None):
         # official export, the inactive list (if any) from a hand-collected
         # PDF. Never let a missing PDF read as "this product has no
         # excipients".
-        "pdf_present": bool(pdf_text),
+        "pdf_present": bool(pdf_text) or bool(manual_excipients),
+        "excipient_source": excipient_source,
+        # "complete" | "excipients_unavailable_on_artg" | "not_collected".
+        # The middle value is the one that matters: ARTG itself publishes no
+        # excipient list for that product, so an empty list there is a fact
+        # about the register, not a gap in our collection.
+        "data_status": data_status or ("complete" if inactives
+                                       else "not_collected"),
         "source_export": "TGA ARTG Export data",
         "source_url": f"https://www.tga.gov.au/resources/artg/{artg_id}",
         "observed": observed,
