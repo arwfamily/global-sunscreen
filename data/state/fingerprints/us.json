@@ -1,8 +1,8 @@
 {
  "baseline_taken": "2026-08-26",
  "counts": {
-  "events_this_run": 6516,
-  "records": 6516
+  "events_this_run": 5,
+  "records": 6521
  },
  "jurisdiction": "US",
  "last_run": "2026-08-26",
@@ -58811,6 +58811,62 @@
    },
    "verified_at": "2026-08-26"
   },
+  "US:SPL-22982b28-37df-ed81-e063-6394a90a77db": {
+   "first_seen": "2026-08-26",
+   "fp": {
+    "actives": [
+     [
+      "U:0WN694NBMM",
+      1.0
+     ],
+     [
+      "U:5U9XZ261ER",
+      5.0
+     ],
+     [
+      "U:788QAG3W8A",
+      0.2
+     ],
+     [
+      "U:7S7TV2F4XC",
+      0.1
+     ],
+     [
+      "U:9L0SCP0SKZ",
+      2.0
+     ],
+     [
+      "U:LP618AV2EA",
+      0.3
+     ],
+     [
+      "U:SD418S06XD",
+      4.0
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "e366651388e6a3b6",
+    "fp_full": "fb1f1d90f7c07230",
+    "fp_inactives": "21858e19197a6aee",
+    "inactives": [
+     "U:E107L85C40",
+     "U:344S277G0Z",
+     "U:PDC6A3C0OX"
+    ],
+    "n_actives": 7,
+    "n_inactives": 3,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": true
+    }
+   },
+   "meta": {
+    "company": "GUANGZHOU HAISHI BIOLOGICAL TECHNOLOGY CO., LTD.",
+    "product_name": "MELAO TALLOW SUNSCREEN (ETHYLHEXYL METHOXYCINNAMATE) CREAM",
+    "spf_label": null
+   },
+   "verified_at": "2026-08-26"
+  },
   "US:SPL-229dabbc-9043-3c9d-e063-6394a90a5692": {
    "first_seen": "2026-08-26",
    "fp": {
@@ -60259,6 +60315,49 @@
     "company": "TARGET CORPORATION",
     "product_name": "TARGET UP AND UP SPF 50 MINERAL ZINC OXIDE SUNSCREEN (ZINC OXIDE) SPRAY",
     "spf_label": 50
+   },
+   "verified_at": "2026-08-26"
+  },
+  "US:SPL-22fdad80-587c-a7e6-e063-6394a90a5f6e": {
+   "first_seen": "2026-08-26",
+   "fp": {
+    "actives": [
+     [
+      "U:6DRV3D37XS",
+      2.0
+     ],
+     [
+      "U:7C42E2D7B0",
+      0.8
+     ],
+     [
+      "U:7S7TV2F4XC",
+      0.1
+     ],
+     [
+      "U:SD418S06XD",
+      4.0
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "aa7dde3002774c27",
+    "fp_full": "6b49ff0ea3fa09c2",
+    "fp_inactives": "1d9b90ee21dd1760",
+    "inactives": [
+     "U:PDC6A3C0OX",
+     "U:344S277G0Z"
+    ],
+    "n_actives": 4,
+    "n_inactives": 2,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": true
+    }
+   },
+   "meta": {
+    "company": "GUANGZHOU YILONG COSMETICS CO., LTD.",
+    "product_name": "MELAO TALLOW SUNSCREEN (ETHYLHEXYL METHOXYCINNAMATE) CREAM",
+    "spf_label": null
    },
    "verified_at": "2026-08-26"
   },
@@ -61923,6 +62022,48 @@
     "company": "FRENCH TRANSIT, LTD.",
     "product_name": "MYCHELLE DERMACEUTICALS SUN SHIELD UNSCENTED SPF 28 BROAD SPECTRUM (ZINC OXIDE AND TITANIUM DIOXIDE) LOTION",
     "spf_label": 28
+   },
+   "verified_at": "2026-08-26"
+  },
+  "US:SPL-23b0cf33-725f-4294-a7a4-ca44e45556dd": {
+   "first_seen": "2026-08-26",
+   "fp": {
+    "actives": [
+     [
+      "U:4X49Y0596W",
+      40.0
+     ],
+     [
+      "U:4Y5P7MUD51",
+      75.0
+     ],
+     [
+      "U:95OOS7VE0Y",
+      50.0
+     ],
+     [
+      "U:V06SV4M95S",
+      20.0
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "406a6ebe1ca8cb65",
+    "fp_full": "70ee86922c0c6c94",
+    "fp_inactives": "57dcc7d4faca2059",
+    "inactives": [
+     "U:3K9958V90M"
+    ],
+    "n_actives": 4,
+    "n_inactives": 1,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": true
+    }
+   },
+   "meta": {
+    "company": "ITW DYMON",
+    "product_name": "SCRUBS SOLAR GUARD SUNSCREEN WIPE SCRUBS SOLAR GUARD (SUNSCREEN WIPE) CLOTH",
+    "spf_label": null
    },
    "verified_at": "2026-08-26"
   },
@@ -238669,6 +238810,48 @@
    },
    "verified_at": "2026-08-26"
   },
+  "US:SPL-92b1bdbe-aa58-4394-8a91-3c43ab7835ea": {
+   "first_seen": "2026-08-26",
+   "fp": {
+    "actives": [
+     [
+      "U:4X49Y0596W",
+      40.0
+     ],
+     [
+      "U:4Y5P7MUD51",
+      75.0
+     ],
+     [
+      "U:95OOS7VE0Y",
+      50.0
+     ],
+     [
+      "U:V06SV4M95S",
+      20.0
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "406a6ebe1ca8cb65",
+    "fp_full": "70ee86922c0c6c94",
+    "fp_inactives": "57dcc7d4faca2059",
+    "inactives": [
+     "U:3K9958V90M"
+    ],
+    "n_actives": 4,
+    "n_inactives": 1,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": true
+    }
+   },
+   "meta": {
+    "company": "CRC INDUSTRIES, INC.",
+    "product_name": "CRC SUNSCREEN TOWEL CRC (SUNSCREEN TOWEL) CLOTH",
+    "spf_label": null
+   },
+   "verified_at": "2026-08-26"
+  },
   "US:SPL-92c4e4cb-aadc-26f4-e053-2995a90a03d5": {
    "first_seen": "2026-08-26",
    "fp": {
@@ -300330,6 +300513,48 @@
     "company": "SICOS ET CIE",
     "product_name": "LANCOME PARIS RENERGIE LIFT MAKEUP BROAD SPECTRUM SPF 26 SUNSCREEN (OCTINOXATE) LIQUID",
     "spf_label": 26
+   },
+   "verified_at": "2026-08-26"
+  },
+  "US:SPL-c649a9be-5e7a-4436-aea1-017e36b07d08": {
+   "first_seen": "2026-08-26",
+   "fp": {
+    "actives": [
+     [
+      "U:4X49Y0596W",
+      40.0
+     ],
+     [
+      "U:4Y5P7MUD51",
+      75.0
+     ],
+     [
+      "U:95OOS7VE0Y",
+      50.0
+     ],
+     [
+      "U:V06SV4M95S",
+      20.0
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "406a6ebe1ca8cb65",
+    "fp_full": "70ee86922c0c6c94",
+    "fp_inactives": "57dcc7d4faca2059",
+    "inactives": [
+     "U:3K9958V90M"
+    ],
+    "n_actives": 4,
+    "n_inactives": 1,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": true
+    }
+   },
+   "meta": {
+    "company": "KGP PRODUCTS, INC. (DBA PREMIER)",
+    "product_name": "SUNSCREEN WIPE KGP (HOMOSALATE OCTINOXATE OCTISALATE OXYBENZONE ) CLOTH",
+    "spf_label": null
    },
    "verified_at": "2026-08-26"
   },
@@ -387606,5 +387831,5 @@
    "verified_at": "2026-08-26"
   }
  },
- "rule_version": "2026-08-26.2"
+ "rule_version": "2026-08-26.3"
 }

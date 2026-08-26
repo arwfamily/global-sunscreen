@@ -2,11 +2,11 @@
  "generated_from": {
   "AU": 501,
   "CA": 1924,
-  "US": 6516
+  "US": 6521
  },
- "total_products": 8941,
- "total_with_full_ingredients": 8877,
- "distinct_ingredients_after_normalisation": 6551,
+ "total_products": 8946,
+ "total_with_full_ingredients": 8882,
+ "distinct_ingredients_after_normalisation": 6413,
  "ingredients_present_in_every_jurisdiction": [
   "1,2-hexanediol",
   "acacia",
@@ -148,6 +148,7 @@
   "oleic acid",
   "oleyl alcohol",
   "olive oil",
+  "orange oil",
   "p-anisic acid",
   "palmitic acid",
   "palmitoyl oligopeptide",
@@ -173,7 +174,6 @@
   "polyglyceryl-3 methylglucose distearate",
   "polyglyceryl-4 diisostearate/polyhydroxystearate/sebacate",
   "polyglyceryl-4 oleate",
-  "polyhydroxystearic acid",
   "polymethylsilsesquioxane",
   "polysorbate 20",
   "polysorbate 60",
@@ -189,6 +189,7 @@
   "propylene carbonate",
   "propylene glycol",
   "propylparaben",
+  "rice starch",
   "saccharide isomerate",
   "safflower oil",
   "sarcosine",
@@ -206,8 +207,7 @@
   "sodium hyaluronate",
   "sodium hydroxide",
   "sodium polyacrylate",
-  "sodium stearoyl glutamate",
-  "sorbic acid"
+  "sodium stearoyl glutamate"
  ],
  "top_ingredients": [
   [
@@ -216,7 +216,7 @@
   ],
   [
    "glycerin",
-   4863
+   4865
   ],
   [
    "phenoxyethanol",
@@ -267,12 +267,8 @@
    1766
   ],
   [
-   "polyhydroxystearic acid",
-   1758
-  ],
-  [
    "iron oxides",
-   1745
+   1729
   ],
   [
    "stearic acid",
@@ -308,7 +304,7 @@
   ],
   [
    "alcohol",
-   1186
+   1189
   ],
   [
    "propanediol",
@@ -317,6 +313,10 @@
   [
    "glyceryl monostearate",
    1092
+  ],
+  [
+   "shea butter",
+   1075
   ],
   [
    "sodium benzoate",
@@ -343,6 +343,10 @@
    943
   ],
   [
+   "2300 mw",
+   937
+  ],
+  [
    "1,2-hexanediol",
    898
   ],
@@ -365,10 +369,6 @@
   [
    "chlorphenesin",
    859
-  ],
-  [
-   "lecithin",
-   848
   ]
  ],
  "per_jurisdiction": {
@@ -400,15 +400,15 @@
    "publishes": "actives with exact %, inactive names only (mineral filters only — chemical-filter sunscreens are DIN/DPD and not in LNHPD)",
    "last_verified": null,
    "shared_formulation": {
-    "clusters": 94,
-    "products": 225,
+    "clusters": 96,
+    "products": 229,
     "cross_company_clusters": 19,
     "cross_company_products": 46
    }
   },
   "US": {
-   "products": 6516,
-   "with_full_ingredients": 6467,
+   "products": 6521,
+   "with_full_ingredients": 6472,
    "mineral_only": 1968,
    "baby_labelled": 385,
    "median_ingredients": 22,

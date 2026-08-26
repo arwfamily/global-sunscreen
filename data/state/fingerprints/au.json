@@ -1,7 +1,7 @@
 {
  "baseline_taken": "2026-08-26",
  "counts": {
-  "events_this_run": 502,
+  "events_this_run": 0,
   "records": 501
  },
  "jurisdiction": "AU",
@@ -11869,21 +11869,21 @@
     ],
     "coverage": "full",
     "fp_actives": "3eb571da0306603b",
-    "fp_full": "63989f10557a4eae",
-    "fp_inactives": "3403b7fd1a976ff0",
+    "fp_full": "c8ff29a5f41c4b21",
+    "fp_inactives": "ae57cce5c954316b",
     "inactives": [
      "N:acrylates/c10-30 alkyl acrylate crosspolymer",
      "N:aloe barbadensis leaf",
      "N:carbomer 981",
      "N:cetearyl alcohol",
      "N:disodium edta",
+     "N:excipients",
      "N:glycerin",
      "N:glyceryl monostearate",
      "N:hydrated silica",
      "N:hydroxyacetophenone",
      "N:industrial methylated spirit",
      "N:isopropyl palmitate",
-     "N:other ingredients (excipients)",
      "N:phenoxyethanol",
      "N:polyglyceryl-3 diisostearate",
      "N:potassium cetyl phosphate",
@@ -28272,10 +28272,11 @@
     ],
     "coverage": "full",
     "fp_actives": "9810033856755829",
-    "fp_full": "22e50d1014ee8897",
-    "fp_inactives": "3d140b4af0340567",
+    "fp_full": "41d5d306df3efe14",
+    "fp_inactives": "f256d56fe134f311",
     "inactives": [
      "N:1,3-butylene glycol",
+     "N:70 per cent (crystallising)",
      "N:allantoin",
      "N:bisabolol",
      "N:caprylyl glycol",
@@ -28296,7 +28297,6 @@
      "N:potassium cetyl phosphate",
      "N:sodium hyaluronate",
      "N:sodium hydroxide",
-     "N:sorbitol solution (70 per cent) (crystallising)",
      "N:titanium dioxide",
      "N:tocopheryl acetate",
      "N:water",
@@ -28660,5 +28660,5 @@
    "verified_at": "2026-08-26"
   }
  },
- "rule_version": "2026-08-26.2"
+ "rule_version": "2026-08-26.3"
 }
