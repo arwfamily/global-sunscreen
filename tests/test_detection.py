@@ -205,6 +205,46 @@ b = rec("US", [("zinc oxide", 20, "%")], ["Corn Oil"])
 check("US: a qualifier in brackets is dropped, not read as a name",
       events(a, b) == [])
 
+# FDA grade annotations: same ingredient, two raw-material specs.
+a = rec("US", [("zinc oxide", 20, "%")],
+        ["POLYMETHYLSILSESQUIOXANE (4.5 MICRONS)", "Water"])
+b = rec("US", [("zinc oxide", 20, "%")],
+        ["POLYMETHYLSILSESQUIOXANE (11 MICRONS)", "Water"])
+check("US: a raw-material grade change is not a reformulation",
+      events(a, b) == [])
+
+# ...but a bracket that is part of the chemical name must survive.
+from core.normalize import normalize_name                      # noqa: E402
+check("US: a name containing its own bracket is left alone",
+      normalize_name("POLY(METHYL METHACRYLATE; 450000 MW)")
+      == "poly(methyl methacrylate; 450000 mw)")
+
+check("US: ', unspecified form' is FDA boilerplate, not a substance",
+      normalize_name("MAGNESIUM SULFATE, UNSPECIFIED FORM")
+      == normalize_name("Magnesium Sulfate"))
+check("US: PEG 100 and PEG-100 are one ingredient",
+      normalize_name("PEG 100 Stearate") == normalize_name("PEG-100 Stearate"))
+check("CA: iron oxides and iron oxide are one ingredient",
+      normalize_name("IRON OXIDES") == normalize_name("Iron Oxide"))
+check("CA: the old ceramide numbering still resolves after hyphenation",
+      normalize_name("Ceramide 3") == normalize_name("Ceramide NP"))
+check("US: a locant is not a qualifier number",
+      normalize_name("1,2-Hexanediol") == "1,2-hexanediol"
+      and normalize_name("C9-12 Alkane") == "c9-12 alkane")
+
+# The rule that matters more than any other: cleaning must never delete an
+# ingredient. This exact string used to normalise to "" in 16 CA records.
+check("CA: a pigment with three CI numbers survives cleaning",
+      normalize_name("Iron oxides (CI 77491, CI 77492, CI 77499)")
+      == normalize_name("Iron Oxide"))
+check("CA: a colour lake keeps its suffix",
+      normalize_name("C.I. 42090:2") == "ci 42090:2"
+      and normalize_name("CI 42090") == "ci 42090")
+check("any: cleaning never returns an empty name for a real ingredient",
+      all(len(normalize_name(x)) >= 3 for x in
+          ["Iron oxides (CI 77491, CI 77492, CI 77499)", "C.I. 42090:2",
+           "Alkyl (C12-15) Benzoate", "POLY(METHYL METHACRYLATE; 450000 MW)"]))
+
 print(f"\n{len(PASS)} passed, {len(FAIL)} failed")
 if FAIL:
     print("failed: " + ", ".join(FAIL))
