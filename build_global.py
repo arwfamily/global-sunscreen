@@ -30,7 +30,7 @@ import json
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from core.fingerprint import fingerprint, profile_for
+from core.fingerprint import fingerprint, profile_for, remember_labels
 from core.normalize import normalize_list, normalize_name
 
 ROOT = Path(__file__).parent
@@ -77,8 +77,20 @@ def main():
         by_jur[jur] = rows
         prof = profile_for(jur)
         for r in rows:
+            remember_labels(r)
             fp = fingerprint(r)
-            actives = [{"name": n, "percent_w_w": p} for n, p in fp["actives"]]
+            # Read the concentration from the RECORD, never from the
+            # fingerprint. The fingerprint's number is a comparison value —
+            # for the US it is the raw filed strength, which is not a
+            # percentage (see docs/upstream_unit_patch.md). Printing it as
+            # percent_w_w is exactly the mistake this project keeps warning
+            # other people about: it turns a 216 mg/g zinc into "216%".
+            actives = [{"name": a.get("name"),
+                        "unii": a.get("unii"),
+                        "percent_w_w": a.get("percent_w_w"),
+                        "percent_estimate": a.get("percent_estimate"),
+                        "estimate_basis": a.get("estimate_basis")}
+                       for a in r.get("actives") or []]
             records.append({
                 "global_id": r["id"],
                 "jurisdiction": jur,
@@ -87,7 +99,9 @@ def main():
                 "company": r.get("company"),
                 "spf_label": r.get("spf_label"),
                 "baby_labelled": bool(r.get("baby_flag_source")),
-                "uv_filters": sorted({n for n, _ in fp["actives"]}),
+                # Human-readable filter names, not the fingerprint's
+                # identity strings.
+                "uv_filters": sorted(r.get("uv_filters") or []),
                 "actives": actives,
                 "mineral_only": r.get("mineral_only"),
                 "zinc_percent": r.get("zinc_percent"),
