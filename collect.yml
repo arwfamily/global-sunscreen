@@ -1,0 +1,199 @@
+name: Collect ingredient registers
+
+# One run a day, in one order, ending in the only step allowed to say a
+# formulation changed:
+#
+#   collect (per country, independent)  ->  detect  ->  build
+#
+# Collectors write only what their register says today. Nothing in a
+# collector decides what "changed" — detect_reformulations.py does that for
+# every country with one rule set, so a rule can be corrected once and
+# re-run over data already held.
+
+on:
+  schedule:
+    - cron: "17 6 * * *"      # LNHPD refreshes daily
+  workflow_dispatch:
+    inputs:
+      run_australia:
+        description: "Rebuild Australia from the ARTG export + curated JSON (seconds)"
+        type: boolean
+        default: true
+      run_canada:
+        description: "Walk Health Canada LNHPD (about 2 hours on a cold start)"
+        type: boolean
+        default: true
+      run_us:
+        description: "Pull the DailyMed feed (seconds)"
+        type: boolean
+        default: true
+      canada_full_rewalk:
+        description: "Force Canada to re-walk the bulk tables from page 1"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ingredients-write
+  cancel-in-progress: false
+
+jobs:
+  # --------------------------------------------------- OFFLINE + FAST FEEDS
+  # Australia (local files), Korea (local files) and the US (one HTTP GET)
+  # all finish in seconds, so they share a job and one push.
+  fast:
+    if: github.event_name != 'workflow_dispatch' || inputs.run_australia || inputs.run_us
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Detection rules must pass their own tests first
+        # If the rules are broken, collecting more data on top of them only
+        # buries the problem. Fail here, before anything is written.
+        run: python tests/test_detection.py
+
+      - name: Ingest any newly uploaded ARTG PDFs
+        if: github.event_name != 'workflow_dispatch' || inputs.run_australia
+        run: |
+          sudo apt-get install -y -qq poppler-utils >/dev/null 2>&1 || true
+          pip install --quiet pdfplumber
+          python ingest_au_pdfs.py
+
+      - name: Australia - ARTG export + curated excipient JSON
+        if: github.event_name != 'workflow_dispatch' || inputs.run_australia
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: python collect_au_artg.py
+
+      - name: United States - DailyMed feed
+        if: github.event_name != 'workflow_dispatch' || inputs.run_us
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: python collect_us_dailymed.py
+
+      - name: Korea - hand-collected labels
+        # A no-op until data/raw/kr/ has a sheet in it. Deliberately not
+        # behind an input: it costs nothing, and an unticked box should
+        # never be the reason Korea quietly stops updating.
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: python collect_kr_labels.py
+
+      - name: Publish
+        if: always()
+        run: |
+          bash .github/publish.sh "collect(fast): $(date -u +%Y-%m-%d)"
+
+      - name: Safety net - upload data regardless of outcome
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-fast-${{ github.run_id }}
+          path: data/
+          retention-days: 30
+          if-no-files-found: warn
+
+  # ------------------------------------------------------------------ CANADA
+  # Networked and slow. Runs after the fast job so the two never push at the
+  # same moment; always() means a failed fast job does not cancel it.
+  canada:
+    if: |
+      always() &&
+      (github.event_name != 'workflow_dispatch' || inputs.run_canada)
+    needs: fast
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect Canada LNHPD (sunscreen scope)
+        env:
+          PYTHONUNBUFFERED: "1"
+          # Cold start needs one big dispatch; daily top-ups need little.
+          # The state file resumes either way, so an exhausted budget is a
+          # pause, not a failure.
+          BUDGET: ${{ github.event_name == 'workflow_dispatch' && '60000' || '6000' }}
+          CA_SCOPES: "sunscreen"
+          # How stale the LIST may get before the bulk tables are walked
+          # again - the only way a newly registered product is discovered.
+          CA_REWALK_DAYS: "7"
+          # How stale any single product's FORMULATION may get. Health
+          # Canada leaves revised_date empty on most licences, so products
+          # are re-fetched oldest-first no matter what the register flags.
+          CA_MAX_AGE_DAYS: "30"
+          CA_FORCE_REWALK: ${{ inputs.canada_full_rewalk && '1' || '' }}
+        run: python collect_ca_lnhpd.py
+
+      - name: Re-apply the scope rule to the stored records
+        if: always()
+        run: python rescope_ca.py
+
+      - name: Publish
+        if: always()
+        run: |
+          bash .github/publish.sh "collect(ca): $(date -u +%Y-%m-%d)"
+
+      - name: Safety net - upload data regardless of outcome
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-ca-${{ github.run_id }}
+          path: data/
+          retention-days: 30
+          if-no-files-found: warn
+
+  # ------------------------------------------------------ DETECT, then BUILD
+  detect:
+    if: always()
+    needs: [fast, canada]
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compare today against the last fingerprints
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: python detect_reformulations.py | tee detect.log
+
+      - name: Merge every jurisdiction into the global store
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: python build_global.py | tee -a detect.log
+
+      - name: Put the day's findings in the run summary
+        if: always()
+        run: |
+          {
+            echo "## Reformulation watch - $(date -u +%Y-%m-%d)"
+            echo '```'
+            cat detect.log
+            echo '```'
+            if [ -s data/events/review_queue.md ]; then
+              echo "### Needs a human"
+              tail -40 data/events/review_queue.md
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Publish
+        if: always()
+        run: |
+          bash .github/publish.sh "detect: $(date -u +%Y-%m-%d)"

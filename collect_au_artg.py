@@ -32,9 +32,13 @@ from adapters.au_artg import build_record
 ROOT = Path(__file__).parent
 RAW = ROOT / "data" / "raw" / "au"
 PDF_DIR = RAW / "pdf"
+CURATED = RAW / "au_sunscreens.json"      # hand-transcribed excipient lists
 OUT = ROOT / "data" / "canonical" / "au_ingredients.jsonl"
 HIST = ROOT / "data" / "canonical" / "au_formulation_history.jsonl"
 REQUIRED = ("ARTG ID", "Product Name", "Active Ingredients")
+VERIFIED = ROOT / "data" / "canonical" / "_verified.json"
+# Fields that are about WHEN we looked, not about the product.
+VOLATILE = ("observed", "verified_at", "last_seen")
 
 
 def _read_any(path):
@@ -87,6 +91,29 @@ def load_rows():
     return rows
 
 
+def load_curated():
+    """ARTG ID -> {excipients, data_status} from the curated JSON.
+
+    This is the file to keep updating: every new PDF read by hand goes in
+    here, and the collector picks it up on the next run with no code change.
+    """
+    if not CURATED.exists():
+        print(f"  [*] no curated excipient file at {CURATED.name}")
+        return {}
+    doc = json.loads(CURATED.read_text())
+    out = {}
+    for p in doc.get("products", []):
+        aid = str(p.get("artg_id") or "").strip()
+        if not aid:
+            continue
+        out[aid] = {"excipients": p.get("excipients") or [],
+                    "data_status": p.get("data_status")}
+    have = sum(1 for v in out.values() if v["excipients"])
+    print(f"  [*] {CURATED.name}: {len(out)} products, {have} with excipients "
+          f"(generated {doc.get('generated_at')})")
+    return out
+
+
 def load_pdf(artg_id):
     p = PDF_DIR / f"{artg_id}.txt"
     return p.read_text(errors="replace") if p.exists() else None
@@ -105,10 +132,33 @@ def main():
                 previous[r["id"]] = r
 
     rows = load_rows()
+    curated = load_curated()
     store, changes = {}, []
     for aid, row in rows.items():
-        rec = build_record(row, load_pdf(aid), today)
+        if not aid.isdigit():
+            # The TGA export ends with a footer row describing the search
+            # ("Applied filters: SearchValues contains 'sunscreen'"). It has
+            # no ARTG ID, so it is not a product. Dropping it here keeps it
+            # out of every downstream count.
+            print(f"  [!] skipped non-product row: {aid[:60]!r}")
+            continue
+        cur = curated.get(aid) or {}
+        rec = build_record(row, load_pdf(aid), today,
+                           manual_excipients=cur.get("excipients"),
+                           data_status=cur.get("data_status"))
+        rec["verified_at"] = today
         old = previous.get(rec["id"])
+        # Australia is rebuilt from a file that only changes when she adds
+        # one. Stamping today's date onto all 501 records every morning
+        # rewrote the whole file daily: half a megabyte of diff that said
+        # nothing, and a git history where a real reformulation would be
+        # invisible. Dates move only when the record moves; when the whole
+        # source was checked is recorded once, in _verified.json.
+        if old and {k: v for k, v in rec.items() if k not in VOLATILE} == \
+                   {k: v for k, v in old.items() if k not in VOLATILE}:
+            for k in VOLATILE:
+                if k in old:
+                    rec[k] = old[k]
         if not old:
             changes.append(("new", rec))
         elif old.get("formulation_hash") != rec["formulation_hash"]:
@@ -127,6 +177,11 @@ def main():
         for r in sorted(store.values(), key=lambda x: x["id"]):
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
     tmp.replace(OUT)
+
+    verified = json.loads(VERIFIED.read_text()) if VERIFIED.exists() else {}
+    verified["AU"] = {"last_verified": today, "records": len(store),
+                      "source": "TGA ARTG export + hand-read PDFs"}
+    VERIFIED.write_text(json.dumps(verified, indent=1, sort_keys=True))
 
     if changes:
         with HIST.open("a") as f:

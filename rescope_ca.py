@@ -42,9 +42,13 @@ def main():
     records = [json.loads(l) for l in CANON.open() if l.strip()]
     print(f"[*] loaded {len(records)} records")
 
+    # The backup and the exclusion log are the evidence that a scope rule
+    # was applied and what it cost. Both used to be overwritten on every
+    # run: the second, no-op run copied the already-rescoped file over the
+    # real backup and wrote an EMPTY exclusion list on top of 405 records —
+    # a safety net that erased itself while reporting success. Now a run
+    # that drops nothing touches neither file.
     backup = CANON.with_suffix(".jsonl.pre-rescope")
-    shutil.copy2(CANON, backup)
-    print(f"[*] backup written to {backup.name}")
 
     kept, dropped, why = [], [], Counter()
     for rec in records:
@@ -70,12 +74,28 @@ def main():
                             "excluded_reason": reason,
                             "excluded_by": "rescope_ca.py 2026-08-21"})
 
+    if not dropped:
+        print("[*] every stored record still qualifies — nothing rewritten, "
+              "backup and exclusion log left as they are")
+        print(f"[*] sunscreens kept : {len(kept)}")
+        return
+
+    shutil.copy2(CANON, backup)
+    print(f"[*] backup written to {backup.name}")
     with CANON.open("w") as f:
         for rec in kept:
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
-    with EXCL.open("w") as f:
+    # Append, never replace: exclusions from an earlier rule correction are
+    # part of the record of what we looked at and rejected.
+    seen = set()
+    if EXCL.exists():
+        for line in EXCL.open():
+            if line.strip():
+                seen.add(json.loads(line).get("id"))
+    with EXCL.open("a") as f:
         for rec in dropped:
-            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+            if rec.get("id") not in seen:
+                f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
     print(f"[*] sunscreens kept : {len(kept)}")
     print(f"[*] moved to ca_excluded.jsonl : {len(dropped)}")

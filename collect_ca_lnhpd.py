@@ -75,10 +75,32 @@ BUDGET = int(os.environ.get("BUDGET", "4000"))
 SCOPES = tuple(s.strip() for s in
                os.environ.get("CA_SCOPES", "sunscreen").split(",") if s.strip())
 
+# ---- staying current -------------------------------------------------------
+# LNHPD changes every day. A collector that walks once and then reads its own
+# cache forever looks healthy while going stale: the store stops moving, the
+# history file fills with nothing, and "no reformulations detected" becomes a
+# statement about our pipeline rather than about the market.
+#
+# Two clocks prevent that, and they answer different questions:
+#   REWALK_DAYS  — how old the LIST may get. After this, the bulk tables are
+#                  walked again, which is the only way a product registered
+#                  since the last walk can be discovered at all.
+#   MAX_AGE_DAYS — how old any single product's FORMULATION may get. Products
+#                  are re-fetched oldest-first until the budget runs out, so
+#                  every record is re-verified within this window even if the
+#                  register never flagged it as revised. Health Canada leaves
+#                  revised_date empty on most licences (1,457 of 1,910 in our
+#                  store), so a trigger-only design would miss silent edits.
+REWALK_DAYS = int(os.environ.get("CA_REWALK_DAYS", "7"))
+MAX_AGE_DAYS = int(os.environ.get("CA_MAX_AGE_DAYS", "30"))
+# Escape hatch for "walk it all again now" — a corrected scope rule, or a
+# suspicion that the cached listing missed something. Costs one full walk.
+FORCE_REWALK = bool(os.environ.get("CA_FORCE_REWALK", "").strip())
+
 # Bump when the collection plan changes shape. A state file written by an
 # older plan describes pages of tables this version no longer walks, so it
 # must not be trusted — v1 state would claim medicinalingredient was "done".
-SCHEMA = 2
+SCHEMA = 3
 
 # Walked in this order: purpose decides who is in scope, licence is then
 # kept only for those. Reversing them would mean keeping every licence.
@@ -218,9 +240,32 @@ def git_checkpoint(label):
           f"locally and the workflow's final step retries", file=sys.stderr)
 
 
+def _age_days(iso, today):
+    if not iso:
+        return 10 ** 6
+    try:
+        return (datetime.date.fromisoformat(today)
+                - datetime.date.fromisoformat(str(iso)[:10])).days
+    except ValueError:
+        return 10 ** 6
+
+
 def load_state():
     if STATE.exists():
         st = json.loads(STATE.read_text())
+        if st.get("schema") == 2:
+            # v2 kept `enriched` as a list of ids with no date, so nothing
+            # could be re-checked. Carry the ids over with the date of that
+            # collection: they stay known, and the rolling re-verification
+            # picks them up oldest-first instead of trusting them forever.
+            print("[*] migrating state v2 -> v3 (adding verification dates)")
+            st = {"schema": SCHEMA, "pages": st.get("pages", {}),
+                  "walked_at": "2026-08-21",
+                  "verified": {str(i): "2026-08-21"
+                               for i in st.get("enriched") or []},
+                  "candidates": st.get("candidates") or []}
+            save_state(st)
+            return st
         if st.get("schema") == SCHEMA:
             return st
         print(f"[*] state file is schema {st.get('schema')}, this collector "
@@ -228,7 +273,8 @@ def load_state():
               f"describe tables this version no longer walks.")
         for stale in RAW.glob("*.jsonl"):
             stale.unlink()
-    return {"schema": SCHEMA, "pages": {}, "enriched": [], "candidates": []}
+    return {"schema": SCHEMA, "pages": {}, "walked_at": None,
+            "verified": {}, "candidates": []}
 
 
 def save_state(st):
@@ -325,6 +371,24 @@ def main():
     state = load_state()
     today = datetime.date.today().isoformat()
 
+    # ---- is the LIST still current? ---------------------------------------
+    # Both bulk tables are cached once "done". That is what makes the daily
+    # run cheap — and what would freeze the register's contents at the date
+    # of the first walk. After REWALK_DAYS the caches are dropped so the
+    # tables are walked again and newly registered products can appear.
+    walk_age = _age_days(state.get("walked_at"), today)
+    if state["pages"] and (FORCE_REWALK or walk_age >= REWALK_DAYS):
+        print(f"[*] {'forced re-walk' if FORCE_REWALK else 'the register listing is ' + str(walk_age) + ' days old'} "
+              f"(limit {REWALK_DAYS}) — walking productpurpose and "
+              f"productlicence again to pick up new registrations")
+        state["pages"] = {}
+        for stale in RAW.glob("*.jsonl"):
+            stale.unlink()
+        save_state(state)
+    elif state["pages"]:
+        print(f"[*] register listing is {walk_age} day(s) old — using cache "
+              f"(re-walks every {REWALK_DAYS} days)")
+
     # ---- Phase A1: purposes, filtered on write -----------------------------
     if state["pages"].get("productpurpose") == "done":
         cache = RAW / "productpurpose.jsonl"
@@ -375,6 +439,10 @@ def main():
             git_checkpoint("productlicence partial")
             return
 
+    if all(state["pages"].get(t) == "done" for t in WALK):
+        state["walked_at"] = today
+        save_state(state)
+
     lics = {r["lnhpd_id"]: r for r in lic_rows}
     scoped = {pid: scope_of(purposes.get(pid, []), lic.get("product_name"),
                             lic.get("dosage_form"))
@@ -390,20 +458,53 @@ def main():
     # ---- Phase B: everything per-id, in-scope only -------------------------
     # medicinalingredient joins this phase in v2. The API documents ?id= on
     # it, which is what removes the 8,269-page walk.
-    enriched = set(state.get("enriched") or [])
+    verified = {str(k): v for k, v in (state.get("verified") or {}).items()}
     store = {}
     if OUT.exists():
         for line in OUT.open():
             if line.strip():
                 r = json.loads(line)
                 store[r["id"]] = r
+
+    # ---- what to fetch this run, in priority order -------------------------
+    # 1 NEW        never fetched — a product we do not hold at all
+    # 2 FLAGGED    the licence row moved (revised_date, status, name, sponsor,
+    #              dosage form). The register is telling us to look again.
+    # 3 ROLLING    everything else, oldest verification first, so a silent
+    #              edit on a licence that never bumps revised_date is still
+    #              caught within MAX_AGE_DAYS.
+    # Budget is spent in that order, so a small daily budget always does the
+    # informative work first and the audit sweep with what is left over.
+    def licence_moved(pid):
+        rec = store.get(f"CA:NPN-{lics[pid].get('licence_number')}")
+        if not rec:
+            return False
+        lic = lics[pid]
+        return (str(rec.get("revised_date") or "") != str(lic.get("revised_date") or "")
+                or bool(rec.get("status_active")) != bool(lic.get("flag_product_status"))
+                or (rec.get("product_name") or "") != (lic.get("product_name") or "")
+                or (rec.get("company") or "") != (lic.get("company_name") or "")
+                or (rec.get("dosage_form") or "") != (lic.get("dosage_form") or ""))
+
+    fresh = [p for p in targets if str(p) not in verified]
+    flagged = [p for p in targets if str(p) in verified and licence_moved(p)]
+    rolling = sorted((p for p in targets
+                      if str(p) in verified and p not in set(flagged)),
+                     key=lambda p: verified.get(str(p), ""))
+    stale_now = [p for p in rolling
+                 if _age_days(verified.get(str(p)), today) >= MAX_AGE_DAYS]
+    queue = fresh + flagged + rolling
+    print(f"[*] fetch queue: new={len(fresh)} flagged-by-register={len(flagged)} "
+          f"re-verify={len(rolling)} (of which past {MAX_AGE_DAYS}d: "
+          f"{len(stale_now)}) | budget {BUDGET} calls = "
+          f"~{BUDGET // 4} products this run")
+
     done_this_run = 0
-    for pid in targets:
-        if pid in enriched:
-            continue
+    for pid in queue:
         if _calls[0] >= BUDGET:
-            print(f"[*] budget reached — {len(targets) - len(enriched)} "
-                  f"products still to enrich; re-run to continue")
+            print(f"[*] budget reached — {len(queue) - done_this_run} "
+                  f"products still queued; the next run continues from the "
+                  f"oldest verification")
             break
         med = fetch_per_id("medicinalingredient", pid)
         non = fetch_per_id("nonmedicinalingredient", pid)
@@ -411,22 +512,29 @@ def main():
         dos = fetch_per_id("productdose", pid)
         rec = build_record(lics[pid], purposes.get(pid, []),
                            med, non, rou, dos)
+        rec["verified_at"] = today
+        rec["first_seen"] = (store.get(rec["id"]) or {}).get("first_seen", today)
         record_observation(rec, store.get(rec["id"]), today)
         store[rec["id"]] = rec
-        enriched.add(pid)
+        verified[str(pid)] = today
         done_this_run += 1
         if done_this_run % 200 == 0:
             write_store(store)
-            state["enriched"] = sorted(enriched)
+            state["verified"] = verified
             save_state(state)
-            git_checkpoint(f"enriched {len(enriched)}/{len(targets)}")
-            print(f"  [enrich] {len(enriched)}/{len(targets)}")
+            git_checkpoint(f"verified {done_this_run} this run")
+            print(f"  [enrich] {done_this_run}/{len(queue)} this run")
         time.sleep(SLEEP)
 
     write_store(store)
-    state["enriched"] = sorted(enriched)
+    state["verified"] = verified
     save_state(state)
-    git_checkpoint(f"enriched {len(enriched)}/{len(targets)}")
+    git_checkpoint(f"verified {done_this_run} this run")
+    ages = sorted(_age_days(v, today) for v in verified.values())
+    if ages:
+        print(f"[*] verification age across {len(ages)} products: "
+              f"median {ages[len(ages)//2]}d, oldest {ages[-1]}d "
+              f"(target: everything under {MAX_AGE_DAYS}d)")
 
     sun = [r for r in store.values() if r.get("scope") == "sunscreen"]
     mineral = [r for r in sun if r.get("mineral_only")]
