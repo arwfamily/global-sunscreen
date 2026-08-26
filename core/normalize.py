@@ -202,6 +202,49 @@ _QUALIFIERS = {
 # Both are the same substance, so both must fingerprint the same. We keep
 # the COMMON name because that is the shorter form registers fall back to
 # when they abbreviate. Measured on our own data: 171 pairs collapse.
+# FDA appends the raw material's GRADE to the ingredient name — particle
+# size, viscosity, molecular weight. "POLYMETHYLSILSESQUIOXANE (4.5 MICRONS)"
+# and "POLYMETHYLSILSESQUIOXANE (11 MICRONS)" are the same ingredient bought
+# in two grades, and counting them apart understates how common it is: the
+# ingredient looked like it appeared 3 times in the US register when the real
+# number was 212. Only a spec that follows a SPACE is stripped, so a name
+# with its own bracket — POLY(METHYL METHACRYLATE; 450000 MW) — survives.
+# FDA/UNII boilerplate. "MAGNESIUM SULFATE, UNSPECIFIED FORM" is magnesium
+# sulfate — the suffix records that the filer did not state the hydrate, not
+# a different substance. 29 such families in our corpus, 164 rows on the
+# magnesium sulfate one alone, which is an ingredient we track by name.
+_UNSPECIFIED = re.compile(r",\s*(?:source\s+)?unspecified(?:\s+(?:form|source))?\s*$", re.I)
+
+# Registers write PEG-100 and PEG 100, laureth-7 and laureth 7. Put the
+# hyphen back between a word and the number that qualifies it.
+_NUM_SUFFIX = re.compile(r"\b([a-z]{3,})\s+(\d+)\b(?!\s*(?:mg|ml|g|%|micron))", re.I)
+
+# Plurals that both forms of appear in our own data. Deliberately a list and
+# not a rule: "greens" is a plural here but "esters" in another name is part
+# of the substance, and a blanket de-pluraliser would merge things that are
+# not the same. Every pair below was measured, not guessed.
+_PLURALS = {
+    "iron oxides": "iron oxide",
+    "glyceryl stearates": "glyceryl stearate",
+    "hypromelloses": "hypromellose",
+    "hydrolyzed jojoba esters": "hydrolyzed jojoba ester",
+    "chromium oxide greens": "chromium oxide green",
+    "disodium lauriminodipropionate tocopheryl phosphates":
+        "disodium lauriminodipropionate tocopheryl phosphate",
+    "cyclodextrins": "cyclodextrin",
+    "ethylcelluloses": "ethylcellulose",
+    "c18-36 acid triglycerides": "c18-36 acid triglyceride",
+    "polyethylene glycols": "polyethylene glycol",
+    "propylene glycol laurates": "propylene glycol laurate",
+    "rapeseed sterols": "rapeseed sterol",
+    "soybean sterols": "soybean sterol",
+    "xanthophylls": "xanthophyll",
+}
+
+_GRADE = re.compile(r"\s\((?=[^)]*\d)[^)]*?"
+                   r"(?:mpa\.?\s?s|micron|microns|mw|cst|nm|mesh|da|kda|"
+                   r"%|ppm|degrees?)[^)]*\)", re.I)
+
 _BINOMIAL_PAREN = re.compile(r"^([a-z]+(?:\s+[a-z.]+){1,3})\s*\(([^)]+)\)\s*(.*)$", re.I)
 
 CI_PIGMENTS = {"77491": "iron oxides", "77492": "iron oxides",
@@ -210,7 +253,8 @@ CI_PIGMENTS = {"77491": "iron oxides", "77492": "iron oxides",
 
 _FDA_GREEK = re.compile(r"\.(alpha|beta|gamma|delta|epsilon|omega)\.", re.I)
 _FDA_STEREO = re.compile(r",\s*\(?(?:dl|d|l|\+/-|\+|-)\)?-?\s*$", re.I)
-_CI = re.compile(r"\(?\s*c\.?i\.?\s*\d{5}\s*\)?", re.I)     # (CI 77947), C.I. 77491
+# Colour Index numbers, including the ":2" lake suffix Canada prints.
+_CI = re.compile(r"\(?\s*c\.?i\.?\s*\d{5}(?::\d+)?\s*\)?", re.I)
 _INS = re.compile(r"\(?\s*e\s?\d{3}[a-z]?\s*\)?", re.I)     # (E171)
 _PAREN_QUAL = re.compile(
     r"\((?:aqua|water|eau|and|or|as|from|inci|usp|bp|ep|nf|ph\.?\s?eur\.?)"
@@ -239,17 +283,36 @@ def normalize_name(raw):
     # labels ("CI 77492"), while on a US label it is an annotation after the
     # name. Resolve the bare form before stripping the annotation, or the
     # pigment vanishes from the record entirely.
+    s = _GRADE.sub("", s)
+    s = _UNSPECIFIED.sub("", s)
+    s = _NUM_SUFFIX.sub(r"\1-\2", s)
     m = _BINOMIAL_PAREN.match(s)
     if m:
         inner = m.group(2).strip().lower()
-        if inner in _QUALIFIERS:
+        # A bracket full of Colour Index numbers is not a common name.
+        # "Iron oxides (CI 77491, CI 77492, CI 77499)" used to be rewritten
+        # to its own brackets and then stripped to an EMPTY STRING — the
+        # pigment silently vanished from 16 Canadian records. An ingredient
+        # must never disappear; if we cannot read it, we keep it as written.
+        if not inner.replace(" ", "").replace("-", "").isalpha():
+            s = f"{m.group(1)} {m.group(3)}".strip()
+        elif inner in _QUALIFIERS:
             s = f"{m.group(1)} {m.group(3)}".strip()      # drop the qualifier
         elif len(m.group(1).split()) >= 2:
             s = f"{inner} {m.group(3)}".strip()           # keep the common name
     bare = _CI.fullmatch(s.strip())
     if bare:
         code = re.sub(r"\D", "", s)
-        return CI_PIGMENTS.get(code, f"ci {code}")
+        # Route the early return through the plural map too, or a bare
+        # "CI 77491" resolves to "iron oxides" while a spelled-out
+        # "Iron Oxide" resolves to "iron oxide" — two names, one pigment,
+        # counted twice.
+        # Keep the lake suffix visible: CI 42090 and CI 42090:2 are the dye
+        # and its aluminium lake, and "ci 420902" would be neither.
+        code = re.sub(r"\D", "", s.split(":")[0])
+        suffix = s.split(":")[1].strip() if ":" in s else ""
+        pig = CI_PIGMENTS.get(code, f"ci {code}" + (f":{suffix}" if suffix else ""))
+        return _PLURALS.get(pig, pig)
     s = _CI.sub(" ", s)
     s = _INS.sub(" ", s)
     s = _PAREN_QUAL.sub(" ", s)
@@ -269,7 +332,16 @@ def normalize_name(raw):
     s = _MULTISPACE.sub(" ", s).strip()
     if s in KO_INCI:
         return KO_INCI[s]
-    return SYNONYMS.get(s, s)
+    # Look the synonym table up in both spellings: the hyphen rule above
+    # rewrites "ceramide 3" to "ceramide-3", and the table is keyed on the
+    # form the registers print.
+    s = SYNONYMS.get(s, SYNONYMS.get(s.replace("-", " "), s))
+    s = _PLURALS.get(s, s)
+    if len(s) < 3 and len(re.sub(r"[^a-z0-9]", "", raw.lower())) >= 3:
+        # Our own cleaning ate the name. Losing an ingredient is worse than
+        # keeping an ugly one, so fall back to the source's own wording.
+        return re.sub(r"\s+", " ", raw.strip().lower())
+    return s
 
 
 def normalize_list(names):
