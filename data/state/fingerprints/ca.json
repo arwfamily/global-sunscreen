@@ -1,8 +1,8 @@
 {
  "baseline_taken": "2026-08-26",
  "counts": {
-  "events_this_run": 1910,
-  "records": 1910
+  "events_this_run": 66,
+  "records": 1924
  },
  "jurisdiction": "CA",
  "last_run": "2026-08-26",
@@ -6722,7 +6722,7 @@
      "Children",
      "Infants"
     ],
-    "product_name": "bareMinerals Original SPF 15 Foundation Titanium Dioxide 25% w/w - NEUTRAL TAN 21",
+    "product_name": "bareMinerals Original SPF 15 Foundation Titanium Dioxide 25% w/w - TANNUDE 17",
     "purposes": [
      "Sun Protection Factor 15/SPF 15.  \nBroad spectrum. \nAbsorbs throughout the UVA/UVB spectrum. \nUVA/UVB protection"
     ],
@@ -7465,9 +7465,7 @@
      "Sub Population N/A"
     ],
     "product_name": "YON-KA LE BAUME SPF-10",
-    "purposes": [
-     "SPF10"
-    ],
+    "purposes": [],
     "revised_date": null,
     "status_active": true
    },
@@ -14067,6 +14065,84 @@
    },
    "verified_at": "2026-08-26"
   },
+  "CA:NPN-80014680": {
+   "first_seen": "2026-08-26",
+   "fp": {
+    "actives": [
+     [
+      "N:titanium dioxide",
+      12.0
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "ef0d63622c82e6eb",
+    "fp_full": "855179a4887fba9a",
+    "fp_inactives": "c75251c51dd0f832",
+    "inactives": [
+     "N:acetyl tyrosine",
+     "N:alumina",
+     "N:aluminum stearate",
+     "N:arginine",
+     "N:aspartic acid",
+     "N:ceteth-25",
+     "N:citric acid",
+     "N:cyclodextrin",
+     "N:dextrin",
+     "N:dicaprylyl carbonate",
+     "N:dimethicone",
+     "N:disodium edta",
+     "N:disodium succinate",
+     "N:ethylhexylglycerin",
+     "N:fragrance",
+     "N:glycerin",
+     "N:glyceryl isostearate",
+     "N:glyceryl stearate",
+     "N:histidine hcl",
+     "N:isohexadecane",
+     "N:isononyl isononanoate",
+     "N:khaya senegalensis bark extract",
+     "N:mannitol",
+     "N:meadowfoam seed oil",
+     "N:nicotinamide adenine dinucleotide",
+     "N:oleth-25",
+     "N:phenoxyethanol",
+     "N:pisum sativum (pea) extract",
+     "N:polyhydroxystearic acid",
+     "N:polysorbate 60",
+     "N:propylene glycol isostearate",
+     "N:propylene glycol monostearate",
+     "N:propylene glycol stearate",
+     "N:pyridoxine",
+     "N:sodium acrylate/sodium acryloyldimethyl taurate copolymer",
+     "N:squalane",
+     "N:sucrose polysoyate",
+     "N:tocopheryl acetate",
+     "N:triethylhexanoin",
+     "N:water",
+     "N:yeast extract"
+    ],
+    "n_actives": 1,
+    "n_inactives": 41,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": false
+    }
+   },
+   "meta": {
+    "attested_monograph": false,
+    "company": "Sciences de la Peau CRESCITA Inc. /CRESCITA skin sciences Inc",
+    "dosage_form": "Emulsion",
+    "licence_date": "2009-11-12",
+    "populations": [
+     "Sub Population N/A"
+    ],
+    "product_name": "ÉCRAN SOLAIRE HAUTE PROTECTION FPS 30",
+    "purposes": [],
+    "revised_date": null,
+    "status_active": false
+   },
+   "verified_at": "2026-08-26"
+  },
   "CA:NPN-80014830": {
    "first_seen": "2026-08-26",
    "fp": {
@@ -16417,9 +16493,7 @@
      "Sub Population N/A"
     ],
     "product_name": "Certified Organic Sunscreen Face Cream SPF 50",
-    "purposes": [
-     "SPF50. High protection."
-    ],
+    "purposes": [],
     "revised_date": null,
     "status_active": true
    },
@@ -21807,9 +21881,7 @@
      "Sub Population N/A"
     ],
     "product_name": "Clinique Superbalanced Powder Bronzer SPF 15",
-    "purposes": [
-     "SPF15"
-    ],
+    "purposes": [],
     "revised_date": null,
     "status_active": false
    },
@@ -22569,7 +22641,7 @@
     "populations": [
      "Sub Population N/A"
     ],
-    "product_name": "bareMinerals READY SPF 15 Touch Up Veil Translucent",
+    "product_name": "bareMinerals READY SPF 15 Touch Up Veil",
     "purposes": [
      "SPF 15; Helps prevent sunburn. Provides moderate sunburn protection."
     ],
@@ -23485,7 +23557,7 @@
     "populations": [
      "Sub Population N/A"
     ],
-    "product_name": "Advanced Protection SPF 20 Moisturizer (Normal to Dry Skin)-03",
+    "product_name": "Advanced Protection SPF 20 Moisturizer Sheer Tint (Normal to Dry Skin)-03",
     "purposes": [
      "SPF 20; Helps prevent sunburn. Provides moderate sunburn protectant."
     ],
@@ -27599,9 +27671,7 @@
      "Children"
     ],
     "product_name": "Lait solaire Spécial Enfants SPF 50",
-    "purposes": [
-     "Facteur de protection solaire 50, ou F.P.S, 50. Protège contre les coups de soleil causés par les rayons UVA et UVB, protège contre les rayons UVA et UVB."
-    ],
+    "purposes": [],
     "revised_date": null,
     "status_active": false
    },
@@ -27735,9 +27805,7 @@
      "Adults"
     ],
     "product_name": "Crème Teintée Haute exigence Multi-Intensive SPF 20 (teinte sable 02, teinte Litchi 03)",
-    "purposes": [
-     "Facteur de protection solaire 20, ou F.P.S, 20. Protège contre les coups de soleil causés par les rayons UVA et UVB, protège contre les rayons UVA et UVB."
-    ],
+    "purposes": [],
     "revised_date": null,
     "status_active": false
    },
@@ -31436,6 +31504,124 @@
    },
    "verified_at": "2026-08-26"
   },
+  "CA:NPN-80043336": {
+   "first_seen": "2026-08-26",
+   "fp": {
+    "actives": [
+     [
+      "N:zinc oxide",
+      25.0
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "f44f05b7de720aa0",
+    "fp_full": "79d0974575ea67d6",
+    "fp_inactives": "ff7421b70e0dfb02",
+    "inactives": [
+     "N:bht",
+     "N:black iron oxide",
+     "N:caprylic/capric triglyceride",
+     "N:cetearyl alcohol",
+     "N:citric acid",
+     "N:cocoglycerides",
+     "N:dimethicone",
+     "N:edta",
+     "N:glycerin",
+     "N:glyceryl oleate",
+     "N:glyceryl stearate",
+     "N:imidazolidinyl urea",
+     "N:iron oxide (fe2o3)",
+     "N:iron oxide yellow",
+     "N:lavender essential oil",
+     "N:olivoyl hydrolyzed wheat protein",
+     "N:potassium hydroxide",
+     "N:ppg-3 benzyl ether myristate",
+     "N:sunflower oil",
+     "N:titanium dioxide",
+     "N:vitamin e",
+     "N:water"
+    ],
+    "n_actives": 1,
+    "n_inactives": 22,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": false
+    }
+   },
+   "meta": {
+    "attested_monograph": false,
+    "company": "Laboratoire Sol-Labo Inc.",
+    "dosage_form": "Lotion",
+    "licence_date": "2013-07-04",
+    "populations": [
+     "Adults and Children"
+    ],
+    "product_name": "Écran solaire F.P.S. 30",
+    "purposes": [],
+    "revised_date": null,
+    "status_active": true
+   },
+   "verified_at": "2026-08-26"
+  },
+  "CA:NPN-80043337": {
+   "first_seen": "2026-08-26",
+   "fp": {
+    "actives": [
+     [
+      "N:zinc oxide",
+      15.0
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "a331a19cc58908b9",
+    "fp_full": "8c64d7d05a502bb4",
+    "fp_inactives": "ff7421b70e0dfb02",
+    "inactives": [
+     "N:bht",
+     "N:black iron oxide",
+     "N:caprylic/capric triglyceride",
+     "N:cetearyl alcohol",
+     "N:citric acid",
+     "N:cocoglycerides",
+     "N:dimethicone",
+     "N:edta",
+     "N:glycerin",
+     "N:glyceryl oleate",
+     "N:glyceryl stearate",
+     "N:imidazolidinyl urea",
+     "N:iron oxide (fe2o3)",
+     "N:iron oxide yellow",
+     "N:lavender essential oil",
+     "N:olivoyl hydrolyzed wheat protein",
+     "N:potassium hydroxide",
+     "N:ppg-3 benzyl ether myristate",
+     "N:sunflower oil",
+     "N:titanium dioxide",
+     "N:vitamin e",
+     "N:water"
+    ],
+    "n_actives": 1,
+    "n_inactives": 22,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": false
+    }
+   },
+   "meta": {
+    "attested_monograph": false,
+    "company": "Laboratoire Sol-Labo Inc.",
+    "dosage_form": "Lotion",
+    "licence_date": "2013-07-04",
+    "populations": [
+     "Adults and Children"
+    ],
+    "product_name": "Écran solaire F.P.S. 15",
+    "purposes": [],
+    "revised_date": null,
+    "status_active": true
+   },
+   "verified_at": "2026-08-26"
+  },
   "CA:NPN-80043426": {
    "first_seen": "2026-08-26",
    "fp": {
@@ -32392,7 +32578,7 @@
     "populations": [
      "Sub Population N/A"
     ],
-    "product_name": "Bill Natural Sources® Facial Oil with Placental Protein, Aloe Vera & Vitamin E for Skin Conditioning - SPF 15",
+    "product_name": "Bill Natural Sources® Facial Oil with Placental Protein, Squalene & Vitamin E for Skin Conditioning - SPF 15",
     "purposes": [
      "SFP15. Sunburn protectant, helps prevent or protects from sunburn."
     ],
@@ -39650,7 +39836,7 @@
      "Children",
      "Infants"
     ],
-    "product_name": "bareMinerals Complexion Rescue Tinted Moisturizer- CASHEW 3.5",
+    "product_name": "bareMinerals Complexion Rescue Tinted Moisturizer- CHESTNUT 09",
     "purposes": [
      "Absorbs throughout the UVA/UVB spectrum\nBroad Spectrum\nSun Protection Factor 30 / SPF 30\nUVA/UVB protection"
     ],
@@ -43634,7 +43820,7 @@
     "populations": [
      "Adults"
     ],
-    "product_name": "Moisture Matte Broad Spectrum Sunscreen SPF 40",
+    "product_name": "Alumier MD Moisture Matte Broad Spectrum Sunscreen SPF 40",
     "purposes": [
      "Helps prevent sunburn. SPF 40. Broad spectrum SPF 40. If used as directed with other sun protection measures [see Directions for Use], decreases the risk of skin cancer and early skin aging caused by the sun. Sunburn protectant. Sunscreen. Helps protect from sunburn. Filters/screens UVA/UVB rays . Absorbs throughout the UVA/UVB spectrum to provide sunburn protection. Provides powerful broad-spectrum sunburn protection by filtering harmful UVA and UVB rays using a combination of zinc oxide and titanium dioxide."
     ],
@@ -43757,7 +43943,7 @@
     "populations": [
      "Adults"
     ],
-    "product_name": "Sheer Hydration Broad Spectrum SPF 44 Sunscreen (Untinted)",
+    "product_name": "Alumier MD Sheer Hydration Broad Spectrum SPF 44 Sunscreen",
     "purposes": [
      "Helps prevent sunburn\n SPF 44 \nBroad spectrum SPF 44 \n If used as directed with other sun protection measures [see Directions for Use], decreases the risk of skin cancer and early skin aging caused by the sun. \nSunscreen \nSunburn protectant \nHelps protect from sunburn Filters/screens UVA/UVB rays Absorbs throughout the UVA/UVB spectrum to provide sunburn protection."
     ],
@@ -47456,7 +47642,7 @@
     "populations": [
      "All ages"
     ],
-    "product_name": "Damascus Rose SPF 25 Face Suncreen Lotion",
+    "product_name": "SPF 25 Unscented Sunscreen Lotion",
     "purposes": [
      "Helps prevent sunburn. Broad Spectrum SPF 25."
     ],
@@ -48909,7 +49095,7 @@
     "populations": [
      "Sub Population N/A"
     ],
-    "product_name": "Sun of a Beach Écran Solaire FPS 30",
+    "product_name": "Sun of a Beach Sunscreen SPF 30",
     "purposes": [
      "Helps prevent sunburn. SPF 30."
     ],
@@ -54095,7 +54281,7 @@
      "Children",
      "Infants"
     ],
-    "product_name": "bareMinerals BAREPRO 24HR Performance Wear Liquid Foundation- LATTE 24",
+    "product_name": "bareMinerals BAREPRO 24HR Performance Wear Liquid Foundation- WARM LIGHT 07",
     "purposes": [
      "Absorbs throughout the UVA/UVB spectrum\nBoard Spectrum\nSun Protection Factor 20 / SPF 20\nUVA / UVB Protection"
     ],
@@ -55862,6 +56048,69 @@
    },
    "verified_at": "2026-08-26"
   },
+  "CA:NPN-80076450": {
+   "first_seen": "2026-08-26",
+   "fp": {
+    "actives": [
+     [
+      "N:oxide of zinc",
+      9.12
+     ],
+     [
+      "N:titanium dioxide",
+      6.86
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "fe1a65953092002f",
+    "fp_full": "26b8a25a61d8ad0f",
+    "fp_inactives": "6565a54bad01f56d",
+    "inactives": [
+     "N:aluminum hydroxide",
+     "N:aluminum oxide",
+     "N:argania spinosa kernel oil",
+     "N:benzyl alcohol",
+     "N:caprylic/capric triglyceride",
+     "N:glycerin",
+     "N:iron oxides",
+     "N:isoamyl cocoate",
+     "N:isoamyl laurate",
+     "N:isostearic acid",
+     "N:magnesium aluminum silicate",
+     "N:magnesium hydroxide",
+     "N:octyldodecanol",
+     "N:oleic/linoleic/linolenic polyglycerides",
+     "N:polyhydroxystearic acid",
+     "N:salicylic acid",
+     "N:silice",
+     "N:sorbic acid",
+     "N:sorbitan olivate",
+     "N:stearic acid",
+     "N:water",
+     "N:xanthan gum"
+    ],
+    "n_actives": 2,
+    "n_inactives": 22,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": false
+    }
+   },
+   "meta": {
+    "attested_monograph": true,
+    "company": "Zorah Biocosmétiques Inc.",
+    "dosage_form": "Cream",
+    "licence_date": "2017-03-29",
+    "populations": [
+     "Sub Population N/A"
+    ],
+    "product_name": "BIO DEF FPS 30 ÉCRAN SOLAIRE TEINTÉ VISAGE",
+    "purposes": [],
+    "revised_date": null,
+    "status_active": true
+   },
+   "verified_at": "2026-08-26"
+  },
   "CA:NPN-80076978": {
    "first_seen": "2026-08-26",
    "fp": {
@@ -55903,6 +56152,54 @@
     "purposes": [
      "Helps prevent sunburn. Sun Protection Factor 30. SPF 30. Broad Spectrum SPF 30. Sunscreen. Hypoallergenic. Water/Sweat Resistant [80 minutes]. Sunburn protectant. Helps protects from sunburn. Filters/screens UVA/UVB rays. Absorbs throughout the UVA/UVB spectrum to provide sunburn protection. If used as directed with other sun protection measures, decreases the risk of skin cancer and early skin aging caused by the sun."
     ],
+    "revised_date": null,
+    "status_active": true
+   },
+   "verified_at": "2026-08-26"
+  },
+  "CA:NPN-80077317": {
+   "first_seen": "2026-08-26",
+   "fp": {
+    "actives": [
+     [
+      "N:zinc oxide",
+      12.5
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "71b3f78ed6778bb2",
+    "fp_full": "4e532959a0e144f2",
+    "fp_inactives": "1853d358e97749e7",
+    "inactives": [
+     "N:aloe barbadensis leaf juice",
+     "N:chamomillia recutita (matricaria) flower extract",
+     "N:hydroxypropyl guar",
+     "N:jojoba oil",
+     "N:lecithin",
+     "N:leuconostoc/radish root ferment filtrate",
+     "N:virgin coconut oil",
+     "N:vitamin e",
+     "N:water",
+     "N:xanthan gum"
+    ],
+    "n_actives": 1,
+    "n_inactives": 10,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": false
+    }
+   },
+   "meta": {
+    "attested_monograph": true,
+    "company": "Bébé Hibou",
+    "dosage_form": "Spray, suspension",
+    "licence_date": "2017-05-09",
+    "populations": [
+     "Adults",
+     "Children"
+    ],
+    "product_name": "Écran Solaire bébé hibou",
+    "purposes": [],
     "revised_date": null,
     "status_active": true
    },
@@ -62027,7 +62324,7 @@
     "populations": [
      "Sub Population N/A"
     ],
-    "product_name": "Unika",
+    "product_name": "Uniful",
     "purposes": [
      "Helps prevent sunburn. Sun Protection Factor 30. SPF 30. Broad Spectrum SPF 30. If used as directed with other sun protection measures (see Directions for Use), decreases the risk of skin cancer and early skin aging caused by the sun. Sunscreen. Sunburn protectant. Helps protect from sunburn. Filters/screens UVA/UVB rays. Absorbs throughout the UVA/UVB spectrum to provide sunburn protection."
     ],
@@ -62173,7 +62470,7 @@
     "populations": [
      "Sub Pop to be created"
     ],
-    "product_name": "Oxygel Brightening Cream",
+    "product_name": "Elitemed Brightening Cream Sunscreen SPF 15",
     "purposes": [
      "Helps prevent sunburn. Sun Protection Factor 15."
     ],
@@ -62615,6 +62912,72 @@
     "purposes": [
      "Helps prevent sunburn; Sun Protection Factor \"30\" or SPF \"30\" Broad Spectrum SPF \"30\" If used as directed with other sun protection measures [see Directions for Use], decreases the risk of skin cancer and early skin aging caused by the sun. Water/Sweat Resistant [80 minutes]."
     ],
+    "revised_date": null,
+    "status_active": true
+   },
+   "verified_at": "2026-08-26"
+  },
+  "CA:NPN-80081988": {
+   "first_seen": "2026-08-26",
+   "fp": {
+    "actives": [
+     [
+      "N:titanium dioxide",
+      7.7
+     ],
+     [
+      "N:zinc oxide",
+      12.35
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "d1bac252d6a31da3",
+    "fp_full": "7e1199d4b1851530",
+    "fp_inactives": "ddd319df5b72c68a",
+    "inactives": [
+     "N:aloe barbadensis leaf juice",
+     "N:alumina",
+     "N:anthemis nobilis flower essential oil",
+     "N:beeswax",
+     "N:butyrospermum parkii (shea) butter",
+     "N:caprylic/capric triglyceride",
+     "N:carthamus tinctorius oleosomes",
+     "N:citric acid",
+     "N:citrus nobilis (mandarin orange) peel essential oil",
+     "N:coco-caprylate/caprate",
+     "N:dicaprylyl carbonate",
+     "N:glycerin",
+     "N:isostearic acid",
+     "N:lavandula angustifolia (lavender) oil",
+     "N:lecithin",
+     "N:lonicera caprifolium (honeysuckle) flower extract",
+     "N:lonicera japonica (honeysuckle) flower extract",
+     "N:nelumbo nucifera flower extract",
+     "N:polyglyceryl-2 dipolyhydroxystearate",
+     "N:polyglyceryl-3 diisostearate",
+     "N:polyglyceryl-3 polyricinoleate",
+     "N:rosmarinus officinalis (rosemary) leaf oil",
+     "N:stearic acid",
+     "N:tocopherol",
+     "N:water"
+    ],
+    "n_actives": 2,
+    "n_inactives": 25,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": false
+    }
+   },
+   "meta": {
+    "attested_monograph": true,
+    "company": "Souris Verte  / Greenie Mouse Inc.",
+    "dosage_form": "Cream",
+    "licence_date": "2017-12-20",
+    "populations": [
+     "Sub Population N/A"
+    ],
+    "product_name": "Écran solaire",
+    "purposes": [],
     "revised_date": null,
     "status_active": true
    },
@@ -64263,7 +64626,7 @@
     "populations": [
      "Sub Population N/A"
     ],
-    "product_name": "Sun Bum Mineral 50",
+    "product_name": "Mineral Sunscreen Face Stick Broad Spectrum SPF 50",
     "purposes": [
      "Broad spectrum SPF 50. Water resistant (80 minutes). Helps prevent sunburn."
     ],
@@ -64453,6 +64816,70 @@
      "Helps prevent sunburn. SPF 30. Broad Spectrum SPF 30. If used as directed with other sun protection measures [see Directions for Use], decreases the risk of skin cancer and early skin aging caused by the sun. Water/Sweat Resistant [40 minutes]. Filters/screens UVA/UVB rays. Helps protect from sunburn."
     ],
     "revised_date": "2018-07-06",
+    "status_active": true
+   },
+   "verified_at": "2026-08-26"
+  },
+  "CA:NPN-80084937": {
+   "first_seen": "2026-08-26",
+   "fp": {
+    "actives": [
+     [
+      "N:titanium dioxide",
+      12.5
+     ],
+     [
+      "N:zinc oxide",
+      16.0
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "36c0b4939c25c30d",
+    "fp_full": "ff231434a2eed3d4",
+    "fp_inactives": "fbb5c1c43fe29ff4",
+    "inactives": [
+     "N:3-o-ethyl ascorbic acid",
+     "N:alkyl (c12-15) benzoate",
+     "N:aloe barbadensis leaf",
+     "N:astaxanthin",
+     "N:d-alpha tocopheryl acetate",
+     "N:dicaprylyl carbonate",
+     "N:ethylhexyl methoxycrylene",
+     "N:fumed silica",
+     "N:glycerin",
+     "N:grapefruit extract",
+     "N:grapefruit seed extract",
+     "N:hexamidine diisethionate",
+     "N:orange essential oil",
+     "N:peg-100 stearate",
+     "N:pentaerythrityl tetra-di-t-butyl hydroxyhydrocinnamate",
+     "N:phyllanthus emblica fruit extract",
+     "N:polyperfluoromethylisopropyl ether",
+     "N:sodium dehydroacetate",
+     "N:sodium gluconate",
+     "N:triacontanyl pvp",
+     "N:water",
+     "N:xanthan gum"
+    ],
+    "n_actives": 2,
+    "n_inactives": 22,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": false
+    }
+   },
+   "meta": {
+    "attested_monograph": true,
+    "company": "BKIND",
+    "dosage_form": "Cream",
+    "licence_date": "2018-05-05",
+    "populations": [
+     "Adults and Adolescents",
+     "Children"
+    ],
+    "product_name": "Lotion écran solaire minérale FPS 30",
+    "purposes": [],
+    "revised_date": null,
     "status_active": true
    },
    "verified_at": "2026-08-26"
@@ -67707,7 +68134,7 @@
     "populations": [
      "Adults"
     ],
-    "product_name": "Second Nature Aloe Foundation Broad Spectrum SPF 15 - Rich Neutral",
+    "product_name": "Second Nature Aloe Foundation Broad Spectrum SPF 15 - Medium Rosy",
     "purposes": [
      "Broad Spectrum SPF 15.\nHelps prevent sunburn.\nFilters/Screens UVA/UVB rays.\nIf used as directed with other sun protection measures [see Directions for Use], decreases the risk of skin cancer and early skin\naging caused by the sun."
     ],
@@ -67882,6 +68309,65 @@
     "purposes": [],
     "revised_date": null,
     "status_active": false
+   },
+   "verified_at": "2026-08-26"
+  },
+  "CA:NPN-80089342": {
+   "first_seen": "2026-08-26",
+   "fp": {
+    "actives": [
+     [
+      "N:zinc oxide",
+      14.4
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "0433f4960690d848",
+    "fp_full": "8074b10f0230503e",
+    "fp_inactives": "b8a1a4b5a4dfe4d9",
+    "inactives": [
+     "N:aloe barbadensis leaf juice",
+     "N:c12-15 alkyl benzoate",
+     "N:calendula officinalis flower extract",
+     "N:candelilla cera",
+     "N:caprylic/capric triglyceride",
+     "N:carnauba wax",
+     "N:cetyl dimethicone",
+     "N:chamomilla recutita (matricaria) flower extract",
+     "N:chlorphenesin",
+     "N:coco-caprylate/caprate",
+     "N:dicaprylyl carbonate",
+     "N:dimethylsilyl silicic anhydride",
+     "N:dl-alpha tocopheryl acetate",
+     "N:glycerin",
+     "N:magnesium sulfate",
+     "N:phenoxyethanol",
+     "N:polyglyceryl-2 dipolyhydroxystearate",
+     "N:polyglyceryl-4 isostearate",
+     "N:sodium chloride",
+     "N:stearic acid",
+     "N:triethoxycaprylylsilane",
+     "N:water"
+    ],
+    "n_actives": 1,
+    "n_inactives": 22,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": false
+    }
+   },
+   "meta": {
+    "attested_monograph": true,
+    "company": "Yves Rocher Amerique Du Nord Inc.",
+    "dosage_form": "Lotion",
+    "licence_date": "2018-11-27",
+    "populations": [
+     "Adults"
+    ],
+    "product_name": "Solaire Peau Parfaite - Écran Solaire 100% minéral FPS 30",
+    "purposes": [],
+    "revised_date": null,
+    "status_active": true
    },
    "verified_at": "2026-08-26"
   },
@@ -69058,6 +69544,65 @@
     "purposes": [
      "Helps prevent sunburn. \nSun Protection Factor 30 or SPF 30."
     ],
+    "revised_date": null,
+    "status_active": false
+   },
+   "verified_at": "2026-08-26"
+  },
+  "CA:NPN-80089859": {
+   "first_seen": "2026-08-26",
+   "fp": {
+    "actives": [
+     [
+      "N:zinc oxide",
+      14.4
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "0433f4960690d848",
+    "fp_full": "0d3e3ab51da83bca",
+    "fp_inactives": "9c17fedff880ea35",
+    "inactives": [
+     "N:aloe barbadensis leaf juice",
+     "N:c12-15 alkyl benzoate",
+     "N:calendula officinalis flower extract",
+     "N:candelilla wax",
+     "N:caprylic/capric triglyceride",
+     "N:carnauba wax",
+     "N:cetyl dimethicone",
+     "N:chamomilla recutita (matricaria) flower extract",
+     "N:chlorphenesin",
+     "N:coco-caprylate/caprate",
+     "N:dicaprylyl carbonate",
+     "N:dimethylsilyl silicic anhydride",
+     "N:dl-alpha tocopheryl acetate",
+     "N:glycerin",
+     "N:magnesium sulfate",
+     "N:phenoxyethanol",
+     "N:polyglyceryl-2 dipolyhydroxystearate",
+     "N:polyglyceryl-4 isostearate",
+     "N:sodium chloride",
+     "N:stearic acid",
+     "N:triethoxycaprylylsilane",
+     "N:water"
+    ],
+    "n_actives": 1,
+    "n_inactives": 22,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": false
+    }
+   },
+   "meta": {
+    "attested_monograph": true,
+    "company": "Yves Rocher Amerique Du Nord Inc.",
+    "dosage_form": "Liquid",
+    "licence_date": "2018-12-31",
+    "populations": [
+     "Adults"
+    ],
+    "product_name": "Solaire Peau Parfaite - Écran Solaire 100% minéral FPS 30",
+    "purposes": [],
     "revised_date": null,
     "status_active": false
    },
@@ -70707,7 +71252,7 @@
      "Children",
      "Infants"
     ],
-    "product_name": "Mineral Ultra Sheer(R) Dry-Touch Face & Body Stick",
+    "product_name": "Kids Mineral Sunscreen Stick SPF 50",
     "purposes": [
      "Broad spectrum (Sun Protection Factor \"X\" / SPF \"X\"). Sun Protection Factor \"X\" / SPF \"X\". Sunscreen. UVA/UVB protection. Water/Sweat Resistant (40 minutes / 80 minutes)."
     ],
@@ -72647,7 +73192,7 @@
     "populations": [
      "Adults and Children"
     ],
-    "product_name": "bareMinerals Original Liquid Foundation Broad Spectrum SPF 20- NEUTRAL MEDIUM 15 03",
+    "product_name": "bareMinerals Original Liquid Foundation Broad Spectrum SPF 20- MEDIUM TAN 18 03",
     "purposes": [
      "Sun Protection Factor 20 /SPF 20 Broad spectrum. Absorbs throughout the UVA/UVB spectrum. UVA/UVB protection."
     ],
@@ -73785,7 +74330,7 @@
     "populations": [
      "Adults"
     ],
-    "product_name": "SHAKTI COSMETICS - Biosolar / Biosolaire SPF30",
+    "product_name": "NESSA Écran Solaire Visage Translucide / Translucent Day Sunscreen",
     "purposes": [
      "(Facteur de protection solaire « X » ou F.P.S. « X » à)(À) Large spectre. Aide à prévenir les coups de soleil. Protection UVA/UVB. Si le produit est utilisé selon les instructions et avec d'autres mesures de protection contre le soleil [voir les Mode d'emploi], le risque de cancer de la peau et de vieillissement prématuré de la peau causé par le soleil est réduit."
     ],
@@ -73884,7 +74429,7 @@
     "populations": [
      "Adults"
     ],
-    "product_name": "INIKA Loose Mineral Foundation - Wisdom",
+    "product_name": "INIKA  Loose Mineral Foundation - Grace",
     "purposes": [
      "Sun Protection Factor  25/ SPF 25."
     ],
@@ -73957,7 +74502,7 @@
     "populations": [
      "Infant, Children, Adolescents, and adults"
     ],
-    "product_name": "All Good Tinted Mineral Sunscreen SPF 30",
+    "product_name": "All Good SPF30 Tinted Sunscreen",
     "purposes": [
      "Sun Protection Factor 30 / SPF30. Helps prevent sunburn. Sunscreen. Sunburn protectant. Helps protect from sunburn. Broad spectrum (Sun Protection Factor 30 / SPF 30). Filters/Screens UVA/UVB rays. Absorbs throughout the UVA/UVB spectrum to provide sunburn protection. UVA/UVB protection. Water/Sweat Resistant [80 minutes]."
     ],
@@ -74736,7 +75281,7 @@
      "Children",
      "Infants"
     ],
-    "product_name": "Just Sun",
+    "product_name": "Mineral Sunscreen Lotion SPF 30",
     "purposes": [
      "Broad spectrum (Sun Protection Factor \"X\" / SPF \"X\"). Helps prevent sunburn. Helps protect from sunburn. Sunburn protectant. Sun Protection Factor \"X\" / SPF \"X\". Sunscreen. UVA/UVB protection."
     ],
@@ -75780,7 +76325,7 @@
     "populations": [
      "Adults"
     ],
-    "product_name": "Daily Defence Tinted Moisturizer",
+    "product_name": "Broad Spectrum SPF-30",
     "purposes": [
      "Broad spectrum SPF-30. UVA/UVB protection. Helps prevent, or protects, from sunburn. If used as directed with other sun protection measures, decreases the risk of skin cancer and early skin aging caused by the sun."
     ],
@@ -77521,6 +78066,69 @@
    },
    "verified_at": "2026-08-26"
   },
+  "CA:NPN-80103514": {
+   "first_seen": "2026-08-26",
+   "fp": {
+    "actives": [
+     [
+      "N:zinc oxide",
+      24.7
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "044e32380389da67",
+    "fp_full": "1a81ad68dce785b1",
+    "fp_inactives": "d9fc73b732e023a8",
+    "inactives": [
+     "N:buddleja davidii extract",
+     "N:calendula officinalis flower extract",
+     "N:castor oil/ipdi copolymer",
+     "N:coco-caprylate/caprate",
+     "N:dilinoleic acid/butanediol copolymer",
+     "N:disodium stearoyl glutamate",
+     "N:elderberry fruit extract",
+     "N:hydrogenated sunflower seed oil glyceryl esters",
+     "N:hydroxystearic/linolenic/oleic polyglycerides",
+     "N:iron oxides",
+     "N:isostearic acid",
+     "N:jojoba seed oil",
+     "N:magnesium stearate",
+     "N:polyglyceryl-3 polyricinoleate",
+     "N:polyglyceryl-6 polyhydroxystearate",
+     "N:polyglyceryl-6 polyricinoleate",
+     "N:polyhydroxystearic acid",
+     "N:propanediol",
+     "N:rubus idaeus (raspberry) seed oil",
+     "N:sea salt",
+     "N:shea butter",
+     "N:vanillin",
+     "N:water"
+    ],
+    "n_actives": 1,
+    "n_inactives": 23,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": false
+    }
+   },
+   "meta": {
+    "attested_monograph": true,
+    "company": "SCIENCEDERM Inc.",
+    "dosage_form": "Cream",
+    "licence_date": "2020-08-17",
+    "populations": [
+     "Adolescents",
+     "Adults",
+     "Children",
+     "Infants"
+    ],
+    "product_name": "ÉCRAN SOLAIRE MINÉRAL FPS 40 BAUME PROTECTION SUPÉRIEURE ÉCLAT COULEUR CAMÉLIA",
+    "purposes": [],
+    "revised_date": "2025-10-24",
+    "status_active": true
+   },
+   "verified_at": "2026-08-26"
+  },
   "CA:NPN-80103528": {
    "first_seen": "2026-08-26",
    "fp": {
@@ -78134,7 +78742,7 @@
     "populations": [
      "Adults and Adolescents"
     ],
-    "product_name": "Time Traveler Face SPF-30",
+    "product_name": "CLEAN FREAK SPF-30 NATURALLY SCENTED",
     "purposes": [
      "SUNSCREEN."
     ],
@@ -79819,7 +80427,7 @@
     "populations": [
      "Infant, Children, Adolescents, and adults"
     ],
-    "product_name": "Countersun SPF 25",
+    "product_name": "Countersun Daily Sheer Defense for Face Lotion Broad Spectrum SPF 25",
     "purposes": [
      "- Sun Protection Factor 25/ SPF 25. - Helps prevent sunburn. - Sunscreen. - Sunburn protectant. - Helps protect from sunburn. - Broad spectrum (Sun Protection Factor 25/ SPF 25). - Filters/ Screens UVA/ UVB rays. - Absorbs throughout the UVA/ UVB spectrum to provide sunburn protection. - UVA/ UVB protection. - If used as directed with other sun protection measures [see Directions (for Use)], decreases the risk of skin cancer and early skin aging caused by the sun."
     ],
@@ -81570,6 +82178,116 @@
    },
    "verified_at": "2026-08-26"
   },
+  "CA:NPN-80109249": {
+   "first_seen": "2026-08-26",
+   "fp": {
+    "actives": [
+     [
+      "N:zinc oxide",
+      24.7
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "044e32380389da67",
+    "fp_full": "583edccd53802013",
+    "fp_inactives": "3468c8d87e79c7d8",
+    "inactives": [
+     "N:argan seed oil",
+     "N:benzyl alcohol",
+     "N:carnauba wax",
+     "N:centipeda cunninghamii extract",
+     "N:coco-caprylate/caprate",
+     "N:glycerin",
+     "N:glyceryl oleate",
+     "N:green tea flavour",
+     "N:isostearic acid",
+     "N:magnesium sulfate",
+     "N:octyldodecanol",
+     "N:octyldodecyl oleate",
+     "N:octyldodecyl stearoyl stearate",
+     "N:polyglyceryl-3 polyricinoleate",
+     "N:polyglyceryl-6 oleate",
+     "N:polyhydroxystearic acid",
+     "N:rice bran wax",
+     "N:salicylic acid",
+     "N:sorbic acid",
+     "N:squalane",
+     "N:water"
+    ],
+    "n_actives": 1,
+    "n_inactives": 21,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": false
+    }
+   },
+   "meta": {
+    "attested_monograph": false,
+    "company": "Zorah Biocosmétiques Inc.",
+    "dosage_form": "Cream",
+    "licence_date": "2021-04-13",
+    "populations": [
+     "Children, adolescents and adults"
+    ],
+    "product_name": "FPS 30 ÉCRAN SOLAIRE VISAGE CORPS",
+    "purposes": [],
+    "revised_date": null,
+    "status_active": true
+   },
+   "verified_at": "2026-08-26"
+  },
+  "CA:NPN-80109306": {
+   "first_seen": "2026-08-26",
+   "fp": {
+    "actives": [
+     [
+      "N:aloe barbadensis leaf",
+      11.15
+     ],
+     [
+      "N:zinc oxide",
+      11.15
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "edcd650132da7097",
+    "fp_full": "03612c0ed8b7ce5d",
+    "fp_inactives": "fb81e95a2939f574",
+    "inactives": [
+     "N:aniba rosaeodora (rosewood) wood oil",
+     "N:emulsifying wax",
+     "N:glycerin",
+     "N:lavandula angustifolia (lavender) oil",
+     "N:palmarosa essential oil",
+     "N:sesame oil",
+     "N:shea butter",
+     "N:vitamin e",
+     "N:water",
+     "N:xanthan gum"
+    ],
+    "n_actives": 2,
+    "n_inactives": 10,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": false
+    }
+   },
+   "meta": {
+    "attested_monograph": false,
+    "company": "Naturellement Sofy",
+    "dosage_form": "Cream",
+    "licence_date": "2021-04-14",
+    "populations": [
+     "Adolescents",
+     "Children"
+    ],
+    "product_name": "Écran solaire",
+    "purposes": [],
+    "revised_date": null,
+    "status_active": true
+   },
+   "verified_at": "2026-08-26"
+  },
   "CA:NPN-80109314": {
    "first_seen": "2026-08-26",
    "fp": {
@@ -82602,7 +83320,7 @@
     "populations": [
      "Adults and Adolescents"
     ],
-    "product_name": "Ilia Super Serum Skin Tint Shela / ST8",
+    "product_name": "Ilia Super Serum Skin Tint Roque / ST18",
     "purposes": [
      "Absorbs throughout the UVA/UVB spectrum.\t\nBroad spectrum (Sun Protection Factor \"X\" / SPF \"X\").\t\nSun Protection Factor \"X\" / SPF \"X\".\t\nUVA/UVB protection."
     ],
@@ -83865,7 +84583,7 @@
     "populations": [
      "Adults"
     ],
-    "product_name": "COOLA Écran solaire à l’oxyde de zinc en vaporisateur",
+    "product_name": "COOLA Zinc Oxide Sunscreen Spray",
     "purposes": [
      "Broad spectrum (Sun Protection Factor 30 / SPF 30). Sun Protection Factor 30 / SPF 30. Sunscreen. Water/Sweat Resistant [40 minutes / 80 minutes] / UVA/UVB protection."
     ],
@@ -84008,7 +84726,7 @@
     "populations": [
      "Adults"
     ],
-    "product_name": "COOLA Crème hydratante minérale de soie du soleil",
+    "product_name": "COOLA Mineral Sun Silk Moisturizer",
     "purposes": [
      "Broad spectrum (Sun Protection Factor 30 / SPF 30). Sun Protection Factor 30 / SPF 30. UVA/UVB protection."
     ],
@@ -84059,7 +84777,7 @@
     "populations": [
      "Children, adolescents and adults"
     ],
-    "product_name": "PerfecTint Powder SPF 40 Cream",
+    "product_name": "PerfecTint Powder SPF 40 Deep",
     "purposes": [
      "Broad spectrum (Sun Protection Factor 40 / SPF 40). Sun Protection Factor 40 / SPF 40."
     ],
@@ -89136,6 +89854,77 @@
    },
    "verified_at": "2026-08-26"
   },
+  "CA:NPN-80115754": {
+   "first_seen": "2026-08-26",
+   "fp": {
+    "actives": [
+     [
+      "N:titanium dioxide",
+      4.5
+     ],
+     [
+      "N:zinc oxide",
+      9.6
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "014972650d98527a",
+    "fp_full": "a86df8266c963878",
+    "fp_inactives": "f214c5b5069e0a89",
+    "inactives": [
+     "N:aloe barbadensis leaf extract",
+     "N:alumina, activated",
+     "N:benzyl alcohol",
+     "N:bisabolol",
+     "N:calcium sodium borosilicate",
+     "N:caprylic/capric triglyceride",
+     "N:citric acid",
+     "N:coco-caprylate",
+     "N:coco-caprylate/caprate",
+     "N:cocos nucifera (coconut) oil",
+     "N:dl-alpha tocopheryl acetate",
+     "N:dodecane",
+     "N:glycerin",
+     "N:glycine soja (soybean) oil",
+     "N:hydrogenated lecithin",
+     "N:hydrogenated vegetable oil",
+     "N:iron oxide yellow",
+     "N:lonicera caprifolium (honeysuckle) flower extract",
+     "N:lonicera japonica (honeysuckle) flower extract",
+     "N:magnesium sulfate",
+     "N:maltodextrin",
+     "N:mixed tocopherols concentrate",
+     "N:persea gratissima (avocado) oil",
+     "N:polyglycerin-6",
+     "N:polyglyceryl-6 polyhydroxystearate",
+     "N:polyglyceryl-6 polyricinoleate",
+     "N:polyhydroxystearic acid",
+     "N:silica",
+     "N:sodium chloride",
+     "N:stearic acid",
+     "N:trihydroxystearin",
+     "N:water"
+    ],
+    "n_actives": 2,
+    "n_inactives": 32,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": false
+    }
+   },
+   "meta": {
+    "attested_monograph": false,
+    "company": "Dermolab Pharma Ltée.",
+    "dosage_form": "Lotion",
+    "licence_date": "2022-01-24",
+    "populations": [],
+    "product_name": "Écran Solaire SPF30 Teinté",
+    "purposes": [],
+    "revised_date": "2024-11-19",
+    "status_active": true
+   },
+   "verified_at": "2026-08-26"
+  },
   "CA:NPN-80115823": {
    "first_seen": "2026-08-26",
    "fp": {
@@ -89240,6 +90029,102 @@
     "product_name": "All-Natural Mineral Sunscreen SPF 34",
     "purposes": [],
     "revised_date": null,
+    "status_active": true
+   },
+   "verified_at": "2026-08-26"
+  },
+  "CA:NPN-80115934": {
+   "first_seen": "2026-08-26",
+   "fp": {
+    "actives": [
+     [
+      "N:titanium dioxide",
+      2.0
+     ],
+     [
+      "N:zinc oxide",
+      18.4
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "c1850a26a7a47cbf",
+    "fp_full": "96a4b806617f21a5",
+    "fp_inactives": "d1b44dacd7d623b9",
+    "inactives": [
+     "N:aloe barbadensis leaf juice",
+     "N:alpha-glucan oligosaccharide",
+     "N:alumina hydrate",
+     "N:ascorbyl glucoside",
+     "N:ashwagandha (withania somnifera) root extract",
+     "N:benzoic acid",
+     "N:benzyl alcohol",
+     "N:c.i. no. 77891",
+     "N:c10-18 triglycerides",
+     "N:camellia sinensis extract",
+     "N:cananga odorata flower extract",
+     "N:caprylic/capric triglyceride",
+     "N:cetyl alcohol",
+     "N:cinnamon bark extract",
+     "N:coco-caprylate/caprate",
+     "N:coffea arabica seed extract",
+     "N:cucumis melo cantalupensis fruit extract",
+     "N:eugenia caryophyllus seed extract",
+     "N:fagus sylvatica bud extract",
+     "N:glycerin",
+     "N:glyceryl stearates",
+     "N:glycogen",
+     "N:inulin",
+     "N:iron oxides",
+     "N:isostearic acid",
+     "N:jasminum officinale (jasmine) flower/leaf extract",
+     "N:jojoba esters",
+     "N:kigelia africana fruit extract",
+     "N:lecithin",
+     "N:octyldodecanol",
+     "N:orchis mascula flower extract",
+     "N:polyglyceryl-3 beeswax",
+     "N:polyglyceryl-3 polyricinoleate",
+     "N:polyglyceryl-6 isostearate",
+     "N:polyhydroxystearic acid",
+     "N:potassium sorbate",
+     "N:propanediol",
+     "N:prunus armeniaca (apricot) fruit extract",
+     "N:pyrus malus (apple) fruit extract",
+     "N:quillaja saponaria bark extract",
+     "N:rice protein hydrolysate",
+     "N:rosa damascena extract",
+     "N:salicylic acid",
+     "N:sodium citrate",
+     "N:sodium hyaluronate",
+     "N:sodium stearoyl glutamate",
+     "N:sorbic acid",
+     "N:soybean oil",
+     "N:spilanthes acmella extract",
+     "N:stearic acid",
+     "N:trihydroxystearin",
+     "N:vitamin e",
+     "N:water",
+     "N:xanthan gum",
+     "N:zinc pca"
+    ],
+    "n_actives": 2,
+    "n_inactives": 55,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": false
+    }
+   },
+   "meta": {
+    "attested_monograph": false,
+    "company": "Laboratoires Druide Inc./ Laboratoires Nelly De Vuyst/ Laboratoires Europelab",
+    "dosage_form": "Cream",
+    "licence_date": "2022-01-28",
+    "populations": [
+     "Children, adolescents and adults"
+    ],
+    "product_name": "NUAKIRI MD Sunscreen complex #1 ET #2 / Écran complexe #1 ET #2",
+    "purposes": [],
+    "revised_date": "2026-04-17",
     "status_active": true
    },
    "verified_at": "2026-08-26"
@@ -89501,7 +90386,7 @@
     "populations": [
      "Infants, children, adolescents and adults"
     ],
-    "product_name": "NUDESCREEN DAILY MINERAL VEIL SPF 30",
+    "product_name": "NUDESTIX NUDESCREEN DAILY MINERAL VEIL SPF 30",
     "purposes": [
      "Broad spectrum (Sun Protection Factor 30 / SPF 30). Helps prevent sunburn. If used as directed with other sun protection measures [see Directions (for Use)], decreases the risk of skin cancer and early skin aging caused by the sun. Sun Protection Factor 30 / SPF 30. Sunscreen. UVA/UVB protection."
     ],
@@ -92547,7 +93432,7 @@
     "populations": [
      "Adults"
     ],
-    "product_name": "ECRAN SOLAIRE MINERAL TANIT  SPF 30",
+    "product_name": "TANIT SPF 30",
     "purposes": [
      "Sun Protection Factor 30 / SPF 30.  UVA/UVB protection.  Water/Sweat Resistant [40 minutes / 80 minutes]."
     ],
@@ -94166,7 +95051,7 @@
     "populations": [
      "Children, adolescents and adults"
     ],
-    "product_name": "Norwex Protect + Prevent Daily Mineral Sunscreen SPF 30",
+    "product_name": "Norwex Protege + Previent Ecran Solaire Mineral Quotidien FPS 30",
     "purposes": [
      "Broad spectrum (Sun Protection Factor 30 / SPF 30).  Helps prevent sunburn.  Sun Protection Factor 30 / SPF 30.  Sunscreen.  Water/Sweat Resistant [40 minutes / 80 minutes]."
     ],
@@ -95258,7 +96143,7 @@
     "populations": [
      "Infants, children, adolescents and adults"
     ],
-    "product_name": "bareMinerals Complexion Rescue Brightening Concealer- Cedar",
+    "product_name": "bareMinerals Complexion Rescue Brightening Concealer- Deep Cinnamon",
     "purposes": [
      "Absorbs throughout the UVA/UVB spectrum.  Broad spectrum (Sun Protection Factor 25 / SPF 25).  Sun Protection Factor 25 / SPF 25.  UVA/UVB protection."
     ],
@@ -95730,7 +96615,7 @@
      "Adolescents",
      "Adults"
     ],
-    "product_name": "Di Morelli Tinted SPF 50",
+    "product_name": "SPF 50 Tinted Facial Moisturizer",
     "purposes": [
      "Broad spectrum (Sun Protection Factor 50 / SPF 50).  Sun Protection Factor 50 / SPF 50.  UVA/UVB protection."
     ],
@@ -103268,7 +104153,7 @@
     "populations": [
      "Infants, children, adolescents and adults"
     ],
-    "product_name": "Avene Family Stick Balm SPF50",
+    "product_name": "Avène Baume en bâton",
     "purposes": [
      "Broad spectrum.  Helps prevent sunburn.  Helps protect from sunburn.  If used as directed with other sun protection measures [see Directions (for Use)], decreases the risk of skin cancer and early skin aging caused by the sun.  Sun Protection Factor 50/SPF 50.  Sunscreen."
     ],
@@ -105677,7 +106562,7 @@
     "populations": [
      "Infants, children, adolescents and adults"
     ],
-    "product_name": "NUDESTIX NUDESCREEN BLUSH TINT SPF 30 - SUNNY SWEET CHEEKS",
+    "product_name": "NUDESCREEN BLUSH TINT SPF 30",
     "purposes": [
      "Broad spectrum (Sun Protection Factor 30 / SPF 30).  Helps prevent sunburn.  If used as directed with other sun protection measures [see Directions (for Use)], decreases the risk of skin cancer and early skin aging caused by the sun.  Sun Protection Factor 30 / SPF 30.  Sunscreen.  UVA/UVB protection."
     ],
@@ -111677,7 +112562,7 @@
     "populations": [
      "Infants, children, adolescents and adults"
     ],
-    "product_name": "Mineral Clear Transparent 50+",
+    "product_name": "Shiseido Urban Environment Mineral Clear Sunscreen",
     "purposes": [
      "Broad spectrum.  Helps prevent sunburn.  Sun Protection Factor 50/SPF 50.  Water/Sweat Resistant [40 minutes / 80 minutes]."
     ],
@@ -114231,7 +115116,7 @@
     "populations": [
      "Adults"
     ],
-    "product_name": "Scentuals UV Veil Daily Defense Broad Spectrum Face Sunscreen SPF50",
+    "product_name": "Scentuals",
     "purposes": [
      "Broad spectrum.\nFilters/Screens UVA/UVB rays.\nSun Protection Factor 50/SPF 50.\nWater/Sweat Resistant [80 minutes]."
     ],
@@ -115383,15 +116268,15 @@
     ],
     "coverage": "full",
     "fp_actives": "2d98d75252bc6b82",
-    "fp_full": "d1511d6684c6da1c",
-    "fp_inactives": "dc7dab113787a6fc",
+    "fp_full": "c3744103fbaef676",
+    "fp_inactives": "f8a8eb1997f896aa",
     "inactives": [
      "N:aloe barbadensis leaf juice",
      "N:argania spinosa sprout cell extract",
      "N:butyloctyl salicylate",
      "N:c13-15 alkane",
      "N:camellia sinensis leaf extract",
-     "N:carbomer",
+     "N:carbomer homopolymer",
      "N:ceramide ap",
      "N:ceramide eop",
      "N:ceramide np",
@@ -115447,7 +116332,7 @@
     "purposes": [
      "Absorbs throughout the UVA/UVB spectrum.  Broad spectrum.  Sun Protection Factor 30/SPF 30.  UVA/UVB protection."
     ],
-    "revised_date": null,
+    "revised_date": "2026-08-21",
     "status_active": true
    },
    "verified_at": "2026-08-26"
@@ -115694,7 +116579,7 @@
     "populations": [
      "Children, adolescents and adults"
     ],
-    "product_name": "ROUND LAB BIRCH MILD UP SUNSCREEN SPF50+",
+    "product_name": "ROUND LAB MILD UP SUNSCREEN",
     "purposes": [
      "Absorbs throughout the UVA/UVB spectrum to provide sunburn protection.  Broad spectrum.  Filters/Screens UVA/UVB rays.  Helps prevent sunburn.  Helps protect from sunburn.  Sun Protection Factor 50+/SPF 50+.  Sunburn protectant.  Sunscreen.  UVA/UVB protection."
     ],
@@ -116590,7 +117475,7 @@
     "populations": [
      "Adolescents and adults"
     ],
-    "product_name": "Luminous Eye Corrector - Medium",
+    "product_name": "Luminous Eye Corrector - Deep",
     "purposes": [
      "Absorbs throughout the UVA/UVB spectrum.  \nBroad spectrum.  \nSun Protection Factor 35/SPF 35.  \nUVA/UVB protection.  \nWater/Sweat Resistant [40 minutes / 80 minutes]."
     ],
@@ -122353,7 +123238,7 @@
     "populations": [
      "Adults"
     ],
-    "product_name": "Naked Sundays Beauty Screen Peptide Foundation Tint 4",
+    "product_name": "Naked Sundays Beauty Screen Peptide Foundation Tint 10",
     "purposes": [
      "Absorbs throughout the UVA/UVB spectrum.  Broad spectrum.  Sun Protection Factor 50/SPF 50.  UVA/UVB protection."
     ],
@@ -122809,7 +123694,7 @@
     "populations": [
      "Children, adolescents and adults"
     ],
-    "product_name": "Cell Fusion C Derma Relief Sunscreen SPF50+",
+    "product_name": "Cell Fusion C Derma Relief Sunscreen",
     "purposes": [
      "Absorbs throughout the UVA/UVB spectrum to provide sunburn protection.  Broad spectrum.  Filters/Screens UVA/UVB rays.  Helps prevent sunburn.  Helps protect from sunburn.  Sun Protection Factor 50+/SPF 50+.  Sunburn protectant.  Sunscreen.  UVA/UVB protection."
     ],
@@ -123274,7 +124159,7 @@
     "populations": [
      "Children, adolescents and adults"
     ],
-    "product_name": "AXIS-Y Physical Sunscreen SPF 50+",
+    "product_name": "AXIS-Y Physical Sunscreen",
     "purposes": [
      "Absorbs throughout the UVA/UVB spectrum to provide sunburn protection.  Broad spectrum.  Filters/Screens UVA/UVB rays.  Helps prevent sunburn.  Helps protect from sunburn.  Sun Protection Factor 50+/SPF 50+.  Sunburn protectant.  Sunscreen.  UVA/UVB protection."
     ],
@@ -124616,7 +125501,7 @@
     "populations": [
      "Children, adolescents and adults"
     ],
-    "product_name": "Clean Mineral Sunscreen",
+    "product_name": "Watermelon Dream Sheer",
     "purposes": [
      "Absorbs throughout the UVA/UVB spectrum to provide sunburn protection.  Broad spectrum.  Filters/Screens UVA/UVB rays.  Helps prevent sunburn.  Helps protect from sunburn.  If used as directed with other sun protection measures [see Directions (for Use)], decreases the risk of skin cancer and early skin aging caused by the sun.  Sun Protection Factor 50/SPF 50.  Sunburn protectant.  Sunscreen.  UVA/UVB protection.  Water/Sweat Resistant [40 minutes / 80 minutes]."
     ],
@@ -125472,7 +126357,7 @@
     "populations": [
      "Adults"
     ],
-    "product_name": "Black Rice Pure Mineral Relief Daily Sunscreen SPF50+",
+    "product_name": "Haruharu Wonder Black Rice Pure Mineral Relief Daily Sunscreen SPF50+/PA++++",
     "purposes": [
      "Broad spectrum.  Filters/Screens UVA/UVB rays.  Helps prevent sunburn.  Helps protect from sunburn.  Sun Protection Factor 50/SPF 50.  UVA/UVB protection."
     ],
@@ -127349,12 +128234,13 @@
     ],
     "coverage": "full",
     "fp_actives": "5eb1a361e518778e",
-    "fp_full": "b663d7e8dc07a9a8",
-    "fp_inactives": "9d543b987a4a8b15",
+    "fp_full": "5304bbd3a40e1678",
+    "fp_inactives": "0f206f4f5eb4b02d",
     "inactives": [
      "N:1,2-hexanediol",
      "N:alumina",
      "N:boron nitride",
+     "N:butyrospermum parkii (shea) nut extract",
      "N:camellia sinensis leaf extract",
      "N:caprylic/capric triglyceride",
      "N:carthamus tinctorius (safflower) seed oil",
@@ -127365,9 +128251,10 @@
      "N:glyceryl acrylate/acrylic acid copolymer",
      "N:glyceryl stearate se",
      "N:helianthus annuus seed oil",
+     "N:hydrolyzed rhodophycea extract",
      "N:iron oxides",
      "N:lactobacillus ferment",
-     "N:lavender oil",
+     "N:lavandula angustifolia (lavender) oil",
      "N:leuconostoc ferment filtrate",
      "N:leuconostoc/radish root ferment filtrate",
      "N:limonene",
@@ -127385,7 +128272,7 @@
      "N:water"
     ],
     "n_actives": 1,
-    "n_inactives": 31,
+    "n_inactives": 33,
     "profile": {
      "actives_concentration": true,
      "inactive_order": false
@@ -127403,7 +128290,7 @@
     "purposes": [
      "Broad spectrum.  \nSun Protection Factor 15/SPF 15.  \nUVA/UVB protection.  \nWater/Sweat Resistant [40 minutes / 80 minutes]."
     ],
-    "revised_date": null,
+    "revised_date": "2026-08-24",
     "status_active": true
    },
    "verified_at": "2026-08-26"
@@ -129348,7 +130235,7 @@
     "populations": [
      "Adults"
     ],
-    "product_name": "Complexion Shield - Broad Spectrum Sun Protection SPF 42 Fair",
+    "product_name": "Alumier MD Airbrush Defense - Broad Spectrum Sun Protection SPF 42 Medium",
     "purposes": [
      "Absorbs throughout the UVA/UVB spectrum to provide sunburn protection.  Broad spectrum.  Filters/Screens UVA/UVB rays.  Helps prevent sunburn.  Helps protect from sunburn.  If used as directed with other sun protection measures [see Directions (for Use)], decreases the risk of skin cancer and early skin aging caused by the sun.  Sun Protection Factor 42/SPF 42.  Sunburn protectant.  Sunscreen.  UVA/UVB protection."
     ],
@@ -130126,7 +131013,7 @@
     "populations": [
      "Infants, children, adolescents and adults"
     ],
-    "product_name": "Shiseido Ultra Sun Protector Mineral Stick 40 SPF",
+    "product_name": "Ultra Sun Protector Mineral Stick 40 SPF",
     "purposes": [
      "Broad spectrum.  Helps prevent sunburn.  Sun Protection Factor 40/SPF 40.  Water/Sweat Resistant [40 minutes/80 minutes]."
     ],
