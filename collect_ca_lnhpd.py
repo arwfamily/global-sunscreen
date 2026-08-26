@@ -493,11 +493,23 @@ def main():
                      key=lambda p: verified.get(str(p), ""))
     stale_now = [p for p in rolling
                  if _age_days(verified.get(str(p)), today) >= MAX_AGE_DAYS]
-    queue = fresh + flagged + rolling
+    # The audit sweep is a ROTATION, not a daily full re-fetch. Re-reading all
+    # 1,944 products every morning costs ~7,800 calls and 25 minutes, and buys
+    # nothing: a licence that changed is already in `flagged`, and a silent
+    # edit is caught by the rotation within MAX_AGE_DAYS either way. Health
+    # Canada is a public register run on public money — the polite version of
+    # this collector is the one that asks for what it needs.
+    slice_n = max(1, -(-len(rolling) // max(1, MAX_AGE_DAYS)))
+    rotation = [p for p in rolling if p not in set(stale_now)][:slice_n]
+    queue = fresh + flagged + stale_now + rotation
     print(f"[*] fetch queue: new={len(fresh)} flagged-by-register={len(flagged)} "
-          f"re-verify={len(rolling)} (of which past {MAX_AGE_DAYS}d: "
-          f"{len(stale_now)}) | budget {BUDGET} calls = "
-          f"~{BUDGET // 4} products this run")
+          f"stale(>{MAX_AGE_DAYS}d)={len(stale_now)} "
+          f"rotation={len(rotation)} of {len(rolling)} held "
+          f"| total {len(queue)} products, budget {BUDGET} calls "
+          f"= ~{BUDGET // 4} products this run")
+    if not queue:
+        print("[*] nothing to fetch: no new products, no licence moved, "
+              "nothing stale. This is what a quiet day looks like.")
 
     done_this_run = 0
     for pid in queue:
