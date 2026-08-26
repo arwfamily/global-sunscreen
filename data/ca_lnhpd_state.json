@@ -1,7 +1,8 @@
 {
  "schema": 3,
  "pages": {
-  "productpurpose": 1600
+  "productpurpose": "done",
+  "productlicence": "done"
  },
  "walked_at": "2026-08-26",
  "verified": {
