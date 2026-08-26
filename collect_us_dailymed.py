@@ -145,22 +145,22 @@ def main():
           f"chemical filter {sum(1 for r in vals if r.get('contains_chemical_filter'))}, "
           f"hidden booster {sum(1 for r in vals if r.get('has_hidden_chemical_filter'))}, "
           f"baby-labelled {sum(1 for r in vals if r.get('baby_flag_source'))}")
-    unit_unknown = [r for r in vals if any(f.startswith("strength_unit_unknown")
-                                           for f in r.get("qa_flags") or [])]
-    out_of_range = [r for r in vals if any(f.startswith("strength_out_of_range")
-                                           for f in r.get("qa_flags") or [])]
-    if unit_unknown or out_of_range:
-        print(f"\n[!] CONCENTRATIONS ARE NOT PUBLISHABLE YET. The upstream "
-              f"scraper reads <numerator value> without its unit, so a "
-              f"strength of '50' may be 50 mg/g (5%) or 50%.")
-        print(f"[!]   {len(unit_unknown)} products have a value only "
-              f"explicable as mg/g; {len(out_of_range)} are outside any "
-              f"plausible scale.")
-        print(f"[!]   percent_w_w is null on every US record; "
-              f"percent_estimate carries a documented assumption and "
-              f"estimate_basis says which. Change detection is unaffected — "
-              f"it compares the raw filed number. Fix: "
-              f"docs/upstream_unit_patch.md")
+    pub = [r for r in vals if r.get("concentration_status") == "published"]
+    est = [r for r in vals if r.get("zinc_percent_is_estimate")]
+    wv = sum(1 for r in vals for a in r["actives"] if a.get("percent_basis") == "w/v")
+    ww = sum(1 for r in vals for a in r["actives"] if a.get("percent_basis") == "w/w")
+    flags = Counter(f.split(":")[0] for r in vals for f in r.get("qa_flags") or [])
+    print(f"[*] concentrations: {len(pub)}/{len(vals)} products carry a "
+          f"published percentage; {len(vals) - len(pub)} could not be "
+          f"converted and say so rather than guessing")
+    print(f"[*] basis: {ww} actives w/w, {wv} w/v — a w/v percentage equals "
+          f"w/w only where density is 1, so a lotion's number is close and "
+          f"an oil's is not. Carried on every active as percent_basis.")
+    if est:
+        print(f"[!] {len(est)} products still fall back to an estimated zinc "
+              f"percentage (upstream could not convert the filed unit)")
+    for k, n in flags.most_common():
+        print(f"      {n:6d}  {k}")
 
 
 if __name__ == "__main__":

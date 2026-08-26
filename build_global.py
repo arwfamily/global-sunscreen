@@ -91,6 +91,17 @@ def main():
                         "percent_estimate": a.get("percent_estimate"),
                         "estimate_basis": a.get("estimate_basis")}
                        for a in r.get("actives") or []]
+            published = r.get("inactives") or []
+            normalised = normalize_list(published)
+            if len(normalised) != len(published):
+                # An ingredient must never leave the record between the
+                # register and us. If cleaning ever eats one, stop the build
+                # rather than publish a formulation that is missing a line.
+                raise SystemExit(
+                    f"[!] {r['id']}: {len(published)} ingredients published, "
+                    f"{len(normalised)} after normalisation — refusing to "
+                    f"build a store that loses an ingredient. Check "
+                    f"core/normalize.py against: {published}")
             records.append({
                 "global_id": r["id"],
                 "jurisdiction": jur,
@@ -108,7 +119,7 @@ def main():
                 "zinc_percent_is_estimate": bool(
                     r.get("zinc_percent_is_estimate")),
                 "zinc_position": r.get("zinc_position"),
-                "ingredients": normalize_list(r.get("inactives") or []),
+                "ingredients": normalised,
                 "ingredients_as_published": r.get("inactives") or [],
                 "n_ingredients": fp["n_inactives"],
                 "coverage": fp["coverage"],
