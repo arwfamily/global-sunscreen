@@ -50,7 +50,7 @@ PROFILES = {
 # computed under some version of these rules, so comparing across a rule
 # change compares our code, not the market — detect_reformulations.py
 # re-baselines instead of publishing hundreds of phantom reformulations.
-RULE_VERSION = "2026-08-26.2"   # UNII identity; FDA name folding
+RULE_VERSION = "2026-08-26.3"   # UNII identity; FDA + botanical name folding
 
 DEFAULT_PROFILE = {"inactive_order": True, "actives_concentration": True,
                    "source": "unknown"}

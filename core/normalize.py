@@ -47,6 +47,7 @@ SYNONYMS = {
     "ferric oxide yellow": "iron oxides",
     "ferric oxide": "iron oxides",
     "ferrosoferric oxide": "iron oxides",
+    "carbomer homopolymer": "carbomer",
     "carbomer homopolymer, unspecified type": "carbomer",
     "carbomer homopolymer type c": "carbomer",
     "lecithin, soybean": "lecithin",
@@ -186,6 +187,23 @@ KO_FOLD = (("메칠", "메틸"), ("에칠", "에틸"), ("프로필렌글라이�
 # Colour Index numbers that appear in sunscreens. 77491/2/9 are the three
 # iron oxides that make a tint; 77947 and 77891 are the two mineral filters
 # under their pigment names.
+# Words that appear in parentheses as a QUALIFIER, not as a common name.
+# "Corn Oil (Unhydrogenated)" must not become "unhydrogenated oil".
+_QUALIFIERS = {
+    "unhydrogenated", "hydrogenated", "extract", "powder", "solution",
+    "anhydrous", "aqueous", "organic", "natural", "nano", "coated",
+    "usp", "bp", "ep", "nf", "and", "as", "food grade", "cosmetic grade",
+    "fermented", "unrefined", "refined", "cold pressed", "dried",
+}
+# Latin binomial followed by the common name in brackets — the INCI habit
+# that every register writes differently:
+#     Persea americana (Avocado) oil   |   avocado oil
+#     Lavandula angustifolia (Lavender) oil   |   lavender oil
+# Both are the same substance, so both must fingerprint the same. We keep
+# the COMMON name because that is the shorter form registers fall back to
+# when they abbreviate. Measured on our own data: 171 pairs collapse.
+_BINOMIAL_PAREN = re.compile(r"^([a-z]+(?:\s+[a-z.]+){1,3})\s*\(([^)]+)\)\s*(.*)$", re.I)
+
 CI_PIGMENTS = {"77491": "iron oxides", "77492": "iron oxides",
                "77499": "iron oxides", "77947": "zinc oxide",
                "77891": "titanium dioxide", "77007": "ultramarines"}
@@ -221,6 +239,13 @@ def normalize_name(raw):
     # labels ("CI 77492"), while on a US label it is an annotation after the
     # name. Resolve the bare form before stripping the annotation, or the
     # pigment vanishes from the record entirely.
+    m = _BINOMIAL_PAREN.match(s)
+    if m:
+        inner = m.group(2).strip().lower()
+        if inner in _QUALIFIERS:
+            s = f"{m.group(1)} {m.group(3)}".strip()      # drop the qualifier
+        elif len(m.group(1).split()) >= 2:
+            s = f"{inner} {m.group(3)}".strip()           # keep the common name
     bare = _CI.fullmatch(s.strip())
     if bare:
         code = re.sub(r"\D", "", s)
