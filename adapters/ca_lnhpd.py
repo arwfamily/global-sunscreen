@@ -73,6 +73,64 @@ def scope_of(purposes, product_name, dosage_form, active_names=None):
     return None
 
 
+# "Sun Protection Factor 50+/SPF 50+." — Health Canada writes the SPF into
+# the recommended-use sentence, not into a field of its own.
+_SPF_RE = re.compile(r"\bSPF\s*(\d{1,3})", re.I)
+_WR_RE = re.compile(r"(\d{2,3})\s*minutes", re.I)
+
+
+def _percent(actives, ingredient):
+    """The filed concentration of one active, as percent w/w, or None.
+
+    LNHPD spells the unit four ways and leaves it off entirely on a few
+    licences. A missing unit is returned as None rather than assumed to be
+    percent: a wrong zinc number is worse than no zinc number.
+    """
+    for a in actives:
+        if str(a.get("name") or "").strip().lower() != ingredient:
+            continue
+        qty, unit = a.get("quantity"), str(a.get("unit") or "").strip().lower()
+        if qty in (None, ""):
+            continue
+        try:
+            q = float(qty)
+        except (TypeError, ValueError):
+            continue
+        if unit.startswith("%") or unit in ("percent", "pourcent", "p/p"):
+            return round(q, 4)
+        if unit in ("mg/g", "mg/ml"):
+            return round(q / 10, 4)
+    # A few licences leave the quantity blank and file the strength in the
+    # potency columns instead. Same number, different box on the form.
+    for a in actives:
+        if str(a.get("name") or "").strip().lower() != ingredient:
+            continue
+        pot, punit = a.get("potency_amount"), str(a.get("potency_unit") or "").lower()
+        if pot and (punit.startswith("%") or "w/w" in punit):
+            try:
+                return round(float(pot), 4)
+            except (TypeError, ValueError):
+                pass
+    return None
+
+
+def _spf(purposes, name):
+    for text in list(purposes) + [name]:
+        m = _SPF_RE.search(str(text or ""))
+        if m:
+            v = int(m.group(1))
+            if 2 <= v <= 110:
+                return v
+    return None
+
+
+def _water_resistance(purposes):
+    """Highest claimed water-resistance minutes, e.g. '40 minutes / 80 minutes'."""
+    vals = [int(v) for text in purposes for v in _WR_RE.findall(str(text or ""))
+            if int(v) in (40, 80)]
+    return max(vals) if vals else None
+
+
 def build_record(lic, purposes, medicinal, nonmedicinal, routes, doses):
     """One canonical ingredient record from the six LNHPD tables."""
     actives = [{
@@ -116,11 +174,23 @@ def build_record(lic, purposes, medicinal, nonmedicinal, routes, doses):
         "scope": scope,
         "source_url": f"https://health-products.canada.ca/lnhpd-bdpsnh/info?licence={npn}"
                       if npn else "",
+        # An empty list and an unread list must never look the same.
+        "data_status": "complete" if nonmedicinal else "not_collected",
     }
     if scope == "sunscreen":
         # The Sunnytime question, answered per product by the register itself.
         rec["uv_filters"] = sorted(active_names & MINERAL_UV) or sorted(active_names)
         rec["mineral_only"] = bool(active_names) and active_names <= MINERAL_UV
+        # Canada files both numbers and we were reading neither: zinc load
+        # sat inside `actives` where no cross-country query looks for it, and
+        # the SPF is written into the purpose sentence rather than a field.
+        # Without these two the largest cohort we hold (1,924 products) could
+        # not be compared with the US or Australia on the two axes that
+        # matter most to a sunscreen.
+        rec["zinc_percent"] = _percent(actives, "zinc oxide")
+        rec["titanium_percent"] = _percent(actives, "titanium dioxide")
+        rec["spf_label"] = _spf(purposes, name)
+        rec["water_resistance_minutes"] = _water_resistance(purposes)
     # Two independent signals, recorded separately: what the register says
     # the product is for, and what the marketing says. Previously only the
     # text was read, so every product came back baby=0 even though 223 of
