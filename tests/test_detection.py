@@ -175,6 +175,36 @@ e = dict(a, inactive_uniis=["059QF0KO0R"], inactives=["WATER", "GLYCEROL"])
 check("US: a missing UNII falls back to the name without firing",
       events(d, e) == [])
 
+print("-- register renaming families (found in live CA data) ----------")
+
+# Health Canada rewrote these between two fetches of the SAME product.
+# Both were reported as reformulations by the collector's own history.
+a = rec("CA", [("Zinc oxide", 24, "%")], ["Carbomer", "Water"])
+b = rec("CA", [("Zinc oxide", 24, "%")], ["Carbomer homopolymer", "Water"])
+check("CA: carbomer -> carbomer homopolymer is not a reformulation",
+      events(a, b) == [])
+
+a = rec("CA", [("Titanium dioxide", 5, "%")], ["Lavender oil", "Water"])
+b = rec("CA", [("Titanium dioxide", 5, "%")],
+        ["Lavandula angustifolia (Lavender) oil", "Water"])
+check("CA: binomial + bracketed common name is the same botanical",
+      events(a, b) == [])
+
+# ...but a real addition alongside a renaming must still fire.
+c = rec("CA", [("Titanium dioxide", 5, "%")],
+        ["Lavandula angustifolia (Lavender) oil", "Water",
+         "Butyrospermum Parkii (Shea) Nut Extract"])
+evs = events(a, c)
+check("CA: an addition hiding behind a renaming still fires",
+      kinds(evs) == ["reformulated"]
+      and evs[0]["changes"]["inactive_added"] == ["shea nut extract"])
+
+# A parenthetical that is a process word is not a common name.
+a = rec("US", [("zinc oxide", 20, "%")], ["Corn Oil (Unhydrogenated)"])
+b = rec("US", [("zinc oxide", 20, "%")], ["Corn Oil"])
+check("US: a qualifier in brackets is dropped, not read as a name",
+      events(a, b) == [])
+
 print(f"\n{len(PASS)} passed, {len(FAIL)} failed")
 if FAIL:
     print("failed: " + ", ".join(FAIL))
