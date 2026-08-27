@@ -6,7 +6,7 @@
  },
  "total_products": 8946,
  "total_with_full_ingredients": 8882,
- "distinct_ingredients_after_normalisation": 6413,
+ "distinct_ingredients_after_normalisation": 6242,
  "ingredients_present_in_every_jurisdiction": [
   "1,2-hexanediol",
   "acacia",
@@ -42,8 +42,8 @@
   "capryloyl glycine",
   "caprylyl glycol",
   "caprylyl methicone",
-  "carbomer 934",
-  "carbomer 940",
+  "carbomer-934",
+  "carbomer-940",
   "carnauba wax",
   "carnosine",
   "castor oil",
@@ -72,11 +72,13 @@
   "delta-tocopherol",
   "denatonium benzoate",
   "dexpanthenol",
+  "dextrin palmitate",
   "di-ppg-3 myristyl ether adipate",
   "diazolidinyl urea",
   "dibutyl adipate",
   "dicaprylyl carbonate",
   "dicaprylyl ether",
+  "diethylhexyl-2,6-naphthalate",
   "diisopropyl adipate",
   "diisopropyl sebacate",
   "dimethicone crosspolymer",
@@ -88,6 +90,7 @@
   "disodium stearoyl glutamate",
   "disteardimonium hectorite",
   "erythritol",
+  "ethylcellulose",
   "ethylhexyl methoxycrylene",
   "ethylhexylglycerin",
   "fragrance",
@@ -98,6 +101,7 @@
   "glyceryl laurate",
   "glyceryl monostearate",
   "glyceryl oleate citrate",
+  "glyceryl polymethacrylate",
   "glyceryl stearate citrate",
   "grape seed oil",
   "hexylene glycol",
@@ -109,6 +113,7 @@
   "hydrogenated palm glycerides citrate",
   "hydrogenated vegetable oil",
   "hydroxyacetophenone",
+  "hypromellose",
   "inulin",
   "iodopropynyl butylcarbamate",
   "isoamyl laurate",
@@ -174,9 +179,10 @@
   "polyglyceryl-3 methylglucose distearate",
   "polyglyceryl-4 diisostearate/polyhydroxystearate/sebacate",
   "polyglyceryl-4 oleate",
+  "polyhydroxystearic acid",
   "polymethylsilsesquioxane",
-  "polysorbate 20",
-  "polysorbate 60",
+  "polysorbate-20",
+  "polysorbate-60",
   "polyurethane-62",
   "pongamol",
   "potassium cetyl phosphate",
@@ -201,13 +207,7 @@
   "sodium ascorbyl phosphate",
   "sodium benzoate",
   "sodium carrageenan",
-  "sodium chloride",
-  "sodium citrate",
-  "sodium dehydroacetate",
-  "sodium hyaluronate",
-  "sodium hydroxide",
-  "sodium polyacrylate",
-  "sodium stearoyl glutamate"
+  "sodium chloride"
  ],
  "top_ingredients": [
   [
@@ -228,11 +228,15 @@
   ],
   [
    "dimethicone",
-   3077
+   3127
   ],
   [
    "tocopherol",
    2944
+  ],
+  [
+   "caprylic/capric triglyceride",
+   2624
   ],
   [
    "xanthan gum",
@@ -263,12 +267,16 @@
    1996
   ],
   [
+   "iron oxide",
+   1792
+  ],
+  [
    "aloe barbadensis leaf",
    1766
   ],
   [
-   "iron oxides",
-   1729
+   "polyhydroxystearic acid",
+   1758
   ],
   [
    "stearic acid",
@@ -287,16 +295,8 @@
    1414
   ],
   [
-   "medium-chain triglycerides",
-   1340
-  ],
-  [
    "alkyl (c12-15) benzoate",
    1339
-  ],
-  [
-   "caprylic/capric triglyceride",
-   1285
   ],
   [
    "mica",
@@ -328,7 +328,7 @@
   ],
   [
    "peg-100 stearate",
-   976
+   977
   ],
   [
    "propylene glycol",
@@ -341,10 +341,6 @@
   [
    "trolamine",
    943
-  ],
-  [
-   "2300 mw",
-   937
   ],
   [
    "1,2-hexanediol",
@@ -369,6 +365,10 @@
   [
    "chlorphenesin",
    859
+  ],
+  [
+   "lecithin",
+   848
   ]
  ],
  "per_jurisdiction": {
@@ -381,7 +381,7 @@
    "zinc_median_percent": 22.75,
    "zinc_median_is_estimate": false,
    "publishes": "actives with mg/g, excipients alphabetical (hand-read from PDFs)",
-   "last_verified": "2026-08-26",
+   "last_verified": "2026-08-27",
    "shared_formulation": {
     "clusters": 88,
     "products": 239,
@@ -395,15 +395,15 @@
    "mineral_only": 1908,
    "baby_labelled": 872,
    "median_ingredients": 27,
-   "zinc_median_percent": null,
+   "zinc_median_percent": 3.92,
    "zinc_median_is_estimate": false,
    "publishes": "actives with exact %, inactive names only (mineral filters only — chemical-filter sunscreens are DIN/DPD and not in LNHPD)",
    "last_verified": null,
    "shared_formulation": {
-    "clusters": 96,
-    "products": 229,
-    "cross_company_clusters": 19,
-    "cross_company_products": 46
+    "clusters": 97,
+    "products": 231,
+    "cross_company_clusters": 20,
+    "cross_company_products": 48
    }
   },
   "US": {
@@ -415,7 +415,7 @@
    "zinc_median_percent": 12.0,
    "zinc_median_is_estimate": true,
    "publishes": "full inactive list in formulation order, every ingredient with a UNII; active strengths are filed WITHOUT their unit upstream, so percent_w_w is null and percent_estimate carries an assumption (see docs/upstream_unit_patch.md)",
-   "last_verified": "2026-08-26",
+   "last_verified": "2026-08-27",
    "shared_formulation": {
     "clusters": 574,
     "products": 1919,
