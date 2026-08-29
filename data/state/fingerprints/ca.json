@@ -1,11 +1,11 @@
 {
  "baseline_taken": "2026-08-26",
  "counts": {
-  "events_this_run": 60,
+  "events_this_run": 62,
   "records": 1924
  },
  "jurisdiction": "CA",
- "last_run": "2026-08-28",
+ "last_run": "2026-08-29",
  "profile": {
   "actives_concentration": true,
   "inactive_order": false,
@@ -247,9 +247,10 @@
      "SPF 15"
     ],
     "revised_date": null,
+    "spf_label": 15,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-02243591": {
    "first_seen": "2026-08-26",
@@ -315,9 +316,10 @@
      "Sunburn protectant SPF 30"
     ],
     "revised_date": null,
+    "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-02243818": {
    "first_seen": "2026-08-26",
@@ -393,9 +395,10 @@
      "SPF 10"
     ],
     "revised_date": null,
+    "spf_label": 10,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-02243882": {
    "first_seen": "2026-08-26",
@@ -446,9 +449,10 @@
      "SPF 15"
     ],
     "revised_date": null,
+    "spf_label": 15,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-02244878": {
    "first_seen": "2026-08-26",
@@ -503,9 +507,10 @@
      "SPF 15"
     ],
     "revised_date": null,
+    "spf_label": 15,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-02245586": {
    "first_seen": "2026-08-26",
@@ -569,9 +574,10 @@
      "SPF 15"
     ],
     "revised_date": null,
+    "spf_label": 15,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-02245930": {
    "first_seen": "2026-08-26",
@@ -633,9 +639,10 @@
      "SPF 10"
     ],
     "revised_date": null,
+    "spf_label": 10,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-02246651": {
    "first_seen": "2026-08-26",
@@ -9126,9 +9133,10 @@
      "SPF 25"
     ],
     "revised_date": null,
+    "spf_label": 25,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80005879": {
    "first_seen": "2026-08-26",
@@ -9584,9 +9592,10 @@
      "SPF 60.  Provides high, broad-spectrum UVA/UVB protection from the sun's harmful UV rays.  Gives sunburn protection.  The sun may cause sunburn, premature aging of skin and skin cancer.  Avoiding the sun, wearing protective clothing and regular use of sunscreens over the years may reduce the chance of these harmful effects."
     ],
     "revised_date": null,
+    "spf_label": 60,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80006405": {
    "first_seen": "2026-08-26",
@@ -9642,9 +9651,10 @@
      "SPF 60. Provides high, broad-spectrum UVA/UVB protection from the sun¿s harmful UV rays.  Gives sunburn protection.  The sun may cause sunburn, premature aging of the skin and skin cancer.  Avoiding the sun, wearing protective clothing and regular use of sunscreens over the years may reduce the chance of these harmful effects."
     ],
     "revised_date": null,
+    "spf_label": 60,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80006406": {
    "first_seen": "2026-08-26",
@@ -9724,9 +9734,10 @@
      "SPF 60. Provides high, broad-spectrum UVA/UVB protection from the sun¿s harmful UV rays.  Gives sunburn protection.  The sun may cause sunburn, premature aging of the skin and skin cancer.  Avoiding the sun, wearing protective clothing and regular use of sunscreens over the years may reduce the chance of these harmful effects."
     ],
     "revised_date": null,
+    "spf_label": 60,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80006474": {
    "first_seen": "2026-08-26",
@@ -9777,9 +9788,10 @@
      "SPF 24 sunscreen"
     ],
     "revised_date": null,
+    "spf_label": 24,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80006476": {
    "first_seen": "2026-08-26",
@@ -9828,9 +9840,10 @@
      "Sun Protection Factor \"30\", or SPF \"30\".  Sunburn protectant, sunscreen. Helps prevent, or protects, from sunburn.  Filters or screens certain of the sun's harmful ultraviolet or UV rays to help prevent sunburn.  Gives sunburn protection.  UVA/UVB sunburn protection, UVA/UVB protection.  Broad spectrum UVA/UVB protection, broad spectrum protection against UVA/UVB rays.  Absorbs throughout the UVA/UVB spectrum to provide sunburn protection.  Protects against UVA/UVB rays.  The sun may cause sunburn, premature aging of the skin and skin cancer.  Avoiding the sun, wearing protective clothing and regular use of sunscreens over the years may reduce the chance of these harmfuls effects."
     ],
     "revised_date": "2024-10-18",
+    "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80006613": {
    "first_seen": "2026-08-26",
@@ -10099,9 +10112,10 @@
      "SPF 10"
     ],
     "revised_date": null,
+    "spf_label": 10,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80006776": {
    "first_seen": "2026-08-26",
@@ -10168,9 +10182,10 @@
      "Helps prevent sunburn."
     ],
     "revised_date": "2016-10-24",
+    "spf_label": 45,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80006778": {
    "first_seen": "2026-08-26",
@@ -10297,9 +10312,10 @@
      "SPF 30"
     ],
     "revised_date": null,
+    "spf_label": 30,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80006980": {
    "first_seen": "2026-08-26",
@@ -10394,9 +10410,10 @@
      "SPF 18"
     ],
     "revised_date": null,
+    "spf_label": 18,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80006992": {
    "first_seen": "2026-08-26",
@@ -10448,9 +10465,10 @@
      "SPF 19 sunscreen"
     ],
     "revised_date": null,
+    "spf_label": 19,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80007070": {
    "first_seen": "2026-08-26",
@@ -10517,9 +10535,10 @@
      "Protects the skin from the harmful effects of the sun using physical sunscreens. Helps prevent sunburn."
     ],
     "revised_date": "2021-01-20",
+    "spf_label": 45,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80007076": {
    "first_seen": "2026-08-26",
@@ -10632,9 +10651,10 @@
      "Sun Protection Factor 30.  Helps prevent, or protects, from sunburn.  Filters or screens certain of the sun's harmful ultraviolet or UV rays to help prevent sunburn.  UVA/UVB sunburn protection.  The sun may cause sunburn, premature aging of the skin and skin cancer.  Avoiding the sun, wearing protective clothing and regular use of sunscreens over the years may reduce the chance of these harmful effects."
     ],
     "revised_date": null,
+    "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80007279": {
    "first_seen": "2026-08-26",
@@ -10682,9 +10702,10 @@
      "Sun Protection Factor 15.  Helps prevent, or protects, from sunburn.  Filters or screens certain of the sun's harmful ultraviolet or UV rays to help prevent sunburn.  UVA/UVB sunburn protection.  The sun may cause sunburn, premature aging of the skin and skin cancer.  Avoiding the sun, wearing protective clothing and regular use of sunscreens over the years may reduce the chance of these harmful effects."
     ],
     "revised_date": null,
+    "spf_label": 15,
     "status_active": true
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80007557": {
    "first_seen": "2026-08-26",
@@ -10742,9 +10763,10 @@
     "product_name": "UV Plus Ecran Jour Protection Èlevée SPF 40",
     "purposes": [],
     "revised_date": "2008-10-21",
+    "spf_label": 40,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80007580": {
    "first_seen": "2026-08-26",
@@ -10805,9 +10827,10 @@
      "Secondary Sunburn Protectant-SPF 15."
     ],
     "revised_date": null,
+    "spf_label": 15,
     "status_active": true
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80007810": {
    "first_seen": "2026-08-26",
@@ -10878,9 +10901,10 @@
      "SPF 15."
     ],
     "revised_date": null,
+    "spf_label": 15,
     "status_active": true
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80007959": {
    "first_seen": "2026-08-26",
@@ -10931,9 +10955,10 @@
      "Sunscreen - Helps prevent sunburn."
     ],
     "revised_date": null,
+    "spf_label": 12,
     "status_active": true
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80008200": {
    "first_seen": "2026-08-26",
@@ -10975,9 +11000,10 @@
      "SPF 25"
     ],
     "revised_date": null,
+    "spf_label": 25,
     "status_active": true
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80008298": {
    "first_seen": "2026-08-26",
@@ -11057,9 +11083,10 @@
      "SPF 10"
     ],
     "revised_date": null,
+    "spf_label": 10,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80008378": {
    "first_seen": "2026-08-26",
@@ -11114,9 +11141,10 @@
      "SPF 10 sunburn protectant."
     ],
     "revised_date": null,
+    "spf_label": 10,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80008686": {
    "first_seen": "2026-08-26",
@@ -11195,9 +11223,10 @@
      "SPF 10. Helps prevent sunburn. Higher SPF gives more surnburn protection"
     ],
     "revised_date": null,
+    "spf_label": 10,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80008700": {
    "first_seen": "2026-08-26",
@@ -11261,9 +11290,10 @@
      "SPF 20"
     ],
     "revised_date": null,
+    "spf_label": 20,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80008812": {
    "first_seen": "2026-08-26",
@@ -11328,9 +11358,10 @@
      "SPF 15"
     ],
     "revised_date": null,
+    "spf_label": 15,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80008814": {
    "first_seen": "2026-08-26",
@@ -11401,9 +11432,10 @@
      "SPF 20. Works effectively to help prevent sunburn and protect against UVA/UVB rays without the use of harsh sunscreens. The sun may cause a sunburn, premature aging of the skin and skin cancer. Avoiding the sun, wearing protective clothing and regular use of sunscreens over the years may reduce the chance of these harmful effects. UVA/UVB broad spectrum protection. Free of Parabens, Phthalates and EDTA. Product contains no ultra-fine nanoparticles."
     ],
     "revised_date": null,
+    "spf_label": 20,
     "status_active": true
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80008835": {
    "first_seen": "2026-08-26",
@@ -11451,9 +11483,10 @@
      "SPF 21 sunscreen."
     ],
     "revised_date": null,
+    "spf_label": 21,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80008957": {
    "first_seen": "2026-08-26",
@@ -11518,9 +11551,10 @@
      "Sun Protection Factor 30.  Sunscreen.  Helps prevent sunburn.  Provides high protection against sunburn.  Broad spectrum UVA/UVB protection.  The sun may cause sunburn, premature aging of the skin and skin cancer.  Avoiding the sun, wearing protective clothing and regular use of sunscreens over the years may reduce the chance of these harmful effects."
     ],
     "revised_date": null,
+    "spf_label": 30,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80008980": {
    "first_seen": "2026-08-26",
@@ -11569,9 +11603,10 @@
      "Sun protection factor 8. Sunscreen. Sun protecting. Helps prevent sunburn."
     ],
     "revised_date": null,
+    "spf_label": 8,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80008997": {
    "first_seen": "2026-08-26",
@@ -11621,9 +11656,10 @@
      "Sun Protection Factor 15.  Sunscreen.  Helps prevent sunburn.  Provides moderate protection against sunburn.  The sun may cause sunburn, premature aging of the skin and skin cancer.  Avoiding the sun, wearing protective clothing and regular use of sunscreens over the years may reduce the chance of these harmful effects."
     ],
     "revised_date": null,
+    "spf_label": 15,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80009297": {
    "first_seen": "2026-08-26",
@@ -11686,9 +11722,10 @@
      "Full Coverage Foundation for the face with UVA/UVB SPF 15 protection.  Sun alert: The sun may cause sunburn, premature aging of skin and skin cancer.  Avoiding the sun, wearing protective clothing and regular use of sunscreens over the years may reduce the chance of these harmful effects."
     ],
     "revised_date": null,
+    "spf_label": 15,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80009298": {
    "first_seen": "2026-08-26",
@@ -11751,9 +11788,10 @@
      "Full Coverage Foundation for the face with UVA/UVB SPF 15 protection.  Sun alert: The sun may cause sunburn, premature aging of skin and skin cancer.  Avoiding the sun, wearing protective clothing and regular use of sunscreens over the years may reduce the chance of these harmful effects."
     ],
     "revised_date": null,
+    "spf_label": 15,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80009363": {
    "first_seen": "2026-08-26",
@@ -11814,9 +11852,10 @@
      "Sun Protection Factor 15.Sunscreen. Helps prevent sunburn. Provides moderate protection against sunburn. Broad spectrum UVA/UVB protection."
     ],
     "revised_date": null,
+    "spf_label": 15,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80009442": {
    "first_seen": "2026-08-26",
@@ -11896,9 +11935,10 @@
      "SPF 20."
     ],
     "revised_date": null,
+    "spf_label": 20,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80009472": {
    "first_seen": "2026-08-26",
@@ -11952,9 +11992,10 @@
      "SPF 15. Broad spectrum UVA/UVB protection. Sunscreen."
     ],
     "revised_date": null,
+    "spf_label": 15,
     "status_active": true
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80009473": {
    "first_seen": "2026-08-26",
@@ -12013,9 +12054,10 @@
      "SPF 25. Broad spectrum UVA/RVB protection. Suncreen."
     ],
     "revised_date": null,
+    "spf_label": 25,
     "status_active": true
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80009487": {
    "first_seen": "2026-08-26",
@@ -12088,9 +12130,10 @@
     "product_name": "Spray lait solaire visage et corps SPF 6",
     "purposes": [],
     "revised_date": null,
+    "spf_label": 6,
     "status_active": true
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80009507": {
    "first_seen": "2026-08-26",
@@ -12128,9 +12171,10 @@
     "product_name": "Crème Solaire Visage SPF 30",
     "purposes": [],
     "revised_date": null,
+    "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80009512": {
    "first_seen": "2026-08-26",
@@ -12168,9 +12212,10 @@
     "product_name": "Lait Solaire Visage et Corps SPF 20",
     "purposes": [],
     "revised_date": null,
+    "spf_label": 20,
     "status_active": true
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80009528": {
    "first_seen": "2026-08-26",
@@ -12239,9 +12284,10 @@
     "product_name": "Teint Eclat mat Autofocus SPF 15",
     "purposes": [],
     "revised_date": null,
+    "spf_label": 15,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80009551": {
    "first_seen": "2026-08-26",
@@ -12322,9 +12368,10 @@
      "Sun Protection Factor 15, or SPF 15. Sunburn protectant, sunscreen. Helps prevent, or protects, from sunburn. Filters or screens certain of the sun's harmful ultraviolet or UV rays to help prevent sunburn. Gives sunburn protection. UVA/UVB sunburn protection, UVA/UVB protection. Broad spectrum UVA/UVB protection, broad spectrum protection against UVA/UVB rays. Absorbs throughout the UVA/UVB spectrum to provide sunburn protection. Protects against UVA/UVB rays. The sun may cause sunburn, premature aging of the skin and skin cancer. Avoiding the sun, wearing protective clothing and regular use of sunscreen over the years may reduce the chance of these harmfull effects."
     ],
     "revised_date": "2015-10-27",
+    "spf_label": 15,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80009609": {
    "first_seen": "2026-08-26",
@@ -12420,9 +12467,10 @@
      "SPF 15"
     ],
     "revised_date": null,
+    "spf_label": 15,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80009643": {
    "first_seen": "2026-08-26",
@@ -12474,9 +12522,10 @@
      "Sun Protection Factor 15/SPF 15.\nBroad spectrum. \nAbsorbs throughout the UVA/UVB spectrum.  \nUVA/UVB protection"
     ],
     "revised_date": "2023-11-21",
+    "spf_label": 15,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80009663": {
    "first_seen": "2026-08-26",
@@ -12547,9 +12596,10 @@
      "FPS 10 SPF"
     ],
     "revised_date": null,
+    "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80009739": {
    "first_seen": "2026-08-26",
@@ -12601,9 +12651,10 @@
      "SPF 30.  Sunburn protectant, sunscreen.  Helps prevent or protect, from sunburn.  Filters or screens certain of the sun's harmful ultraviolet or UV rays to help prevent sunburn.  Give sunburn protection.  UVA/UVB sunburn protection, UVA/UVB protection.  Broad spectrum UVA/UVB protection, broad spectrum protection UVA/UVB rays.  Absorbs throughout the UVA/UVB spectrum to provide sunburn protection.  Protects against UVA/UVB rays.  Very water resistant.  \"The sun may cause sunburn, premature aging of the skin and skin cancer.  Avoiding the sun, wearing protective clothing and regular use of sunscreen over the years may reduce the chances of these harmful effects.\""
     ],
     "revised_date": null,
+    "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80009853": {
    "first_seen": "2026-08-26",
@@ -12651,9 +12702,10 @@
      "Sun Protection Factor 15.  Helps prevent, or protects, lips from sunburn."
     ],
     "revised_date": null,
+    "spf_label": 15,
     "status_active": true
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80009992": {
    "first_seen": "2026-08-26",
@@ -12717,9 +12769,10 @@
      "SPF 14"
     ],
     "revised_date": null,
+    "spf_label": 14,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80010457": {
    "first_seen": "2026-08-26",
@@ -12770,9 +12823,10 @@
      "Sunburn protectant, UVA/UVB protection, SPF 40"
     ],
     "revised_date": null,
+    "spf_label": 40,
     "status_active": true
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80010633": {
    "first_seen": "2026-08-26",
@@ -12838,9 +12892,10 @@
      "SPF 10"
     ],
     "revised_date": null,
+    "spf_label": 10,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80010636": {
    "first_seen": "2026-08-26",
@@ -12916,9 +12971,10 @@
      "Broad Spectrum, SPF 20. Helps prevent sunburn. If used as directed with other sun protection measures [see Directions of Use], may decrease the risk of skin cancer and early skin aging caused by the sun."
     ],
     "revised_date": "2013-10-24",
+    "spf_label": 20,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80011194": {
    "first_seen": "2026-08-26",
@@ -12991,9 +13047,10 @@
      "SPF 15"
     ],
     "revised_date": "2021-01-05",
+    "spf_label": 15,
     "status_active": true
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80011766": {
    "first_seen": "2026-08-26",
@@ -13068,9 +13125,10 @@
      "SPF 20"
     ],
     "revised_date": null,
+    "spf_label": 20,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80011790": {
    "first_seen": "2026-08-26",
@@ -13328,9 +13386,10 @@
      "SPF 15"
     ],
     "revised_date": null,
+    "spf_label": 15,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80012083": {
    "first_seen": "2026-08-26",
@@ -13587,9 +13646,10 @@
      "Sun Protection Factor SPF/FPS 15."
     ],
     "revised_date": "2010-11-29",
+    "spf_label": null,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80012459": {
    "first_seen": "2026-08-26",
@@ -13656,9 +13716,10 @@
      "Sunburn Protectant, broad UVA/UVB protection, SPF 58"
     ],
     "revised_date": null,
+    "spf_label": 58,
     "status_active": true
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80012501": {
    "first_seen": "2026-08-26",
@@ -13769,9 +13830,10 @@
      "SPF-15"
     ],
     "revised_date": "2010-11-08",
+    "spf_label": 15,
     "status_active": false
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80012998": {
    "first_seen": "2026-08-26",
@@ -16279,9 +16341,10 @@
      "SPF 30. High Protection"
     ],
     "revised_date": null,
+    "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80017262": {
    "first_seen": "2026-08-26",
@@ -16341,9 +16404,10 @@
      "SPF 15 Moderate protection."
     ],
     "revised_date": null,
+    "spf_label": 15,
     "status_active": true
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80017344": {
    "first_seen": "2026-08-26",
@@ -16405,9 +16469,10 @@
      "SPF 30. High Protection."
     ],
     "revised_date": null,
+    "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-08-26"
+   "verified_at": "2026-08-29"
   },
   "CA:NPN-80017734": {
    "first_seen": "2026-08-26",
