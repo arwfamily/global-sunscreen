@@ -2,11 +2,11 @@
  "generated_from": {
   "AU": 501,
   "CA": 1924,
-  "US": 6521
+  "US": 6523
  },
- "total_products": 8946,
- "total_with_full_ingredients": 8882,
- "distinct_ingredients_after_normalisation": 6242,
+ "total_products": 8948,
+ "total_with_full_ingredients": 8884,
+ "distinct_ingredients_after_normalisation": 6243,
  "ingredients_present_in_every_jurisdiction": [
   "1,2-hexanediol",
   "acacia",
@@ -212,31 +212,31 @@
  "top_ingredients": [
   [
    "water",
-   6714
+   6715
   ],
   [
    "glycerin",
-   4865
+   4864
   ],
   [
    "phenoxyethanol",
-   3936
+   3935
   ],
   [
    "tocopheryl acetate",
-   3169
+   3170
   ],
   [
    "dimethicone",
-   3127
+   3126
   ],
   [
    "tocopherol",
-   2944
+   2946
   ],
   [
    "caprylic/capric triglyceride",
-   2624
+   2622
   ],
   [
    "xanthan gum",
@@ -244,7 +244,7 @@
   ],
   [
    "caprylyl glycol",
-   2542
+   2541
   ],
   [
    "ethylhexylglycerin",
@@ -252,15 +252,15 @@
   ],
   [
    "disodium edta",
-   2345
+   2347
   ],
   [
    "silica",
-   2271
+   2272
   ],
   [
    "butylene glycol",
-   2066
+   2068
   ],
   [
    "butyloctyl salicylate",
@@ -284,15 +284,15 @@
   ],
   [
    "triethoxycaprylylsilane",
-   1688
+   1687
   ],
   [
    "cetearyl alcohol",
-   1568
+   1567
   ],
   [
    "sodium chloride",
-   1414
+   1415
   ],
   [
    "alkyl (c12-15) benzoate",
@@ -304,11 +304,11 @@
   ],
   [
    "alcohol",
-   1189
+   1190
   ],
   [
    "propanediol",
-   1110
+   1111
   ],
   [
    "glyceryl monostearate",
@@ -316,7 +316,7 @@
   ],
   [
    "shea butter",
-   1075
+   1073
   ],
   [
    "sodium benzoate",
@@ -328,7 +328,7 @@
   ],
   [
    "peg-100 stearate",
-   977
+   978
   ],
   [
    "propylene glycol",
@@ -344,7 +344,7 @@
   ],
   [
    "1,2-hexanediol",
-   898
+   900
   ],
   [
    "aluminum hydroxide",
@@ -355,11 +355,11 @@
    881
   ],
   [
-   "methylparaben",
-   876
+   "cetyl alcohol",
+   877
   ],
   [
-   "cetyl alcohol",
+   "methylparaben",
    876
   ],
   [
@@ -381,7 +381,7 @@
    "zinc_median_percent": 22.75,
    "zinc_median_is_estimate": false,
    "publishes": "actives with mg/g, excipients alphabetical (hand-read from PDFs)",
-   "last_verified": "2026-08-31",
+   "last_verified": "2026-09-01",
    "shared_formulation": {
     "clusters": 88,
     "products": 239,
@@ -395,7 +395,7 @@
    "mineral_only": 1908,
    "baby_labelled": 872,
    "median_ingredients": 27,
-   "zinc_median_percent": 6.86,
+   "zinc_median_percent": 8.0,
    "zinc_median_is_estimate": false,
    "publishes": "actives with exact %, inactive names only (mineral filters only — chemical-filter sunscreens are DIN/DPD and not in LNHPD)",
    "last_verified": null,
@@ -407,15 +407,15 @@
    }
   },
   "US": {
-   "products": 6521,
-   "with_full_ingredients": 6472,
-   "mineral_only": 1968,
+   "products": 6523,
+   "with_full_ingredients": 6474,
+   "mineral_only": 1969,
    "baby_labelled": 385,
    "median_ingredients": 22,
    "zinc_median_percent": 12.0,
    "zinc_median_is_estimate": true,
    "publishes": "full inactive list in formulation order, every ingredient with a UNII; active strengths are filed WITHOUT their unit upstream, so percent_w_w is null and percent_estimate carries an assumption (see docs/upstream_unit_patch.md)",
-   "last_verified": "2026-08-31",
+   "last_verified": "2026-09-01",
    "shared_formulation": {
     "clusters": 574,
     "products": 1919,
