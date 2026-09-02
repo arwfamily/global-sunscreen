@@ -381,7 +381,7 @@
    "zinc_median_percent": 22.75,
    "zinc_median_is_estimate": false,
    "publishes": "actives with mg/g, excipients alphabetical (hand-read from PDFs)",
-   "last_verified": "2026-09-01",
+   "last_verified": "2026-09-02",
    "shared_formulation": {
     "clusters": 88,
     "products": 239,
@@ -395,7 +395,7 @@
    "mineral_only": 1908,
    "baby_labelled": 872,
    "median_ingredients": 27,
-   "zinc_median_percent": 8.0,
+   "zinc_median_percent": 9.0,
    "zinc_median_is_estimate": false,
    "publishes": "actives with exact %, inactive names only (mineral filters only — chemical-filter sunscreens are DIN/DPD and not in LNHPD)",
    "last_verified": null,
@@ -415,7 +415,7 @@
    "zinc_median_percent": 12.0,
    "zinc_median_is_estimate": true,
    "publishes": "full inactive list in formulation order, every ingredient with a UNII; active strengths are filed WITHOUT their unit upstream, so percent_w_w is null and percent_estimate carries an assumption (see docs/upstream_unit_patch.md)",
-   "last_verified": "2026-09-01",
+   "last_verified": "2026-09-02",
    "shared_formulation": {
     "clusters": 574,
     "products": 1919,
