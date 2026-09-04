@@ -5,7 +5,7 @@
   "records": 501
  },
  "jurisdiction": "AU",
- "last_run": "2026-09-03",
+ "last_run": "2026-09-04",
  "profile": {
   "actives_concentration": true,
   "inactive_order": false,
@@ -65,7 +65,7 @@
     "product_name": "ClearSkinCare Sunscreen SPF 30+",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-116246": {
    "first_seen": "2026-08-26",
@@ -108,7 +108,7 @@
     "product_name": "Soleo Organics Sunscreen SPF 30+",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-132417": {
    "first_seen": "2026-08-26",
@@ -162,7 +162,7 @@
     "product_name": "SUN- STOP BROAD SPECTRUM SPF30+ SUNSCREEN",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-144082": {
    "first_seen": "2026-08-26",
@@ -224,7 +224,7 @@
     "product_name": "To Save Face SPF 30 Facial Sunscreen Mecca Cosmetica",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-196672": {
    "first_seen": "2026-08-26",
@@ -284,7 +284,7 @@
     "product_name": "BANANA BOAT KIDS SPF50+ ROLL ON SUNSCREEN",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-196673": {
    "first_seen": "2026-08-26",
@@ -344,7 +344,7 @@
     "product_name": "BANANA BOAT BABY SPF50+ ROLL ON SUNSCREEN",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-203751": {
    "first_seen": "2026-08-26",
@@ -413,7 +413,7 @@
     "product_name": "Allmedic 50+ SPF Face & Body Moisturising Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-207684": {
    "first_seen": "2026-08-26",
@@ -473,7 +473,7 @@
     "product_name": "SUNSATIONAL EVERYDAY FAMILY CLEAR SUNSCREEN SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-207979": {
    "first_seen": "2026-08-26",
@@ -532,7 +532,7 @@
     "product_name": "CANCER_COUNCIL ACTIVE DRY TOUCH SUNSCREEN SPF50+ LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-217884": {
    "first_seen": "2026-08-26",
@@ -591,7 +591,7 @@
     "product_name": "Fleur De Mer Sunscreen in Foundation Cream SPF 50 Light",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-217886": {
    "first_seen": "2026-08-26",
@@ -650,7 +650,7 @@
     "product_name": "Fleur De Mer Sunscreen in Foundation Cream SPF 50 Medium",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-217897": {
    "first_seen": "2026-08-26",
@@ -709,7 +709,7 @@
     "product_name": "Fleur De Mer Sunscreen in Foundation Cream SPF 50 Soft Medium",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-219482": {
    "first_seen": "2026-08-26",
@@ -765,7 +765,7 @@
     "product_name": "NUTRIMETICS SUN DAYS SUNSCREEN LOTION SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-223828": {
    "first_seen": "2026-08-26",
@@ -828,7 +828,7 @@
     "product_name": "SURF LIFE SAVING SPORT SPF50+ SUNSCREEN LOTION (reformulation)",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-224936": {
    "first_seen": "2026-08-26",
@@ -888,7 +888,7 @@
     "product_name": "Pharmacy Choice Dry Touch SPF50+ Sunscreen Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-224938": {
    "first_seen": "2026-08-26",
@@ -948,7 +948,7 @@
     "product_name": "Pharmacy Choice Dry Touch SPF50+ Sunscreen Spray",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-225789": {
    "first_seen": "2026-08-26",
@@ -1008,7 +1008,7 @@
     "product_name": "Pharmacy Choice Dry Touch Kids SPF50+ Sunscreen Lotion Roll On",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-226640": {
    "first_seen": "2026-08-26",
@@ -1068,7 +1068,7 @@
     "product_name": "Marine Blue Australia SPF50+ Sunscreen Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-228522": {
    "first_seen": "2026-08-26",
@@ -1140,7 +1140,7 @@
     "product_name": "Aesop Avail Body Lotion with Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-236265": {
    "first_seen": "2026-08-26",
@@ -1211,7 +1211,7 @@
     "product_name": "Moisturising Sunscreen SPF 30 Hydrating",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-242873": {
    "first_seen": "2026-08-26",
@@ -1273,7 +1273,7 @@
     "product_name": "Banana Boat Sport Very High Protection Sunscreen Lotion Spray SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-242874": {
    "first_seen": "2026-08-26",
@@ -1334,7 +1334,7 @@
     "product_name": "Banana Boat Baby Very High Protection Sunscreen Lotion Spray SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-242875": {
    "first_seen": "2026-08-26",
@@ -1395,7 +1395,7 @@
     "product_name": "Banana Boat Kids Very High Protection Sunscreen Lotion Spray SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-251012": {
    "first_seen": "2026-08-26",
@@ -1467,7 +1467,7 @@
     "product_name": "Moisturising Sunscreen SPF 30  Mattifying",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-251572": {
    "first_seen": "2026-08-26",
@@ -1524,7 +1524,7 @@
     "product_name": "Propaira Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-255693": {
    "first_seen": "2026-08-26",
@@ -1581,7 +1581,7 @@
     "product_name": "Ultra Protect SPF50+ Sunscreen Spray",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-274199": {
    "first_seen": "2026-08-26",
@@ -1644,7 +1644,7 @@
     "product_name": "CANCER_COUNCIL WATERSPORT SUNSCREEN SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-274547": {
    "first_seen": "2026-08-26",
@@ -1700,7 +1700,7 @@
     "product_name": "Cancer_Council Work Dry Touch Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-276025": {
    "first_seen": "2026-08-26",
@@ -1761,7 +1761,7 @@
     "product_name": "SURF LIFE SAVING DAILY SPF50+ SUNSCREEN SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-277407": {
    "first_seen": "2026-08-26",
@@ -1817,7 +1817,7 @@
     "product_name": "Sensitive Sunscreen Lotion SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-277414": {
    "first_seen": "2026-08-26",
@@ -1873,7 +1873,7 @@
     "product_name": "Coconut Sunscreen Lotion SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-278913": {
    "first_seen": "2026-08-26",
@@ -1933,7 +1933,7 @@
     "product_name": "CANCER_COUNCIL SENSITIVE SUNSCREEN SPF50+ (reformulation)",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-283281": {
    "first_seen": "2026-08-26",
@@ -1993,7 +1993,7 @@
     "product_name": "Chemists' Own Dry Touch Sunscreen Lotion SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-284898": {
    "first_seen": "2026-08-26",
@@ -2050,7 +2050,7 @@
     "product_name": "Thiocell SPF50+ Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-286983": {
    "first_seen": "2026-08-26",
@@ -2095,7 +2095,7 @@
     "product_name": "REEF SPF 15 SUNSCREEN spray",
     "spf_label": 15
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-287033": {
    "first_seen": "2026-08-26",
@@ -2144,7 +2144,7 @@
     "product_name": "REEF SPF 30 SUNSCREEN",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-287253": {
    "first_seen": "2026-08-26",
@@ -2204,7 +2204,7 @@
     "product_name": "Cancer_Council Ultra Sunscreen Lotion SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-288149": {
    "first_seen": "2026-08-26",
@@ -2265,7 +2265,7 @@
     "product_name": "Woolworths Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-288153": {
    "first_seen": "2026-08-26",
@@ -2325,7 +2325,7 @@
     "product_name": "Woolworths Kids Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-289337": {
    "first_seen": "2026-08-26",
@@ -2390,7 +2390,7 @@
     "product_name": "BONDI SANDS SPF50+ COCONUT BEACH SUNSCREEN LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-290122": {
    "first_seen": "2026-08-26",
@@ -2442,7 +2442,7 @@
     "product_name": "BONDI SANDS SPF30 COCONUT BEACH SUNSCREEN OIL (spray)",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-290124": {
    "first_seen": "2026-08-26",
@@ -2494,7 +2494,7 @@
     "product_name": "BONDI SANDS SPF15 COCONUT BEACH SUNSCREEN OIL (spray)",
     "spf_label": 15
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-290665": {
    "first_seen": "2026-08-26",
@@ -2558,7 +2558,7 @@
     "product_name": "BONDI SANDS SPF30 COCONUT BEACH SUNSCREEN LOTION (spray)",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-291749": {
    "first_seen": "2026-08-26",
@@ -2615,7 +2615,7 @@
     "product_name": "Maxi Block Essential SPF50+ Sunscreen Spray",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-293925": {
    "first_seen": "2026-08-26",
@@ -2672,7 +2672,7 @@
     "product_name": "Melaleuca Sun Shades Every Body Very High Protection Sunscreen Lotion SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-295488": {
    "first_seen": "2026-08-26",
@@ -2736,7 +2736,7 @@
     "product_name": "BONDI SANDS SPF30 COCONUT BEACH SUNSCREEN LOTION (2)",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-298098": {
    "first_seen": "2026-08-26",
@@ -2776,7 +2776,7 @@
     "product_name": "B4 Swim Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-298099": {
    "first_seen": "2026-08-26",
@@ -2816,7 +2816,7 @@
     "product_name": "B4 Work Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-298100": {
    "first_seen": "2026-08-26",
@@ -2856,7 +2856,7 @@
     "product_name": "B4 Sport Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-298101": {
    "first_seen": "2026-08-26",
@@ -2896,7 +2896,7 @@
     "product_name": "B4 Make Up Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-298102": {
    "first_seen": "2026-08-26",
@@ -2941,7 +2941,7 @@
     "product_name": "Freckles Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-298106": {
    "first_seen": "2026-08-26",
@@ -2999,7 +2999,7 @@
     "product_name": "Premax Sports Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-299872": {
    "first_seen": "2026-08-26",
@@ -3065,7 +3065,7 @@
     "product_name": "CANCER_COUNCIL REPEL SUNSCREEN PLUS INSECT REPELLENT LOTION SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-300540": {
    "first_seen": "2026-08-26",
@@ -3110,7 +3110,7 @@
     "product_name": "Mineral Sunscreen Lotion SPF 50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-300899": {
    "first_seen": "2026-08-26",
@@ -3180,7 +3180,7 @@
     "product_name": "ANTHELIOS wet skin sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-301490": {
    "first_seen": "2026-08-26",
@@ -3237,7 +3237,7 @@
     "product_name": "CCA Moisturising Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-302486": {
    "first_seen": "2026-08-26",
@@ -3303,7 +3303,7 @@
     "product_name": "Resting Beach Face SPF30 Anti-Pollution Sunscreen Serum",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-302487": {
    "first_seen": "2026-08-26",
@@ -3362,7 +3362,7 @@
     "product_name": "Oh My Bod! SPF50 Antioxidant Infused Dry Touch Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-302534": {
    "first_seen": "2026-08-26",
@@ -3418,7 +3418,7 @@
     "product_name": "Coles SPF50+ Sensitive Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-302687": {
    "first_seen": "2026-08-26",
@@ -3473,7 +3473,7 @@
     "product_name": "Auscreen Ultra Protect SPF50+ Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-303110": {
    "first_seen": "2026-08-26",
@@ -3529,7 +3529,7 @@
     "product_name": "Coles SPF50+ Ultra Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-303410": {
    "first_seen": "2026-08-26",
@@ -3584,7 +3584,7 @@
     "product_name": "Marine Blue Australia SPF50+ Dry Touch Sunscreen Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-303796": {
    "first_seen": "2026-08-26",
@@ -3645,7 +3645,7 @@
     "product_name": "Invisible Zinc Sport Mineral Sunscreen SPF 50+ 4 Hour Water Resistant",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-304613": {
    "first_seen": "2026-08-26",
@@ -3705,7 +3705,7 @@
     "product_name": "Propaira Tinted Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-305582": {
    "first_seen": "2026-08-26",
@@ -3761,7 +3761,7 @@
     "product_name": "Maxiblock Kinder SPF50+ Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-307141": {
    "first_seen": "2026-08-26",
@@ -3822,7 +3822,7 @@
     "product_name": "Invisible Zinc Face and Body Mineral Sunscreen SPF 50 (New Formulation)",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-307204": {
    "first_seen": "2026-08-26",
@@ -3888,7 +3888,7 @@
     "product_name": "RID LIVING PROTECT SPF50+ EVERYDAY SUNSCREEN LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-307300": {
    "first_seen": "2026-08-26",
@@ -3952,7 +3952,7 @@
     "product_name": "Silk Matte Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-307387": {
    "first_seen": "2026-08-26",
@@ -3990,7 +3990,7 @@
     "product_name": "Ethical Zinc SPF50+ Clear Zinc Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-307714": {
    "first_seen": "2026-08-26",
@@ -4044,7 +4044,7 @@
     "product_name": "CCA Kids Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-308869": {
    "first_seen": "2026-08-26",
@@ -4107,7 +4107,7 @@
     "product_name": "Bondi Sands SPF30 Aloe Vera Sunscreen Spray",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-310340": {
    "first_seen": "2026-08-26",
@@ -4154,7 +4154,7 @@
     "product_name": "Soleo Organics Face Moisturising SPF30 Sunscreen",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-310426": {
    "first_seen": "2026-08-26",
@@ -4220,7 +4220,7 @@
     "product_name": "OUTBACKER INSECT REPELLENT SUNSCREEN LOTION SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-312977": {
    "first_seen": "2026-08-26",
@@ -4281,7 +4281,7 @@
     "product_name": "Invisible Zinc Junior Mineral Sunscreen SPF 50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-313830": {
    "first_seen": "2026-08-26",
@@ -4339,7 +4339,7 @@
     "product_name": "SURF LIFE SAVING SPORT SPF50+ SUNSCREEN SPRAY (reformulation)",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-313878": {
    "first_seen": "2026-08-26",
@@ -4398,7 +4398,7 @@
     "product_name": "SUNGARD SPF50 MOISTURISING SUNSCREEN",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-314149": {
    "first_seen": "2026-08-26",
@@ -4454,7 +4454,7 @@
     "product_name": "Ultra Protect SPF50+ Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-316146": {
    "first_seen": "2026-08-26",
@@ -4511,7 +4511,7 @@
     "product_name": "PROPAIRA DRY TOUCH SUNSCREEN SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-316147": {
    "first_seen": "2026-08-26",
@@ -4568,7 +4568,7 @@
     "product_name": "Sunright Sunscreen Lotion SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-316654": {
    "first_seen": "2026-08-26",
@@ -4622,7 +4622,7 @@
     "product_name": "Coles SPF50+ Kids Ultra Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-317890": {
    "first_seen": "2026-08-26",
@@ -4681,7 +4681,7 @@
     "product_name": "bondi sands AUSTRALIA FACE SPF 50+ SUNSCREEN LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-318112": {
    "first_seen": "2026-08-26",
@@ -4740,7 +4740,7 @@
     "product_name": "bondi sands AUSTRALIA SPF 50+ SUNSCREEN LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-319232": {
    "first_seen": "2026-08-26",
@@ -4799,7 +4799,7 @@
     "product_name": "bondi sands AUSTRALIA COCONUT BEACH SPF 50+ SCENTED SUNSCREEN LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-320188": {
    "first_seen": "2026-08-26",
@@ -4860,7 +4860,7 @@
     "product_name": "SURF LIFE SAVING SPORT SPF50+ SUNSCREEN SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-320321": {
    "first_seen": "2026-08-26",
@@ -4915,7 +4915,7 @@
     "product_name": "Ultra Protect SPF50+ Sunscreen Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-320584": {
    "first_seen": "2026-08-26",
@@ -4976,7 +4976,7 @@
     "product_name": "SURF LIFE SAVING MINIONS SPF50+ SUNSCREEN SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-324083": {
    "first_seen": "2026-08-26",
@@ -5004,7 +5004,7 @@
     "product_name": "The Kind Sunscreen SPF 30",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-326961": {
    "first_seen": "2026-08-26",
@@ -5069,7 +5069,7 @@
     "product_name": "Resting Beach Face SPF30 Sunscreen Serum",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-328443": {
    "first_seen": "2026-08-26",
@@ -5127,7 +5127,7 @@
     "product_name": "Cancer_Council Kids Zinc Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-328739": {
    "first_seen": "2026-08-26",
@@ -5190,7 +5190,7 @@
     "product_name": "Oh My Bod! SPF50 Body Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-329920": {
    "first_seen": "2026-08-26",
@@ -5255,7 +5255,7 @@
     "product_name": "Resting Beach Face SPF30 Sunscreen Serum (Export)",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-330205": {
    "first_seen": "2026-08-26",
@@ -5318,7 +5318,7 @@
     "product_name": "Oh My Bod! SPF50 Body Sunscreen (Export)",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-330616": {
    "first_seen": "2026-08-26",
@@ -5374,7 +5374,7 @@
     "product_name": "bondi sands AUSTRALIA SPF50+ SUNSCREEN LOTION (value pump)",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-334209": {
    "first_seen": "2026-08-26",
@@ -5433,7 +5433,7 @@
     "product_name": "Hydra UV Protect SPF50+ Sunscreen Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-334227": {
    "first_seen": "2026-08-26",
@@ -5492,7 +5492,7 @@
     "product_name": "bondi sands AUSTRALIA SPORT SPF 50+ SUNSCREEN LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-334457": {
    "first_seen": "2026-08-26",
@@ -5538,7 +5538,7 @@
     "product_name": "Clear Zinc Sunscreen SPF 40",
     "spf_label": 40
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-334459": {
    "first_seen": "2026-08-26",
@@ -5596,7 +5596,7 @@
     "product_name": "Hydra UV Protect SPF50+ Face Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-334921": {
    "first_seen": "2026-08-26",
@@ -5642,7 +5642,7 @@
     "product_name": "SunSeal by Microskin SPF 30 Sunscreen",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-334923": {
    "first_seen": "2026-08-26",
@@ -5696,7 +5696,7 @@
     "product_name": "SunSeal by Microskin SPF 50+ Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-334958": {
    "first_seen": "2026-08-26",
@@ -5757,7 +5757,7 @@
     "product_name": "Bondi Sands Sport SPF50+ Sunscreen Spray",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-335910": {
    "first_seen": "2026-08-26",
@@ -5817,7 +5817,7 @@
     "product_name": "PROBLOC Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-337127": {
    "first_seen": "2026-08-26",
@@ -5879,7 +5879,7 @@
     "product_name": "Bondi Sands SPF50+ Aerosol Mist Spray Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-337128": {
    "first_seen": "2026-08-26",
@@ -5940,7 +5940,7 @@
     "product_name": "Bondi Sands SPF50+ Aerosol Mist Spray Fragrance Free Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-337977": {
    "first_seen": "2026-08-26",
@@ -5997,7 +5997,7 @@
     "product_name": "Kakadu Plum Sunscreen Lotion SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-339407": {
    "first_seen": "2026-08-26",
@@ -6063,7 +6063,7 @@
     "product_name": "Bondi Sands Hydra UV Protect SPF 50+ Finger Pump Spray Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-341118": {
    "first_seen": "2026-08-26",
@@ -6115,7 +6115,7 @@
     "product_name": "Mineral Pro Sunscreen SPF 30",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-341121": {
    "first_seen": "2026-08-26",
@@ -6171,7 +6171,7 @@
     "product_name": "Mineral Pro Sunscreen SPF 30 Tint",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-341659": {
    "first_seen": "2026-08-26",
@@ -6226,7 +6226,7 @@
     "product_name": "Fleur De Mer Cosmeceuticals Very High Protection Sunscreen SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-343242": {
    "first_seen": "2026-08-26",
@@ -6297,7 +6297,7 @@
     "product_name": "Moisturising Sunscreen SPF 50 Mattifying",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-343257": {
    "first_seen": "2026-08-26",
@@ -6368,7 +6368,7 @@
     "product_name": "Moisturising Daily Sunscreen SPF 50 Mattifying",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-343258": {
    "first_seen": "2026-08-26",
@@ -6439,7 +6439,7 @@
     "product_name": "Moisturising Sunscreen SPF 50 Hydrating",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-343308": {
    "first_seen": "2026-08-26",
@@ -6509,7 +6509,7 @@
     "product_name": "Moisturising Daily Sunscreen SPF 50 Hydrating",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-347658": {
    "first_seen": "2026-08-26",
@@ -6567,7 +6567,7 @@
     "product_name": "Bondi Sands SPF30 Sunscreen Lotion",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-348873": {
    "first_seen": "2026-08-26",
@@ -6626,7 +6626,7 @@
     "product_name": "BONDI SANDS SPF50 FRAGRANCE FREE SUNSCREEN SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-348874": {
    "first_seen": "2026-08-26",
@@ -6685,7 +6685,7 @@
     "product_name": "BONDI SANDS SPF30 FRAGRANCE FREE SUNSCREEN SPRAY",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-350480": {
    "first_seen": "2026-08-26",
@@ -6754,7 +6754,7 @@
     "product_name": "Resting Beach Face SPF30 Sunscreen Serum",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-350989": {
    "first_seen": "2026-08-26",
@@ -6818,7 +6818,7 @@
     "product_name": "Oh My Bod! SPF50 Sunscreen Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-350993": {
    "first_seen": "2026-08-26",
@@ -6878,7 +6878,7 @@
     "product_name": "Woolworths Everyday SPF50+ Sunscreen Spray Sensitive",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-351121": {
    "first_seen": "2026-08-26",
@@ -6930,7 +6930,7 @@
     "product_name": "Banana Boat Ultra Very High Protection Clear Sunscreen Spray SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-351747": {
    "first_seen": "2026-08-26",
@@ -6975,7 +6975,7 @@
     "product_name": "REEF SPF 15 SUNSCREEN",
     "spf_label": 15
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-353750": {
    "first_seen": "2026-08-26",
@@ -7039,7 +7039,7 @@
     "product_name": "Oh My Bod! SPF50 Sunscreen Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-354250": {
    "first_seen": "2026-08-26",
@@ -7104,7 +7104,7 @@
     "product_name": "BONDI SANDS SPF30 FRAGRANCE FREE SUNSCREEN SPRAY (UK)",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-354357": {
    "first_seen": "2026-08-26",
@@ -7168,7 +7168,7 @@
     "product_name": "BONDI SANDS SPF30 COCONUT BEACH SUNSCREEN LOTION (spray)",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-354358": {
    "first_seen": "2026-08-26",
@@ -7233,7 +7233,7 @@
     "product_name": "BONDI SANDS SPF50+ COCONUT BEACH SUNSCREEN LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-354911": {
    "first_seen": "2026-08-26",
@@ -7287,7 +7287,7 @@
     "product_name": "REEF SPF 50+ SUNSCREEN spray",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-354929": {
    "first_seen": "2026-08-26",
@@ -7342,7 +7342,7 @@
     "product_name": "Cancer_Council Australia Everyday Value Sunscreen SPF50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-355157": {
    "first_seen": "2026-08-26",
@@ -7399,7 +7399,7 @@
     "product_name": "Natural Face Sunscreen +Mineral Makeup BB Cream Sun SPF40 Beige",
     "spf_label": 40
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-355411": {
    "first_seen": "2026-08-26",
@@ -7459,7 +7459,7 @@
     "product_name": "Banana Boat Sport Very High Protection Sunscreen Spray SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-356752": {
    "first_seen": "2026-08-26",
@@ -7517,7 +7517,7 @@
     "product_name": "Aesthetics Rx Face & Body Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-357536": {
    "first_seen": "2026-08-26",
@@ -7589,7 +7589,7 @@
     "product_name": "Hawaiian Tropic Silk Hydration Sunscreen Lotion SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-360452": {
    "first_seen": "2026-08-26",
@@ -7635,7 +7635,7 @@
     "product_name": "Anti Skin Irritation Sunscreen SPF 40",
     "spf_label": 40
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-360740": {
    "first_seen": "2026-08-26",
@@ -7700,7 +7700,7 @@
     "product_name": "SUN GENIUS Sensitive Skin Sunscreen Spray SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-361390": {
    "first_seen": "2026-08-26",
@@ -7770,7 +7770,7 @@
     "product_name": "Sun Genius Hydrating Facial Sunscreen Lotion SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-361394": {
    "first_seen": "2026-08-26",
@@ -7834,7 +7834,7 @@
     "product_name": "Sun Genius Hydrating Sunscreen Lotion SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-362444": {
    "first_seen": "2026-08-26",
@@ -7890,7 +7890,7 @@
     "product_name": "Signature Sunscreen Lotion SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-362510": {
    "first_seen": "2026-08-26",
@@ -7954,7 +7954,7 @@
     "product_name": "Sun Genius Hydrating Sunscreen Spray SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-364123": {
    "first_seen": "2026-08-26",
@@ -8015,7 +8015,7 @@
     "product_name": "Banana Boat KiDS Very High Protection Sunscreen Spray SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-364511": {
    "first_seen": "2026-08-26",
@@ -8075,7 +8075,7 @@
     "product_name": "Bondi Sands Sport SPF 50+ Sunscreen Spray (non aerosol)",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-366376": {
    "first_seen": "2026-08-26",
@@ -8137,7 +8137,7 @@
     "product_name": "Banana Boat Dry Balance Very High Protection Clear Sunscreen Spray SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-366377": {
    "first_seen": "2026-08-26",
@@ -8205,7 +8205,7 @@
     "product_name": "Hawaiian Tropic Silk Hydration Sunscreen Spray SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-366712": {
    "first_seen": "2026-08-26",
@@ -8260,7 +8260,7 @@
     "product_name": "MULA Maldives Face and Body Moisturising Sunscreen Lotion SPF50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-366786": {
    "first_seen": "2026-08-26",
@@ -8317,7 +8317,7 @@
     "product_name": "Bondi Sands SPF50+ Coconut Beach Sunscreen Lotion Value Pump Pack",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-366935": {
    "first_seen": "2026-08-26",
@@ -8372,7 +8372,7 @@
     "product_name": "Promo Brands SPF50+ Sunscreen Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-367091": {
    "first_seen": "2026-08-26",
@@ -8441,7 +8441,7 @@
     "product_name": "Resting Beach Face SPF 30 Sunscreen Serum",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-367752": {
    "first_seen": "2026-08-26",
@@ -8499,7 +8499,7 @@
     "product_name": "Cancer_Council Ultra Sunscreen Lipbalm SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-367753": {
    "first_seen": "2026-08-26",
@@ -8555,7 +8555,7 @@
     "product_name": "PROBLOC Industrial Strength Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-367813": {
    "first_seen": "2026-08-26",
@@ -8594,7 +8594,7 @@
     "product_name": "Natural Clear Zinc Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-369012": {
    "first_seen": "2026-08-26",
@@ -8663,7 +8663,7 @@
     "product_name": "SUNGARD SPF50+ MOISTURISING SUNSCREEN (tube)",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-369013": {
    "first_seen": "2026-08-26",
@@ -8732,7 +8732,7 @@
     "product_name": "SUNGARD SPF50+ MOISTURISING SUNSCREEN (bottle)",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-370080": {
    "first_seen": "2026-08-26",
@@ -8809,7 +8809,7 @@
     "product_name": "Hawaiian Tropic Silk Hydration Very High Protection Sunscreen Lotion SPF 50+ FACE",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-370525": {
    "first_seen": "2026-08-26",
@@ -8851,7 +8851,7 @@
     "product_name": "Basking Beauty Natural Sunscreen SPF50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-370816": {
    "first_seen": "2026-08-26",
@@ -8895,7 +8895,7 @@
     "product_name": "ClearSkinCare Sunscreen SPF 30+",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-370961": {
    "first_seen": "2026-08-26",
@@ -8957,7 +8957,7 @@
     "product_name": "The Skincare Company SPF50+ Very High Protection Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-371017": {
    "first_seen": "2026-08-26",
@@ -9001,7 +9001,7 @@
     "product_name": "Natural zinc sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-371723": {
    "first_seen": "2026-08-26",
@@ -9059,7 +9059,7 @@
     "product_name": "Solar D Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-371951": {
    "first_seen": "2026-08-26",
@@ -9114,7 +9114,7 @@
     "product_name": "Clearskincare Sunscreen SPF30",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-373790": {
    "first_seen": "2026-08-26",
@@ -9177,7 +9177,7 @@
     "product_name": "BONDI SANDS SPORT SPF50 SUNSCREEN SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-374577": {
    "first_seen": "2026-08-26",
@@ -9233,7 +9233,7 @@
     "product_name": "Skin Guardian Natural-Matte Broad Spectrum SPF 50+ Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-375131": {
    "first_seen": "2026-08-26",
@@ -9271,7 +9271,7 @@
     "product_name": "LITTLE URCHIN Natural Clear Zinc Sunscreen SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-375468": {
    "first_seen": "2026-08-26",
@@ -9327,7 +9327,7 @@
     "product_name": "Sun Shades Every Face Sunscreen SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-375558": {
    "first_seen": "2026-08-26",
@@ -9367,7 +9367,7 @@
     "product_name": "Sunbutter Natural Sunscreen SPF50 tinted palm free",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-375771": {
    "first_seen": "2026-08-26",
@@ -9424,7 +9424,7 @@
     "product_name": "Goat Sunscreen High Protection Dry Touch Sunscreen Lotion SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-376794": {
    "first_seen": "2026-08-26",
@@ -9475,7 +9475,7 @@
     "product_name": "BONDI SANDS SPF15 COCONUT BEACH SUNSCREEN OIL (new formulation)",
     "spf_label": 15
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-378139": {
    "first_seen": "2026-08-26",
@@ -9512,7 +9512,7 @@
     "product_name": "Sunbutter Sunscreen SPF50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-378492": {
    "first_seen": "2026-08-26",
@@ -9563,7 +9563,7 @@
     "product_name": "BONDI SANDS SPF30 COCONUT BEACH SUNSCREEN OIL (new formulation)",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-378691": {
    "first_seen": "2026-08-26",
@@ -9620,7 +9620,7 @@
     "product_name": "Bondi Sands Hydra UV Protect SPF70 Sunscreen Lotion",
     "spf_label": 70
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-378692": {
    "first_seen": "2026-08-26",
@@ -9678,7 +9678,7 @@
     "product_name": "Bondi Sands Hydra UV Protect SPF70 Sunscreen Spray",
     "spf_label": 70
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-379602": {
    "first_seen": "2026-08-26",
@@ -9727,7 +9727,7 @@
     "product_name": "OUTDOORPLUS MINERAL ZINC SPF50 SUNSCREEN",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-381102": {
    "first_seen": "2026-08-26",
@@ -9783,7 +9783,7 @@
     "product_name": "Black and Gold Value Every Day SPF50+ Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-381190": {
    "first_seen": "2026-08-26",
@@ -9841,7 +9841,7 @@
     "product_name": "Bondi Sands SPF30 Sunscreen",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-381211": {
    "first_seen": "2026-08-26",
@@ -9896,7 +9896,7 @@
     "product_name": "BONDI SANDS SPF30 COCONUT BEACH SUNSCREEN OIL (reformulation)",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-381233": {
    "first_seen": "2026-08-26",
@@ -9953,7 +9953,7 @@
     "product_name": "SunGenix Moisturising Sunscreen SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-381405": {
    "first_seen": "2026-08-26",
@@ -10011,7 +10011,7 @@
     "product_name": "Naked Sundays Golden Glow Body Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-381710": {
    "first_seen": "2026-08-26",
@@ -10075,7 +10075,7 @@
     "product_name": "Sun Zapper Extreme Zinc Sunscreen SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-382876": {
    "first_seen": "2026-08-26",
@@ -10129,7 +10129,7 @@
     "product_name": "Clear Skincare S50 Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-383990": {
    "first_seen": "2026-08-26",
@@ -10199,7 +10199,7 @@
     "product_name": "Cancer_Council Sport Sunscreen Dry Touch & Sweat Resistant lotion SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-383997": {
    "first_seen": "2026-08-26",
@@ -10259,7 +10259,7 @@
     "product_name": "Natio Sun Ultra Light Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-383998": {
    "first_seen": "2026-08-26",
@@ -10319,7 +10319,7 @@
     "product_name": "Natio Sun Invisible Fluid Facial Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-383999": {
    "first_seen": "2026-08-26",
@@ -10375,7 +10375,7 @@
     "product_name": "Natio Sun Sensitive Skin Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-384000": {
    "first_seen": "2026-08-26",
@@ -10436,7 +10436,7 @@
     "product_name": "Natio Sun Quick Dry Moisturising Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-385269": {
    "first_seen": "2026-08-26",
@@ -10492,7 +10492,7 @@
     "product_name": "Trends Everyday SPF50+ Sunscreen Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-385634": {
    "first_seen": "2026-08-26",
@@ -10563,7 +10563,7 @@
     "product_name": "TO SAVE BODY SPF50+ HYDRATING SUNSCREEN",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-385692": {
    "first_seen": "2026-08-26",
@@ -10624,7 +10624,7 @@
     "product_name": "bondi sands AUSTRALIA FACE SPF50+ TINTED SUNSCREEN LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-386474": {
    "first_seen": "2026-08-26",
@@ -10684,7 +10684,7 @@
     "product_name": "Moisturising Mineral SPF50 Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-386665": {
    "first_seen": "2026-08-26",
@@ -10731,7 +10731,7 @@
     "product_name": "Bondi Sands Mineral Zinc Sunscreen SPF50+ Face Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-386666": {
    "first_seen": "2026-08-26",
@@ -10778,7 +10778,7 @@
     "product_name": "Bondi Sands Mineral Zinc Sunscreen SPF50+ Body Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-386667": {
    "first_seen": "2026-08-26",
@@ -10830,7 +10830,7 @@
     "product_name": "Bondi Sands Mineral Sunscreen SPF50+ Face Fluid",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-386674": {
    "first_seen": "2026-08-26",
@@ -10886,7 +10886,7 @@
     "product_name": "TerryWhite Chemmart Sunscreen Lotion SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-386677": {
    "first_seen": "2026-08-26",
@@ -10940,7 +10940,7 @@
     "product_name": "SunGenix Sensitive Sunscreen Lotion SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-386952": {
    "first_seen": "2026-08-26",
@@ -11006,7 +11006,7 @@
     "product_name": "Bondi Sands Face SPF50+ Mattifying Universal Tint Sunscreen Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-386998": {
    "first_seen": "2026-08-26",
@@ -11059,7 +11059,7 @@
     "product_name": "Cancer_Council Sport Zinc Sunscreen Stick White SPF50+ (New Formula)",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-386999": {
    "first_seen": "2026-08-26",
@@ -11116,7 +11116,7 @@
     "product_name": "Cancer_Council Sport Zinc Sunscreen Stick Tinted SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-387192": {
    "first_seen": "2026-08-26",
@@ -11190,7 +11190,7 @@
     "product_name": "Hawaiian Tropic Island Sport Sunscreen Lotion SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-387331": {
    "first_seen": "2026-08-26",
@@ -11259,7 +11259,7 @@
     "product_name": "Banana Boat Dry Balance Sunscreen Lotion SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-387334": {
    "first_seen": "2026-08-26",
@@ -11326,7 +11326,7 @@
     "product_name": "Banana Boat Ultra Sunscreen Lotion SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-387335": {
    "first_seen": "2026-08-26",
@@ -11393,7 +11393,7 @@
     "product_name": "Banana Boat Sport Sunscreen Lotion SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-387337": {
    "first_seen": "2026-08-26",
@@ -11467,7 +11467,7 @@
     "product_name": "bondi sands AUSTRALIA FACE SPF50+ SUNSCREEN FLUID",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-387993": {
    "first_seen": "2026-08-26",
@@ -11531,7 +11531,7 @@
     "product_name": "Neutrogena Ultra Sheer Body Lotion Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-387994": {
    "first_seen": "2026-08-26",
@@ -11589,7 +11589,7 @@
     "product_name": "Neutrogena Ultra Sheer Body Mist Sunscreen Spray",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-387995": {
    "first_seen": "2026-08-26",
@@ -11664,7 +11664,7 @@
     "product_name": "Neutrogena Ultra Sheer Fluid Facial Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-388075": {
    "first_seen": "2026-08-26",
@@ -11713,7 +11713,7 @@
     "product_name": "Maxiblock Mineral Sunscreen Cream SPF50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-388472": {
    "first_seen": "2026-08-26",
@@ -11792,7 +11792,7 @@
     "product_name": "Neutrogena Ultra Sheer Face Lotion Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-388478": {
    "first_seen": "2026-08-26",
@@ -11848,7 +11848,7 @@
     "product_name": "Pharmacy Health Everyday Sunscreen Lotion SPF50+ (new formula)",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-388481": {
    "first_seen": "2026-08-26",
@@ -11905,7 +11905,7 @@
     "product_name": "Priceline Everyday Sunscreen Lotion SPF50+ (new formula)",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-388772": {
    "first_seen": "2026-08-26",
@@ -11962,7 +11962,7 @@
     "product_name": "Mnusaal Multi-Protection Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-389955": {
    "first_seen": "2026-08-26",
@@ -12023,7 +12023,7 @@
     "product_name": "Natural Face Sunscreen +Mineral Makeup BB Cream Sun SPF40 Nude",
     "spf_label": 40
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-389956": {
    "first_seen": "2026-08-26",
@@ -12084,7 +12084,7 @@
     "product_name": "Natural Face Sunscreen Sun SPF40  +Mineral Makeup BB Cream Tan",
     "spf_label": 40
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-391395": {
    "first_seen": "2026-08-26",
@@ -12142,7 +12142,7 @@
     "product_name": "Wild Rosella Sunscreen Lotion SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-391791": {
    "first_seen": "2026-08-26",
@@ -12199,7 +12199,7 @@
     "product_name": "Lullaby Sunscreen for Sensitive Skin SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-392053": {
    "first_seen": "2026-08-26",
@@ -12255,7 +12255,7 @@
     "product_name": "Bondi Sands SPF 50+ Fragrance Free Sunscreen Lotion Pump",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-392352": {
    "first_seen": "2026-08-26",
@@ -12311,7 +12311,7 @@
     "product_name": "Sungard SPF50+ Moisturising Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-392640": {
    "first_seen": "2026-08-26",
@@ -12365,7 +12365,7 @@
     "product_name": "Clear Skincare S50 Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-392818": {
    "first_seen": "2026-08-26",
@@ -12421,7 +12421,7 @@
     "product_name": "Chemists' Own Sport Sunscreen Lotion SPF50+ (new formulation)",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-392821": {
    "first_seen": "2026-08-26",
@@ -12477,7 +12477,7 @@
     "product_name": "Chemists' Own Dry Touch Sunscreen Lotion SPF50+ (new formulation)",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-393030": {
    "first_seen": "2026-08-26",
@@ -12533,7 +12533,7 @@
     "product_name": "Ecosol SPF50+ Sunscreen Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-394855": {
    "first_seen": "2026-08-26",
@@ -12594,7 +12594,7 @@
     "product_name": "Standard Procedure SPF50+ Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-395319": {
    "first_seen": "2026-08-26",
@@ -12642,7 +12642,7 @@
     "product_name": "Natural Instinct Body SPF50+ Clean Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-395320": {
    "first_seen": "2026-08-26",
@@ -12695,7 +12695,7 @@
     "product_name": "Natural Instinct Face SPF50+ Clean Tinted Fluid Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-395679": {
    "first_seen": "2026-08-26",
@@ -12748,7 +12748,7 @@
     "product_name": "Antioxidant Body Sunscreen Creme SPF 50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-395910": {
    "first_seen": "2026-08-26",
@@ -12810,7 +12810,7 @@
     "product_name": "BONDI SANDS SPORT SPF50 SUNSCREEN LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-395993": {
    "first_seen": "2026-08-26",
@@ -12878,7 +12878,7 @@
     "product_name": "Banana Boat KiDS Sunscreen Lotion SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-396490": {
    "first_seen": "2026-08-26",
@@ -12920,7 +12920,7 @@
     "product_name": "Invisible Zinc Sport Mineral Sunscreen SPF50+ 4 Hour Water Resistant",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-396777": {
    "first_seen": "2026-08-26",
@@ -12985,7 +12985,7 @@
     "product_name": "Sand & Sky Australian Sunshield Daily Hydrating Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-397590": {
    "first_seen": "2026-08-26",
@@ -13059,7 +13059,7 @@
     "product_name": "BONDI SANDS FACE SPF50+ TINTED MATTE SUNSCREEN LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-398932": {
    "first_seen": "2026-08-26",
@@ -13111,7 +13111,7 @@
     "product_name": "Mineral Sunscreen SPF 30 Fragrance Free",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-399173": {
    "first_seen": "2026-08-26",
@@ -13165,7 +13165,7 @@
     "product_name": "Sunstop SPF30 Sunscreen",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-399235": {
    "first_seen": "2026-08-26",
@@ -13245,7 +13245,7 @@
     "product_name": "Neutrogena Hydro Boost Face Lotion Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-399561": {
    "first_seen": "2026-08-26",
@@ -13303,7 +13303,7 @@
     "product_name": "Sand & Sky Australian Sunshield Body Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-399810": {
    "first_seen": "2026-08-26",
@@ -13360,7 +13360,7 @@
     "product_name": "Natio Sun Kids Everyday Sensitive Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-400321": {
    "first_seen": "2026-08-26",
@@ -13404,7 +13404,7 @@
     "product_name": "SPF 50+ Omega-Boost Sheer Mineral Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-401018": {
    "first_seen": "2026-08-26",
@@ -13444,7 +13444,7 @@
     "product_name": "Avocado Zinc SPF 50 Natural Physical Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-401181": {
    "first_seen": "2026-08-26",
@@ -13492,7 +13492,7 @@
     "product_name": "SURFMUD MINERAL SUNSCREEN SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-402101": {
    "first_seen": "2026-08-26",
@@ -13557,7 +13557,7 @@
     "product_name": "Everyday Humans Oh My Bod! SPF50 Body Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-402729": {
    "first_seen": "2026-08-26",
@@ -13605,7 +13605,7 @@
     "product_name": "ZinClear Hydrating Sunscreen SPF50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-404159": {
    "first_seen": "2026-08-26",
@@ -13644,7 +13644,7 @@
     "product_name": "zinc sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-404471": {
    "first_seen": "2026-08-26",
@@ -13702,7 +13702,7 @@
     "product_name": "Sand & Sky Australian Sunshield Body Sunscreen SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-404473": {
    "first_seen": "2026-08-26",
@@ -13759,7 +13759,7 @@
     "product_name": "Coco & Eve Body Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-404852": {
    "first_seen": "2026-08-26",
@@ -13827,7 +13827,7 @@
     "product_name": "Banana Boat Sensitive Sunscreen Lotion SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-405090": {
    "first_seen": "2026-08-26",
@@ -13901,7 +13901,7 @@
     "product_name": "Cancer_Council Hydrating Sunscreen For Men SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-405179": {
    "first_seen": "2026-08-26",
@@ -13946,7 +13946,7 @@
     "product_name": "Surfmud Ocean Addicts Sunscreen SPF30",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-405180": {
    "first_seen": "2026-08-26",
@@ -13991,7 +13991,7 @@
     "product_name": "Surfmud Surfbaby Sensitive Sunscreen SPF30",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-405571": {
    "first_seen": "2026-08-26",
@@ -14052,7 +14052,7 @@
     "product_name": "Cancer_Council Ultra Roll-On Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-405612": {
    "first_seen": "2026-08-26",
@@ -14106,7 +14106,7 @@
     "product_name": "Sun Glazed SPF 30 Sunscreen Glow Oil",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-406153": {
    "first_seen": "2026-08-26",
@@ -14179,7 +14179,7 @@
     "product_name": "Banana Boat Ultra Light Face Fluid Sunscreen Lotion SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-406519": {
    "first_seen": "2026-08-26",
@@ -14244,7 +14244,7 @@
     "product_name": "Sun Zapper Extreme Sports Mesh Sunscreen SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-406997": {
    "first_seen": "2026-08-26",
@@ -14284,7 +14284,7 @@
     "product_name": "Natural Clear Zinc Sunscreen Stick",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-407060": {
    "first_seen": "2026-08-26",
@@ -14335,7 +14335,7 @@
     "product_name": "Hawaiian Tropic Silk Hydration Mineral Zinc Sunscreen Lotion SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-407089": {
    "first_seen": "2026-08-26",
@@ -14380,7 +14380,7 @@
     "product_name": "Banana Boat Baby Zinc Sunscreen Lotion SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-407091": {
    "first_seen": "2026-08-26",
@@ -14436,7 +14436,7 @@
     "product_name": "Good Morning SPF50 Daily Face Sunscreen Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-407092": {
    "first_seen": "2026-08-26",
@@ -14491,7 +14491,7 @@
     "product_name": "Good Morning SPF50 Daily Face Sunscreen Lotion Fragrance Free",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-407301": {
    "first_seen": "2026-08-26",
@@ -14543,7 +14543,7 @@
     "product_name": "Clear Skincare S50 Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-408656": {
    "first_seen": "2026-08-26",
@@ -14597,7 +14597,7 @@
     "product_name": "TerryWhite Chemmart Kids Sunscreen Lotion SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-409066": {
    "first_seen": "2026-08-26",
@@ -14676,7 +14676,7 @@
     "product_name": "BONDI SANDS DAILY MOISTURISING FACE SPF 50+ FRAGRANCE FREE TINTED SUNSCREEN FLUID",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-409824": {
    "first_seen": "2026-08-26",
@@ -14737,7 +14737,7 @@
     "product_name": "Smart365 Sunscreen Lotion SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-410414": {
    "first_seen": "2026-08-26",
@@ -14776,7 +14776,7 @@
     "product_name": "LITTLE URCHIN Natural Clear Zinc Sunscreen SPF 30",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-410595": {
    "first_seen": "2026-08-26",
@@ -14816,7 +14816,7 @@
     "product_name": "INIKA Natural Sunscreen SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-410596": {
    "first_seen": "2026-08-26",
@@ -14859,7 +14859,7 @@
     "product_name": "INIKA Tinted Natural Sunscreen SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-411390": {
    "first_seen": "2026-08-26",
@@ -14914,7 +14914,7 @@
     "product_name": "Broad Spectrum UVA & UVB Protection SPF 50+ Fragrance Free Sunscreen Mist",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-411658": {
    "first_seen": "2026-08-26",
@@ -14965,7 +14965,7 @@
     "product_name": "The Future SPF50 Hydrating Daily Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-412332": {
    "first_seen": "2026-08-26",
@@ -15008,7 +15008,7 @@
     "product_name": "RAWW Natural Sunscreen SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-412333": {
    "first_seen": "2026-08-26",
@@ -15049,7 +15049,7 @@
     "product_name": "RAWW Tinted Natural Sunscreen SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-415716": {
    "first_seen": "2026-08-26",
@@ -15105,7 +15105,7 @@
     "product_name": "OXX Skincare SPF50+ Sunscreen Sensitive",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-415717": {
    "first_seen": "2026-08-26",
@@ -15160,7 +15160,7 @@
     "product_name": "OXX Skincare SPF50+ Sunscreen Ultra Protection",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-417019": {
    "first_seen": "2026-08-26",
@@ -15216,7 +15216,7 @@
     "product_name": "Afterglow Daily Face Sunscreen SPF50+ lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-418121": {
    "first_seen": "2026-08-26",
@@ -15273,7 +15273,7 @@
     "product_name": "OXX Skincare SPF50+ Sunscreen Kids",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-419112": {
    "first_seen": "2026-08-26",
@@ -15332,7 +15332,7 @@
     "product_name": "OXX Skincare SPF50+ Sunscreen Face Moisturiser",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-419295": {
    "first_seen": "2026-08-26",
@@ -15388,7 +15388,7 @@
     "product_name": "Serving Shade SPF50 Sunscreen Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-419296": {
    "first_seen": "2026-08-26",
@@ -15446,7 +15446,7 @@
     "product_name": "SPF 50+ Invisible Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-420117": {
    "first_seen": "2026-08-26",
@@ -15494,7 +15494,7 @@
     "product_name": "SPF50 Mineral Sunscreen Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-420210": {
    "first_seen": "2026-08-26",
@@ -15553,7 +15553,7 @@
     "product_name": "Clear Skincare Hydrating Sunscreen Lotion SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-420371": {
    "first_seen": "2026-08-26",
@@ -15590,7 +15590,7 @@
     "product_name": "Mineral Sunscreen SPF 50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-421132": {
    "first_seen": "2026-08-26",
@@ -15648,7 +15648,7 @@
     "product_name": "FCS Broad Spectrum SPF 50 Sunscreen 2hr Water Resistant",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-421611": {
    "first_seen": "2026-08-26",
@@ -15704,7 +15704,7 @@
     "product_name": "OXX Skincare SPF50+ Sunscreen Coloured Zinc Sticks",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-422730": {
    "first_seen": "2026-08-26",
@@ -15781,7 +15781,7 @@
     "product_name": "Quick SPF 50 Screen 2 in 1 Whipped Sunscreen & Body Moisturiser Mousse",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-423951": {
    "first_seen": "2026-08-26",
@@ -15837,7 +15837,7 @@
     "product_name": "Brady Superblock SPF50+ Sunscreen Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-424636": {
    "first_seen": "2026-08-26",
@@ -15902,7 +15902,7 @@
     "product_name": "MANOLA SPF50+ sports active sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-426451": {
    "first_seen": "2026-08-26",
@@ -15976,7 +15976,7 @@
     "product_name": "BONDI SANDS FACE SPF 50+ FRAGRANCE FREE TINTED MATTE SUNSCREEN LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-426673": {
    "first_seen": "2026-08-26",
@@ -16052,7 +16052,7 @@
     "product_name": "Moisturising Sunscreen SPF 30 Sheer Tint",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-427276": {
    "first_seen": "2026-08-26",
@@ -16104,7 +16104,7 @@
     "product_name": "Gentle Daily Sunscreen SPF 50 Cream",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-427643": {
    "first_seen": "2026-08-26",
@@ -16159,7 +16159,7 @@
     "product_name": "OXX Skincare SPF50+ Sport Sunscreen with Zinc",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-427868": {
    "first_seen": "2026-08-26",
@@ -16198,7 +16198,7 @@
     "product_name": "SPF50+ Mineral Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-428256": {
    "first_seen": "2026-08-26",
@@ -16257,7 +16257,7 @@
     "product_name": "SUNSITIVE® SUNSCREEN TINTED FLUID SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-428613": {
    "first_seen": "2026-08-26",
@@ -16321,7 +16321,7 @@
     "product_name": "Sunsitive ® Sunscreen Serum SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-428614": {
    "first_seen": "2026-08-26",
@@ -16377,7 +16377,7 @@
     "product_name": "Sunsitive® sunscreen spray SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-428615": {
    "first_seen": "2026-08-26",
@@ -16433,7 +16433,7 @@
     "product_name": "Sunsitive ® sunscreen fluid SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-428618": {
    "first_seen": "2026-08-26",
@@ -16489,7 +16489,7 @@
     "product_name": "Sunsitive ® sunscreen children spray SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-432070": {
    "first_seen": "2026-08-26",
@@ -16529,7 +16529,7 @@
     "product_name": "Supernatural SPF50+ Ceramide Silk Facial Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-432870": {
    "first_seen": "2026-08-26",
@@ -16587,7 +16587,7 @@
     "product_name": "To Save Face SPF 30 Facial Sunscreen",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-433594": {
    "first_seen": "2026-08-26",
@@ -16643,7 +16643,7 @@
     "product_name": "Plunkett's Hi Protection Aloe Vera Broad Spectrum Sunscreen SPF 40",
     "spf_label": 40
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-43627": {
    "first_seen": "2026-08-26",
@@ -16687,7 +16687,7 @@
     "product_name": "SUN STIK SPF 15+ SUNSCREEN STICK tube",
     "spf_label": 15
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-440476": {
    "first_seen": "2026-08-26",
@@ -16743,7 +16743,7 @@
     "product_name": "Le Tan Coconut Sunscreen Lotion SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-440477": {
    "first_seen": "2026-08-26",
@@ -16799,7 +16799,7 @@
     "product_name": "Le Tan Watermelon Sunscreen Lotion SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-440478": {
    "first_seen": "2026-08-26",
@@ -16855,7 +16855,7 @@
     "product_name": "Le Tan Mango Sunscreen Lotion SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-440479": {
    "first_seen": "2026-08-26",
@@ -16911,7 +16911,7 @@
     "product_name": "Le Tan Pineapple Sunscreen Lotion SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-441791": {
    "first_seen": "2026-08-26",
@@ -16979,7 +16979,7 @@
     "product_name": "SUNSATIONAL CLEAR FRAGRANCE FREE FAMILY SUNSCREEN SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-441999": {
    "first_seen": "2026-08-26",
@@ -17038,7 +17038,7 @@
     "product_name": "TROPICAL SUNSCREEN LOTION SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-442391": {
    "first_seen": "2026-08-26",
@@ -17116,7 +17116,7 @@
     "product_name": "Let's Get Tropical Whipped SPF50 Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-443354": {
    "first_seen": "2026-08-26",
@@ -17183,7 +17183,7 @@
     "product_name": "Banana Boat Moisturising Sunscreen Lotion SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-443781": {
    "first_seen": "2026-08-26",
@@ -17242,7 +17242,7 @@
     "product_name": "Priceline Face Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-443782": {
    "first_seen": "2026-08-26",
@@ -17301,7 +17301,7 @@
     "product_name": "Pharmacy Health Face Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-443822": {
    "first_seen": "2026-08-26",
@@ -17373,7 +17373,7 @@
     "product_name": "Banana Boat Moisturising Face Sunscreen Lotion SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-443823": {
    "first_seen": "2026-08-26",
@@ -17452,7 +17452,7 @@
     "product_name": "Hawaiian Tropic Silk Hydration Face Fluid Sunscreen Lotion SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-443908": {
    "first_seen": "2026-08-26",
@@ -17496,7 +17496,7 @@
     "product_name": "SPF 50+ Sheer Light Tinted Moisturising Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-443909": {
    "first_seen": "2026-08-26",
@@ -17540,7 +17540,7 @@
     "product_name": "SPF 50+ Sheer Deep Tinted Moisturising Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-443910": {
    "first_seen": "2026-08-26",
@@ -17584,7 +17584,7 @@
     "product_name": "SPF 50+ Sheer Medium Tinted Moisturising Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-443982": {
    "first_seen": "2026-08-26",
@@ -17639,7 +17639,7 @@
     "product_name": "Priceline Sensitive With Zinc Sunscreen Lotion",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-443983": {
    "first_seen": "2026-08-26",
@@ -17694,7 +17694,7 @@
     "product_name": "Pharmacy Health Sensitive With Zinc Sunscreen Lotion SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-444355": {
    "first_seen": "2026-08-26",
@@ -17755,7 +17755,7 @@
     "product_name": "SCREEN SAVER SPF30 BROAD SPECTRUM FACIAL SUNSCREEN",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-444671": {
    "first_seen": "2026-08-26",
@@ -17801,7 +17801,7 @@
     "product_name": "Natio Sun Invisible Stick Facial Sunscreen SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-444672": {
    "first_seen": "2026-08-26",
@@ -17845,7 +17845,7 @@
     "product_name": "Natio Sun Invisible Mist Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-444692": {
    "first_seen": "2026-08-26",
@@ -17907,7 +17907,7 @@
     "product_name": "Priceline Face Tinted Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-444693": {
    "first_seen": "2026-08-26",
@@ -17969,7 +17969,7 @@
     "product_name": "Pharmacy Health Face Tinted Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-445113": {
    "first_seen": "2026-08-26",
@@ -18050,7 +18050,7 @@
     "product_name": "Hydrating Face Sunscreen Serum",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-445114": {
    "first_seen": "2026-08-26",
@@ -18128,7 +18128,7 @@
     "product_name": "Lightweight Face Sunscreen Fluid",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-445115": {
    "first_seen": "2026-08-26",
@@ -18205,7 +18205,7 @@
     "product_name": "Hydrating Face Sunscreen Lotion",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-445116": {
    "first_seen": "2026-08-26",
@@ -18278,7 +18278,7 @@
     "product_name": "Hydrating Body Sunscreen Lotion",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-445117": {
    "first_seen": "2026-08-26",
@@ -18341,7 +18341,7 @@
     "product_name": "Mineral Zinc Hydrating Face Sunscreen Lotion",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-445118": {
    "first_seen": "2026-08-26",
@@ -18403,7 +18403,7 @@
     "product_name": "Mineral Zinc Hydrating Body Sunscreen Lotion",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-445120": {
    "first_seen": "2026-08-26",
@@ -18467,7 +18467,7 @@
     "product_name": "SPF 50+ Face Sunscreen Serum",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-445121": {
    "first_seen": "2026-08-26",
@@ -18532,7 +18532,7 @@
     "product_name": "SPF 50+ Face & Body Sunscreen Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-445565": {
    "first_seen": "2026-08-26",
@@ -18608,7 +18608,7 @@
     "product_name": "SPF50 Whipped Sunscreen Foam",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-445835": {
    "first_seen": "2026-08-26",
@@ -18662,7 +18662,7 @@
     "product_name": "Reef SPF 50+ Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-445877": {
    "first_seen": "2026-08-26",
@@ -18704,7 +18704,7 @@
     "product_name": "Everyday Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-445934": {
    "first_seen": "2026-08-26",
@@ -18770,7 +18770,7 @@
     "product_name": "BADDIE SUNSCREEN SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-447091": {
    "first_seen": "2026-08-26",
@@ -18839,7 +18839,7 @@
     "product_name": "Coco & Eve Youth Defense Sunscreen Serum SPF 50+ Vitamin C* + Prebiotics",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-447975": {
    "first_seen": "2026-08-26",
@@ -18895,7 +18895,7 @@
     "product_name": "EAORON Sunscreen PRO SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-449056": {
    "first_seen": "2026-08-26",
@@ -18951,7 +18951,7 @@
     "product_name": "Guardian Everyday Sunscreen Lotion SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-450067": {
    "first_seen": "2026-08-26",
@@ -18990,7 +18990,7 @@
     "product_name": "MINERAL SUNSCREEN FOR BABIES & CHILDREN",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-450069": {
    "first_seen": "2026-08-26",
@@ -19045,7 +19045,7 @@
     "product_name": "SPF 50 DRY TOUCH HIGH PROTECTION SUNSCREEN LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-450087": {
    "first_seen": "2026-08-26",
@@ -19094,7 +19094,7 @@
     "product_name": "Guardian Zinc Stick Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-450088": {
    "first_seen": "2026-08-26",
@@ -19151,7 +19151,7 @@
     "product_name": "Guardian Kids Sensitive Sunscreen Lotion SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-450089": {
    "first_seen": "2026-08-26",
@@ -19204,7 +19204,7 @@
     "product_name": "Guardian Zinc Stick Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-451249": {
    "first_seen": "2026-08-26",
@@ -19257,7 +19257,7 @@
     "product_name": "INVISIBLE PROTECTION SPF50+ SUNSCREEN",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-453868": {
    "first_seen": "2026-08-26",
@@ -19313,7 +19313,7 @@
     "product_name": "Plunkett's Hi-Potency Aloe Vera Broad Spectrum Sunscreen SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-454131": {
    "first_seen": "2026-08-26",
@@ -19362,7 +19362,7 @@
     "product_name": "WATERMELON QUICK SPF50+ SCREEN 3 IN 1 SUNSCREEN, SETTING SPRAY & HYDRATION MIST",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-454306": {
    "first_seen": "2026-08-26",
@@ -19411,7 +19411,7 @@
     "product_name": "PROPAIRA REFLEKTA PHYSICAL FLUID SUNSCREEN SPF50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-455309": {
    "first_seen": "2026-08-26",
@@ -19451,7 +19451,7 @@
     "product_name": "KAKADU PLUM MINERAL SUNSCREEN LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-455327": {
    "first_seen": "2026-08-26",
@@ -19528,7 +19528,7 @@
     "product_name": "Barefoot Labs Whip Screen Sunscreen Mousse SPF50 Watermelon",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-455328": {
    "first_seen": "2026-08-26",
@@ -19605,7 +19605,7 @@
     "product_name": "Barefoot Labs Whip Screen Sunscreen Mousse SPF50 Bubblegum",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-456540": {
    "first_seen": "2026-08-26",
@@ -19656,7 +19656,7 @@
     "product_name": "Gentle Daily Sunscreen SPF 50 Cream Fragrance Free",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-457847": {
    "first_seen": "2026-08-26",
@@ -19696,7 +19696,7 @@
     "product_name": "BABY NATURAL CLEAR ZINC SUNSCREEN",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-457849": {
    "first_seen": "2026-08-26",
@@ -19738,7 +19738,7 @@
     "product_name": "KIDS NATURAL CLEAR ZINC SUNSCREEN",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-457862": {
    "first_seen": "2026-08-26",
@@ -19796,7 +19796,7 @@
     "product_name": "Matte Sunscreen SPF 50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-459547": {
    "first_seen": "2026-08-26",
@@ -19850,7 +19850,7 @@
     "product_name": "KAKADU PLUM & COCONUT SUNSCREEN LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-462191": {
    "first_seen": "2026-08-26",
@@ -19907,7 +19907,7 @@
     "product_name": "Naturally Cooked SPF50+ Sunscreen Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-462448": {
    "first_seen": "2026-08-26",
@@ -19971,7 +19971,7 @@
     "product_name": "Essano Hydrating Sunscreen Serum SPF40",
     "spf_label": 40
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-462682": {
    "first_seen": "2026-08-26",
@@ -20047,7 +20047,7 @@
     "product_name": "Sensitive Whipped SPF50 Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-462684": {
    "first_seen": "2026-08-26",
@@ -20124,7 +20124,7 @@
     "product_name": "Watermelon Whipped SPF50 Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-462686": {
    "first_seen": "2026-08-26",
@@ -20200,7 +20200,7 @@
     "product_name": "Pineapple Whipped SPF50 Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-462689": {
    "first_seen": "2026-08-26",
@@ -20277,7 +20277,7 @@
     "product_name": "Mango Whipped SPF50 Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-464026": {
    "first_seen": "2026-08-26",
@@ -20349,7 +20349,7 @@
     "product_name": "DRY TOUCH HAND & BODY SUNSCREEN SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-464495": {
    "first_seen": "2026-08-26",
@@ -20394,7 +20394,7 @@
     "product_name": "Bulldog Skincare SPF50+ Mineral Zinc Face Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-464502": {
    "first_seen": "2026-08-26",
@@ -20477,7 +20477,7 @@
     "product_name": "LA ROCHE POSAY LABORATOIRE DERMATOLOGIQUE ANTHELIOS KA+ SUNSCREEN SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-464652": {
    "first_seen": "2026-08-26",
@@ -20530,7 +20530,7 @@
     "product_name": "ALL ROUNDER GEL SUNSCREEN",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-464655": {
    "first_seen": "2026-08-26",
@@ -20581,7 +20581,7 @@
     "product_name": "CONQUER GEL SUNSCREEN",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-465669": {
    "first_seen": "2026-08-26",
@@ -20624,7 +20624,7 @@
     "product_name": "Invisible Zinc Face + Body Mineral Sunscreen SPF50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-465670": {
    "first_seen": "2026-08-26",
@@ -20667,7 +20667,7 @@
     "product_name": "Invisible Zinc Junior Mineral Sunscreen SPF50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-466445": {
    "first_seen": "2026-08-26",
@@ -20746,7 +20746,7 @@
     "product_name": "SPF50+ Hydrating Face Serum With Kakadu Plum Broad Spectrum Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-466885": {
    "first_seen": "2026-08-26",
@@ -20803,7 +20803,7 @@
     "product_name": "Cancer_Council Everyday Value Sunscreen SPF50 (New Formulation)",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-467786": {
    "first_seen": "2026-08-26",
@@ -20876,7 +20876,7 @@
     "product_name": "PROPAIRA FLUID SUNSCREEN SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-472572": {
    "first_seen": "2026-08-26",
@@ -20950,7 +20950,7 @@
     "product_name": "SUNSITIVE® OIL CONTROL SUNSCREEN FLUID SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-473710": {
    "first_seen": "2026-08-26",
@@ -21015,7 +21015,7 @@
     "product_name": "LIGHT SUNSCREEN LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-473985": {
    "first_seen": "2026-08-26",
@@ -21065,7 +21065,7 @@
     "product_name": "NATURAL MINERAL SUNSCREEN",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-474237": {
    "first_seen": "2026-08-26",
@@ -21118,7 +21118,7 @@
     "product_name": "Natural Mineral Hydrating Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-474845": {
    "first_seen": "2026-08-26",
@@ -21173,7 +21173,7 @@
     "product_name": "Banana Boat Kids Smartmist Sunscreen Spray SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-474846": {
    "first_seen": "2026-08-26",
@@ -21245,7 +21245,7 @@
     "product_name": "Banana Boat Mattifying Face Sunscreen Lotion SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-474847": {
    "first_seen": "2026-08-26",
@@ -21299,7 +21299,7 @@
     "product_name": "Banana Boat Sport Smartmist Sunscreen Spray SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-474848": {
    "first_seen": "2026-08-26",
@@ -21356,7 +21356,7 @@
     "product_name": "Hawaiian Tropic Silk Hydration Glow Mist Sunscreen Spray SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-476780": {
    "first_seen": "2026-08-26",
@@ -21424,7 +21424,7 @@
     "product_name": "Sunscreen Face Moisturiser Light Tint",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-476781": {
    "first_seen": "2026-08-26",
@@ -21489,7 +21489,7 @@
     "product_name": "Sunscreen Face Moisturiser",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-477151": {
    "first_seen": "2026-08-26",
@@ -21541,7 +21541,7 @@
     "product_name": "Mineral Sunscreen Sensitive",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-477888": {
    "first_seen": "2026-08-26",
@@ -21591,7 +21591,7 @@
     "product_name": "Standard Procedure Silk Mineral SPF50 Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-477891": {
    "first_seen": "2026-08-26",
@@ -21648,7 +21648,7 @@
     "product_name": "Labouns Daily Glow Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-478636": {
    "first_seen": "2026-08-26",
@@ -21692,7 +21692,7 @@
     "product_name": "SUNSCREEN MIST",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-478638": {
    "first_seen": "2026-08-26",
@@ -21732,7 +21732,7 @@
     "product_name": "SPF 30 Natural Body Sunscreen",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-478642": {
    "first_seen": "2026-08-26",
@@ -21770,7 +21770,7 @@
     "product_name": "Hello Sunshine Natural Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-481465": {
    "first_seen": "2026-08-26",
@@ -21808,7 +21808,7 @@
     "product_name": "Baby Mineral Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-481986": {
    "first_seen": "2026-08-26",
@@ -21869,7 +21869,7 @@
     "product_name": "Cancer_Council Sensitive Sunscreen SPF50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-481987": {
    "first_seen": "2026-08-26",
@@ -21910,7 +21910,7 @@
     "product_name": "Natural Zinc Sunscreen Stick",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-484741": {
    "first_seen": "2026-08-26",
@@ -21960,7 +21960,7 @@
     "product_name": "Standard Procedure Silk Mineral SPF50 Sunscreen face lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-484889": {
    "first_seen": "2026-08-26",
@@ -22027,7 +22027,7 @@
     "product_name": "Rip Curl The Surfers Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-484925": {
    "first_seen": "2026-08-26",
@@ -22106,7 +22106,7 @@
     "product_name": "Barefoot Labs WhipScreen Sunscreen Mousse SPF50 ANTI-SCENT",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-484926": {
    "first_seen": "2026-08-26",
@@ -22185,7 +22185,7 @@
     "product_name": "Barefoot Labs WhipScreen Sunscreen Mousse SPF50 GLAZED DONUT",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-485009": {
    "first_seen": "2026-08-26",
@@ -22242,7 +22242,7 @@
     "product_name": "SPF 50+ UVA & UVB Protection Water Resistant 4HRS COCONUT BEACH SUNSCREEN LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-485232": {
    "first_seen": "2026-08-26",
@@ -22314,7 +22314,7 @@
     "product_name": "Kids Sunscreen Lotion SPF50 Roll On",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-485997": {
    "first_seen": "2026-08-26",
@@ -22378,7 +22378,7 @@
     "product_name": "Cancer_Council Protect & Hydrate Sunscreen 24 HR Hydration SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-486485": {
    "first_seen": "2026-08-26",
@@ -22423,7 +22423,7 @@
     "product_name": "FUCA SPF 50+ Mineral Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-487549": {
    "first_seen": "2026-08-26",
@@ -22461,7 +22461,7 @@
     "product_name": "natural sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-487988": {
    "first_seen": "2026-08-26",
@@ -22515,7 +22515,7 @@
     "product_name": "SUN BUSTER GEL SUNSCREEN",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-488285": {
    "first_seen": "2026-08-26",
@@ -22576,7 +22576,7 @@
     "product_name": "Sun Motion SPF50+ Sports Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-488482": {
    "first_seen": "2026-08-26",
@@ -22625,7 +22625,7 @@
     "product_name": "Sun Zapper Pure Zinc Anti-mozzie Sunscreen SPF50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-488483": {
    "first_seen": "2026-08-26",
@@ -22679,7 +22679,7 @@
     "product_name": "Sun Zapper Pure Zinc Sunscreen SPF50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-488588": {
    "first_seen": "2026-08-26",
@@ -22724,7 +22724,7 @@
     "product_name": "3 IN 1 SUNSCREEN SETTING SPRAY & HYDRATION MIST",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-488906": {
    "first_seen": "2026-08-26",
@@ -22800,7 +22800,7 @@
     "product_name": "Neutrogena Ultra Sheer Fluid Sunscreen Age Shield",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-488927": {
    "first_seen": "2026-08-26",
@@ -22838,7 +22838,7 @@
     "product_name": "Natural Clear Zinc Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-489276": {
    "first_seen": "2026-08-26",
@@ -22903,7 +22903,7 @@
     "product_name": "High - Performance Sunscreen Lotion SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-489706": {
    "first_seen": "2026-08-26",
@@ -22954,7 +22954,7 @@
     "product_name": "Ultra Light Mineral Sunscreen Lotion SPF50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-490877": {
    "first_seen": "2026-08-26",
@@ -22997,7 +22997,7 @@
     "product_name": "Clear Zinc Sunscreen SPF 50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-491805": {
    "first_seen": "2026-08-26",
@@ -23058,7 +23058,7 @@
     "product_name": "Standard Procedure SPF50+ Sunscreen Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-492249": {
    "first_seen": "2026-08-26",
@@ -23103,7 +23103,7 @@
     "product_name": "FACE LIGHT/MEDIUM TINT NATURAL SUNSCREEN",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-492250": {
    "first_seen": "2026-08-26",
@@ -23145,7 +23145,7 @@
     "product_name": "FACE NATURAL CLEAR ZINC SUNSCREEN",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-492259": {
    "first_seen": "2026-08-26",
@@ -23185,7 +23185,7 @@
     "product_name": "Natural Clear Zinc Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-492373": {
    "first_seen": "2026-08-26",
@@ -23241,7 +23241,7 @@
     "product_name": "Marine Blue Australia SPF50+ Everyday Sunscreen Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-503927": {
    "first_seen": "2026-08-26",
@@ -23301,7 +23301,7 @@
     "product_name": "PROBLOC Industrial Strength Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-504847": {
    "first_seen": "2026-08-26",
@@ -23346,7 +23346,7 @@
     "product_name": "Everyday Tinted Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-504848": {
    "first_seen": "2026-08-26",
@@ -23401,7 +23401,7 @@
     "product_name": "Everyday Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-505037": {
    "first_seen": "2026-08-26",
@@ -23475,7 +23475,7 @@
     "product_name": "SPF 50+ Hydrating Body Sunscreen with Macadamia Oil",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-505090": {
    "first_seen": "2026-08-26",
@@ -23532,7 +23532,7 @@
     "product_name": "SPF50+ Sunscreen Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-50582": {
    "first_seen": "2026-08-26",
@@ -23568,7 +23568,7 @@
     "product_name": "CANCER SOCIETY VERY HIGH PROTECTION SPF15+        SUNSCREEN stick tube",
     "spf_label": 15
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-506488": {
    "first_seen": "2026-08-26",
@@ -23610,7 +23610,7 @@
     "product_name": "Pink Tinted Mineral Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-506489": {
    "first_seen": "2026-08-26",
@@ -23651,7 +23651,7 @@
     "product_name": "Yellow Tinted Mineral Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-507881": {
    "first_seen": "2026-08-26",
@@ -23689,7 +23689,7 @@
     "product_name": "The Kind Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-509034": {
    "first_seen": "2026-08-26",
@@ -23747,7 +23747,7 @@
     "product_name": "Le Tan Coconut Sunscreen Lotion SPF 15",
     "spf_label": 15
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-510888": {
    "first_seen": "2026-08-26",
@@ -23790,7 +23790,7 @@
     "product_name": "Basking Beauty Natural Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-513049": {
    "first_seen": "2026-08-26",
@@ -23864,7 +23864,7 @@
     "product_name": "ANTHELIOS UVAIR SERUM SUNSCREEN MEDIUM",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-513050": {
    "first_seen": "2026-08-26",
@@ -23938,7 +23938,7 @@
     "product_name": "ANTHELIOS UVAIR SERUM SUNSCREEN LIGHT",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-513051": {
    "first_seen": "2026-08-26",
@@ -24008,7 +24008,7 @@
     "product_name": "ANTHELIOS UVAIR SERUM SUNSCREEN",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-514545": {
    "first_seen": "2026-08-26",
@@ -24069,7 +24069,7 @@
     "product_name": "SPF50+ SUNSCREEN SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-514685": {
    "first_seen": "2026-08-26",
@@ -24125,7 +24125,7 @@
     "product_name": "FACE SPF50+ SUNSCREEN MIST",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-514686": {
    "first_seen": "2026-08-26",
@@ -24186,7 +24186,7 @@
     "product_name": "FACE SPF50+ SUNSCREEN FLUID",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-515354": {
    "first_seen": "2026-08-26",
@@ -24264,7 +24264,7 @@
     "product_name": "By The Sea Salted Caramel Whipped SPF50 Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-515548": {
    "first_seen": "2026-08-26",
@@ -24322,7 +24322,7 @@
     "product_name": "SOLAR D SUNSCREEN KIDS SPF 50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-517166": {
    "first_seen": "2026-08-26",
@@ -24383,7 +24383,7 @@
     "product_name": "UNITED WONDER SPF 50+ FACIAL SUNSCREEN",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-517313": {
    "first_seen": "2026-08-26",
@@ -24455,7 +24455,7 @@
     "product_name": "DailyDaze Luminous Milk Face Sunscreen SPF50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-517597": {
    "first_seen": "2026-08-26",
@@ -24514,7 +24514,7 @@
     "product_name": "SPF 50 SHEER GLOW SUNSCREEN GEL",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-519486": {
    "first_seen": "2026-08-26",
@@ -24569,7 +24569,7 @@
     "product_name": "SParms Organic Sensitive Skin Facial Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-519829": {
    "first_seen": "2026-08-26",
@@ -24610,7 +24610,7 @@
     "product_name": "Grown Alchemist Natural Hydrating Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-520825": {
    "first_seen": "2026-08-26",
@@ -24668,7 +24668,7 @@
     "product_name": "Bondi Sands SPF50+ Fragrance Free Sunscreen Lotion (Formulation Update)",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-520826": {
    "first_seen": "2026-08-26",
@@ -24726,7 +24726,7 @@
     "product_name": "Bondi Sands Daily Moisturising Face SPF50+ Sunscreen Lotion (Formulation Update)",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-521496": {
    "first_seen": "2026-08-26",
@@ -24800,7 +24800,7 @@
     "product_name": "Dermal Therapy Oil-Free Face Sunscreen SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-521887": {
    "first_seen": "2026-08-26",
@@ -24860,7 +24860,7 @@
     "product_name": "Biore UV Aqua Rich Lightweight Moisturiser Broad Spectrum SPF 50 Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-522027": {
    "first_seen": "2026-08-26",
@@ -24899,7 +24899,7 @@
     "product_name": "natural zinc face sunscreen with antioxidant CoQ10",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-522293": {
    "first_seen": "2026-08-26",
@@ -24963,7 +24963,7 @@
     "product_name": "Biore UV Aqua Rich Glow Effect Moisturiser Broad Spectrum SPF 50 Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-523212": {
    "first_seen": "2026-08-26",
@@ -25030,7 +25030,7 @@
     "product_name": "Hydrating Tinted Face Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-523213": {
    "first_seen": "2026-08-26",
@@ -25104,7 +25104,7 @@
     "product_name": "Hydrating Face Fluid Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-523215": {
    "first_seen": "2026-08-26",
@@ -25168,7 +25168,7 @@
     "product_name": "Hydrating Sunscreen SPF50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-523216": {
    "first_seen": "2026-08-26",
@@ -25232,7 +25232,7 @@
     "product_name": "Hydrating Face Sunscreen SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-524107": {
    "first_seen": "2026-08-26",
@@ -25307,7 +25307,7 @@
     "product_name": "Hawaiian Tropic Silk Hydration Radiance Face Serum Sunscreen Lotion SPF50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-524386": {
    "first_seen": "2026-08-26",
@@ -25364,7 +25364,7 @@
     "product_name": "SHEER GLOW SUNSCREEN GEL BROAD SPECTRUM SPF 50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-524556": {
    "first_seen": "2026-08-26",
@@ -25431,7 +25431,7 @@
     "product_name": "Banana Boat Sport Coolzone Sunscreen Lotion Spray",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-524613": {
    "first_seen": "2026-08-26",
@@ -25487,7 +25487,7 @@
     "product_name": "Fullnoon Mineral Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-525004": {
    "first_seen": "2026-08-26",
@@ -25560,7 +25560,7 @@
     "product_name": "Sensitive Face SPF50 Sunscreen Fluid",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-525074": {
    "first_seen": "2026-08-26",
@@ -25599,7 +25599,7 @@
     "product_name": "Mineral Sunscreen for Babies and Children",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-525075": {
    "first_seen": "2026-08-26",
@@ -25639,7 +25639,7 @@
     "product_name": "Mineral Sunscreen Stick",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-525076": {
    "first_seen": "2026-08-26",
@@ -25679,7 +25679,7 @@
     "product_name": "Pink Tinted Mineral Sunscreen Stick",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-525315": {
    "first_seen": "2026-08-26",
@@ -25721,7 +25721,7 @@
     "product_name": "WORK-SHIELD PRO ZINC SUNSCREEN",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-525502": {
    "first_seen": "2026-08-26",
@@ -25766,7 +25766,7 @@
     "product_name": "GENTLE APRICOT ZINC SUNSCREEN",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-525503": {
    "first_seen": "2026-08-26",
@@ -25811,7 +25811,7 @@
     "product_name": "MOZZIE BARRIER ZINC SUNSCREEN",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-525601": {
    "first_seen": "2026-08-26",
@@ -25854,7 +25854,7 @@
     "product_name": "KIDS ZINC SUNSCREEN",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-525638": {
    "first_seen": "2026-08-26",
@@ -25896,7 +25896,7 @@
     "product_name": "FACE & BODY ZINC SUNSCREEN",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-525639": {
    "first_seen": "2026-08-26",
@@ -25939,7 +25939,7 @@
     "product_name": "SPORT PRO ZINC SUNSCREEN",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526283": {
    "first_seen": "2026-08-26",
@@ -25995,7 +25995,7 @@
     "product_name": "Surf Life Saving Face Zinc Sunscreen SPF 50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526285": {
    "first_seen": "2026-08-26",
@@ -26058,7 +26058,7 @@
     "product_name": "Cancer_Council Kids Sunscreen Spray SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526286": {
    "first_seen": "2026-08-26",
@@ -26123,7 +26123,7 @@
     "product_name": "Cancer_Council Family Protect Sunscreen Spray SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526287": {
    "first_seen": "2026-08-26",
@@ -26192,7 +26192,7 @@
     "product_name": "Cancer_Council Ultra-Light Fluid Sunscreen Spray SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526294": {
    "first_seen": "2026-08-26",
@@ -26234,7 +26234,7 @@
     "product_name": "Oyster Suncare SPF50 Organic Mineral Sunscreen Creme",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526295": {
    "first_seen": "2026-08-26",
@@ -26277,7 +26277,7 @@
     "product_name": "Kids Mineral Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526296": {
    "first_seen": "2026-08-26",
@@ -26319,7 +26319,7 @@
     "product_name": "Mineral Sunscreen Face & Body",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526298": {
    "first_seen": "2026-08-26",
@@ -26361,7 +26361,7 @@
     "product_name": "Worksite Mineral Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526340": {
    "first_seen": "2026-08-26",
@@ -26404,7 +26404,7 @@
     "product_name": "Mineral Kids Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526341": {
    "first_seen": "2026-08-26",
@@ -26447,7 +26447,7 @@
     "product_name": "Mineral Family Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526342": {
    "first_seen": "2026-08-26",
@@ -26492,7 +26492,7 @@
     "product_name": "Mosquito Barrier Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526343": {
    "first_seen": "2026-08-26",
@@ -26536,7 +26536,7 @@
     "product_name": "MIneral Baby Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526344": {
    "first_seen": "2026-08-26",
@@ -26579,7 +26579,7 @@
     "product_name": "Organic Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526345": {
    "first_seen": "2026-08-26",
@@ -26623,7 +26623,7 @@
     "product_name": "Organic Sport Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526346": {
    "first_seen": "2026-08-26",
@@ -26668,7 +26668,7 @@
     "product_name": "Organic Citronella Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526347": {
    "first_seen": "2026-08-26",
@@ -26712,7 +26712,7 @@
     "product_name": "Organic Kids Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526388": {
    "first_seen": "2026-08-26",
@@ -26767,7 +26767,7 @@
     "product_name": "Tech Protect Multi-Mist Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526389": {
    "first_seen": "2026-08-26",
@@ -26832,7 +26832,7 @@
     "product_name": "SPF 50+ Sunscreen",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526391": {
    "first_seen": "2026-08-26",
@@ -26876,7 +26876,7 @@
     "product_name": "Mineral Kids Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526392": {
    "first_seen": "2026-08-26",
@@ -26918,7 +26918,7 @@
     "product_name": "Mineral Face Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526393": {
    "first_seen": "2026-08-26",
@@ -26964,7 +26964,7 @@
     "product_name": "Mineral Mosquito Barrier Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526394": {
    "first_seen": "2026-08-26",
@@ -27006,7 +27006,7 @@
     "product_name": "Mineral Surf & Snorkel Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526577": {
    "first_seen": "2026-08-26",
@@ -27084,7 +27084,7 @@
     "product_name": "Hawaiian Tropic Silk Hydration Face Fluid Sunscreen Lotion SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526582": {
    "first_seen": "2026-08-26",
@@ -27149,7 +27149,7 @@
     "product_name": "Hawaiian Tropic Silk Hydration Sunscreen Spray SPF50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-526739": {
    "first_seen": "2026-08-26",
@@ -27221,7 +27221,7 @@
     "product_name": "Banana Boat Ultra Light Face Fluid Sunscreen Lotion SPF 50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-527776": {
    "first_seen": "2026-08-26",
@@ -27264,7 +27264,7 @@
     "product_name": "Kids Roll-On Natural Clear Zinc Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-527777": {
    "first_seen": "2026-08-26",
@@ -27305,7 +27305,7 @@
     "product_name": "Natural Vanilla Coconut Clear Zinc Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-527778": {
    "first_seen": "2026-08-26",
@@ -27346,7 +27346,7 @@
     "product_name": "Natural Tropical Clear Zinc Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-527780": {
    "first_seen": "2026-08-26",
@@ -27406,7 +27406,7 @@
     "product_name": "Force360 Heatwave SPF50+ Sunscreen Spray",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-527781": {
    "first_seen": "2026-08-26",
@@ -27462,7 +27462,7 @@
     "product_name": "Force360 Heatwave SPF50+ Sunscreen Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-527812": {
    "first_seen": "2026-08-26",
@@ -27514,7 +27514,7 @@
     "product_name": "Sunscreen Stick",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-528308": {
    "first_seen": "2026-08-26",
@@ -27570,7 +27570,7 @@
     "product_name": "TerryWhite Chemmart Sunscreen Lotion SPF50+",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-528474": {
    "first_seen": "2026-08-26",
@@ -27626,7 +27626,7 @@
     "product_name": "SPF 50+ Sunscreen Spray",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-528516": {
    "first_seen": "2026-08-26",
@@ -27671,7 +27671,7 @@
     "product_name": "Sun Zapper Face Pure Zinc Sunscreen SPF30",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-528517": {
    "first_seen": "2026-08-26",
@@ -27716,7 +27716,7 @@
     "product_name": "Sun Zapper Anti-Aging Pure Zinc Sunscreen SPF30",
     "spf_label": 30
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-529128": {
    "first_seen": "2026-08-26",
@@ -27774,7 +27774,7 @@
     "product_name": "Force360 Heatwave SPF50+ Sunscreen Lip Balm Stick",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-529198": {
    "first_seen": "2026-08-26",
@@ -27838,7 +27838,7 @@
     "product_name": "Banana Boat Kids Sunscreen Lotion Roll-on SPF50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-529199": {
    "first_seen": "2026-08-26",
@@ -27902,7 +27902,7 @@
     "product_name": "Banana Boat Kids Sunscreen Lotion Spray SPF50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-529257": {
    "first_seen": "2026-08-26",
@@ -27948,7 +27948,7 @@
     "product_name": "Mini Moo Healthy Clear Zinc Sunscreen SPF 40",
     "spf_label": 40
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-529378": {
    "first_seen": "2026-08-26",
@@ -28002,7 +28002,7 @@
     "product_name": "Rayo SPF50+ Hydrating Facial Sunscreen Lotion",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-529471": {
    "first_seen": "2026-08-26",
@@ -28044,7 +28044,7 @@
     "product_name": "Everybody Sunscreen",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-529474": {
    "first_seen": "2026-08-26",
@@ -28119,7 +28119,7 @@
     "product_name": "evoSOLBARI SPF50+ FACE ULTRALIGHT SUNSCREEN SERUM",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-529778": {
    "first_seen": "2026-08-26",
@@ -28183,7 +28183,7 @@
     "product_name": "evoSOLBARI SPF50 BODY SPORT SUNSCREEN",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-529780": {
    "first_seen": "2026-08-26",
@@ -28247,7 +28247,7 @@
     "product_name": "evoSOLBARI SPF50 FACE SPORT SUNSCREEN",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-529914": {
    "first_seen": "2026-08-26",
@@ -28314,7 +28314,7 @@
     "product_name": "Derma K Teca B5 Sunscreen SPF50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-530062": {
    "first_seen": "2026-08-26",
@@ -28381,7 +28381,7 @@
     "product_name": "Banana Boat Sport Coolzone Sunscreen Lotion Spray",
     "spf_label": null
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-530064": {
    "first_seen": "2026-08-26",
@@ -28456,7 +28456,7 @@
     "product_name": "Hawaiian Tropic Silk Hydration Radiance Face Serum Sunscreen Lotion SPF50",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-530201": {
    "first_seen": "2026-08-26",
@@ -28525,7 +28525,7 @@
     "product_name": "AUMAXIA SPF50+ HYDRATING SUNSCREEN",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-530320": {
    "first_seen": "2026-08-26",
@@ -28579,7 +28579,7 @@
     "product_name": "evoSOLBARI SPF50+ FACE MOISTURISING SUNSCREEN LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-530324": {
    "first_seen": "2026-08-26",
@@ -28633,7 +28633,7 @@
     "product_name": "evoSOLBARI SPF50+ BODY MOISTURISING SUNSCREEN LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-09-03"
+   "verified_at": "2026-09-04"
   },
   "AU:ARTG-Applied filters:\nSearchValues contains 'sunscreen'": {
    "first_seen": "2026-08-26",
