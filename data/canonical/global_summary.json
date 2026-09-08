@@ -2,11 +2,11 @@
  "generated_from": {
   "AU": 501,
   "CA": 1924,
-  "US": 6523
+  "US": 6545
  },
- "total_products": 8948,
- "total_with_full_ingredients": 8884,
- "distinct_ingredients_after_normalisation": 6243,
+ "total_products": 8970,
+ "total_with_full_ingredients": 8906,
+ "distinct_ingredients_after_normalisation": 6245,
  "ingredients_present_in_every_jurisdiction": [
   "1,2-hexanediol",
   "acacia",
@@ -212,47 +212,47 @@
  "top_ingredients": [
   [
    "water",
-   6715
+   6727
   ],
   [
    "glycerin",
-   4864
+   4881
   ],
   [
    "phenoxyethanol",
-   3935
+   3937
   ],
   [
    "tocopheryl acetate",
-   3170
+   3172
   ],
   [
    "dimethicone",
-   3126
+   3133
   ],
   [
    "tocopherol",
-   2946
+   2964
   ],
   [
    "caprylic/capric triglyceride",
-   2622
+   2630
   ],
   [
    "xanthan gum",
-   2552
+   2557
   ],
   [
    "caprylyl glycol",
-   2541
+   2543
   ],
   [
    "ethylhexylglycerin",
-   2411
+   2413
   ],
   [
    "disodium edta",
-   2347
+   2353
   ],
   [
    "silica",
@@ -260,19 +260,19 @@
   ],
   [
    "butylene glycol",
-   2068
+   2074
   ],
   [
    "butyloctyl salicylate",
-   1996
+   2004
   ],
   [
    "iron oxide",
-   1792
+   1794
   ],
   [
    "aloe barbadensis leaf",
-   1766
+   1775
   ],
   [
    "polyhydroxystearic acid",
@@ -284,19 +284,19 @@
   ],
   [
    "triethoxycaprylylsilane",
-   1687
+   1689
   ],
   [
    "cetearyl alcohol",
-   1567
+   1570
   ],
   [
    "sodium chloride",
-   1415
+   1416
   ],
   [
    "alkyl (c12-15) benzoate",
-   1339
+   1340
   ],
   [
    "mica",
@@ -304,11 +304,11 @@
   ],
   [
    "alcohol",
-   1190
+   1200
   ],
   [
    "propanediol",
-   1111
+   1113
   ],
   [
    "glyceryl monostearate",
@@ -316,19 +316,19 @@
   ],
   [
    "shea butter",
-   1073
+   1074
   ],
   [
    "sodium benzoate",
-   1012
+   1013
   ],
   [
    "potassium sorbate",
-   1011
+   1012
   ],
   [
    "peg-100 stearate",
-   978
+   979
   ],
   [
    "propylene glycol",
@@ -340,19 +340,19 @@
   ],
   [
    "trolamine",
-   943
+   947
   ],
   [
    "1,2-hexanediol",
-   900
+   903
   ],
   [
    "aluminum hydroxide",
-   885
+   886
   ],
   [
    "benzyl alcohol",
-   881
+   883
   ],
   [
    "cetyl alcohol",
@@ -368,7 +368,7 @@
   ],
   [
    "lecithin",
-   848
+   849
   ]
  ],
  "per_jurisdiction": {
@@ -381,7 +381,7 @@
    "zinc_median_percent": 22.75,
    "zinc_median_is_estimate": false,
    "publishes": "actives with mg/g, excipients alphabetical (hand-read from PDFs)",
-   "last_verified": "2026-09-07",
+   "last_verified": "2026-09-08",
    "shared_formulation": {
     "clusters": 88,
     "products": 239,
@@ -395,7 +395,7 @@
    "mineral_only": 1908,
    "baby_labelled": 872,
    "median_ingredients": 27,
-   "zinc_median_percent": 8.6,
+   "zinc_median_percent": 8.325,
    "zinc_median_is_estimate": false,
    "publishes": "actives with exact %, inactive names only (mineral filters only — chemical-filter sunscreens are DIN/DPD and not in LNHPD)",
    "last_verified": null,
@@ -407,20 +407,20 @@
    }
   },
   "US": {
-   "products": 6523,
-   "with_full_ingredients": 6474,
-   "mineral_only": 1969,
-   "baby_labelled": 385,
+   "products": 6545,
+   "with_full_ingredients": 6496,
+   "mineral_only": 1975,
+   "baby_labelled": 386,
    "median_ingredients": 22,
    "zinc_median_percent": 12.0,
    "zinc_median_is_estimate": true,
    "publishes": "full inactive list in formulation order, every ingredient with a UNII; active strengths are filed WITHOUT their unit upstream, so percent_w_w is null and percent_estimate carries an assumption (see docs/upstream_unit_patch.md)",
-   "last_verified": "2026-09-07",
+   "last_verified": "2026-09-08",
    "shared_formulation": {
-    "clusters": 574,
-    "products": 1919,
-    "cross_company_clusters": 244,
-    "cross_company_products": 818
+    "clusters": 576,
+    "products": 1930,
+    "cross_company_clusters": 245,
+    "cross_company_products": 825
    }
   }
  },
