@@ -1,11 +1,11 @@
 {
  "baseline_taken": "2026-08-26",
  "counts": {
-  "events_this_run": 56,
-  "records": 1924
+  "events_this_run": 64,
+  "records": 1860
  },
  "jurisdiction": "CA",
- "last_run": "2026-09-12",
+ "last_run": "2026-09-13",
  "profile": {
   "actives_concentration": true,
   "inactive_order": false,
@@ -73616,6 +73616,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Salt & Stone",
@@ -73981,6 +73982,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "CICTAN Health Group Corp.",
@@ -74042,6 +74044,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "CICTAN Health Group Corp.",
@@ -74115,6 +74118,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "First Aid Beauty Ltd",
@@ -74176,6 +74180,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Sun Bum LLC",
@@ -74235,6 +74240,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": false,
     "company": "Orveon Global US LLC",
@@ -74336,6 +74342,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "W.S. Badger Company, Inc.",
@@ -74385,6 +74392,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "W.S. Badger Company, Inc.",
@@ -74540,6 +74548,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "StriVectin Operating Company, Inc.",
@@ -74606,6 +74615,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Laboratoires Druide Inc./ Laboratoires Nelly De Vuyst/ Laboratoires Europelab",
@@ -74738,6 +74748,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Laboratoires Druide Inc./ Laboratoires Nelly De Vuyst/ Laboratoires Europelab",
@@ -74803,6 +74814,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Laboratoires Druide Inc./ Laboratoires Nelly De Vuyst/ Laboratoires Europelab",
@@ -74875,6 +74887,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Supergoop, LLC",
@@ -75005,6 +75018,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Anahit International Corp.",
@@ -75075,6 +75089,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Shaklee Canada Inc.",
@@ -75120,6 +75135,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "W.S. Badger Company, Inc.",
@@ -75206,6 +75222,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "ZO Skin Health Inc.",
@@ -75263,6 +75280,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "NOVA KARE INC.",
@@ -75308,6 +75326,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "W.S. Badger Company, Inc.",
@@ -75377,6 +75396,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Laboratoires Druide Inc./ Laboratoires Nelly De Vuyst/ Laboratoires Europelab",
@@ -75430,6 +75450,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": false,
     "company": "Cyberderm Laboratories Inc.",
@@ -75550,6 +75571,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "All Good",
@@ -75616,6 +75638,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Laboratoires Druide Inc./ Laboratoires Nelly De Vuyst/ Laboratoires Europelab",
@@ -75679,6 +75702,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Sun Bum LLC",
@@ -75738,6 +75762,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Fruit of the Earth, Inc.",
@@ -75794,6 +75819,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "PRO VERA SA",
@@ -75872,6 +75898,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Functionalab Group inc.",
@@ -75923,6 +75950,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Cyberderm Laboratories Inc.",
@@ -75975,6 +76003,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "9510273 Canada Limited",
@@ -76093,6 +76122,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "HAVE & BE USA, INC.",
@@ -76195,6 +76225,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Cyberderm Laboratories Inc.",
@@ -76273,6 +76304,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "OMBRELLE CANADA",
@@ -76327,6 +76359,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": false,
     "company": "Just Products",
@@ -76395,6 +76428,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Laboratoires Druide Inc./ Laboratoires Nelly De Vuyst/ Laboratoires Europelab",
@@ -76452,6 +76486,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "COOLA LLC",
@@ -76516,6 +76551,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "COOLA LLC",
@@ -76609,6 +76645,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Next Cell Medical Corp",
@@ -76689,6 +76726,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Dermalogica (Canada) Inc.",
@@ -76749,6 +76787,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Meow Meow Tweet",
@@ -76820,6 +76859,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Crown Laboratories, Inc.",
@@ -76881,6 +76921,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Haleon Canada ULC",
@@ -76954,6 +76995,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Colorescience Inc.",
@@ -77028,6 +77070,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Colorescience Inc.",
@@ -77083,6 +77126,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Sea & Summit",
@@ -77144,6 +77188,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Salt & Stone",
@@ -77220,6 +77265,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Normalest Co, Ltd.",
@@ -77306,6 +77352,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Normalest Co, Ltd.",
@@ -77373,6 +77420,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Just Products",
@@ -77436,6 +77484,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Emu Dundee Original Inc.",
@@ -77502,6 +77551,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Emu Dundee Original Inc.",
@@ -77568,6 +77618,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Crown Laboratories, Inc.",
@@ -77624,6 +77675,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Derma-e Natural Bodycare",
@@ -77690,6 +77742,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "MDSolarSciences Corp",
@@ -77767,6 +77820,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Colorescience Inc.",
@@ -77843,6 +77897,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Colorescience Inc.",
@@ -77920,6 +77975,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Colorescience Inc.",
@@ -77998,6 +78054,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Colorescience Inc.",
@@ -78069,6 +78126,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Laboratoires La Roche-Posay Canada",
@@ -78143,6 +78201,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Colorescience Inc.",
@@ -78449,6 +78508,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": false,
     "company": "Derma-e Natural Bodycare",
@@ -78515,6 +78575,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": false,
     "company": "eos Products, LLC",
@@ -78682,6 +78743,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": false,
     "company": "Clinique Laboratories, Dist.",
@@ -80588,6 +80650,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "MT DERME S.A.",
@@ -81475,6 +81538,7 @@
      "inactive_order": false
     }
    },
+   "gone_since": "2026-09-13",
    "meta": {
     "attested_monograph": true,
     "company": "Counter Beauty",

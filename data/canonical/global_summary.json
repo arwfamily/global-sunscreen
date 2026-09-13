@@ -1,12 +1,12 @@
 {
  "generated_from": {
   "AU": 501,
-  "CA": 1924,
+  "CA": 1860,
   "US": 6545
  },
- "total_products": 8970,
- "total_with_full_ingredients": 8906,
- "distinct_ingredients_after_normalisation": 6245,
+ "total_products": 8906,
+ "total_with_full_ingredients": 8842,
+ "distinct_ingredients_after_normalisation": 6218,
  "ingredients_present_in_every_jurisdiction": [
   "1,2-hexanediol",
   "acacia",
@@ -212,15 +212,15 @@
  "top_ingredients": [
   [
    "water",
-   6727
+   6684
   ],
   [
    "glycerin",
-   4881
+   4848
   ],
   [
    "phenoxyethanol",
-   3937
+   3917
   ],
   [
    "tocopheryl acetate",
@@ -228,87 +228,87 @@
   ],
   [
    "dimethicone",
-   3133
+   3114
   ],
   [
    "tocopherol",
-   2964
+   2949
   ],
   [
    "caprylic/capric triglyceride",
-   2630
+   2595
   ],
   [
    "xanthan gum",
-   2557
+   2537
   ],
   [
    "caprylyl glycol",
-   2543
+   2528
   ],
   [
    "ethylhexylglycerin",
-   2413
+   2397
   ],
   [
    "disodium edta",
-   2353
+   2349
   ],
   [
    "silica",
-   2272
+   2257
   ],
   [
    "butylene glycol",
-   2074
+   2064
   ],
   [
    "butyloctyl salicylate",
-   2004
-  ],
-  [
-   "iron oxide",
-   1794
+   1993
   ],
   [
    "aloe barbadensis leaf",
-   1775
+   1773
+  ],
+  [
+   "iron oxide",
+   1769
   ],
   [
    "polyhydroxystearic acid",
-   1758
+   1723
   ],
   [
    "stearic acid",
-   1707
+   1687
   ],
   [
    "triethoxycaprylylsilane",
-   1689
+   1678
   ],
   [
    "cetearyl alcohol",
-   1570
+   1566
   ],
   [
    "sodium chloride",
-   1416
+   1407
   ],
   [
    "alkyl (c12-15) benzoate",
-   1340
+   1339
   ],
   [
    "mica",
-   1245
+   1230
   ],
   [
    "alcohol",
-   1200
+   1199
   ],
   [
    "propanediol",
-   1113
+   1094
   ],
   [
    "glyceryl monostearate",
@@ -316,19 +316,19 @@
   ],
   [
    "shea butter",
-   1074
-  ],
-  [
-   "sodium benzoate",
-   1013
+   1058
   ],
   [
    "potassium sorbate",
-   1012
+   1002
+  ],
+  [
+   "sodium benzoate",
+   1000
   ],
   [
    "peg-100 stearate",
-   979
+   977
   ],
   [
    "propylene glycol",
@@ -336,7 +336,7 @@
   ],
   [
    "titanium dioxide",
-   952
+   948
   ],
   [
    "trolamine",
@@ -344,31 +344,31 @@
   ],
   [
    "1,2-hexanediol",
-   903
-  ],
-  [
-   "aluminum hydroxide",
-   886
-  ],
-  [
-   "benzyl alcohol",
-   883
-  ],
-  [
-   "cetyl alcohol",
-   877
+   898
   ],
   [
    "methylparaben",
    876
   ],
   [
+   "cetyl alcohol",
+   876
+  ],
+  [
+   "aluminum hydroxide",
+   874
+  ],
+  [
+   "benzyl alcohol",
+   873
+  ],
+  [
    "chlorphenesin",
-   859
+   855
   ],
   [
    "lecithin",
-   849
+   835
   ]
  ],
  "per_jurisdiction": {
@@ -381,7 +381,7 @@
    "zinc_median_percent": 22.75,
    "zinc_median_is_estimate": false,
    "publishes": "actives with mg/g, excipients alphabetical (hand-read from PDFs)",
-   "last_verified": "2026-09-12",
+   "last_verified": "2026-09-13",
    "shared_formulation": {
     "clusters": 88,
     "products": 239,
@@ -390,20 +390,20 @@
    }
   },
   "CA": {
-   "products": 1924,
-   "with_full_ingredients": 1910,
-   "mineral_only": 1908,
-   "baby_labelled": 872,
+   "products": 1860,
+   "with_full_ingredients": 1846,
+   "mineral_only": 1844,
+   "baby_labelled": 834,
    "median_ingredients": 27,
    "zinc_median_percent": 9.7,
    "zinc_median_is_estimate": false,
    "publishes": "actives with exact %, inactive names only (mineral filters only — chemical-filter sunscreens are DIN/DPD and not in LNHPD)",
    "last_verified": null,
    "shared_formulation": {
-    "clusters": 97,
-    "products": 231,
+    "clusters": 95,
+    "products": 226,
     "cross_company_clusters": 20,
-    "cross_company_products": 48
+    "cross_company_products": 47
    }
   },
   "US": {
@@ -415,7 +415,7 @@
    "zinc_median_percent": 12.0,
    "zinc_median_is_estimate": true,
    "publishes": "full inactive list in formulation order, every ingredient with a UNII; active strengths are filed WITHOUT their unit upstream, so percent_w_w is null and percent_estimate carries an assumption (see docs/upstream_unit_patch.md)",
-   "last_verified": "2026-09-12",
+   "last_verified": "2026-09-13",
    "shared_formulation": {
     "clusters": 576,
     "products": 1930,
