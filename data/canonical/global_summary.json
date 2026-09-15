@@ -2,11 +2,11 @@
  "generated_from": {
   "AU": 501,
   "CA": 1860,
-  "US": 6545
+  "US": 6540
  },
- "total_products": 8906,
- "total_with_full_ingredients": 8842,
- "distinct_ingredients_after_normalisation": 6218,
+ "total_products": 8901,
+ "total_with_full_ingredients": 8837,
+ "distinct_ingredients_after_normalisation": 6207,
  "ingredients_present_in_every_jurisdiction": [
   "1,2-hexanediol",
   "acacia",
@@ -212,15 +212,15 @@
  "top_ingredients": [
   [
    "water",
-   6684
+   6680
   ],
   [
    "glycerin",
-   4848
+   4845
   ],
   [
    "phenoxyethanol",
-   3917
+   3915
   ],
   [
    "tocopheryl acetate",
@@ -228,27 +228,27 @@
   ],
   [
    "dimethicone",
-   3114
+   3112
   ],
   [
    "tocopherol",
-   2949
+   2946
   ],
   [
    "caprylic/capric triglyceride",
-   2595
+   2597
   ],
   [
    "xanthan gum",
-   2537
+   2535
   ],
   [
    "caprylyl glycol",
-   2528
+   2529
   ],
   [
    "ethylhexylglycerin",
-   2397
+   2396
   ],
   [
    "disodium edta",
@@ -256,7 +256,7 @@
   ],
   [
    "silica",
-   2257
+   2256
   ],
   [
    "butylene glycol",
@@ -264,11 +264,11 @@
   ],
   [
    "butyloctyl salicylate",
-   1993
+   1994
   ],
   [
    "aloe barbadensis leaf",
-   1773
+   1774
   ],
   [
    "iron oxide",
@@ -284,19 +284,19 @@
   ],
   [
    "triethoxycaprylylsilane",
-   1678
+   1677
   ],
   [
    "cetearyl alcohol",
-   1566
+   1565
   ],
   [
    "sodium chloride",
-   1407
+   1406
   ],
   [
    "alkyl (c12-15) benzoate",
-   1339
+   1340
   ],
   [
    "mica",
@@ -304,7 +304,7 @@
   ],
   [
    "alcohol",
-   1199
+   1201
   ],
   [
    "propanediol",
@@ -364,7 +364,7 @@
   ],
   [
    "chlorphenesin",
-   855
+   854
   ],
   [
    "lecithin",
@@ -381,7 +381,7 @@
    "zinc_median_percent": 22.75,
    "zinc_median_is_estimate": false,
    "publishes": "actives with mg/g, excipients alphabetical (hand-read from PDFs)",
-   "last_verified": "2026-09-14",
+   "last_verified": "2026-09-15",
    "shared_formulation": {
     "clusters": 88,
     "products": 239,
@@ -407,20 +407,20 @@
    }
   },
   "US": {
-   "products": 6545,
-   "with_full_ingredients": 6496,
-   "mineral_only": 1975,
+   "products": 6540,
+   "with_full_ingredients": 6491,
+   "mineral_only": 1973,
    "baby_labelled": 386,
    "median_ingredients": 22,
    "zinc_median_percent": 12.0,
    "zinc_median_is_estimate": true,
    "publishes": "full inactive list in formulation order, every ingredient with a UNII; active strengths are filed WITHOUT their unit upstream, so percent_w_w is null and percent_estimate carries an assumption (see docs/upstream_unit_patch.md)",
-   "last_verified": "2026-09-14",
+   "last_verified": "2026-09-15",
    "shared_formulation": {
     "clusters": 576,
-    "products": 1930,
+    "products": 1931,
     "cross_company_clusters": 245,
-    "cross_company_products": 825
+    "cross_company_products": 826
    }
   }
  },
