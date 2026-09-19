@@ -21,3 +21,9 @@
 - **[US] CHANTECAILLE ULTRA SUN PROTECTION SUNSCREEN SPF 45 (AVOBENZONE, OCTINOXATE, OCTISALATE, OCTOCRYLENE) LIQUID** (US:SPL-6186ea56-7d56-43f5-985d-a012f1296afa, sev 4) — CHANTECAILLE BEAUTE INC
   - octinoxate: 7.5% → 7.49%
   - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6186ea56-7d56-43f5-985d-a012f1296afa
+
+## 2026-09-19
+
+- **[CA] jane iredale Glow Fixation(TM) SPF 40** (CA:NPN-80148518, sev 2) — Iredale Cosmetics, Inc.
+  - added: synthetic fluorphlogopite
+  - https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80148518
