@@ -27,3 +27,10 @@
 - **[CA] jane iredale Glow Fixation(TM) SPF 40** (CA:NPN-80148518, sev 2) — Iredale Cosmetics, Inc.
   - added: synthetic fluorphlogopite
   - https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80148518
+
+## 2026-09-20
+
+- **[CA] Tinted Daily Glow Sunscreen** (CA:NPN-80129044, sev 2) — Glow Jar Beauty Inc
+  - added: squalane
+  - removed: squalene
+  - https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80129044
