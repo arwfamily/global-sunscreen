@@ -34,3 +34,10 @@
   - added: squalane
   - removed: squalene
   - https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80129044
+
+## 2026-09-21
+
+- **[CA] ThinkKids Sun Protection Mineral Powder** (CA:NPN-80132174, sev 2) — Derma-e Natural Bodycare
+  - added: tocopheryl acetate
+  - removed: dl-alpha tocopherol
+  - https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80132174
