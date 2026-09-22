@@ -6,7 +6,7 @@
  },
  "total_products": 8901,
  "total_with_full_ingredients": 8837,
- "distinct_ingredients_after_normalisation": 6207,
+ "distinct_ingredients_after_normalisation": 6206,
  "ingredients_present_in_every_jurisdiction": [
   "1,2-hexanediol",
   "acacia",
@@ -220,19 +220,19 @@
   ],
   [
    "phenoxyethanol",
-   3915
+   3916
   ],
   [
    "tocopheryl acetate",
-   3173
+   3175
   ],
   [
    "dimethicone",
-   3112
+   3113
   ],
   [
    "tocopherol",
-   2946
+   2945
   ],
   [
    "caprylic/capric triglyceride",
@@ -240,7 +240,7 @@
   ],
   [
    "xanthan gum",
-   2535
+   2536
   ],
   [
    "caprylyl glycol",
@@ -252,15 +252,15 @@
   ],
   [
    "disodium edta",
-   2349
+   2350
   ],
   [
    "silica",
-   2256
+   2257
   ],
   [
    "butylene glycol",
-   2064
+   2063
   ],
   [
    "butyloctyl salicylate",
@@ -276,11 +276,11 @@
   ],
   [
    "polyhydroxystearic acid",
-   1723
+   1724
   ],
   [
    "stearic acid",
-   1687
+   1686
   ],
   [
    "triethoxycaprylylsilane",
@@ -288,7 +288,7 @@
   ],
   [
    "cetearyl alcohol",
-   1565
+   1567
   ],
   [
    "sodium chloride",
@@ -308,7 +308,7 @@
   ],
   [
    "propanediol",
-   1094
+   1095
   ],
   [
    "glyceryl monostearate",
@@ -328,7 +328,7 @@
   ],
   [
    "peg-100 stearate",
-   977
+   978
   ],
   [
    "propylene glycol",
@@ -381,7 +381,7 @@
    "zinc_median_percent": 22.75,
    "zinc_median_is_estimate": false,
    "publishes": "actives with mg/g, excipients alphabetical (hand-read from PDFs)",
-   "last_verified": "2026-09-21",
+   "last_verified": "2026-09-22",
    "shared_formulation": {
     "clusters": 88,
     "products": 239,
@@ -395,7 +395,7 @@
    "mineral_only": 1844,
    "baby_labelled": 835,
    "median_ingredients": 27,
-   "zinc_median_percent": 12.07,
+   "zinc_median_percent": 12.49,
    "zinc_median_is_estimate": false,
    "publishes": "actives with exact %, inactive names only (mineral filters only — chemical-filter sunscreens are DIN/DPD and not in LNHPD)",
    "last_verified": null,
@@ -409,13 +409,13 @@
   "US": {
    "products": 6540,
    "with_full_ingredients": 6491,
-   "mineral_only": 1973,
-   "baby_labelled": 386,
+   "mineral_only": 1974,
+   "baby_labelled": 387,
    "median_ingredients": 22,
    "zinc_median_percent": 12.0,
    "zinc_median_is_estimate": true,
    "publishes": "full inactive list in formulation order, every ingredient with a UNII; active strengths are filed WITHOUT their unit upstream, so percent_w_w is null and percent_estimate carries an assumption (see docs/upstream_unit_patch.md)",
-   "last_verified": "2026-09-21",
+   "last_verified": "2026-09-22",
    "shared_formulation": {
     "clusters": 576,
     "products": 1931,
