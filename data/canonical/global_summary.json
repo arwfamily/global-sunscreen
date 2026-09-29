@@ -2,10 +2,10 @@
  "generated_from": {
   "AU": 501,
   "CA": 1860,
-  "US": 6540
+  "US": 6544
  },
- "total_products": 8901,
- "total_with_full_ingredients": 8837,
+ "total_products": 8905,
+ "total_with_full_ingredients": 8841,
  "distinct_ingredients_after_normalisation": 6206,
  "ingredients_present_in_every_jurisdiction": [
   "1,2-hexanediol",
@@ -212,7 +212,7 @@
  "top_ingredients": [
   [
    "water",
-   6680
+   6681
   ],
   [
    "glycerin",
@@ -220,39 +220,39 @@
   ],
   [
    "phenoxyethanol",
-   3916
+   3918
   ],
   [
    "tocopheryl acetate",
-   3175
+   3179
   ],
   [
    "dimethicone",
-   3113
+   3115
   ],
   [
    "tocopherol",
-   2945
+   2946
   ],
   [
    "caprylic/capric triglyceride",
-   2597
+   2599
   ],
   [
    "xanthan gum",
-   2536
+   2537
   ],
   [
    "caprylyl glycol",
-   2529
+   2531
   ],
   [
    "ethylhexylglycerin",
-   2396
+   2397
   ],
   [
    "disodium edta",
-   2350
+   2352
   ],
   [
    "silica",
@@ -264,7 +264,7 @@
   ],
   [
    "butyloctyl salicylate",
-   1994
+   1996
   ],
   [
    "aloe barbadensis leaf",
@@ -272,7 +272,7 @@
   ],
   [
    "iron oxide",
-   1769
+   1770
   ],
   [
    "polyhydroxystearic acid",
@@ -280,23 +280,23 @@
   ],
   [
    "stearic acid",
-   1686
+   1688
   ],
   [
    "triethoxycaprylylsilane",
-   1677
+   1679
   ],
   [
    "cetearyl alcohol",
-   1567
+   1565
   ],
   [
    "sodium chloride",
-   1406
+   1409
   ],
   [
    "alkyl (c12-15) benzoate",
-   1340
+   1341
   ],
   [
    "mica",
@@ -304,19 +304,19 @@
   ],
   [
    "alcohol",
-   1201
+   1203
   ],
   [
    "propanediol",
-   1095
+   1094
   ],
   [
    "glyceryl monostearate",
-   1092
+   1091
   ],
   [
    "shea butter",
-   1058
+   1057
   ],
   [
    "potassium sorbate",
@@ -332,7 +332,7 @@
   ],
   [
    "propylene glycol",
-   963
+   964
   ],
   [
    "titanium dioxide",
@@ -356,15 +356,15 @@
   ],
   [
    "aluminum hydroxide",
-   874
+   876
   ],
   [
    "benzyl alcohol",
-   873
+   872
   ],
   [
    "chlorphenesin",
-   854
+   856
   ],
   [
    "lecithin",
@@ -381,7 +381,7 @@
    "zinc_median_percent": 22.75,
    "zinc_median_is_estimate": false,
    "publishes": "actives with mg/g, excipients alphabetical (hand-read from PDFs)",
-   "last_verified": "2026-09-28",
+   "last_verified": "2026-09-29",
    "shared_formulation": {
     "clusters": 88,
     "products": 239,
@@ -407,18 +407,18 @@
    }
   },
   "US": {
-   "products": 6540,
-   "with_full_ingredients": 6491,
-   "mineral_only": 1974,
-   "baby_labelled": 387,
-   "median_ingredients": 22,
+   "products": 6544,
+   "with_full_ingredients": 6495,
+   "mineral_only": 1977,
+   "baby_labelled": 391,
+   "median_ingredients": 21,
    "zinc_median_percent": 12.0,
    "zinc_median_is_estimate": true,
    "publishes": "full inactive list in formulation order, every ingredient with a UNII; active strengths are filed WITHOUT their unit upstream, so percent_w_w is null and percent_estimate carries an assumption (see docs/upstream_unit_patch.md)",
-   "last_verified": "2026-09-28",
+   "last_verified": "2026-09-29",
    "shared_formulation": {
-    "clusters": 576,
-    "products": 1931,
+    "clusters": 578,
+    "products": 1935,
     "cross_company_clusters": 245,
     "cross_company_products": 826
    }
