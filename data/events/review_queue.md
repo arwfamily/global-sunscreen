@@ -41,3 +41,12 @@
   - added: tocopheryl acetate
   - removed: dl-alpha tocopherol
   - https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80132174
+
+## 2026-10-06
+
+- **[US] TULA 24-7 MOISTURE PLUS SPF 30 HYDRATING DAY WITH SUNSCREEN BROAD SPECTRUM SPF 30 (AVOBENZONE, HOMOSALATE, AND OCTISALATE) CREAM** (US:SPL-2bab795f-5bf8-e663-e063-6394a90a0ef0, sev 1) — THE PROCTER & GAMBLE MANUFACTURING COMPANY
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2bab795f-5bf8-e663-e063-6394a90a0ef0
+- **[US] TIBENA EVERY DAY REAL SUNSCREEN SPF50 (AVOBENZONE, HOMOSALATE, OCTINOXATE, OCTOCRYLENE, OCTYL SALICYLATE) CREAM** (US:SPL-3822e87a-ae98-2655-e063-6394a90ab15c, sev 1) — KONAD CO LTD
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3822e87a-ae98-2655-e063-6394a90ab15c
+- **[US] AIRFIT INVISIBLE SUNSCREEN (HOMOSALATE, OCTISALATE, OCTOCRYLENE, AVOBENZONE) CREAM** (US:SPL-3c3f4386-9e85-18d7-e063-6394a90a0f9a, sev 1) — MELIXIR INC.
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3c3f4386-9e85-18d7-e063-6394a90a0f9a

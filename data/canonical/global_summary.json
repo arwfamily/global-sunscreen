@@ -2,11 +2,11 @@
  "generated_from": {
   "AU": 501,
   "CA": 1860,
-  "US": 6544
+  "US": 6537
  },
- "total_products": 8905,
- "total_with_full_ingredients": 8841,
- "distinct_ingredients_after_normalisation": 6206,
+ "total_products": 8898,
+ "total_with_full_ingredients": 8834,
+ "distinct_ingredients_after_normalisation": 6205,
  "ingredients_present_in_every_jurisdiction": [
   "1,2-hexanediol",
   "acacia",
@@ -212,23 +212,23 @@
  "top_ingredients": [
   [
    "water",
-   6681
+   6674
   ],
   [
    "glycerin",
-   4845
+   4843
   ],
   [
    "phenoxyethanol",
-   3918
+   3912
   ],
   [
    "tocopheryl acetate",
-   3179
+   3173
   ],
   [
    "dimethicone",
-   3115
+   3114
   ],
   [
    "tocopherol",
@@ -240,43 +240,43 @@
   ],
   [
    "xanthan gum",
-   2537
+   2533
   ],
   [
    "caprylyl glycol",
-   2531
+   2528
   ],
   [
    "ethylhexylglycerin",
-   2397
+   2396
   ],
   [
    "disodium edta",
-   2352
+   2345
   ],
   [
    "silica",
-   2257
+   2254
   ],
   [
    "butylene glycol",
-   2063
+   2064
   ],
   [
    "butyloctyl salicylate",
-   1996
-  ],
-  [
-   "aloe barbadensis leaf",
-   1774
+   1999
   ],
   [
    "iron oxide",
    1770
   ],
   [
+   "aloe barbadensis leaf",
+   1769
+  ],
+  [
    "polyhydroxystearic acid",
-   1724
+   1725
   ],
   [
    "stearic acid",
@@ -288,7 +288,7 @@
   ],
   [
    "cetearyl alcohol",
-   1565
+   1563
   ],
   [
    "sodium chloride",
@@ -296,11 +296,11 @@
   ],
   [
    "alkyl (c12-15) benzoate",
-   1341
+   1337
   ],
   [
    "mica",
-   1230
+   1231
   ],
   [
    "alcohol",
@@ -308,15 +308,15 @@
   ],
   [
    "propanediol",
-   1094
+   1095
   ],
   [
    "glyceryl monostearate",
-   1091
+   1089
   ],
   [
    "shea butter",
-   1057
+   1056
   ],
   [
    "potassium sorbate",
@@ -324,51 +324,51 @@
   ],
   [
    "sodium benzoate",
-   1000
+   999
   ],
   [
    "peg-100 stearate",
-   978
+   974
   ],
   [
    "propylene glycol",
-   964
+   960
   ],
   [
    "titanium dioxide",
-   948
-  ],
-  [
-   "trolamine",
    947
   ],
   [
+   "trolamine",
+   946
+  ],
+  [
    "1,2-hexanediol",
-   898
-  ],
-  [
-   "methylparaben",
-   876
-  ],
-  [
-   "cetyl alcohol",
-   876
+   899
   ],
   [
    "aluminum hydroxide",
    876
   ],
   [
+   "methylparaben",
+   875
+  ],
+  [
+   "cetyl alcohol",
+   873
+  ],
+  [
    "benzyl alcohol",
-   872
+   867
   ],
   [
    "chlorphenesin",
-   856
+   852
   ],
   [
    "lecithin",
-   835
+   834
   ]
  ],
  "per_jurisdiction": {
@@ -381,7 +381,7 @@
    "zinc_median_percent": 22.75,
    "zinc_median_is_estimate": false,
    "publishes": "actives with mg/g, excipients alphabetical (hand-read from PDFs)",
-   "last_verified": "2026-10-05",
+   "last_verified": "2026-10-06",
    "shared_formulation": {
     "clusters": 88,
     "products": 239,
@@ -407,18 +407,18 @@
    }
   },
   "US": {
-   "products": 6544,
-   "with_full_ingredients": 6495,
-   "mineral_only": 1977,
+   "products": 6537,
+   "with_full_ingredients": 6488,
+   "mineral_only": 1976,
    "baby_labelled": 391,
-   "median_ingredients": 21,
+   "median_ingredients": 22,
    "zinc_median_percent": 12.0,
    "zinc_median_is_estimate": true,
    "publishes": "full inactive list in formulation order, every ingredient with a UNII; active strengths are filed WITHOUT their unit upstream, so percent_w_w is null and percent_estimate carries an assumption (see docs/upstream_unit_patch.md)",
-   "last_verified": "2026-10-05",
+   "last_verified": "2026-10-06",
    "shared_formulation": {
-    "clusters": 578,
-    "products": 1935,
+    "clusters": 577,
+    "products": 1933,
     "cross_company_clusters": 245,
     "cross_company_products": 826
    }
