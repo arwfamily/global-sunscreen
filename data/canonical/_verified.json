@@ -1,6 +1,6 @@
 {
  "AU": {
-  "last_verified": "2026-10-06",
+  "last_verified": "2026-10-07",
   "records": 501,
   "source": "TGA ARTG export + hand-read PDFs"
  },
@@ -10,7 +10,7 @@
   ],
   "corpus_size": 13326,
   "corpus_version": "2026-10-05",
-  "last_verified": "2026-10-06",
+  "last_verified": "2026-10-07",
   "records": 6537,
   "source": "https://raw.githubusercontent.com/arwfamily/tinysafe-dailymed-scraper-v2/main/data/canonical/us_sunscreens.jsonl"
  }
