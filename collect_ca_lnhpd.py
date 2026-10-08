@@ -358,12 +358,50 @@ def walk_bulk(table, state, keep, fields):
     return rows
 
 
+class FetchFailed(Exception):
+    """A per-id call gave up after its retries. NOT the same as 'no rows'."""
+
+
 def fetch_per_id(table, pid):
-    """One per-id table for one product. Probes the shape on first use."""
+    """One per-id table for one product. Probes the shape on first use.
+
+    Raises FetchFailed when the call itself failed. Before 2026-10-08 a failed
+    call came back as an empty list, so on 2026-09-13 (LNHPD unreachable
+    during the rotation) 64 real sunscreens were overwritten with zero
+    actives, dropped by rescope_ca.py and published as "delisted".
+    """
     data, _ = get(f"{table}/?lang=en&type=json&id={pid}")
+    if data is None:
+        raise FetchFailed(f"{table} id={pid}")
     probe(table, data)
     rows, _ = unwrap(data)
     return rows
+
+
+def fetch_product(pid):
+    """All four per-id tables, or None if any call failed. All-or-nothing:
+    a product is never rebuilt from a partial set of tables."""
+    try:
+        return (fetch_per_id("medicinalingredient", pid),
+                fetch_per_id("nonmedicinalingredient", pid),
+                fetch_per_id("productroute", pid),
+                fetch_per_id("productdose", pid))
+    except FetchFailed as e:
+        print(f"    [skip] {e} failed after retries — keeping the stored "
+              f"record unchanged, will retry next run", file=sys.stderr)
+        return None
+
+
+def safe_to_replace(previous, rec):
+    """A licence that had medicinal ingredients does not lose all of them
+    between two reads; when it appears to, the read is what went wrong.
+    Keep the stored record and say so, rather than publishing the gap."""
+    if previous and previous.get("actives") and not rec.get("actives"):
+        print(f"    [hold] {rec.get('id')}: register returned 0 actives for a "
+              f"product stored with {len(previous['actives'])} — keeping the "
+              f"stored record; flag for review", file=sys.stderr)
+        return False
+    return True
 
 
 def main():
@@ -511,22 +549,27 @@ def main():
         print("[*] nothing to fetch: no new products, no licence moved, "
               "nothing stale. This is what a quiet day looks like.")
 
-    done_this_run = 0
+    done_this_run = failed_this_run = held_this_run = 0
     for pid in queue:
         if _calls[0] >= BUDGET:
             print(f"[*] budget reached — {len(queue) - done_this_run} "
                   f"products still queued; the next run continues from the "
                   f"oldest verification")
             break
-        med = fetch_per_id("medicinalingredient", pid)
-        non = fetch_per_id("nonmedicinalingredient", pid)
-        rou = fetch_per_id("productroute", pid)
-        dos = fetch_per_id("productdose", pid)
+        tables = fetch_product(pid)
+        if tables is None:
+            failed_this_run += 1
+            continue                      # not verified: retried next run
+        med, non, rou, dos = tables
         rec = build_record(lics[pid], purposes.get(pid, []),
                            med, non, rou, dos)
+        previous = store.get(rec["id"])
+        if not safe_to_replace(previous, rec):
+            held_this_run += 1
+            continue                      # not verified: retried next run
         rec["verified_at"] = today
-        rec["first_seen"] = (store.get(rec["id"]) or {}).get("first_seen", today)
-        record_observation(rec, store.get(rec["id"]), today)
+        rec["first_seen"] = (previous or {}).get("first_seen", today)
+        record_observation(rec, previous, today)
         store[rec["id"]] = rec
         verified[str(pid)] = today
         done_this_run += 1
@@ -542,6 +585,10 @@ def main():
     state["verified"] = verified
     save_state(state)
     git_checkpoint(f"verified {done_this_run} this run")
+    if failed_this_run or held_this_run:
+        print(f"[!] {failed_this_run} product(s) skipped on fetch failure, "
+              f"{held_this_run} held because the register returned no actives "
+              f"— stored records kept, all retried next run")
     ages = sorted(_age_days(v, today) for v in verified.values())
     if ages:
         print(f"[*] verification age across {len(ages)} products: "

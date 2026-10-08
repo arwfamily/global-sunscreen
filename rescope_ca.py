@@ -51,8 +51,16 @@ def main():
     backup = CANON.with_suffix(".jsonl.pre-rescope")
 
     kept, dropped, why = [], [], Counter()
+    held = []
     for rec in records:
         names = actives_of(rec)
+        if not names:
+            # Zero actives means the read failed, not that the product stopped
+            # being a sunscreen (2026-09-13: 64 real sunscreens were dropped
+            # this way). Keep it, and say so loudly.
+            held.append(rec.get("id"))
+            kept.append(rec)
+            continue
         scope = scope_of(rec.get("purposes") or [], rec.get("product_name"),
                          rec.get("dosage_form"), names)
         if scope == "sunscreen":
@@ -74,6 +82,9 @@ def main():
                             "excluded_reason": reason,
                             "excluded_by": "rescope_ca.py 2026-08-21"})
 
+    if held:
+        print(f"[!] {len(held)} record(s) have NO actives — kept, not excluded; "
+              f"check the collector log: {', '.join(map(str, held[:10]))}")
     if not dropped:
         print("[*] every stored record still qualifies — nothing rewritten, "
               "backup and exclusion log left as they are")
