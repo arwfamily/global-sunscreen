@@ -64,7 +64,9 @@ jobs:
       - name: Detection rules must pass their own tests first
         # If the rules are broken, collecting more data on top of them only
         # buries the problem. Fail here, before anything is written.
-        run: python tests/test_detection.py
+        run: |
+          python tests/test_detection.py
+          python tests/test_ca_fetch_failure.py
 
       - name: Ingest any newly uploaded ARTG PDFs
         if: github.event_name != 'workflow_dispatch' || inputs.run_australia
