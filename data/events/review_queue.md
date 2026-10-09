@@ -50,3 +50,10 @@
   - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3822e87a-ae98-2655-e063-6394a90ab15c
 - **[US] AIRFIT INVISIBLE SUNSCREEN (HOMOSALATE, OCTISALATE, OCTOCRYLENE, AVOBENZONE) CREAM** (US:SPL-3c3f4386-9e85-18d7-e063-6394a90a0f9a, sev 1) — MELIXIR INC.
   - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3c3f4386-9e85-18d7-e063-6394a90a0f9a
+
+## 2026-10-09
+
+- **[US] BIOCORNEUM SILISHIELD MINERAL SPF 30 LIGHT TONE (LIGHT TONE MINERAL SUNSCREEN SPF 30) GEL** (US:SPL-5c912acf-be18-c7f9-e063-6394a90a800b, sev 1) — BIODERMIS LLC
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5c912acf-be18-c7f9-e063-6394a90a800b
+- **[US] BABO BOTANICALS SUPER SHIELD MINERAL SUNSCREEN SPF50 (ZINC OXIDE, TITANIUM DIOXIDE) AEROSOL, SPRAY** (US:SPL-b441f976-4f2a-ba19-e053-2995a90ad79a, sev 1) — BABO BOTANICALS, INC.
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b441f976-4f2a-ba19-e053-2995a90ad79a
