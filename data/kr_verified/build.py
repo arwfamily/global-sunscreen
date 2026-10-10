@@ -71,8 +71,9 @@ for kid,k in K.items():
         else: st,how='pending',{'global-formula-needs-kr-verification':'list taken from a foreign label; Korean label not found','derived-needs-human-check':'assumed same formula as a sibling; not confirmed (Kurly note suggests 173 differs)'}.get(k['검수상태'],'no official text found and the label image was not on the fetched page')
     uv=[(ko,inci) for ko,inci,_ in KR_UV if full and (find(full,ko,EXTRA_ALIASES.get(ko,())) or N(inci) in N(full))]
     oth=[inci for ko,inci in OTHER_UVA if full and (find(full,ko) or N(inci) in N(full))]
-    kos={u[0] for u in uv}
     its=items(full)
+    if any('드로메트리졸트리실록산'==N(x)[:0]+x.replace(' ','') for x in its) and not any(re.sub(r'\s','',x)=='드로메트리졸' for x in its): uv=[u for u in uv if u[0]!='드로메트리졸']
+    kos={u[0] for u in uv}
     frag=any(re.fullmatch(r'향료|향|퍼퓸|fragrance|parfum',re.sub(r'[*+]','',x).strip(),re.I) for x in its)
     ALL=['리모넨','리날룰','시트로넬올','제라니올','시트랄','쿠마린','유제놀','벤질살리실레이트','헥실신남알','아밀신남알','하이드록시시트로넬알','알파-아이소메틸아이오논','벤질벤조에이트','부틸페닐메틸프로피오날','신남알','파네솔','벤질신나메이트','아이소유제놀','신나밀알코올','아니스알코올','에버니아프루나스트리추출물','에버니아푸르푸라세아추출물']
     alls=[a for a in ALL if any(N(a)==N(re.sub(r'[*+()0-9ppm.]','',x)) for x in its)]
