@@ -1,0 +1,982 @@
+[
+{
+"id": "KR-20261008-001",
+"url": "https://www.pyunkangyul.com/product/키즈-촉촉-선크림-spf50-pa-75ml/386/category/1/display/15/",
+"coupang": "https://www.coupang.com/vp/products/6758894677",
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-002",
+"url": "https://www.pyunkangyul.com/product/키즈-모이스처-선크림-spf50-pa-150ml/412/category/171/display/1/",
+"coupang": "https://www.coupang.com/vp/products/7212739502",
+"scope": "include",
+"status": "vision-transcribed-partial-needs-human-check"
+},
+{
+"id": "KR-20261008-003",
+"url": "https://neopharmshop.co.kr/product/detail.html?product_no=2123",
+"coupang": "https://www.coupang.com/vp/products/9430465794",
+"scope": "include",
+"status": "text-source-verified"
+},
+{
+"id": "KR-20261008-004",
+"url": "https://neopharmshop.co.kr/product/detail.html?product_no=2125",
+"coupang": "https://www.coupang.com/vp/products/7597831477",
+"scope": "include",
+"status": "text-source-verified"
+},
+{
+"id": "KR-20261008-005",
+"url": "https://neopharmshop.co.kr/product/detail.html?product_no=3451",
+"coupang": "https://www.coupang.com/vp/products/9440292904",
+"scope": "include",
+"status": "text-source-verified"
+},
+{
+"id": "KR-20261008-006",
+"url": "https://neopharmshop.co.kr/product/detail.html?product_no=2121",
+"coupang": "https://www.coupang.com/vp/products/6426594998",
+"scope": "include",
+"status": "text-source-verified"
+},
+{
+"id": "KR-20261008-007",
+"url": "https://neopharmshop.co.kr/product/detail.html?product_no=2119",
+"coupang": "https://www.coupang.com/vp/products/6426594993",
+"scope": "include",
+"status": "text-source-verified"
+},
+{
+"id": "KR-20261008-008",
+"url": "https://www.enuri.com/detail.jsp?modelno=130611209",
+"coupang": "https://www.coupang.com/vp/products/4663051184",
+"scope": "include",
+"status": "text-source-verified"
+},
+{
+"id": "KR-20261008-009",
+"url": "https://www.roundlab.co.kr/product/베이비-마일드-선크림-60ml/252/",
+"coupang": "https://www.coupang.com/vp/products/8124248107",
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-010",
+"url": "https://physiogel.co.kr/product/detail.html?product_no=1300",
+"coupang": "https://www.coupang.com/vp/products/8636139706",
+"scope": "exclude",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-011",
+"url": "https://atono2.com/product/%EC%95%84%ED%86%A0%EC%95%A4%EC%98%A4%ED%88%AC-%EC%98%A5%EC%8B%9C%EC%A0%A0-%EB%B2%A0%EC%9D%B4%EB%B9%84-%EC%B9%BC%EB%9D%BC%EB%AF%BC-%EC%84%A0%ED%81%AC%EB%A6%BC50ml-2%EA%B0%9C/789/",
+"coupang": "https://www.coupang.com/vp/products/8989333198",
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-012",
+"url": "https://atono2.com/",
+"coupang": "https://www.coupang.com/vp/products/9593196139",
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-013",
+"url": "https://www.11st.co.kr/products/9389455497",
+"coupang": "https://www.coupang.com/vp/products/7330249224",
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-014",
+"url": "https://www.cancercouncilshop.org.au/",
+"coupang": "https://www.coupang.com/vp/products/9542395190",
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-015",
+"url": "https://naaamyuuu.co.kr/product/아이보들-듀얼프루프-선스틱-19g/1248/",
+"coupang": "https://www.coupang.com/vp/products/8813404642",
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-106",
+"url": "https://illiyoon.com/product/휴대용30ml증정-일리윤-데일리-무기자차-선스틱-20g/223/",
+"coupang": null,
+"scope": "exclude",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-107",
+"url": "https://cancercouncilshop.org.au/products/kids-sunscreen-spf50-200ml",
+"coupang": null,
+"scope": "include",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-108",
+"url": "https://prod.danawa.com/info/?pcode=21298619",
+"coupang": null,
+"scope": "include",
+"status": "third-party-spec-needs-human-check"
+},
+{
+"id": "KR-20261008-109",
+"url": "https://nutseline.com/product/detail.html?product_no=457&cate_no=122&display_group=1",
+"coupang": null,
+"scope": "exclude",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-110",
+"url": "https://www.amoremall.com/kr/ko/product/detail?onlineProdSn=69619&onlineProdCode=150100000678",
+"coupang": null,
+"scope": "exclude",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-016",
+"url": "https://www.belifmall.com/product/detail.html?product_no=157",
+"coupang": null,
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-017",
+"url": "https://www.belifmall.com/product/detail.html?product_no=157",
+"coupang": null,
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-018",
+"url": "https://www.belifmall.com/product/detail.html?product_no=157",
+"coupang": null,
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-019",
+"url": "https://taenamstore.com/product/밀크바오밥-선스프레이-spf-50-pa-150ml/889/",
+"coupang": null,
+"scope": "exclude",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-111",
+"url": "https://mongdies.com/product/11-12개월-이상-선케어-데일리-야외활동-징크-수분-이지워시-선크림-spf50-pa-60g선크림-2개/373/",
+"coupang": null,
+"scope": "include",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-076",
+"url": null,
+"coupang": null,
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-077",
+"url": null,
+"coupang": null,
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-078",
+"url": null,
+"coupang": null,
+"scope": "exclude",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-079",
+"url": null,
+"coupang": null,
+"scope": "exclude",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-080",
+"url": null,
+"coupang": null,
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-081",
+"url": null,
+"coupang": null,
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-082",
+"url": null,
+"coupang": null,
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-083",
+"url": "https://www.11st.co.kr/products/9383906909",
+"coupang": null,
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-031",
+"url": "https://cureofficial.com/product/아쿠아-마일드-그린-선크림-40ml/263",
+"coupang": null,
+"scope": "exclude",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-032",
+"url": "https://www.amoremall.com/kr/ko/product/detail?onlineProdSn=70521&onlineProdCode=111270000879",
+"coupang": null,
+"scope": "exclude",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-033",
+"url": "https://www.amoremall.com/kr/ko/product/detail?onlineProdSn=44987&onlineProdCode=111270000318",
+"coupang": null,
+"scope": "exclude",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-034",
+"url": "https://www.zeroid.co.kr/web/product/product_detail.asp?idx=343&cate=312",
+"coupang": null,
+"scope": "exclude",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-112",
+"url": "https://goongbe.com/product/궁중비책-프레시-선스틱-마일드-23g/897/",
+"coupang": null,
+"scope": "include",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-113",
+"url": "https://m.goongbe.com/product/궁중비책-x-몰티즈-모이스처-선쿠션-마일드-14g-2개/904/",
+"coupang": null,
+"scope": "include",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-114",
+"url": "https://www.goongbe.com/product/detail.html?product_no=907&cate_no=66&display_group=1",
+"coupang": null,
+"scope": "include",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-115",
+"url": "https://mongdies.com/product/선스틱-spf50-pa-22g선스틱-2개/171/",
+"coupang": null,
+"scope": "include",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-116",
+"url": "https://www.11st.co.kr/products/5972579123",
+"coupang": null,
+"scope": "include",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-117",
+"url": "https://elensilia.com/product/그린에너지-선스크린-50-ml/375/",
+"coupang": null,
+"scope": "exclude",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-118",
+"url": "https://www.bebesup.co.kr/goods/view?no=455",
+"coupang": null,
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-119",
+"url": "https://www.11st.co.kr/products/8129877137",
+"coupang": null,
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-120",
+"url": "https://www.11st.co.kr/products/8410820852",
+"coupang": null,
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-121",
+"url": "https://www.11st.co.kr/products/9223515450",
+"coupang": null,
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-122",
+"url": "https://www.11st.co.kr/products/9221134911",
+"coupang": null,
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-123",
+"url": "https://www.11st.co.kr/products/9221144057",
+"coupang": null,
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-124",
+"url": "https://www.11st.co.kr/products/6951134549",
+"coupang": null,
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-125",
+"url": "https://www.ssg.com/item/itemView.ssg?itemId=1000029707670",
+"coupang": null,
+"scope": "include",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-052",
+"url": "https://illiyoon.com/product/얼리썸머-케어-일리윤-무기자차-장벽-선크림-50ml클렌저30ml증정/273/",
+"coupang": null,
+"scope": "exclude",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-126",
+"url": "https://www.ssg.com/item/itemView.ssg?itemId=1000542429363",
+"coupang": null,
+"scope": "include",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-127",
+"url": "https://prod.danawa.com/info/?pcode=4456974",
+"coupang": null,
+"scope": "include",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-128",
+"url": "https://www.coupang.com/vp/products/8025349446",
+"coupang": null,
+"scope": "exclude",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-129",
+"url": "https://mongdies.com/product/11-12개월-이상-선케어-데일리-야외활동-징크-수분-이지워시-선크림-spf50-pa-60g선크림-2개/373/",
+"coupang": null,
+"scope": "include",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-130",
+"url": "https://mongdies.com/product/선크림-spf30-pa-60ml선크림-2개/149",
+"coupang": null,
+"scope": "include",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-131",
+"url": "https://www.elandmall.co.kr/i/item?itemNo=2603342927&lowerVendNo=LV24007188",
+"coupang": null,
+"scope": "include",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-132",
+"url": "https://www.enuri.com/detail.jsp?modelno=107453234",
+"coupang": null,
+"scope": "include",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-133",
+"url": "https://www.enuri.com/detail.jsp?modelno=50421374",
+"coupang": null,
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-134",
+"url": "https://www.kurly.com/goods/1000192418",
+"coupang": null,
+"scope": "exclude",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-135",
+"url": "https://nutseline.com/product/넛프라이즈-넛세린-시카-넛-워터풀-카밍-선스틱-20g/457/",
+"coupang": null,
+"scope": "exclude",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-136",
+"url": "https://www.kurly.com/goods/1001416258",
+"coupang": null,
+"scope": "exclude",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-137",
+"url": "https://belifmall.com/skin-skin13/product/빌리프-해피-보-마일드-선-스크린/157/category/940/display/1/",
+"coupang": null,
+"scope": "include",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-138",
+"url": "https://www.enuri.com/detail.jsp?modelno=126144867",
+"coupang": null,
+"scope": "include",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-139",
+"url": "https://neopharmshop.co.kr/product/캐치티니핑-한정판-아토팜-야외놀이-선스틱-spf50-pa-21g/3462/",
+"coupang": null,
+"scope": "include",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-140",
+"url": "http://kidikidi.elandmall.co.kr/i/item?itemNo=2404184409",
+"coupang": null,
+"scope": "include",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-141",
+"url": "https://www.coupang.com/vp/products/8675489446",
+"coupang": "https://www.coupang.com/vp/products/8675489446",
+"scope": "include",
+"status": "coupang-verified"
+},
+{
+"id": "KR-20261008-142",
+"url": "https://www.glowpick.com/products/179363/details?tab=ingredients",
+"coupang": null,
+"scope": "exclude",
+"status": "glowpick-verified"
+},
+{
+"id": "KR-20261008-143",
+"url": "https://purelu.kr/product/퓨어루-퀴노아-유기농-선크림/111/category/42/display/1/",
+"coupang": null,
+"scope": "include",
+"status": "image-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-144",
+"url": "https://purelu.kr/product/퓨어루-퀴노아-유기농-선쿠션-11/50/category/42/display/1/",
+"coupang": null,
+"scope": "include",
+"status": "image-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-145",
+"url": "https://myearthday.co.kr/product/무기자차-선쿠션/22/category/1/display/2/",
+"coupang": null,
+"scope": "include",
+"status": "image-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-146",
+"url": "https://soybebe.co.kr/common/img/suncream.jpg",
+"coupang": null,
+"scope": "include",
+"status": "vision-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-147",
+"url": "https://bebecook.com/page/product/12586?cate",
+"coupang": null,
+"scope": "exclude",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-148",
+"url": "https://www.bebecook.com/page/product/12395?cate=skincare&fbclid=fbclid",
+"coupang": null,
+"scope": "exclude",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-149",
+"url": null,
+"coupang": null,
+"scope": "exclude",
+"status": "ocr-needs-human-check"
+},
+{
+"id": "KR-20261008-150",
+"url": null,
+"coupang": null,
+"scope": "include",
+"status": "ocr-needs-human-check"
+},
+{
+"id": "KR-20261008-151",
+"url": null,
+"coupang": null,
+"scope": "include",
+"status": "ocr-needs-human-check"
+},
+{
+"id": "KR-20261008-152",
+"url": null,
+"coupang": null,
+"scope": "exclude",
+"status": "ocr-needs-human-check"
+},
+{
+"id": "KR-20261008-153",
+"url": "https://motherkmall.co.kr/product/이지투워시-마일드-선밀크-50ml-spf30-pa-촉촉가벼움/4837/",
+"coupang": null,
+"scope": "include",
+"status": "image-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-154",
+"url": "https://motherkmall.co.kr/product/이지투워시-야외놀이-선크림-50ml-spf50-pa-보송산뜻/4838/",
+"coupang": null,
+"scope": "include",
+"status": "image-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-155",
+"url": "https://petitelinstore.com",
+"coupang": null,
+"scope": "include",
+"status": "image-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-156",
+"url": null,
+"coupang": null,
+"scope": "include",
+"status": "image-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-157",
+"url": null,
+"coupang": null,
+"scope": "include",
+"status": "image-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-158",
+"url": null,
+"coupang": null,
+"scope": "include",
+"status": "image-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-159",
+"url": null,
+"coupang": null,
+"scope": "include",
+"status": "image-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-160",
+"url": "https://orgabebe.com/product/오가베베-무기자차-선팩트-sfp50-pa-13ml/19/",
+"coupang": null,
+"scope": "include",
+"status": "ocr-needs-human-check"
+},
+{
+"id": "KR-20261008-161",
+"url": "https://www.ssg.com/item/itemView.ssg?itemId=1000542429363&siteNo=6001&salestrNo=2027&click=itemMidArea02",
+"coupang": null,
+"scope": "include",
+"status": "snippet-verified"
+},
+{
+"id": "KR-20261008-162",
+"url": "https://frankliin.com/product/바를x브레드이발소-아기-선크림-무기자차-spf45-pa-50ml/57/",
+"coupang": null,
+"scope": "include",
+"status": "image-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-163",
+"url": "https://pyunkangyul.com/product/아토-마일드-선크림-spf50-pa-75ml/179/category/44/display/1/",
+"coupang": null,
+"scope": "exclude",
+"status": "image-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-164",
+"url": "https://m.pyunkangyul.com/product/키즈앤베이비-워터프루프-선스틱-spf50-pa-15g/430/category/165/display/1/",
+"coupang": null,
+"scope": "include",
+"status": "image-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261008-165",
+"url": null,
+"coupang": null,
+"scope": "include",
+"status": "global-formula-needs-kr-verification"
+},
+{
+"id": "KR-20261008-166",
+"url": null,
+"coupang": null,
+"scope": "include",
+"status": "global-formula-needs-kr-verification"
+},
+{
+"id": "KR-20261008-167",
+"url": null,
+"coupang": null,
+"scope": "include",
+"status": "global-formula-needs-kr-verification"
+},
+{
+"id": "KR-20261008-168",
+"url": null,
+"coupang": null,
+"scope": "include",
+"status": "global-formula-needs-kr-verification"
+},
+{
+"id": "KR-20261008-169",
+"url": "https://doctorbio.kr/product/list.html?cate_no=90",
+"coupang": null,
+"scope": "exclude",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-170",
+"url": "https://doctorbio.kr/product/list.html?cate_no=90",
+"coupang": null,
+"scope": "exclude",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-171",
+"url": "https://doctorbio.kr/product/list.html?cate_no=90",
+"coupang": null,
+"scope": "exclude",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261008-172",
+"url": "https://doctorbio.kr/product/list.html?cate_no=90",
+"coupang": null,
+"scope": "exclude",
+"status": "official-text-verified"
+},
+{
+"id": "KR-20261009-173",
+"url": null,
+"coupang": "https://www.coupang.com/vp/products/23545014",
+"scope": "include",
+"status": "derived-needs-human-check"
+},
+{
+"id": "KR-20261009-174",
+"url": null,
+"coupang": "https://www.coupang.com/vp/products/8944226633",
+"scope": "include",
+"status": "derived-needs-human-check"
+},
+{
+"id": "KR-20261009-175",
+"url": "https://neopharmshop.co.kr/product/%EC%BA%90%EC%B9%98%ED%8B%B0%EB%8B%88%ED%95%91-%ED%95%9C%EC%A0%95%ED%8C%90-%EC%95%84%ED%86%A0%ED%8C%9C-%ED%82%A4%EC%A6%88-%EC%BF%A8%EB%A7%81-%EC%8A%A4%ED%8F%AC%EC%B8%A0-%EC%84%A0-%EC%8A%A4%ED%94%84%EB%A0%88%EC%9D%B4-spf50-pa-100ml/3470/",
+"coupang": null,
+"scope": "include",
+"status": "snippet-verified"
+},
+{
+"id": "KR-20261009-176",
+"url": null,
+"coupang": "https://www.coupang.com/vp/products/83297098",
+"scope": "include",
+"status": "global-formula-needs-kr-verification"
+},
+{
+"id": "KR-20261009-177",
+"url": "https://vadev.co.kr/product/바디브-올데이-세이프-선스틱-20g/26/category/61/display/1/",
+"coupang": null,
+"scope": "exclude",
+"status": "image-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261009-178",
+"url": "https://www.tagamall.com/product/%EC%95%84%ED%86%A0-%EC%84%B8%EB%9D%BC-%EB%B9%84%ED%83%80%EC%84%A0%EC%BF%A0%EC%85%98-14g/147/category/120/display/1/?page_6=4&page_4=4",
+"coupang": null,
+"scope": "include",
+"status": "image-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261009-179",
+"url": "https://pervado.net/product/21페르바도-눈시림-없는-무기자차-촉촉-선크림-80ml6개월-이상-사용-아기-유아-키즈/74/",
+"coupang": null,
+"scope": "include",
+"status": "image-transcribed-needs-human-check"
+},
+{
+"id": "KR-20261009-180",
+"url": "https://www.coupang.com/vp/products/6443304903",
+"coupang": "https://www.coupang.com/vp/products/6443304903",
+"scope": "exclude",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-181",
+"url": "https://www.coupang.com/vp/products/8705045554",
+"coupang": "https://www.coupang.com/vp/products/8705045554",
+"scope": "include",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-182",
+"url": "https://www.coupang.com/vp/products/9074354765",
+"coupang": "https://www.coupang.com/vp/products/9074354765",
+"scope": "include",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-183",
+"url": "https://www.coupang.com/vp/products/9593196139",
+"coupang": "https://www.coupang.com/vp/products/9593196139",
+"scope": "include",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-184",
+"url": "https://www.coupang.com/vp/products/8601940451",
+"coupang": "https://www.coupang.com/vp/products/8601940451",
+"scope": "exclude",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-185",
+"url": "https://www.coupang.com/vp/products/7813680333",
+"coupang": "https://www.coupang.com/vp/products/7813680333",
+"scope": "include",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-186",
+"url": "https://www.coupang.com/vp/products/7955942812",
+"coupang": "https://www.coupang.com/vp/products/7955942812",
+"scope": "include",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-187",
+"url": "https://www.coupang.com/vp/products/9304002583",
+"coupang": "https://www.coupang.com/vp/products/9304002583",
+"scope": "include",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-188",
+"url": "https://www.coupang.com/vp/products/8837669275",
+"coupang": "https://www.coupang.com/vp/products/8837669275",
+"scope": "include",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-189",
+"url": "https://www.coupang.com/vp/products/8128470778",
+"coupang": "https://www.coupang.com/vp/products/8128470778",
+"scope": "include",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-190",
+"url": "https://www.coupang.com/vp/products/7181324442",
+"coupang": "https://www.coupang.com/vp/products/7181324442",
+"scope": "exclude",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-191",
+"url": "https://www.coupang.com/vp/products/7230728965",
+"coupang": "https://www.coupang.com/vp/products/7230728965",
+"scope": "exclude",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-192",
+"url": "https://www.coupang.com/vp/products/4663051184",
+"coupang": "https://www.coupang.com/vp/products/4663051184",
+"scope": "exclude",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-193",
+"url": "https://www.coupang.com/vp/products/8141257627",
+"coupang": "https://www.coupang.com/vp/products/8141257627",
+"scope": "include",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-194",
+"url": "https://www.coupang.com/vp/products/7966756810",
+"coupang": "https://www.coupang.com/vp/products/7966756810",
+"scope": "exclude",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-195",
+"url": "https://www.coupang.com/vp/products/8615100809",
+"coupang": "https://www.coupang.com/vp/products/8615100809",
+"scope": "exclude",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-196",
+"url": "https://www.coupang.com/vp/products/9562180601",
+"coupang": "https://www.coupang.com/vp/products/9562180601",
+"scope": "exclude",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-197",
+"url": "https://www.coupang.com/vp/products/8614822256",
+"coupang": "https://www.coupang.com/vp/products/8614822256",
+"scope": "exclude",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-198",
+"url": "https://www.coupang.com/vp/products/9651972628",
+"coupang": "https://www.coupang.com/vp/products/9651972628",
+"scope": "include",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-199",
+"url": "https://www.coupang.com/vp/products/9349720505",
+"coupang": "https://www.coupang.com/vp/products/9349720505",
+"scope": "include",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-200",
+"url": "https://www.coupang.com/vp/products/7520886669",
+"coupang": "https://www.coupang.com/vp/products/7520886669",
+"scope": "include",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-201",
+"url": "https://www.coupang.com/vp/products/9640203145",
+"coupang": "https://www.coupang.com/vp/products/9640203145",
+"scope": "include",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-202",
+"url": "https://www.coupang.com/vp/products/9205081088",
+"coupang": "https://www.coupang.com/vp/products/9205081088",
+"scope": "include",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-203",
+"url": "https://www.coupang.com/vp/products/9200055546",
+"coupang": "https://www.coupang.com/vp/products/9200055546",
+"scope": "include",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-204",
+"url": "https://www.coupang.com/vp/products/8767994181",
+"coupang": "https://www.coupang.com/vp/products/8767994181",
+"scope": "exclude",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-205",
+"url": "https://www.coupang.com/vp/products/9550211973",
+"coupang": "https://www.coupang.com/vp/products/9550211973",
+"scope": "exclude",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-206",
+"url": "https://www.coupang.com/vp/products/6804188594",
+"coupang": "https://www.coupang.com/vp/products/6804188594",
+"scope": "exclude",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-207",
+"url": "https://www.coupang.com/vp/products/8607525296",
+"coupang": "https://www.coupang.com/vp/products/8607525296",
+"scope": "include",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-208",
+"url": "https://www.coupang.com/vp/products/8769425116",
+"coupang": "https://www.coupang.com/vp/products/8769425116",
+"scope": "include",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-209",
+"url": "https://www.coupang.com/vp/products/8017224843",
+"coupang": "https://www.coupang.com/vp/products/8017224843",
+"scope": "include",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-210",
+"url": "https://www.coupang.com/vp/products/8640299173",
+"coupang": "https://www.coupang.com/vp/products/8640299173",
+"scope": "include",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-211",
+"url": "https://www.coupang.com/vp/products/8011738746",
+"coupang": "https://www.coupang.com/vp/products/8011738746",
+"scope": "include",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-212",
+"url": "https://www.coupang.com/vp/products/8623082792",
+"coupang": "https://www.coupang.com/vp/products/8623082792",
+"scope": "include",
+"status": "user-verified"
+},
+{
+"id": "KR-20261009-213",
+"url": "https://www.coupang.com/vp/products/5696916840",
+"coupang": "https://www.coupang.com/vp/products/5696916840",
+"scope": "exclude",
+"status": "user-verified"
+}
+]

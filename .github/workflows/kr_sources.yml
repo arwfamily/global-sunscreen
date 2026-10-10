@@ -1,0 +1,33 @@
+name: KR sources (verification fetch)
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: 'product ids, space-separated (empty = all)'
+        required: false
+        default: ''
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install pillow
+      - name: Fetch
+        run: python tools/kr_fetch_sources.py ${{ github.event.inputs.ids }} 2>&1 | tee kr_fetch.log
+      - name: Push to the kr-sources branch
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mv kr_sources /tmp/kr_sources; cp kr_fetch.log /tmp/kr_sources/
+          git checkout --orphan kr-sources-tmp
+          git rm -rq --cached . 2>/dev/null || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp -r /tmp/kr_sources .
+          git add kr_sources
+          git commit -qm "kr sources $(date -u +%F)"
+          git push -f origin kr-sources-tmp:kr-sources
