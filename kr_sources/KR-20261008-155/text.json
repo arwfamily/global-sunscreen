@@ -1,0 +1,10 @@
+{
+ "id": "KR-20261008-155",
+ "url": "https://petitelinstore.com",
+ "pages": [
+  {
+   "url": "https://petitelinstore.com",
+   "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'petitelinstore.com'. (_ssl.c:1016)>"
+  }
+ ]
+}

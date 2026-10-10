@@ -1,0 +1,34 @@
+{
+ "id": "KR-20261008-169",
+ "url": "https://doctorbio.kr/product/list.html?cate_no=90",
+ "pages": [
+  {
+   "url": "https://doctorbio.kr/product/list.html?cate_no=90",
+   "final": "https://doctorbio.kr/product/list.html?cate_no=90",
+   "bytes": 157060,
+   "passages": [],
+   "images": [
+    {
+     "file": "source_img001_s0.jpg",
+     "src": "https://doctorbio.kr/web/product/medium/202609/ab43845bed315830cf3b9ffa7a5b0188.jpg",
+     "sha1": "c52cd8bd6f2913325bdccb3ec4f485d9b474d486"
+    },
+    {
+     "file": "source_img002_s0.jpg",
+     "src": "https://doctorbio.kr/web/product/medium/202609/43f4c7c9fd7931f81abaab649d9c93f1.jpg",
+     "sha1": "0ecff4788778af809f4d54774fabd7a298880b43"
+    },
+    {
+     "file": "source_img003_s0.jpg",
+     "src": "https://doctorbio.kr/web/product/medium/202609/48e51e94470dab0fc1713b90f7653600.jpg",
+     "sha1": "546645d40618535021b7e0494abe30176b5a34d7"
+    },
+    {
+     "file": "source_img004_s0.jpg",
+     "src": "https://doctorbio.kr/web/product/medium/202609/08394e66cc9efc3b80ccfa710c228ced.jpg",
+     "sha1": "9803dea3a2f6d2ba95fb1b95f6a0afd96dc0926b"
+    }
+   ]
+  }
+ ]
+}

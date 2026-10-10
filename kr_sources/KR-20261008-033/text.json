@@ -1,0 +1,44 @@
+{
+ "id": "KR-20261008-033",
+ "url": "https://www.amoremall.com/kr/ko/product/detail?onlineProdSn=44987&onlineProdCode=111270000318",
+ "pages": [
+  {
+   "url": "https://www.amoremall.com/kr/ko/product/detail?onlineProdSn=44987&onlineProdCode=111270000318",
+   "final": "https://www.amoremall.com/kr/ko/product/detail?onlineProdSn=44987&onlineProdCode=111270000318",
+   "bytes": 149506,
+   "passages": [],
+   "images": [
+    {
+     "file": "source_img001_s0.jpg",
+     "src": "https://images-kr.amoremall.com/products/111270000318/111270000318_01.png?1751878419171&resize=1100:1100&shrink=1100:1100",
+     "sha1": "71b0e547f715e6bd313c3d1286d29dc1734da54b"
+    },
+    {
+     "file": "source_img002_s0.jpg",
+     "src": "https://images-kr.amoremall.com/unitproducts/181030037/181030037_01.png?1765523889614",
+     "sha1": "a01129d8e6e2d864ce82c018186dad0ebf86951c"
+    },
+    {
+     "file": "source_img003_s0.jpg",
+     "src": "https://images-kr.amoremall.com/unitproducts/181030036/181030036_01.jpg?1787804801499",
+     "sha1": "8230af5c40ad7346c9673072a2a2e50fff01d6d4"
+    },
+    {
+     "file": "source_img004_s0.jpg",
+     "src": "https://images-kr.amoremall.com/unitproducts/181030038/181030038_01.png?1765524418748",
+     "sha1": "3b7aa515feecb88f5f6994f945425167f899499c"
+    },
+    {
+     "file": "source_img005_s0.jpg",
+     "src": "https://images-kr.amoremall.com/unitproducts/181030021/181030021_01.png?1740466244911",
+     "sha1": "7a4fd5fdd14e4bbd8303bf2520976a59fa0d1992"
+    },
+    {
+     "file": "source_img006_s0.jpg",
+     "src": "https://images-kr.amoremall.com/unitproducts/181030034/181030034_01.png?1764234809179",
+     "sha1": "3ab158f548d4b15f84540ad4de5b50b6b2662a23"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "id": "KR-20261008-010",
+ "url": "https://physiogel.co.kr/product/detail.html?product_no=1300",
+ "pages": [
+  {
+   "url": "https://physiogel.co.kr/product/detail.html?product_no=1300",
+   "final": "https://physiogel.co.kr/product/detail.html?product_no=1300",
+   "bytes": 288045,
+   "passages": [],
+   "images": [
+    {
+     "file": "source_img001_s0.jpg",
+     "src": "https://physiogel.co.kr/web/product/big/202506/29f74aa7c19550a162316a00f1236ee2.png",
+     "sha1": "67abea10d970f3ee18e69142ffe2da6631b26655"
+    },
+    {
+     "file": "source_img002_s0.jpg",
+     "src": "https://physiogel.co.kr/web/product/small/202506/f15333828d9ed13e4b0c01191a62ccd6.png",
+     "sha1": "67abea10d970f3ee18e69142ffe2da6631b26655"
+    },
+    {
+     "file": "source_img003_s0.jpg",
+     "src": "https://physiogel.co.kr/web/product/extra/small/202506/067b4206d5aac6ec09760d07512ceb82.png",
+     "sha1": "7b7d0c64dd4fedd5294dbdb068d8ae984c823d6f"
+    },
+    {
+     "file": "source_img004_s0.jpg",
+     "src": "https://physiogel.co.kr/web/product/tiny/202609/a7afe02b119e69431e76b293bb256cf8.jpg",
+     "sha1": "d11dc943e0b6106a42e2667f3c922e8d18694109"
+    },
+    {
+     "file": "source_img005_s0.jpg",
+     "src": "https://physiogel.co.kr/web/product/tiny/202609/9f1c13cdfdab0f4abdb1d4c01c0e4a4c.jpg",
+     "sha1": "ae4c6e8bd9e6c05e2cc95719ee53a3d35398ee18"
+    },
+    {
+     "file": "source_img006_s0.jpg",
+     "src": "https://physiogel.co.kr/web/product/tiny/202609/007ec9f116fab31054f3c30ae432f15f.jpg",
+     "sha1": "5120c2c96df5a10e3cef6ac18cca159f2eebea50"
+    },
+    {
+     "file": "source_img007_s0.jpg",
+     "src": "http://hdbphysiogel.cafe24.com/web/upload/NNEditor/D_product/210217%7Ebrandday/top_brandday_1.jpg",
+     "sha1": "2361ca25fdefbb551352fdb0105c97ee8ee1e6ca"
+    },
+    {
+     "file": "source_img008_s0.jpg",
+     "src": "http://hdbphysiogel.cafe24.com/web/upload/NNEditor/D_product/210217%7Ebrandday/top_brandday_2.jpg",
+     "sha1": "e7cfeae715ca5c04e63167e8c0d27acc156dca4a"
+    },
+    {
+     "file": "source_img009_s0.jpg",
+     "src": "https://physiogel.co.kr/web/upload/NNEditor/banner/240122_s%20(2).jpg",
+     "sha1": "2c62dbe1fb8c17d7c4830cb84fe93cd6d7c5d403"
+    },
+    {
+     "file": "source_img010_s0.jpg",
+     "src": "https://physiogel.co.kr/web/upload/NNEditor/A_product/DMT_UV_30ml_SUM.png",
+     "sha1": "fa114ae9db62be3876c239e08b558025e09beb84"
+    },
+    {
+     "file": "source_img011_s0.jpg",
+     "src": "https://physiogel.co.kr/web/upload/NNEditor/20240318/5BED94BCECA780EC98A4EAB2945DDMT20EC8DACEC8AA4ED81ACEBA6B020EC8381EC84B8ED8E98EC9DB4ECA780_EC9785EAB7B8EBA088EC9DB4EB939C_EC9691ECA780EBAFBCABM_240308_v328ECA080EC9AA9EB9F8929.jpg",
+     "sha1": "75b1a8d12ec0a50082806524bc32e2f51596cd93"
+    },
+    {
+     "file": "source_img011_s1.jpg",
+     "src": "https://physiogel.co.kr/web/upload/NNEditor/20240318/5BED94BCECA780EC98A4EAB2945DDMT20EC8DACEC8AA4ED81ACEBA6B020EC8381EC84B8ED8E98EC9DB4ECA780_EC9785EAB7B8EBA088EC9DB4EB939C_EC9691ECA780EBAFBCABM_240308_v328ECA080EC9AA9EB9F8929.jpg",
+     "sha1": "75b1a8d12ec0a50082806524bc32e2f51596cd93"
+    },
+    {
+     "file": "source_img011_s2.jpg",
+     "src": "https://physiogel.co.kr/web/upload/NNEditor/20240318/5BED94BCECA780EC98A4EAB2945DDMT20EC8DACEC8AA4ED81ACEBA6B020EC8381EC84B8ED8E98EC9DB4ECA780_EC9785EAB7B8EBA088EC9DB4EB939C_EC9691ECA780EBAFBCABM_240308_v328ECA080EC9AA9EB9F8929.jpg",
+     "sha1": "75b1a8d12ec0a50082806524bc32e2f51596cd93"
+    },
+    {
+     "file": "source_img011_s3.jpg",
+     "src": "https://physiogel.co.kr/web/upload/NNEditor/20240318/5BED94BCECA780EC98A4EAB2945DDMT20EC8DACEC8AA4ED81ACEBA6B020EC8381EC84B8ED8E98EC9DB4ECA780_EC9785EAB7B8EBA088EC9DB4EB939C_EC9691ECA780EBAFBCABM_240308_v328ECA080EC9AA9EB9F8929.jpg",
+     "sha1": "75b1a8d12ec0a50082806524bc32e2f51596cd93"
+    },
+    {
+     "file": "source_img011_s4.jpg",
+     "src": "https://physiogel.co.kr/web/upload/NNEditor/20240318/5BED94BCECA780EC98A4EAB2945DDMT20EC8DACEC8AA4ED81ACEBA6B020EC8381EC84B8ED8E98EC9DB4ECA780_EC9785EAB7B8EBA088EC9DB4EB939C_EC9691ECA780EBAFBCABM_240308_v328ECA080EC9AA9EB9F8929.jpg",
+     "sha1": "75b1a8d12ec0a50082806524bc32e2f51596cd93"
+    },
+    {
+     "file": "source_img011_s5.jpg",
+     "src": "https://physiogel.co.kr/web/upload/NNEditor/20240318/5BED94BCECA780EC98A4EAB2945DDMT20EC8DACEC8AA4ED81ACEBA6B020EC8381EC84B8ED8E98EC9DB4ECA780_EC9785EAB7B8EBA088EC9DB4EB939C_EC9691ECA780EBAFBCABM_240308_v328ECA080EC9AA9EB9F8929.jpg",
+     "sha1": "75b1a8d12ec0a50082806524bc32e2f51596cd93"
+    },
+    {
+     "file": "source_img011_s6.jpg",
+     "src": "https://physiogel.co.kr/web/upload/NNEditor/20240318/5BED94BCECA780EC98A4EAB2945DDMT20EC8DACEC8AA4ED81ACEBA6B020EC8381EC84B8ED8E98EC9DB4ECA780_EC9785EAB7B8EBA088EC9DB4EB939C_EC9691ECA780EBAFBCABM_240308_v328ECA080EC9AA9EB9F8929.jpg",
+     "sha1": "75b1a8d12ec0a50082806524bc32e2f51596cd93"
+    },
+    {
+     "file": "source_img011_s7.jpg",
+     "src": "https://physiogel.co.kr/web/upload/NNEditor/20240318/5BED94BCECA780EC98A4EAB2945DDMT20EC8DACEC8AA4ED81ACEBA6B020EC8381EC84B8ED8E98EC9DB4ECA780_EC9785EAB7B8EBA088EC9DB4EB939C_EC9691ECA780EBAFBCABM_240308_v328ECA080EC9AA9EB9F8929.jpg",
+     "sha1": "75b1a8d12ec0a50082806524bc32e2f51596cd93"
+    },
+    {
+     "file": "source_img011_s8.jpg",
+     "src": "https://physiogel.co.kr/web/upload/NNEditor/20240318/5BED94BCECA780EC98A4EAB2945DDMT20EC8DACEC8AA4ED81ACEBA6B020EC8381EC84B8ED8E98EC9DB4ECA780_EC9785EAB7B8EBA088EC9DB4EB939C_EC9691ECA780EBAFBCABM_240308_v328ECA080EC9AA9EB9F8929.jpg",
+     "sha1": "75b1a8d12ec0a50082806524bc32e2f51596cd93"
+    },
+    {
+     "file": "source_img011_s9.jpg",
+     "src": "https://physiogel.co.kr/web/upload/NNEditor/20240318/5BED94BCECA780EC98A4EAB2945DDMT20EC8DACEC8AA4ED81ACEBA6B020EC8381EC84B8ED8E98EC9DB4ECA780_EC9785EAB7B8EBA088EC9DB4EB939C_EC9691ECA780EBAFBCABM_240308_v328ECA080EC9AA9EB9F8929.jpg",
+     "sha1": "75b1a8d12ec0a50082806524bc32e2f51596cd93"
+    },
+    {
+     "file": "source_img012_s0.jpg",
+     "src": "https://physiogel.co.kr/web/upload/NNEditor/banner/240403_G.png",
+     "sha1": "f94b0f8570a284a649aac8c4ce2d2600b537c38b"
+    },
+    {
+     "file": "source_img013_s0.jpg",
+     "src": "https://hdbphysiogel.cafe24.com/web/upload/NNEditor/banner/1207_800x150-1.jpg",
+     "sha1": "b9c0e03bf82bce7eddb536bc76bbfbfac55d3c41"
+    },
+    {
+     "file": "source_img014_s0.jpg",
+     "src": "https://hdbphysiogel.cafe24.com/web/upload/NNEditor/banner/1207_800x150-2.jpg",
+     "sha1": "1836e408dccb46dbb4d5a39d6630b5c796bae8b3"
+    }
+   ]
+  },
+  {
+   "url": "https://www.coupang.com/vp/products/8636139706",
+   "error": "HTTP Error 403: Forbidden"
+  }
+ ]
+}

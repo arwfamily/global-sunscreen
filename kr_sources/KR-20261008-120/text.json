@@ -1,0 +1,39 @@
+{
+ "id": "KR-20261008-120",
+ "url": "https://www.11st.co.kr/products/8410820852",
+ "pages": [
+  {
+   "url": "https://www.11st.co.kr/products/8410820852",
+   "final": "https://www.11st.co.kr/products/8410820852",
+   "bytes": 632209,
+   "passages": [],
+   "images": [
+    {
+     "file": "source_img001_s0.jpg",
+     "src": "https://cdn.011st.com/11dims/resize/1000x1000/quality/75/11src/product/8410820852/B.webp?9785069",
+     "sha1": "89cab7e38270451c674cf79cb9cdfd7db25066c2"
+    },
+    {
+     "file": "source_img002_s0.jpg",
+     "src": "https://cdn.011st.com/browsing/space/banner/2026/9/29/2609291643462000773_27.png",
+     "sha1": "acb621dfb1bac794b36e4965fa58f2be759c23a0"
+    },
+    {
+     "file": "source_img003_s0.jpg",
+     "src": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/9223897777/B.webp?558338663",
+     "sha1": "aef144e22a0f97738baf001db6576bc12149e0cd"
+    },
+    {
+     "file": "source_img004_s0.jpg",
+     "src": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/8410835085/B.webp?90677720",
+     "sha1": "0d827c42e251ae44229bebad2c0236e8fb2abca1"
+    },
+    {
+     "file": "source_img005_s0.jpg",
+     "src": "https://cdn.011st.com/pb/20260928/78ae6b32-cdb8-46ee-a46f-1ecdf3b9c7b2.jpg",
+     "sha1": "0c9983d5a669e88b61f838ed845b63f3a96ecfa2"
+    }
+   ]
+  }
+ ]
+}

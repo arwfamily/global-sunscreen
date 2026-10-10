@@ -1,0 +1,29 @@
+{
+ "id": "KR-20261008-148",
+ "url": "https://www.bebecook.com/page/product/12395?cate=skincare&fbclid=fbclid",
+ "pages": [
+  {
+   "url": "https://www.bebecook.com/page/product/12395?cate=skincare&fbclid=fbclid",
+   "final": "https://www.bebecook.com/page/product/12395?cate=skincare&fbclid=fbclid",
+   "bytes": 308874,
+   "passages": [],
+   "images": [
+    {
+     "file": "source_img001_s0.jpg",
+     "src": "https://www.bebecook.com/assets/img/@dummy/prod-large-img01.png",
+     "sha1": "70a06a593c83f25876f41edf16a71a47cdd5c92b"
+    },
+    {
+     "file": "source_img002_s0.jpg",
+     "src": "https://www.bebecook.com/assets/img/service/delivery-info-img01.png",
+     "sha1": "e925b28a4da84e13fc36468fee6bf3b65070e66c"
+    },
+    {
+     "file": "source_img003_s0.jpg",
+     "src": "https://www.bebecook.com/assets/img/service/delivery-info-img04.png",
+     "sha1": "6a11ed4c495f847092fbaca1f1a0d9da12bf99e8"
+    }
+   ]
+  }
+ ]
+}

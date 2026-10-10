@@ -1,0 +1,24 @@
+{
+ "id": "KR-20261008-121",
+ "url": "https://www.11st.co.kr/products/9223515450",
+ "pages": [
+  {
+   "url": "https://www.11st.co.kr/products/9223515450",
+   "final": "https://www.11st.co.kr/products/9223515450",
+   "bytes": 268062,
+   "passages": [],
+   "images": [
+    {
+     "file": "source_img001_s0.jpg",
+     "src": "https://cdn.011st.com/browsing/space/banner/2026/9/29/2609291643462000773_27.png",
+     "sha1": "acb621dfb1bac794b36e4965fa58f2be759c23a0"
+    },
+    {
+     "file": "source_img002_s0.jpg",
+     "src": "https://cdn.011st.com/pb/20260928/b818eaa3-d9a4-4f46-bf4c-e3bfe898e3fc.jpg",
+     "sha1": "0c9983d5a669e88b61f838ed845b63f3a96ecfa2"
+    }
+   ]
+  }
+ ]
+}
