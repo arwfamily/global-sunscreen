@@ -1,0 +1,223 @@
+{
+ "id": "KR-20261008-155",
+ "url": "https://petitelinstore.com",
+ "pages": [
+  {
+   "url": "https://petitelinstore.com",
+   "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'petitelinstore.com'. (_ssl.c:1016)>"
+  },
+  {
+   "url": "https://www.petitelinstore.com/views/shop/shopview?pack_content_id=18008",
+   "final": "https://www.petitelinstore.com/views/shop/shopview?pack_content_id=18008",
+   "bytes": 141927,
+   "passages": [],
+   "images": [
+    {
+     "file": "extra1_img001_s0.jpg",
+     "src": "https://img.petitelin.com/amoretto/bg/banner/2024/1115_top_bn.jpg",
+     "sha1": "f2a26340b9a7b44432dc5aa668e91641ac22bc70"
+    },
+    {
+     "file": "extra1_img002_s0.jpg",
+     "src": "https://img.petitelin.com/amoretto/bg/banner/2025/1120_bn01.png",
+     "sha1": "a8809c52d8aeb3183493d587f74602381f845500"
+    },
+    {
+     "file": "extra1_img003_s0.jpg",
+     "src": "https://img.petitelin.com/amoretto/bg/banner/2026/0626_bn01.png",
+     "sha1": "b2fe649c05b1841f78ad9682b1630854197a2c6f"
+    },
+    {
+     "file": "extra1_img004_s0.jpg",
+     "src": "https://img.petitelin.com/product_img/P18008_20260209095550180_2f.jpg",
+     "sha1": "bbd075933214c8d3695a1e12a0a267f6d3141cd9"
+    },
+    {
+     "file": "extra1_img005_s0.jpg",
+     "src": "https://img.petitelin.com/product_img/P18008_20260209095550321_4a.jpg",
+     "sha1": "dab8bb8be4ef180d358e3ab0a2c0f37f8d3321a6"
+    },
+    {
+     "file": "extra1_img006_s0.jpg",
+     "src": "https://img.petitelin.com/product_img/P18008_20260209095550446_c6.jpg",
+     "sha1": "abda448882e59d08d8bfa1e84c54ea21881940a9"
+    },
+    {
+     "file": "extra1_img007_s0.jpg",
+     "src": "https://img.petitelin.com/product_img/P18008_20260209095550586_0c.jpg",
+     "sha1": "95b64d6979e47cdb59b47df361d22988b21894a9"
+    },
+    {
+     "file": "extra1_img008_s0.jpg",
+     "src": "https://img.petitelin.com/product_img/P18008_20260209095550727_86.jpg",
+     "sha1": "f1f1d31cce02c044f524241a4b67486e6c2c5b52"
+    },
+    {
+     "file": "extra1_img009_s0.jpg",
+     "src": "https://img.petitelin.com/amoretto/event/202610/0916_autumn_bn.jpg",
+     "sha1": "57a64c1c3b269b26afd0a0be1b8aee43d62d5b9d"
+    },
+    {
+     "file": "extra1_img010_s0.jpg",
+     "src": "https://img.petitelin.com/amoretto/event/202609/0914_hv_bn2.jpg",
+     "sha1": "f062435c75a6ceb12efe16cf8fe0d740a5e48d5c"
+    },
+    {
+     "file": "extra1_img011_s0.jpg",
+     "src": "https://img.petitelin.com/amoretto/event/202609/0914_hv_bn3.jpg",
+     "sha1": "23dc925e39e5b7a457af532a0bbfbe5be84b6ee0"
+    },
+    {
+     "file": "extra1_img012_s0.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/use.gif",
+     "sha1": "67eafa1e2ac351ec101018a1b9c75c68b7e5239f"
+    },
+    {
+     "file": "extra1_img013_s0.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/suncushion_stick_top.jpg",
+     "sha1": "67419ed2109359f988544858719611625a899568"
+    },
+    {
+     "file": "extra1_img013_s1.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/suncushion_stick_top.jpg",
+     "sha1": "67419ed2109359f988544858719611625a899568"
+    },
+    {
+     "file": "extra1_img014_s0.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/why.gif",
+     "sha1": "fe7c09708b935681ee792a5f33c0629c2a778163"
+    },
+    {
+     "file": "extra1_img014_s1.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/why.gif",
+     "sha1": "fe7c09708b935681ee792a5f33c0629c2a778163"
+    },
+    {
+     "file": "extra1_img015_s0.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/verify.jpg",
+     "sha1": "1c37a3ea39ec052c78fbf4fdccd8d0ef2530c686"
+    },
+    {
+     "file": "extra1_img015_s1.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/verify.jpg",
+     "sha1": "1c37a3ea39ec052c78fbf4fdccd8d0ef2530c686"
+    },
+    {
+     "file": "extra1_img016_s0.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/review.gif",
+     "sha1": "f58d56ba15a31367ee0b26a8d9560c72b1c4c346"
+    },
+    {
+     "file": "extra1_img016_s1.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/review.gif",
+     "sha1": "f58d56ba15a31367ee0b26a8d9560c72b1c4c346"
+    },
+    {
+     "file": "extra1_img017_s0.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/recommend.gif",
+     "sha1": "8e719eaf89e7fd2af9d126b9768d09f54ce16d38"
+    },
+    {
+     "file": "extra1_img017_s1.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/recommend.gif",
+     "sha1": "8e719eaf89e7fd2af9d126b9768d09f54ce16d38"
+    },
+    {
+     "file": "extra1_img018_s0.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/relax.gif",
+     "sha1": "3c045abb8f5c457628cff9c314b3c5a062c5909b"
+    },
+    {
+     "file": "extra1_img018_s1.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/relax.gif",
+     "sha1": "3c045abb8f5c457628cff9c314b3c5a062c5909b"
+    },
+    {
+     "file": "extra1_img019_s0.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/uv_1.gif",
+     "sha1": "efed42882cebd335f8c1970778e600525148da08"
+    },
+    {
+     "file": "extra1_img019_s1.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/uv_1.gif",
+     "sha1": "efed42882cebd335f8c1970778e600525148da08"
+    },
+    {
+     "file": "extra1_img020_s0.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/uv_2.jpg",
+     "sha1": "471696d5df9832f6c2b26a4123207243aacd615c"
+    },
+    {
+     "file": "extra1_img021_s0.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/uv_3.gif",
+     "sha1": "72138b02aee4752205cbf5e41e98aa00d67f720c"
+    },
+    {
+     "file": "extra1_img022_s0.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/soft_1.jpg",
+     "sha1": "6a2375f45ab508ac82a161e4cbaee0c18a009ddd"
+    },
+    {
+     "file": "extra1_img023_s0.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/soft_2.gif",
+     "sha1": "29316f11fe80aab1f74c59f45bde46fa91b8c64b"
+    },
+    {
+     "file": "extra1_img024_s0.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/soft_3.gif",
+     "sha1": "252c66f19e597e795091e77204622c03035aa608"
+    },
+    {
+     "file": "extra1_img024_s1.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/soft_3.gif",
+     "sha1": "252c66f19e597e795091e77204622c03035aa608"
+    },
+    {
+     "file": "extra1_img025_s0.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/point.jpg",
+     "sha1": "c3488d098da7f45d4d665d0a0f3b800d14dc16af"
+    },
+    {
+     "file": "extra1_img025_s1.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/point.jpg",
+     "sha1": "c3488d098da7f45d4d665d0a0f3b800d14dc16af"
+    },
+    {
+     "file": "extra1_img026_s0.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/certification.jpg",
+     "sha1": "e72f3a1694f84c68bc2f38cf8cb81e471f100a04"
+    },
+    {
+     "file": "extra1_img027_s0.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/ewg.jpg",
+     "sha1": "88724c73029f962639020933de6eb12bf5143ba0"
+    },
+    {
+     "file": "extra1_img028_s0.jpg",
+     "src": "https://img.petitelin.com/hernaiv/detail/suncushionstick/info.jpg",
+     "sha1": "e27db2f080dac64150f1fdbf1ee039dd8e081ce7"
+    },
+    {
+     "file": "extra1_img029_s0.jpg",
+     "src": "https://img.petitelin.com/product_img/middle/P21950_20260429103822705_fe.jpg",
+     "sha1": "20d285310c73e57f34288622ee41aa35b7260d88"
+    },
+    {
+     "file": "extra1_img030_s0.jpg",
+     "src": "https://img.petitelin.com/product_img/middle/P20607_20260408145328517_ee.jpg",
+     "sha1": "4b4ac565938c7297c974b3e5934e44eda8aad4b9"
+    },
+    {
+     "file": "extra1_img031_s0.jpg",
+     "src": "https://img.petitelin.com/product_img/middle/P18919_20260209095828844_0c.jpg",
+     "sha1": "56fa48643e49841e54ba4753db63f4ae39369cbd"
+    },
+    {
+     "file": "extra1_img032_s0.jpg",
+     "src": "https://img.petitelin.com/amoretto/bg/img.jpg",
+     "sha1": "4ad6cab49a9e37aa2e18aaeba316ba11d5a0a28a"
+    }
+   ]
+  }
+ ]
+}

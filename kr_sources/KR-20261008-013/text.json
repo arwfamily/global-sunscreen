@@ -1,0 +1,64 @@
+{
+ "id": "KR-20261008-013",
+ "url": "https://www.11st.co.kr/products/9389455497",
+ "pages": [
+  {
+   "url": "https://www.11st.co.kr/products/9389455497",
+   "final": "https://www.11st.co.kr/products/9389455497",
+   "bytes": 255005,
+   "passages": [],
+   "images": [
+    {
+     "file": "source_img001_s0.jpg",
+     "src": "https://cdn.011st.com/browsing/space/banner/2026/9/29/2609291643462000773_27.png",
+     "sha1": "acb621dfb1bac794b36e4965fa58f2be759c23a0"
+    },
+    {
+     "file": "source_img002_s0.jpg",
+     "src": "https://cdn.011st.com/pb/20260928/78ae6b32-cdb8-46ee-a46f-1ecdf3b9c7b2.jpg",
+     "sha1": "0c9983d5a669e88b61f838ed845b63f3a96ecfa2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.11st.co.kr/products/9389455497/view-desc",
+   "final": "https://www.11st.co.kr/products/9389455497/view-desc",
+   "bytes": 3583,
+   "passages": [],
+   "images": [
+    {
+     "file": "extra1_img001_s0.jpg",
+     "src": "https://ai.esmplus.com/gded/638/870/6388706279/2026052911309efbe060.jpg",
+     "sha1": "c0ac8c19ffd6a271dc90a9999e3ee063e965df0d"
+    },
+    {
+     "file": "extra1_img002_s0.jpg",
+     "src": "https://ai.esmplus.com/gded/638/870/6388706279/2026052911309efbe061.jpg",
+     "sha1": "53fecd8869cdd5672dfd9ae6feb16cffafd64b04"
+    },
+    {
+     "file": "extra1_img003_s0.jpg",
+     "src": "https://ai.esmplus.com/gded/638/870/6388706279/2026052911309efbe062.jpg",
+     "sha1": "f9db7cd4857cc0154fbbf2171cf9b64d9c2b73b7"
+    },
+    {
+     "file": "extra1_img004_s0.jpg",
+     "src": "https://ai.esmplus.com/gded/638/870/6388706279/2026052911309efbe063.jpg",
+     "sha1": "a6c709cba9370ec2c7c2d0cfec04780dd6e498bc"
+    },
+    {
+     "file": "extra1_img005_s0.jpg",
+     "src": "https://ai.esmplus.com/gded/638/870/6388706279/2026052911309efbe064.jpg",
+     "sha1": "f0cf79d811f483dd757feb207ffc9e1ff487f0dd"
+    }
+   ]
+  },
+  {
+   "url": "https://www.11st.co.kr/product/SellerProductDetail.tmall?method=getSellerProductDetailDesc&prdNo=9389455497",
+   "final": "https://www.11st.co.kr/product/SellerProductDetail.tmall?method=getSellerProductDetailDesc&prdNo=9389455497",
+   "bytes": 1329,
+   "passages": [],
+   "images": []
+  }
+ ]
+}

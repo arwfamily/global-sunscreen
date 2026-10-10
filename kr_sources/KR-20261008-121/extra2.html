@@ -1,0 +1,61 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title> - 11번가</title>
+<link rel="stylesheet" type="text/css" href="http://c.011st.com/css/product/product_detail.css">
+<script type="text/javascript" src="http://www.11st.co.kr/js/lib/jquery/jquery-1.5.min.js"></script>
+<script type="text/javascript">
+var resizeThread;
+var i=0;
+function parentFrmResize(){
+	if(!parent) return;
+	if(!parent.document.getElementById("prdDescIfrm")) return;
+	if(!document.body) return;
+
+	try{
+		parent.document.getElementById("prdDescIfrm").height = document.documentElement.scrollHeight;
+	}catch(e){}
+}
+resizeThread = setInterval("parentFrmResize()", 100);	//0.1초마다 실행
+
+function handleError() {
+	return true;
+}
+
+window.onload = function(){
+	if(!resizeThread && resizeThread != null) clearInterval(resizeThread);
+
+	//상품상세 상품정보 이미지 우클릭 방지
+	document.oncontextmenu=function(){return true;};
+}
+window.onerror = handleError;
+
+jQuery(document).ready(function() {
+	
+});
+</script>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" style="width: 940px;" class="InTabLe" align="left"><tr><td style="width:940px;text-align: center">
+
+
+
+</td></tr></table>
+</body>
+</html>

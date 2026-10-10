@@ -1,0 +1,29 @@
+{
+ "id": "KR-20261008-108",
+ "url": "https://prod.danawa.com/info/?pcode=21298619",
+ "pages": [
+  {
+   "url": "https://prod.danawa.com/info/?pcode=21298619",
+   "final": "https://prod.danawa.com/info/?pcode=21298619",
+   "bytes": 99491,
+   "passages": [],
+   "images": [
+    {
+     "file": "source_img001_s0.jpg",
+     "src": "https://img.danawa.com/img/prod/finance_banner/wing_f_120x240_v260914.png",
+     "sha1": "1d2e4974d54e0c695132afa4a4cbe5202559b3fc"
+    },
+    {
+     "file": "source_img002_s0.jpg",
+     "src": "https://img.danawa.com/img/prod/ajungdang_banner/blog_top_f_1262x91_v260923.jpg",
+     "sha1": "f9f74de93e7fe9b20076b27d7da1bdab3c816fb4"
+    },
+    {
+     "file": "source_img003_s0.jpg",
+     "src": "https://img.danuri.io/catalog-image/619/298/021/8c778a368f2b4c40a89e9c916a9d294d.jpg",
+     "sha1": "324ee91676aad8d10ddc3004b186a3d1db2c2602"
+    }
+   ]
+  }
+ ]
+}
