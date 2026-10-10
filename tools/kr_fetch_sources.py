@@ -43,22 +43,38 @@ def passages(t):
 def imgs(raw, base):
     t = raw.decode("utf-8", "replace")
     srcs = re.findall(r'(?:ec-data-src|data-src|data-original|src)\s*=\s*["\']([^"\']+\.(?:jpe?g|png|gif|webp)[^"\']*)', t, re.I)
+    srcs += re.findall(r'((?:https?:)?//[^\s"\'<>()]+?\.(?:jpe?g|png|gif))', t, re.I)
+    srcs += re.findall(r'(/web/upload/[^\s"\'<>()]+?\.(?:jpe?g|png|gif))', t, re.I)
     seen, out = set(), []
     for s in srcs:
         u = urllib.parse.urljoin(base, html.unescape(s))
         if u in seen or re.search(r"icon|logo|btn|banner_|sns|common/|/layout/|spacer|blank", u, re.I):
             continue
         seen.add(u); out.append(u)
-    return out[:80]
+    return out[:120]
 
 def job(j):
     d = os.path.join(OUT, j["id"]); os.makedirs(d, exist_ok=True)
     rec = {"id": j["id"], "url": j["url"], "pages": []}
-    for url in [x for x in (j.get("url"), j.get("coupang")) if x]:
+    urls = [x for x in (j.get("url"),) if x] + list(j.get("extra") or [])
+    m = re.search(r"11st\.co\.kr/products/(\d+)", j.get("url") or "")
+    if m:
+        urls += [f"https://www.11st.co.kr/products/{m.group(1)}/view-desc",
+                 f"https://www.11st.co.kr/product/SellerProductDetail.tmall?method=getSellerProductDetailDesc&prdNo={m.group(1)}"]
+    for n_url, url in enumerate(urls):
         raw, final = get(quote(url))
         if raw is None:
             rec["pages"].append({"url": url, "error": final}); continue
-        kind = "coupang" if "coupang" in url else "source"
+        kind = "source" if n_url == 0 else f"extra{n_url}"
+        if re.search(r"\.(jpe?g|png|gif)$", url, re.I):
+            im = Image.open(io.BytesIO(raw)).convert("RGB")
+            page = {"url": url, "final": final, "bytes": len(raw), "passages": [], "images": []}
+            for s_, top in enumerate(range(0, im.height, 1800)):
+                fn = f"{kind}_direct_s{s_}.jpg"
+                im.crop((0, top, im.width, min(im.height, top + 1900))).save(os.path.join(d, fn), quality=90)
+                page["images"].append({"file": fn, "src": url})
+            rec["pages"].append(page)
+            continue
         open(os.path.join(d, f"{kind}.html"), "wb").write(raw)
         t = text_of(raw)
         page = {"url": url, "final": final, "bytes": len(raw), "passages": passages(t), "images": []}
@@ -85,7 +101,7 @@ def job(j):
     return rec
 
 if __name__ == "__main__":
-    jobs = json.load(open("tools/kr_jobs.json"))
+    jobs = json.load(open(os.environ.get("KR_JOBS", "tools/kr_jobs.json")))
     only = set(sys.argv[1:])
     if only:
         jobs = [j for j in jobs if j["id"] in only]

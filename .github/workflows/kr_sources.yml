@@ -6,6 +6,14 @@ on:
         description: 'product ids, space-separated (empty = all)'
         required: false
         default: ''
+      jobs:
+        description: 'jobs file'
+        required: false
+        default: 'tools/kr_jobs.json'
+      branch:
+        description: 'output branch'
+        required: false
+        default: 'kr-sources'
 permissions:
   contents: write
 jobs:
@@ -18,6 +26,8 @@ jobs:
         with: { python-version: '3.11' }
       - run: pip install pillow
       - name: Fetch
+        env:
+          KR_JOBS: ${{ github.event.inputs.jobs }}
         run: python tools/kr_fetch_sources.py ${{ github.event.inputs.ids }} 2>&1 | tee kr_fetch.log
       - name: Push to the kr-sources branch
         run: |
@@ -30,4 +40,4 @@ jobs:
           cp -r /tmp/kr_sources .
           git add kr_sources
           git commit -qm "kr sources $(date -u +%F)"
-          git push -f origin kr-sources-tmp:kr-sources
+          git push -f origin kr-sources-tmp:${{ github.event.inputs.branch }}
