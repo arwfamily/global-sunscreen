@@ -57,3 +57,10 @@
   - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5c912acf-be18-c7f9-e063-6394a90a800b
 - **[US] BABO BOTANICALS SUPER SHIELD MINERAL SUNSCREEN SPF50 (ZINC OXIDE, TITANIUM DIOXIDE) AEROSOL, SPRAY** (US:SPL-b441f976-4f2a-ba19-e053-2995a90ad79a, sev 1) — BABO BOTANICALS, INC.
   - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b441f976-4f2a-ba19-e053-2995a90ad79a
+
+## 2026-10-11
+
+- **[CA] Radiant Defense Perfecting Liquid Broad Spectrum SPF 30** (CA:NPN-80093102, sev 2) — Rodan & Fields Beauty, LLC
+  - added: silica
+  - removed: blueberry fruit extract, cyclohexasiloxane, fumed silica, propanediol
+  - https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80093102
