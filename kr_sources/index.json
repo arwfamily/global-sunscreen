@@ -1,0 +1,32 @@
+[
+ {
+  "id": "ZEN-versioning",
+  "url": "https://support.zenodo.org/help/en-gb/1-upload-deposit/97-what-is-doi-versioning",
+  "pages": [
+   {
+    "url": "https://support.zenodo.org/help/en-gb/1-upload-deposit/97-what-is-doi-versioning",
+    "final": "https://support.zenodo.org/help/en-gb/1-upload-deposit/97-what-is-doi-versioning",
+    "bytes": 8727,
+    "passages": [],
+    "images": []
+   },
+   {
+    "url": "https://zenodo.org/help/versioning",
+    "final": "https://zenodo.org/help/versioning",
+    "bytes": 19895,
+    "passages": [],
+    "images": [
+     {
+      "file": "extra1_img001_s0.jpg",
+      "src": "https://zenodo.org/static/images/openaire.png",
+      "sha1": "f1ecdca2a4d837c080e8a1859334a39e442c6c2a"
+     }
+    ]
+   },
+   {
+    "url": "https://help.zenodo.org/docs/github/describe-software/github-upload/",
+    "error": "HTTP Error 404: Not Found"
+   }
+  ]
+ }
+]
