@@ -1,0 +1,108 @@
+name: KR weekly recapture
+
+# Moved from Muse cron `kr-recapture-monthly` (Mondays 09:16 America/New_York).
+# GitHub cron is UTC-only, so both offsets are scheduled and the gate below
+# lets exactly one of them through: 13:16 UTC in EDT, 14:16 UTC in EST.
+on:
+  schedule:
+    - cron: "16 13 * * 1"   # 09:16 EDT
+    - cron: "16 14 * * 1"   # 09:16 EST
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Run without --apply and without committing"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kr-recapture
+  cancel-in-progress: false
+
+env:
+  KR_DIR: kr                       # kr_ingredients.jsonl + recapture/ live here
+  KR_DB: kr/kr_ingredients.jsonl
+
+jobs:
+  recapture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Gate - only the cron matching New York's current offset runs
+        id: gate
+        run: |
+          run=true
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            off=$(TZ=America/New_York date +%z)      # -0400 or -0500
+            want="16 13 * * 1"; [ "$off" = "-0500" ] && want="16 14 * * 1"
+            [ "${{ github.event.schedule }}" = "$want" ] || run=false
+            echo "NY offset $off, fired '${{ github.event.schedule }}', want '$want' -> run=$run"
+          fi
+          echo "run=$run" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.run == 'true'
+        with: { fetch-depth: 0 }
+
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.run == 'true'
+        with: { python-version: "3.11" }
+
+      - name: Locate sources
+        if: steps.gate.outputs.run == 'true'
+        id: src
+        run: |
+          [ -f "$KR_DB" ] || { echo "::error::$KR_DB is missing - upload Muse's kr-data folder into $KR_DIR/"; exit 1; }
+          script=""
+          for c in "$KR_DIR/recapture/recapture.py" "$KR_DIR/recapture.py"; do
+            [ -f "$c" ] && { script="$c"; break; }
+          done
+          [ -n "$script" ] || { echo "::error::recapture.py not found under $KR_DIR/"; exit 1; }
+          echo "script=$script" >> "$GITHUB_OUTPUT"
+          # Muse paths may be hard-coded to ~/workspace/kr-data - point that at the checkout.
+          mkdir -p "$HOME/workspace"
+          ln -sfn "$GITHUB_WORKSPACE/$KR_DIR" "$HOME/workspace/kr-data"
+          for r in "$KR_DIR/recapture/requirements.txt" "$KR_DIR/requirements.txt"; do
+            [ -f "$r" ] && pip install -q -r "$r"
+          done
+          true
+
+      - name: Snapshot DB before recapture
+        if: steps.gate.outputs.run == 'true'
+        run: python tools/kr_recapture_guard.py snapshot "$KR_DB" "$RUNNER_TEMP/kr_before.jsonl"
+
+      - name: recapture.py
+        if: steps.gate.outputs.run == 'true'
+        env:
+          KR_DATA_DIR: ${{ github.workspace }}/kr
+        run: |
+          mkdir -p "$KR_DIR/recapture/logs"
+          flag="--apply"; [ "${{ inputs.dry_run }}" = "true" ] && flag=""
+          cd "$KR_DIR"
+          python "${GITHUB_WORKSPACE}/${{ steps.src.outputs.script }}" $flag 2>&1 \
+            | tee "recapture/logs/actions_$(date -u +%Y-%m-%d).log"
+
+      - name: Enforce KR rules + summary
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          python tools/kr_recapture_guard.py check \
+            "$RUNNER_TEMP/kr_before.jsonl" "$KR_DB" "$RUNNER_TEMP/summary.md"
+          cat "$RUNNER_TEMP/summary.md" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit and push
+        if: steps.gate.outputs.run == 'true' && inputs.dry_run != true
+        run: |
+          bash .github/publish.sh "kr recapture: $(date -u +%Y-%m-%d)" \
+            "$KR_DB" "$KR_DIR/recapture/logs/"
+
+      - name: Safety net - upload KR data regardless of outcome
+        if: always() && steps.gate.outputs.run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: kr-recapture-${{ github.run_id }}
+          path: |
+            kr/kr_ingredients.jsonl
+            kr/recapture/logs/
+          if-no-files-found: ignore

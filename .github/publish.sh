@@ -13,6 +13,8 @@
 # One implementation, so a fix stays fixed.
 set -uo pipefail
 MSG="${1:?commit message required}"
+shift
+PATHS=("${@:-data/}")   # optional: paths to stage (default data/)
 BRANCH="${GITHUB_REF_NAME:-main}"
 
 if [ -d .git/rebase-merge ] || [ -d .git/rebase-apply ]; then
@@ -22,7 +24,7 @@ fi
 
 git config user.name  "ingredients-bot"
 git config user.email "actions@users.noreply.github.com"
-git add -A data/
+git add -A "${PATHS[@]}"
 if ! git diff --cached --quiet; then
   git commit -q -m "$MSG"
   echo "[publish] committed: $MSG"
