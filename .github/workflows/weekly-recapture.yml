@@ -78,6 +78,7 @@ jobs:
         env:
           KR_DATA_DIR: ${{ github.workspace }}/kr
         run: |
+          set -o pipefail
           mkdir -p "$KR_DIR/recapture/logs"
           flag="--apply"; [ "${{ inputs.dry_run }}" = "true" ] && flag=""
           cd "$KR_DIR"
@@ -88,7 +89,8 @@ jobs:
         if: steps.gate.outputs.run == 'true'
         run: |
           python tools/kr_recapture_guard.py check \
-            "$RUNNER_TEMP/kr_before.jsonl" "$KR_DB" "$RUNNER_TEMP/summary.md"
+            "$RUNNER_TEMP/kr_before.jsonl" "$KR_DB" "$RUNNER_TEMP/summary.md" \
+            "$KR_DIR/recapture/logs/recapture-$(date +%F).json"
           cat "$RUNNER_TEMP/summary.md" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Commit and push
