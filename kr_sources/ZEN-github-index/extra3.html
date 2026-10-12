@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta property="og:image" content="https://blog.zenodo.org/static/img/logos/zenodo-gradient-1000.png" />
+
+
+<meta property="og:title" content="Zenodo - Research. Shared." />
+
+
+<meta property="og:type" content="website" />
+
+
+<meta property="og:description" content="Zenodo is a free and open digital archive built by CERN and OpenAIRE, enabling researchers to share and preserve research output in any size, format and from all fields of research." />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@zenodo_org" />
+<meta name="twitter:creator" content="@zenodo_org" />
+
+<meta name="twitter:title" content="Zenodo - Research. Shared." />
+
+
+
+<meta name="twitter:description" content="Zenodo is a free and open digital archive built by CERN and OpenAIRE, enabling researchers to share and preserve research output in any size, format and from all fields of research." />
+
+<meta name="twitter:image" content="https://blog.zenodo.org/static/img/logos/zenodo-gradient-1000.png" />
+<link rel="stylesheet" href="../../../../static/zenodo.css">
+<link rel="stylesheet" href="../../../../static/style.css">
+<link rel="stylesheet" href="../../../../static/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="../../../../pagefind/pagefind-component-ui.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,100,italic" rel="stylesheet">
+<title>CITATION.cff file | Zenodo</title>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="../../../../pagefind/pagefind-component-ui.js" type="module"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="https://zenodo.org"><img class="navbar-brand" src="/static/img/zenodo.svg" alt="Zenodo" /></a>
+          <span class="logo-divider"></span>
+          <span class="header-title" aria-label="header-title">Documentation</span>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right toplist">
+            
+              <li><a href="https://about.zenodo.org">About</a></li>
+            
+              <li><a href="https://blog.zenodo.org">Blog</a></li>
+            
+              <li><a href="https://help.zenodo.org">Help</a></li>
+            
+              <li><a href="https://about.zenodo.org/projects">Projects</a></li>
+            
+              <li><a href="https://developers.zenodo.org">Developers</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="communities">
+    
+    <div class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 nav navbar-nav navbar subbar">
+            
+
+
+  
+  <li><a href="../../../../">Help</a></li>
+
+  
+  <li><a href="../../../../faq/">FAQ</a></li>
+
+  
+  <li class="active"><a href="../../../">Docs</a></li>
+
+  
+  <li><a href="../../../../guides/">Guides</a></li>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="container body-container">
+      <div class="row">
+        <div class="col-md-12">
+          
+
+<div class="row">
+    <div class="col-md-4">
+        
+<div class="panel panel-default">
+  <div class="panel-heading"><strong><a href="../../">GitHub and Software</a></strong></div>
+  <div class="list-group">
+          
+          <a href="../../enable-repository/" class="list-group-item"">Enable a repository</a>
+          
+          <a href="../" class="list-group-item active"">Describe software</a>
+          
+          <a href="./" class="sub list-group-item highlight">CITATION.cff file</a>
+          
+          <a href="../zenodo-json/" class="sub list-group-item">Zenodo JSON file</a>
+          
+          <a href="../../archive-software/" class="list-group-item"">Archive software</a>
+  </div>
+</div>
+
+    </div>
+    <div class="col-md-8">
+      
+<ol class="breadcrumb">
+    <li><a href="../../../">Docs</a></li>
+    
+    <li><a href="../../">GitHub and Software</a></li>
+    
+    
+    <li><a href="../">Describe software</a></li>
+    
+    
+    <li>CITATION.cff file</li>
+    
+    
+    
+</ol>
+
+      <div class="docs-blocks" data-pagefind-body>
+      <h1>CITATION.cff file</h1>
+      
+      <hr />
+      <p>A <code>CITATION.cff</code> file can be added to your GitHub repository to describe the software after it is preserved in Zenodo.</p>
+<p><strong>Note:</strong> If your repository also contains a <code>.zenodo.json</code> file, Zenodo will <strong>only</strong> use the <code>.zenodo.json</code> metadata and ignore the <code>CITATION.cff</code> entirely. However, we still recommend having a <code>CITATION.cff</code> file because GitHub uses it to display a <a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files">citation suggestion</a> on your repository page, making it easier for others to cite your software.</p>
+<p><strong>Looking forward:</strong> Zenodo's long-term preference is for open metadata formats like <code>CITATION.cff</code> to eventually make the <code>.zenodo.json</code> format unnecessary. We hope to see the Citation File Format evolve in two directions:</p>
+<ul>
+<li><strong>Broader metadata support:</strong> Adoption of widely-used metadata attributes such as funding information.</li>
+<li><strong>Extension mechanisms:</strong> Support for platform-specific extensions that would allow services like Zenodo to utilize custom attributes (such as specifying Zenodo communities).</li>
+</ul>
+
+      
+        <h3 id="" class="docs">Create a CITATION.cff file <small><a href="#" class="text-muted"><i class="fa fa-link"></i></a></small></h3>
+<hr />
+        <p>
+
+</p>
+        <div class="row">
+    <div class="col-md-1"><p><span class="badge">1</span></p></div>
+    <div class="col-md-11">
+        <p>Open your repository on GitHub</p>
+
+        
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-1"><p><span class="badge">2</span></p></div>
+    <div class="col-md-11">
+        <p>Add a new file</p>
+
+        
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-1"><p><span class="badge">3</span></p></div>
+    <div class="col-md-11">
+        <p>Name it <code>CITATION.cff</code></p>
+
+        
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-1"><p><span class="badge">4</span></p></div>
+    <div class="col-md-11">
+        <p>(Optional) Validate the contents of the file, see the instructions <a href="#validate">below</a> for more information.</p>
+
+        
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-1"><p><span class="badge">5</span></p></div>
+    <div class="col-md-11">
+        <p>Commit the file</p>
+
+        
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-1"><p><span class="badge">6</span></p></div>
+    <div class="col-md-11">
+        <p><a href="../../archive-software/github-upload">Archive the release</a></p>
+
+        
+    </div>
+</div>
+        <p>
+<p>Currently Zenodo implements a subset of the <code>CITATION.cff</code> schema, find an example with all the fields that are supported below:</p>
+<pre><code>cff-version: 1.2.0
+title: "Memory bus simulation scripts"
+version: 1.8.0
+license: "MIT"
+type: software
+abstract: "These are the scripts used to simulate a memory bus"
+message: "If you use this software, please cite it as below."
+authors:
+  - given-names: Josiah
+    family-names: Carberry
+    affiliation: Brown University
+    orcid: "https://orcid.org/0000-0002-1825-0097"
+keywords:
+  - computer science
+  - psychoceramics
+  - journaling filesystems
+</code></pre>
+
+</p>
+        <h3 id="validate" class="docs">Validate a CITATION.cff file <small><a href="#validate" class="text-muted"><i class="fa fa-link"></i></a></small></h3>
+<hr />
+        <p>
+<p>A <code>CITATION.cff</code> can be validated using tools such as <a href="https://github.com/citation-file-format/cffconvert">cff-convert</a>. Even though this is not maintained by Zenodo, we use it to validate our users' files and it is also recommended by the <a href="https://github.com/citation-file-format/citation-file-format?tab=readme-ov-file#validation-heavy_check_mark">Citation File Format</a>.</p>
+<p>Instructions on how to install and execute the tool can be found on their repository:</p>
+<ul>
+<li><a href="https://github.com/citation-file-format/cffconvert?tab=readme-ov-file#installing">How to install</a></li>
+<li><a href="https://github.com/citation-file-format/cffconvert?tab=readme-ov-file#validating-a-local-citationcff-file">How to use</a></li>
+</ul>
+
+</p>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="alert alert-info" style="margin-top: 20px;">
+        Couldn't find the answer to your question? <a href="https://zenodo.org/support">Contact us</a>.
+      </div>
+    </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <footer class="footer">
+    <div class="menu-wrapper">
+      <div class="container">
+        <div class="row footer-menu">
+          <div class="col-xs-12 col-md-8">
+            <div class="row">
+              <div class="col-xs-2 col-md-2">
+                <h5>About</h5>
+                <ul class="list-unstyled">
+                  <li><a href="http://about.zenodo.org">About</a></li>
+                  <li><a href="http://about.zenodo.org/policies/">Policies</a></li>
+                  <li><a href="http://about.zenodo.org/infrastructure/">Infrastructure</a></li>
+                  <li><a href="http://about.zenodo.org/principles/">Principles</a></li>
+                  <li><a href="http://about.zenodo.org/roadmap/">Roadmap</a></li>
+                  <li><a href="http://about.zenodo.org/projects/">Projects</a></li>
+                  <li><a href="http://about.zenodo.org/contact/">Contact</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-2 col-md-2">
+                <h5>Blog</h5>
+                <ul class="list-unstyled">
+                  <li><a href="https://blog.zenodo.org">Blog</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-2 col-md-2">
+                <h5>Support</h5>
+                <ul class="list-unstyled">
+                  <li><a href="https://help.zenodo.org">Help</a></li>
+                  <li><a href="https://support.zenodo.org/help/">FAQ</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-2 col-md-2">
+                <h5>Developers</h5>
+                <ul class="list-unstyled">
+                <li><a href="https://developers.zenodo.org">REST API</a></li>
+                <li><a href="https://developers.zenodo.org#oai-pmh">OAI-PMH</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-2 col-md-2">
+                <h5>Contribute</h5>
+                <ul class="list-unstyled">
+                  <li><a href="https://github.com/zenodo/zenodo-rdm"><i class="fa fa-external-link"></i> GitHub</a></li>
+                  <li><a href="https://zenodo.org/donate"><i class="fa fa-external-link"></i> Donate</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <div class="pull-right-md text-center-sm text-center-xs">
+              <h5>Funded by</h5>
+              <ul class="list-inline">
+                <li><a href="https://home.cern"><img src="/static/img/cern.png" width="60" height="60" /></a></li>
+                <li><a href="https://www.openaire.eu"><img src="/static/img/openaire.png" width="80"/></a></li>
+                <li><a href="https://commission.europa.eu/index_en"><img src="/static/img/eu.png" width="88" height="60" /></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-sm-push-6">
+          <div class="pull-right-sm text-center-xs">
+            <ul class="list-inline">
+              <li><a href="https://stats.uptimerobot.com/vlYOVuWgM">Status</a></li>
+              <li><a href="https://about.zenodo.org/privacy-policy">Privacy policy</a></li>
+              <li><a href="https://about.zenodo.org/cookie-policy">Cookie policy</a></li>
+              <li><a href="https://about.zenodo.org/terms">Terms of Use</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-sm-pull-6 text-center-xs">
+          <p><a title="Except where otherwise noted, content on this site is licensed under a Creative Commons Attribution 4.0 International License." rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" height="20" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>&nbsp; Powered by <a href="https://home.cern/science/computing/data-centre">CERN Data Centre</a> &amp; <a href="https://inveniosoftware.org/products/rdm/">InvenioRDM</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
+<div class="cookie-banner hidden">
+    <i class="close icon"></i>
+    <div>
+        <p >This site uses cookies. Find out more on <a href="https://about.zenodo.org/cookie-policy">how we use cookies</a></p>
+    </div>
+    <div class="buttons">
+        <button class="small primary" id="cookies-all">Accept all cookies</button>
+        <button class="small" id="cookies-essential">Accept only essential cookies</button>
+    </div>
+</div>
+
+<script>
+var _paq = window._paq = window._paq || [];
+_paq.push(['requireCookieConsent']);
+
+(function() {
+    var u="https://webanalytics.web.cern.ch/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '363']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+})();
+
+var cookieConsent = document.cookie
+    .split("; ")
+    .find((row) => row.startsWith("cookie_consent="))
+    ?.split("=")[1];
+
+if (cookieConsent) {
+    if (cookieConsent === "all") {
+        matomo();
+    }
+} else {
+    document.querySelector(".cookie-banner").classList.remove("hidden")
+    _paq.push(['forgetConsentGiven']);
+}
+
+$('.cookie-banner .close')
+    .on('click', function () {
+    $(this)
+        .closest('.cookie-banner')
+        .fadeOut('fast');
+    setCookie("cookie_consent","essential");
+    });
+
+$('#cookies-essential')
+    .on('click', function () {
+    $(this)
+        .closest('.cookie-banner')
+        .fadeOut('fast');
+    setCookie("cookie_consent","essential");
+    });
+
+$('#cookies-all')
+    .on('click', function () {
+    $(this)
+        .closest('.cookie-banner')
+        .fadeOut('fast');
+    setCookie("cookie_consent","all");
+    _paq.push(['rememberCookieConsentGiven']);
+    matomo();
+    });
+
+function matomo() {
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+}
+
+function setCookie(cname, cvalue) {
+    var d = new Date();
+    d.setTime(d.getTime() + (365 * 24 * 60 * 60 * 1000)); // one year
+    var expires = "expires=" + d.toUTCString();
+    var cookie = cname + "=" + cvalue + ";" + expires + ";"
+    cookie += "Domain=zenodo.org;Path=/;SameSite=None; Secure"; // so that it works across subdomains
+    document.cookie = cookie;
+}
+</script>
+
+
+
+</body>
+</html>

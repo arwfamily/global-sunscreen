@@ -1,0 +1,39 @@
+{
+ "id": "ZEN-policies",
+ "url": "https://about.zenodo.org/policies/",
+ "pages": [
+  {
+   "url": "https://about.zenodo.org/policies/",
+   "final": "https://about.zenodo.org/policies/",
+   "bytes": 16728,
+   "passages": [],
+   "images": [
+    {
+     "file": "source_img001_s0.jpg",
+     "src": "https://about.zenodo.org/static/img/openaire.png",
+     "sha1": "f1ecdca2a4d837c080e8a1859334a39e442c6c2a"
+    }
+   ]
+  },
+  {
+   "url": "https://support.zenodo.org/help/en-gb/1-upload-deposit/215-can-i-delete-my-record-after-publishing",
+   "final": "https://support.zenodo.org/help/en-gb/1-upload-deposit/215-can-i-delete-my-record-after-publishing",
+   "bytes": 6190,
+   "passages": [],
+   "images": []
+  },
+  {
+   "url": "https://about.zenodo.org/terms/",
+   "final": "https://about.zenodo.org/terms/",
+   "bytes": 14429,
+   "passages": [],
+   "images": [
+    {
+     "file": "extra2_img001_s0.jpg",
+     "src": "https://about.zenodo.org/static/img/openaire.png",
+     "sha1": "f1ecdca2a4d837c080e8a1859334a39e442c6c2a"
+    }
+   ]
+  }
+ ]
+}

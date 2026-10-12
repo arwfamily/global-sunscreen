@@ -1,0 +1,132 @@
+{
+ "id": "ZEN-github-index",
+ "url": "https://help.zenodo.org/docs/github/",
+ "pages": [
+  {
+   "url": "https://help.zenodo.org/docs/github/",
+   "final": "https://help.zenodo.org/docs/github/",
+   "bytes": 12218,
+   "passages": [],
+   "images": [
+    {
+     "file": "source_img001_s0.jpg",
+     "src": "https://help.zenodo.org/static/img/openaire.png",
+     "sha1": "f1ecdca2a4d837c080e8a1859334a39e442c6c2a"
+    }
+   ]
+  },
+  {
+   "url": "https://help.zenodo.org/docs/github/enable-repository/",
+   "final": "https://help.zenodo.org/docs/github/enable-repository/",
+   "bytes": 13624,
+   "passages": [],
+   "images": [
+    {
+     "file": "extra1_img001_s0.jpg",
+     "src": "https://help.zenodo.org/docs/github/enable-repository/repos.png",
+     "sha1": "33dcaf9d710cd7fe8ed9c1e39f7c31e5e1b2487c"
+    },
+    {
+     "file": "extra1_img002_s0.jpg",
+     "src": "https://help.zenodo.org/docs/github/enable-repository/success_repo.png",
+     "sha1": "8a67f3053bf8050cad84d446ed27e06c56ef57b2"
+    },
+    {
+     "file": "extra1_img003_s0.jpg",
+     "src": "https://help.zenodo.org/static/img/openaire.png",
+     "sha1": "f1ecdca2a4d837c080e8a1859334a39e442c6c2a"
+    }
+   ]
+  },
+  {
+   "url": "https://help.zenodo.org/docs/github/describe-software/",
+   "final": "https://help.zenodo.org/docs/github/describe-software/",
+   "bytes": 13076,
+   "passages": [],
+   "images": [
+    {
+     "file": "extra2_img001_s0.jpg",
+     "src": "https://help.zenodo.org/static/img/openaire.png",
+     "sha1": "f1ecdca2a4d837c080e8a1859334a39e442c6c2a"
+    }
+   ]
+  },
+  {
+   "url": "https://help.zenodo.org/docs/github/describe-software/citation-file/",
+   "final": "https://help.zenodo.org/docs/github/describe-software/citation-file/",
+   "bytes": 16149,
+   "passages": [],
+   "images": [
+    {
+     "file": "extra3_img001_s0.jpg",
+     "src": "https://help.zenodo.org/static/img/openaire.png",
+     "sha1": "f1ecdca2a4d837c080e8a1859334a39e442c6c2a"
+    }
+   ]
+  },
+  {
+   "url": "https://help.zenodo.org/docs/github/describe-software/zenodo-json/",
+   "final": "https://help.zenodo.org/docs/github/describe-software/zenodo-json/",
+   "bytes": 15238,
+   "passages": [],
+   "images": [
+    {
+     "file": "extra4_img001_s0.jpg",
+     "src": "https://help.zenodo.org/static/img/openaire.png",
+     "sha1": "f1ecdca2a4d837c080e8a1859334a39e442c6c2a"
+    }
+   ]
+  },
+  {
+   "url": "https://help.zenodo.org/docs/github/archive-software/",
+   "final": "https://help.zenodo.org/docs/github/archive-software/",
+   "bytes": 12185,
+   "passages": [],
+   "images": [
+    {
+     "file": "extra5_img001_s0.jpg",
+     "src": "https://help.zenodo.org/static/img/openaire.png",
+     "sha1": "f1ecdca2a4d837c080e8a1859334a39e442c6c2a"
+    }
+   ]
+  },
+  {
+   "url": "https://help.zenodo.org/docs/github/archive-software/github-upload/",
+   "final": "https://help.zenodo.org/docs/github/archive-software/github-upload/",
+   "bytes": 16277,
+   "passages": [],
+   "images": [
+    {
+     "file": "extra6_img001_s0.jpg",
+     "src": "https://help.zenodo.org/docs/github/archive-software/github-upload/create-release.png",
+     "sha1": "304dbedc143a2bf8526d0bfab78ae68a29892fc2"
+    },
+    {
+     "file": "extra6_img002_s0.jpg",
+     "src": "https://help.zenodo.org/docs/github/archive-software/github-upload/release.png",
+     "sha1": "bba883283fca5d38758e67ad902cc00ed8c4ebfb"
+    },
+    {
+     "file": "extra6_img003_s0.jpg",
+     "src": "https://help.zenodo.org/docs/github/archive-software/manual-upload/archive-wait.png",
+     "sha1": "a9e7f188b57312ecfaea6be327b2849de6915411"
+    },
+    {
+     "file": "extra6_img004_s0.jpg",
+     "src": "https://help.zenodo.org/docs/github/archive-software/github-upload/failed-release.png",
+     "sha1": "63be507a92f682445977f845b108fd714b41e916"
+    },
+    {
+     "file": "extra6_img005_s0.jpg",
+     "src": "https://help.zenodo.org/docs/github/archive-software/github-upload/failed-release-errors.png",
+     "sha1": "73ec91396692f13df9b9245114094ef7f6bdd5ae"
+    },
+    {
+     "file": "extra6_img006_s0.jpg",
+     "src": "https://help.zenodo.org/static/img/openaire.png",
+     "sha1": "f1ecdca2a4d837c080e8a1859334a39e442c6c2a"
+    }
+   ]
+  }
+ ]
+}

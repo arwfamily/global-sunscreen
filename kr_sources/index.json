@@ -1,0 +1,354 @@
+[
+ {
+  "id": "ZEN-github-index",
+  "url": "https://help.zenodo.org/docs/github/",
+  "pages": [
+   {
+    "url": "https://help.zenodo.org/docs/github/",
+    "final": "https://help.zenodo.org/docs/github/",
+    "bytes": 12218,
+    "passages": [],
+    "images": [
+     {
+      "file": "source_img001_s0.jpg",
+      "src": "https://help.zenodo.org/static/img/openaire.png",
+      "sha1": "f1ecdca2a4d837c080e8a1859334a39e442c6c2a"
+     }
+    ]
+   },
+   {
+    "url": "https://help.zenodo.org/docs/github/enable-repository/",
+    "final": "https://help.zenodo.org/docs/github/enable-repository/",
+    "bytes": 13624,
+    "passages": [],
+    "images": [
+     {
+      "file": "extra1_img001_s0.jpg",
+      "src": "https://help.zenodo.org/docs/github/enable-repository/repos.png",
+      "sha1": "33dcaf9d710cd7fe8ed9c1e39f7c31e5e1b2487c"
+     },
+     {
+      "file": "extra1_img002_s0.jpg",
+      "src": "https://help.zenodo.org/docs/github/enable-repository/success_repo.png",
+      "sha1": "8a67f3053bf8050cad84d446ed27e06c56ef57b2"
+     },
+     {
+      "file": "extra1_img003_s0.jpg",
+      "src": "https://help.zenodo.org/static/img/openaire.png",
+      "sha1": "f1ecdca2a4d837c080e8a1859334a39e442c6c2a"
+     }
+    ]
+   },
+   {
+    "url": "https://help.zenodo.org/docs/github/describe-software/",
+    "final": "https://help.zenodo.org/docs/github/describe-software/",
+    "bytes": 13076,
+    "passages": [],
+    "images": [
+     {
+      "file": "extra2_img001_s0.jpg",
+      "src": "https://help.zenodo.org/static/img/openaire.png",
+      "sha1": "f1ecdca2a4d837c080e8a1859334a39e442c6c2a"
+     }
+    ]
+   },
+   {
+    "url": "https://help.zenodo.org/docs/github/describe-software/citation-file/",
+    "final": "https://help.zenodo.org/docs/github/describe-software/citation-file/",
+    "bytes": 16149,
+    "passages": [],
+    "images": [
+     {
+      "file": "extra3_img001_s0.jpg",
+      "src": "https://help.zenodo.org/static/img/openaire.png",
+      "sha1": "f1ecdca2a4d837c080e8a1859334a39e442c6c2a"
+     }
+    ]
+   },
+   {
+    "url": "https://help.zenodo.org/docs/github/describe-software/zenodo-json/",
+    "final": "https://help.zenodo.org/docs/github/describe-software/zenodo-json/",
+    "bytes": 15238,
+    "passages": [],
+    "images": [
+     {
+      "file": "extra4_img001_s0.jpg",
+      "src": "https://help.zenodo.org/static/img/openaire.png",
+      "sha1": "f1ecdca2a4d837c080e8a1859334a39e442c6c2a"
+     }
+    ]
+   },
+   {
+    "url": "https://help.zenodo.org/docs/github/archive-software/",
+    "final": "https://help.zenodo.org/docs/github/archive-software/",
+    "bytes": 12185,
+    "passages": [],
+    "images": [
+     {
+      "file": "extra5_img001_s0.jpg",
+      "src": "https://help.zenodo.org/static/img/openaire.png",
+      "sha1": "f1ecdca2a4d837c080e8a1859334a39e442c6c2a"
+     }
+    ]
+   },
+   {
+    "url": "https://help.zenodo.org/docs/github/archive-software/github-upload/",
+    "final": "https://help.zenodo.org/docs/github/archive-software/github-upload/",
+    "bytes": 16277,
+    "passages": [],
+    "images": [
+     {
+      "file": "extra6_img001_s0.jpg",
+      "src": "https://help.zenodo.org/docs/github/archive-software/github-upload/create-release.png",
+      "sha1": "304dbedc143a2bf8526d0bfab78ae68a29892fc2"
+     },
+     {
+      "file": "extra6_img002_s0.jpg",
+      "src": "https://help.zenodo.org/docs/github/archive-software/github-upload/release.png",
+      "sha1": "bba883283fca5d38758e67ad902cc00ed8c4ebfb"
+     },
+     {
+      "file": "extra6_img003_s0.jpg",
+      "src": "https://help.zenodo.org/docs/github/archive-software/manual-upload/archive-wait.png",
+      "sha1": "a9e7f188b57312ecfaea6be327b2849de6915411"
+     },
+     {
+      "file": "extra6_img004_s0.jpg",
+      "src": "https://help.zenodo.org/docs/github/archive-software/github-upload/failed-release.png",
+      "sha1": "63be507a92f682445977f845b108fd714b41e916"
+     },
+     {
+      "file": "extra6_img005_s0.jpg",
+      "src": "https://help.zenodo.org/docs/github/archive-software/github-upload/failed-release-errors.png",
+      "sha1": "73ec91396692f13df9b9245114094ef7f6bdd5ae"
+     },
+     {
+      "file": "extra6_img006_s0.jpg",
+      "src": "https://help.zenodo.org/static/img/openaire.png",
+      "sha1": "f1ecdca2a4d837c080e8a1859334a39e442c6c2a"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ZEN-records",
+  "url": "https://help.zenodo.org/docs/deposit/manage-records/",
+  "pages": [
+   {
+    "url": "https://help.zenodo.org/docs/deposit/manage-records/",
+    "final": "https://help.zenodo.org/docs/deposit/manage-records/",
+    "bytes": 17746,
+    "passages": [],
+    "images": [
+     {
+      "file": "source_img001_s0.jpg",
+      "src": "https://help.zenodo.org/docs/deposit/manage-records/browse.png",
+      "sha1": "d40ddc4d5034eda9e26988724f9a3db61427c1ad"
+     },
+     {
+      "file": "source_img002_s0.jpg",
+      "src": "https://help.zenodo.org/docs/deposit/manage-records/browse2.png",
+      "sha1": "d420b603704b2c0e8973330702e28035210cec91"
+     },
+     {
+      "file": "source_img003_s0.jpg",
+      "src": "https://help.zenodo.org/docs/deposit/manage-records/edit.png",
+      "sha1": "eee70e31c7d046251b4228f4dbbb271916873bf4"
+     },
+     {
+      "file": "source_img004_s0.jpg",
+      "src": "https://help.zenodo.org/docs/deposit/manage-records/edit-publish.png",
+      "sha1": "a1eff66ba8ba7cfd9d271105c74a22b019ca04c5"
+     },
+     {
+      "file": "source_img005_s0.jpg",
+      "src": "https://help.zenodo.org/docs/deposit/manage-records/manage-dropdown.png",
+      "sha1": "23f84678e544444f66cb48e15baf11da952f8a22"
+     },
+     {
+      "file": "source_img006_s0.jpg",
+      "src": "https://help.zenodo.org/docs/deposit/manage-records/edit-delete-record.jpg",
+      "sha1": "4d06a585137434fabbd3337d48a36aa74f28048f"
+     },
+     {
+      "file": "source_img007_s0.jpg",
+      "src": "https://help.zenodo.org/docs/deposit/manage-records/modal-immediate.jpg",
+      "sha1": "c607f8c405bc66a0494e50377e0a5a3bcba8eef9"
+     },
+     {
+      "file": "source_img008_s0.jpg",
+      "src": "https://help.zenodo.org/docs/deposit/manage-records/tombstone.jpg",
+      "sha1": "f740fcac57e10ff8803a7aa10eb581eef405046a"
+     },
+     {
+      "file": "source_img009_s0.jpg",
+      "src": "https://help.zenodo.org/static/img/openaire.png",
+      "sha1": "f1ecdca2a4d837c080e8a1859334a39e442c6c2a"
+     }
+    ]
+   },
+   {
+    "url": "https://help.zenodo.org/docs/deposit/about-records/",
+    "final": "https://help.zenodo.org/docs/deposit/about-records/",
+    "bytes": 16314,
+    "passages": [],
+    "images": [
+     {
+      "file": "extra1_img001_s0.jpg",
+      "src": "https://help.zenodo.org/static/img/openaire.png",
+      "sha1": "f1ecdca2a4d837c080e8a1859334a39e442c6c2a"
+     }
+    ]
+   },
+   {
+    "url": "https://help.zenodo.org/docs/deposit/manage-versions/",
+    "final": "https://help.zenodo.org/docs/deposit/manage-versions/",
+    "bytes": 16739,
+    "passages": [],
+    "images": [
+     {
+      "file": "extra2_img001_s0.jpg",
+      "src": "https://help.zenodo.org/docs/deposit/manage-versions/import-files.png",
+      "sha1": "e0d33da83ac2edc4e32590b6d2cad07abdfec086"
+     },
+     {
+      "file": "extra2_img002_s0.jpg",
+      "src": "https://help.zenodo.org/docs/deposit/manage-versions/browse-versions.png",
+      "sha1": "57aee206d80e5b80c3605b9519c039b46b2df42a"
+     },
+     {
+      "file": "extra2_img003_s0.jpg",
+      "src": "https://help.zenodo.org/static/img/openaire.png",
+      "sha1": "f1ecdca2a4d837c080e8a1859334a39e442c6c2a"
+     }
+    ]
+   },
+   {
+    "url": "https://help.zenodo.org/docs/deposit/describe-records/licenses/",
+    "final": "https://help.zenodo.org/docs/deposit/describe-records/licenses/",
+    "bytes": 16016,
+    "passages": [],
+    "images": [
+     {
+      "file": "extra3_img001_s0.jpg",
+      "src": "https://help.zenodo.org/docs/deposit/describe-records/licenses/default-license.png",
+      "sha1": "e248b847d8576d638a59571177e0683815de1d2d"
+     },
+     {
+      "file": "extra3_img002_s0.jpg",
+      "src": "https://help.zenodo.org/docs/deposit/describe-records/licenses/chooser.png",
+      "sha1": "7cc5011dc46bce8739ee83f48818d2349ff4b4ad"
+     },
+     {
+      "file": "extra3_img003_s0.jpg",
+      "src": "https://help.zenodo.org/docs/deposit/describe-records/licenses/custom-license.png",
+      "sha1": "be04d6a72384832f6342417bc4214d899d158763"
+     },
+     {
+      "file": "extra3_img004_s0.jpg",
+      "src": "https://help.zenodo.org/docs/deposit/describe-records/licenses/multiple.png",
+      "sha1": "37a41857bea55c566adc3156dd2639eef744f600"
+     },
+     {
+      "file": "extra3_img005_s0.jpg",
+      "src": "https://help.zenodo.org/static/img/openaire.png",
+      "sha1": "f1ecdca2a4d837c080e8a1859334a39e442c6c2a"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ZEN-policies",
+  "url": "https://about.zenodo.org/policies/",
+  "pages": [
+   {
+    "url": "https://about.zenodo.org/policies/",
+    "final": "https://about.zenodo.org/policies/",
+    "bytes": 16728,
+    "passages": [],
+    "images": [
+     {
+      "file": "source_img001_s0.jpg",
+      "src": "https://about.zenodo.org/static/img/openaire.png",
+      "sha1": "f1ecdca2a4d837c080e8a1859334a39e442c6c2a"
+     }
+    ]
+   },
+   {
+    "url": "https://support.zenodo.org/help/en-gb/1-upload-deposit/215-can-i-delete-my-record-after-publishing",
+    "final": "https://support.zenodo.org/help/en-gb/1-upload-deposit/215-can-i-delete-my-record-after-publishing",
+    "bytes": 6190,
+    "passages": [],
+    "images": []
+   },
+   {
+    "url": "https://about.zenodo.org/terms/",
+    "final": "https://about.zenodo.org/terms/",
+    "bytes": 14429,
+    "passages": [],
+    "images": [
+     {
+      "file": "extra2_img001_s0.jpg",
+      "src": "https://about.zenodo.org/static/img/openaire.png",
+      "sha1": "f1ecdca2a4d837c080e8a1859334a39e442c6c2a"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ZEN-api-search",
+  "url": "https://zenodo.org/api/records?q=arwfamily",
+  "pages": [
+   {
+    "url": "https://zenodo.org/api/records?q=arwfamily",
+    "final": "https://zenodo.org/api/records?q=arwfamily",
+    "bytes": 435,
+    "passages": [],
+    "images": []
+   },
+   {
+    "url": "https://zenodo.org/api/records?q=%22Baby%20Sunscreen%20Label%20Dataset%22",
+    "final": "https://zenodo.org/api/records?q=%22Baby%20Sunscreen%20Label%20Dataset%22",
+    "bytes": 460,
+    "passages": [],
+    "images": []
+   }
+  ]
+ },
+ {
+  "id": "NLM-terms",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm",
+  "pages": [
+   {
+    "url": "https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm",
+    "final": "https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm",
+    "bytes": 82626,
+    "passages": [],
+    "images": []
+   },
+   {
+    "url": "https://www.nlm.nih.gov/web_policies.html",
+    "final": "https://www.nlm.nih.gov/web_policies.html",
+    "bytes": 43526,
+    "passages": [],
+    "images": [
+     {
+      "file": "extra1_img001_s0.jpg",
+      "src": "https://assets.nlm.nih.gov/uswds/img/NLM_White.png",
+      "sha1": "443bcb4c364f274a066516418f2fcada4ee776c5"
+     }
+    ]
+   },
+   {
+    "url": "https://dailymed.nlm.nih.gov/dailymed/app-support-web-services.cfm",
+    "final": "https://dailymed.nlm.nih.gov/dailymed/app-support-web-services.cfm",
+    "bytes": 85397,
+    "passages": [],
+    "images": []
+   }
+  ]
+ }
+]

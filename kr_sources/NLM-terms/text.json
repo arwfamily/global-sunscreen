@@ -1,0 +1,33 @@
+{
+ "id": "NLM-terms",
+ "url": "https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm",
+ "pages": [
+  {
+   "url": "https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm",
+   "final": "https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm",
+   "bytes": 82626,
+   "passages": [],
+   "images": []
+  },
+  {
+   "url": "https://www.nlm.nih.gov/web_policies.html",
+   "final": "https://www.nlm.nih.gov/web_policies.html",
+   "bytes": 43526,
+   "passages": [],
+   "images": [
+    {
+     "file": "extra1_img001_s0.jpg",
+     "src": "https://assets.nlm.nih.gov/uswds/img/NLM_White.png",
+     "sha1": "443bcb4c364f274a066516418f2fcada4ee776c5"
+    }
+   ]
+  },
+  {
+   "url": "https://dailymed.nlm.nih.gov/dailymed/app-support-web-services.cfm",
+   "final": "https://dailymed.nlm.nih.gov/dailymed/app-support-web-services.cfm",
+   "bytes": 85397,
+   "passages": [],
+   "images": []
+  }
+ ]
+}

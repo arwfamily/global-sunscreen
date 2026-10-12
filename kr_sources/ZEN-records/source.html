@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta property="og:image" content="https://blog.zenodo.org/static/img/logos/zenodo-gradient-1000.png" />
+
+
+<meta property="og:title" content="Zenodo - Research. Shared." />
+
+
+<meta property="og:type" content="website" />
+
+
+<meta property="og:description" content="Zenodo is a free and open digital archive built by CERN and OpenAIRE, enabling researchers to share and preserve research output in any size, format and from all fields of research." />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@zenodo_org" />
+<meta name="twitter:creator" content="@zenodo_org" />
+
+<meta name="twitter:title" content="Zenodo - Research. Shared." />
+
+
+
+<meta name="twitter:description" content="Zenodo is a free and open digital archive built by CERN and OpenAIRE, enabling researchers to share and preserve research output in any size, format and from all fields of research." />
+
+<meta name="twitter:image" content="https://blog.zenodo.org/static/img/logos/zenodo-gradient-1000.png" />
+<link rel="stylesheet" href="../../../static/zenodo.css">
+<link rel="stylesheet" href="../../../static/style.css">
+<link rel="stylesheet" href="../../../static/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="../../../pagefind/pagefind-component-ui.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,100,italic" rel="stylesheet">
+<title>Manage records | Zenodo</title>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="../../../pagefind/pagefind-component-ui.js" type="module"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="https://zenodo.org"><img class="navbar-brand" src="/static/img/zenodo.svg" alt="Zenodo" /></a>
+          <span class="logo-divider"></span>
+          <span class="header-title" aria-label="header-title">Documentation</span>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right toplist">
+            
+              <li><a href="https://about.zenodo.org">About</a></li>
+            
+              <li><a href="https://blog.zenodo.org">Blog</a></li>
+            
+              <li><a href="https://help.zenodo.org">Help</a></li>
+            
+              <li><a href="https://about.zenodo.org/projects">Projects</a></li>
+            
+              <li><a href="https://developers.zenodo.org">Developers</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="communities">
+    
+    <div class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 nav navbar-nav navbar subbar">
+            
+
+
+  
+  <li><a href="../../../">Help</a></li>
+
+  
+  <li><a href="../../../faq/">FAQ</a></li>
+
+  
+  <li class="active"><a href="../../">Docs</a></li>
+
+  
+  <li><a href="../../../guides/">Guides</a></li>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="container body-container">
+      <div class="row">
+        <div class="col-md-12">
+          
+
+<div class="row">
+    <div class="col-md-4">
+        
+<div class="panel panel-default">
+  <div class="panel-heading"><strong><a href="../">Deposit</a></strong></div>
+  <div class="list-group">
+          
+          <a href="../about-records/" class="list-group-item"">About records</a>
+          
+          <a href="../create-new-upload/" class="list-group-item"">Create new upload</a>
+          
+          <a href="../describe-records/" class="list-group-item"">Describe records</a>
+          
+          <a href="../manage-files/" class="list-group-item"">Manage files</a>
+          
+          <a href="../manage-quota/" class="list-group-item"">Manage storage quota</a>
+          
+          <a href="./" class="list-group-item active"">Manage records</a>
+          
+          <a href="../manage-versions/" class="list-group-item"">Manage versions</a>
+  </div>
+</div>
+
+    </div>
+    <div class="col-md-8">
+      
+<ol class="breadcrumb">
+    <li><a href="../../">Docs</a></li>
+    
+    <li><a href="../">Deposit</a></li>
+    
+    
+    <li>Manage records</li>
+    
+    
+</ol>
+
+      <div class="docs-blocks" data-pagefind-body>
+      <h1>Manage records</h1>
+      
+      <hr />
+      <p>This following sections describe how you can browse your records, edit the metadata and request deletion of them.</p>
+
+      
+      <ul>
+        
+        <li><a href="#browse">Browse your records</a></li>
+        
+        
+        
+        
+        
+        <li><a href="#edit">Edit published records</a></li>
+        
+        
+        
+        
+        
+        
+        
+        <li><a href="#delete">Delete records</a></li>
+        
+        
+        
+        
+        
+        
+      </ul>
+      
+        <h3 id="browse" class="docs">Browse your records <small><a href="#browse" class="text-muted"><i class="fa fa-link"></i></a></small></h3>
+<hr />
+        <div class="row">
+    <div class="col-md-1"><p><span class="badge">1</span></p></div>
+    <div class="col-md-11">
+        <p>To browse your uploads, click the <strong>My dashboard</strong> header menu. This will by default take you to the list of records you have uploaded.</p>
+
+        
+            <p><img src="browse.png" class="img-thumbnail"></p>
+        
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-1"><p><span class="badge">2</span></p></div>
+    <div class="col-md-11">
+        <p>From <strong>My Uploads</strong> tab you are able to see all your published as well as unpublished records (drafts).</p>
+
+        
+            <p><img src="browse2.png" class="img-thumbnail"></p>
+        
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-1"><p><span class="badge">3</span></p></div>
+    <div class="col-md-11">
+        <p>You can <strong>view</strong> or <strong>edit</strong> each record by using the buttons on the right.</p>
+
+        
+    </div>
+</div>
+        <h3 id="edit" class="docs">Edit published records <small><a href="#edit" class="text-muted"><i class="fa fa-link"></i></a></small></h3>
+<hr />
+        <p>
+<p>You can edit the metadata (title, creators, etc) of a published record at any time. Files in the record however can only be edited (added, modified or deleted) after publication by contacting support. See <a href="../manage-files/">manage files</a> and <a href="../manage-versions/">manage versions</a> for further details.</p>
+
+</p>
+        <div class="row">
+    <div class="col-md-1"><p><span class="badge">1</span></p></div>
+    <div class="col-md-11">
+        <p>You can edit a record either by clicking the <strong>Edit</strong> button on the record under <strong>My uploads</strong> (see above).</p>
+
+        
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-1"><p><span class="badge">1</span></p></div>
+    <div class="col-md-11">
+        <p>Alternatively, from the record landing page you can also click the <strong>Edit</strong> button.</p>
+
+        
+            <p><img src="edit.png" class="img-thumbnail"></p>
+        
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-1"><p><span class="badge">2</span></p></div>
+    <div class="col-md-11">
+        <p>You can now edit the record's metadata and/or file visibility.</p>
+
+        
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-1"><p><span class="badge">3</span></p></div>
+    <div class="col-md-11">
+        <p>To make the changes visible, click the green publish button to publish the record. This does not affect your DOI.</p>
+
+        
+            <p><img src="edit-publish.png" class="img-thumbnail"></p>
+        
+    </div>
+</div>
+        <h3 id="delete" class="docs">Delete records <small><a href="#delete" class="text-muted"><i class="fa fa-link"></i></a></small></h3>
+<hr />
+        <p>
+<p>Records on Zenodo can be deleted by <strong>their owner within 30 days</strong> after publication.</p>
+<p>Alternatively, you can always <a href="../create-new-upload/#visibility">restrict public access to files</a>, <a href="../describe-records/descriptions/">add a public note</a>, and optionally <a href="../manage-versions/">upload a new version</a> with corrected files.</p>
+<div class="alert alert-warning" role="alert">For records <strong>outside of the 30 days time period</strong>, we only allow deletion in duly justified cases, such as copyright infringement or exposure of personal data. Please submit a request under the appropriate category through our <a href="https://zenodo.org/support">support line</a>.
+    <strong>Requests without a valid justification will be automatically declined</strong>.</div>
+</p>
+        <div class="row">
+    <div class="col-md-1"><p><span class="badge">1</span></p></div>
+    <div class="col-md-11">
+        <p>From the record landing page, click on the <strong>Manage</strong> record dropdown and then the <strong>Delete record</strong> button.</p>
+
+        
+            <p><img src="manage-dropdown.png" class="img-thumbnail"></p>
+        
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-1"><p><span class="badge">2</span></p></div>
+    <div class="col-md-11">
+        <p>Otherwise, from the edit record page, click the red <strong>Delete record</strong> button at the bottom of the sidebar.</p>
+
+        
+            <p><img src="edit-delete-record.jpg" class="img-thumbnail"></p>
+        
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-1"><p><span class="badge">3</span></p></div>
+    <div class="col-md-11">
+        <p>In the modal that appears, acknowledge that the record will be deleted and select the removal reason. Finally press the <strong>Delete immediately</strong> button on the bottom right.</p>
+
+        
+            <p><img src="modal-immediate.jpg" class="img-thumbnail"></p>
+        
+    </div>
+</div>
+        <div class="row">
+    <div class="col-md-1"><p><span class="badge">4</span></p></div>
+    <div class="col-md-11">
+        <p>The record will be deleted and you will be redirected to the tombstone page containing the citation for archival purposes.</p>
+
+        
+            <p><img src="tombstone.jpg" class="img-thumbnail"></p>
+        
+    </div>
+</div>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="alert alert-info" style="margin-top: 20px;">
+        Couldn't find the answer to your question? <a href="https://zenodo.org/support">Contact us</a>.
+      </div>
+    </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <footer class="footer">
+    <div class="menu-wrapper">
+      <div class="container">
+        <div class="row footer-menu">
+          <div class="col-xs-12 col-md-8">
+            <div class="row">
+              <div class="col-xs-2 col-md-2">
+                <h5>About</h5>
+                <ul class="list-unstyled">
+                  <li><a href="http://about.zenodo.org">About</a></li>
+                  <li><a href="http://about.zenodo.org/policies/">Policies</a></li>
+                  <li><a href="http://about.zenodo.org/infrastructure/">Infrastructure</a></li>
+                  <li><a href="http://about.zenodo.org/principles/">Principles</a></li>
+                  <li><a href="http://about.zenodo.org/roadmap/">Roadmap</a></li>
+                  <li><a href="http://about.zenodo.org/projects/">Projects</a></li>
+                  <li><a href="http://about.zenodo.org/contact/">Contact</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-2 col-md-2">
+                <h5>Blog</h5>
+                <ul class="list-unstyled">
+                  <li><a href="https://blog.zenodo.org">Blog</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-2 col-md-2">
+                <h5>Support</h5>
+                <ul class="list-unstyled">
+                  <li><a href="https://help.zenodo.org">Help</a></li>
+                  <li><a href="https://support.zenodo.org/help/">FAQ</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-2 col-md-2">
+                <h5>Developers</h5>
+                <ul class="list-unstyled">
+                <li><a href="https://developers.zenodo.org">REST API</a></li>
+                <li><a href="https://developers.zenodo.org#oai-pmh">OAI-PMH</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-2 col-md-2">
+                <h5>Contribute</h5>
+                <ul class="list-unstyled">
+                  <li><a href="https://github.com/zenodo/zenodo-rdm"><i class="fa fa-external-link"></i> GitHub</a></li>
+                  <li><a href="https://zenodo.org/donate"><i class="fa fa-external-link"></i> Donate</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <div class="pull-right-md text-center-sm text-center-xs">
+              <h5>Funded by</h5>
+              <ul class="list-inline">
+                <li><a href="https://home.cern"><img src="/static/img/cern.png" width="60" height="60" /></a></li>
+                <li><a href="https://www.openaire.eu"><img src="/static/img/openaire.png" width="80"/></a></li>
+                <li><a href="https://commission.europa.eu/index_en"><img src="/static/img/eu.png" width="88" height="60" /></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-sm-push-6">
+          <div class="pull-right-sm text-center-xs">
+            <ul class="list-inline">
+              <li><a href="https://stats.uptimerobot.com/vlYOVuWgM">Status</a></li>
+              <li><a href="https://about.zenodo.org/privacy-policy">Privacy policy</a></li>
+              <li><a href="https://about.zenodo.org/cookie-policy">Cookie policy</a></li>
+              <li><a href="https://about.zenodo.org/terms">Terms of Use</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-sm-pull-6 text-center-xs">
+          <p><a title="Except where otherwise noted, content on this site is licensed under a Creative Commons Attribution 4.0 International License." rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" height="20" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>&nbsp; Powered by <a href="https://home.cern/science/computing/data-centre">CERN Data Centre</a> &amp; <a href="https://inveniosoftware.org/products/rdm/">InvenioRDM</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
+<div class="cookie-banner hidden">
+    <i class="close icon"></i>
+    <div>
+        <p >This site uses cookies. Find out more on <a href="https://about.zenodo.org/cookie-policy">how we use cookies</a></p>
+    </div>
+    <div class="buttons">
+        <button class="small primary" id="cookies-all">Accept all cookies</button>
+        <button class="small" id="cookies-essential">Accept only essential cookies</button>
+    </div>
+</div>
+
+<script>
+var _paq = window._paq = window._paq || [];
+_paq.push(['requireCookieConsent']);
+
+(function() {
+    var u="https://webanalytics.web.cern.ch/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '363']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+})();
+
+var cookieConsent = document.cookie
+    .split("; ")
+    .find((row) => row.startsWith("cookie_consent="))
+    ?.split("=")[1];
+
+if (cookieConsent) {
+    if (cookieConsent === "all") {
+        matomo();
+    }
+} else {
+    document.querySelector(".cookie-banner").classList.remove("hidden")
+    _paq.push(['forgetConsentGiven']);
+}
+
+$('.cookie-banner .close')
+    .on('click', function () {
+    $(this)
+        .closest('.cookie-banner')
+        .fadeOut('fast');
+    setCookie("cookie_consent","essential");
+    });
+
+$('#cookies-essential')
+    .on('click', function () {
+    $(this)
+        .closest('.cookie-banner')
+        .fadeOut('fast');
+    setCookie("cookie_consent","essential");
+    });
+
+$('#cookies-all')
+    .on('click', function () {
+    $(this)
+        .closest('.cookie-banner')
+        .fadeOut('fast');
+    setCookie("cookie_consent","all");
+    _paq.push(['rememberCookieConsentGiven']);
+    matomo();
+    });
+
+function matomo() {
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+}
+
+function setCookie(cname, cvalue) {
+    var d = new Date();
+    d.setTime(d.getTime() + (365 * 24 * 60 * 60 * 1000)); // one year
+    var expires = "expires=" + d.toUTCString();
+    var cookie = cname + "=" + cvalue + ";" + expires + ";"
+    cookie += "Domain=zenodo.org;Path=/;SameSite=None; Secure"; // so that it works across subdomains
+    document.cookie = cookie;
+}
+</script>
+
+
+
+</body>
+</html>
