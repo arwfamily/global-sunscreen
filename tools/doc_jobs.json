@@ -1,0 +1,7 @@
+[
+{"id":"ZEN-github-index","url":"https://help.zenodo.org/docs/github/","extra":["https://help.zenodo.org/docs/github/enable-repository/","https://help.zenodo.org/docs/github/describe-software/","https://help.zenodo.org/docs/github/describe-software/citation-file/","https://help.zenodo.org/docs/github/describe-software/zenodo-json/","https://help.zenodo.org/docs/github/archive-software/","https://help.zenodo.org/docs/github/archive-software/github-upload/"]},
+{"id":"ZEN-records","url":"https://help.zenodo.org/docs/deposit/manage-records/","extra":["https://help.zenodo.org/docs/deposit/about-records/","https://help.zenodo.org/docs/deposit/manage-versions/","https://help.zenodo.org/docs/deposit/describe-records/licenses/"]},
+{"id":"ZEN-policies","url":"https://about.zenodo.org/policies/","extra":["https://support.zenodo.org/help/en-gb/1-upload-deposit/215-can-i-delete-my-record-after-publishing","https://about.zenodo.org/terms/"]},
+{"id":"ZEN-api-search","url":"https://zenodo.org/api/records?q=arwfamily","extra":["https://zenodo.org/api/records?q=%22Baby%20Sunscreen%20Label%20Dataset%22"]},
+{"id":"NLM-terms","url":"https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm","extra":["https://www.nlm.nih.gov/web_policies.html","https://dailymed.nlm.nih.gov/dailymed/app-support-web-services.cfm"]}
+]
