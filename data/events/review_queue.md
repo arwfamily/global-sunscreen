@@ -64,3 +64,10 @@
   - added: silica
   - removed: blueberry fruit extract, cyclohexasiloxane, fumed silica, propanediol
   - https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80093102
+
+## 2026-10-13
+
+- **[US] SUN ZAPPER - PURE ZINC ANTI MOZZIE SUNSCREEN SPF50 (ZINC OXIDE SUNSCREEN) CREAM** (US:SPL-3cd83dba-2008-bef6-e063-6294a90aad95, sev 1) — VEGANIC SKN LIMITED
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3cd83dba-2008-bef6-e063-6294a90aad95
+- **[US] CELIMAX PORE SKIN CLARIFYING DAILY SUNSCREEN (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) CREAM** (US:SPL-4edac8d8-523f-8b8b-e063-6294a90a1a25, sev 1) — ABSORBLAB CO., LTD
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4edac8d8-523f-8b8b-e063-6294a90a1a25

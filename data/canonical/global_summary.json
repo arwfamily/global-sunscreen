@@ -216,15 +216,15 @@
   ],
   [
    "glycerin",
-   6773
+   6770
   ],
   [
    "phenoxyethanol",
-   5033
+   5031
   ],
   [
    "dimethicone",
-   4827
+   4829
   ],
   [
    "tocopheryl acetate",
@@ -232,7 +232,7 @@
   ],
   [
    "tocopherol",
-   4023
+   4020
   ],
   [
    "caprylic/capric triglyceride",
@@ -240,27 +240,27 @@
   ],
   [
    "caprylyl glycol",
-   3632
+   3631
   ],
   [
    "xanthan gum",
-   3405
+   3407
   ],
   [
    "ethylhexylglycerin",
-   3221
+   3222
   ],
   [
    "iron oxide",
-   3209
+   3208
   ],
   [
    "silica",
-   3175
+   3173
   ],
   [
    "disodium edta",
-   3128
+   3127
   ],
   [
    "butylene glycol",
@@ -268,7 +268,7 @@
   ],
   [
    "butyloctyl salicylate",
-   2857
+   2858
   ],
   [
    "triethoxycaprylylsilane",
@@ -276,11 +276,11 @@
   ],
   [
    "aloe barbadensis leaf",
-   2450
+   2451
   ],
   [
    "polyhydroxystearic acid",
-   2438
+   2441
   ],
   [
    "stearic acid",
@@ -300,15 +300,15 @@
   ],
   [
    "propanediol",
-   1791
+   1789
   ],
   [
    "alkyl (c12-15) benzoate",
-   1782
+   1779
   ],
   [
    "alcohol",
-   1543
+   1542
   ],
   [
    "glyceryl monostearate",
@@ -320,7 +320,7 @@
   ],
   [
    "tetrahexyldecyl ascorbate",
-   1455
+   1452
   ],
   [
    "titanium dioxide",
@@ -336,7 +336,7 @@
   ],
   [
    "1,2-hexanediol",
-   1324
+   1325
   ],
   [
    "cetyl alcohol",
@@ -344,11 +344,11 @@
   ],
   [
    "sodium benzoate",
-   1277
+   1274
   ],
   [
    "potassium sorbate",
-   1262
+   1258
   ],
   [
    "lecithin",
@@ -360,7 +360,7 @@
   ],
   [
    "squalane",
-   1202
+   1199
   ],
   [
    "dimethicone/vinyl dimethicone crosspolymer (soft particle)",
@@ -381,7 +381,7 @@
    "zinc_median_percent": 22.75,
    "zinc_median_is_estimate": false,
    "publishes": "actives with mg/g, excipients alphabetical (hand-read from PDFs)",
-   "last_verified": "2026-10-12",
+   "last_verified": "2026-10-13",
    "shared_formulation": {
     "clusters": 88,
     "products": 239,
@@ -410,15 +410,15 @@
    "products": 10261,
    "with_full_ingredients": 10202,
    "mineral_only": 4101,
-   "baby_labelled": 453,
+   "baby_labelled": 454,
    "median_ingredients": 22,
    "zinc_median_percent": 12.0,
    "zinc_median_is_estimate": true,
    "publishes": "full inactive list in formulation order, every ingredient with a UNII; active strengths are filed WITHOUT their unit upstream, so percent_w_w is null and percent_estimate carries an assumption (see docs/upstream_unit_patch.md)",
-   "last_verified": "2026-10-12",
+   "last_verified": "2026-10-13",
    "shared_formulation": {
-    "clusters": 899,
-    "products": 2961,
+    "clusters": 900,
+    "products": 2963,
     "cross_company_clusters": 337,
     "cross_company_products": 1178
    }
