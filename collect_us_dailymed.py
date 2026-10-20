@@ -50,6 +50,9 @@ RELEASE = os.environ.get(
     "https://raw.githubusercontent.com/arwfamily/tinysafe-dailymed-scraper-v2/"
     "main/data/releases/us/latest/us_all.jsonl")
 RELEASE_MANIFEST = RELEASE.rsplit("/", 1)[0] + "/manifest.json"
+# What the verified master leaves out, and why (SPF makeup, lip, diaper ...). Used so
+# this repo and the US release have the same scope.
+RELEASE_OUT = RELEASE.rsplit("/", 1)[0] + "/us_out_of_scope.jsonl"
 DISCONTINUED = ROOT / "data" / "canonical" / "us_discontinued.jsonl"
 RAW = ROOT / "data" / "raw" / "us" / "us_sunscreens.jsonl"
 OUT = ROOT / "data" / "canonical" / "us_ingredients.jsonl"
@@ -105,7 +108,7 @@ def main():
     print(f"[*] {len(products)} SPLs in the corpus (last_seen {corpus_version}) "
           f"— keeping categories {CATEGORIES}")
 
-    release, release_id = {}, None
+    release, release_id, release_out = {}, None, {}
     try:
         with urllib.request.urlopen(urllib.request.Request(
                 RELEASE, headers={"User-Agent": "arw-ingredients/1.0"}), timeout=300) as r:
@@ -115,6 +118,14 @@ def main():
                     release[v["setid"]] = v
         with urllib.request.urlopen(RELEASE_MANIFEST, timeout=60) as r:
             release_id = json.loads(r.read()).get("release_id")
+        try:
+            with urllib.request.urlopen(RELEASE_OUT, timeout=120) as r:
+                for line in r.read().decode().splitlines():
+                    if line.strip():
+                        o = json.loads(line)
+                        release_out[o["setid"]] = o.get("excluded_reason") or "out_of_scope"
+        except Exception as e:  # noqa: BLE001
+            print(f"[!] release scope list not fetched ({e}); category rule only this run")
         print(f"[*] verified release {release_id}: {len(release)} labels")
     except Exception as e:  # noqa: BLE001
         print(f"[!] verified release not fetched ({e}); records carry no `verified` block this run")
@@ -129,6 +140,8 @@ def main():
     store, dropped, why = {}, [], Counter()
     for p in products:
         keep, reason = in_scope(p, CATEGORIES)
+        if keep and p.get("setid") in release_out:
+            keep, reason = False, f"us_release:{release_out[p.get('setid')]}"
         if not keep:
             why[reason] += 1
             dropped.append({"id": f"US:SPL-{p.get('setid')}",
