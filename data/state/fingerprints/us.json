@@ -1,8 +1,8 @@
 {
  "baseline_taken": "2026-08-26",
  "counts": {
-  "events_this_run": 0,
-  "records": 9536
+  "events_this_run": 8,
+  "records": 9544
  },
  "jurisdiction": "US",
  "last_run": "2026-10-20",
@@ -83592,6 +83592,55 @@
    },
    "verified_at": "2026-10-20"
   },
+  "US:SPL-1fabd546-55e5-4ab2-8a1b-7b161bfbb866": {
+   "first_seen": "2026-10-20",
+   "fp": {
+    "actives": [
+     [
+      "U:15FIX9V2JP",
+      9.84
+     ],
+     [
+      "U:SOI2LOH54Z",
+      15.18
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "1102a8b5849a10a1",
+    "fp_full": "c619bdafb082e489",
+    "fp_inactives": "a66e569fd673ea2a",
+    "inactives": [
+     "U:4MM76N4WMY",
+     "U:ETJ7Z6XBU4",
+     "U:9NH1UDD2RR",
+     "U:113171Q70B",
+     "U:LDC331P08E",
+     "U:147D247K3P",
+     "U:00YIU5438U",
+     "U:5QB0T2IUN0",
+     "U:0RE8K4LNJS",
+     "U:2865993309",
+     "U:X33R8U0062",
+     "U:EX438O2MRT",
+     "U:1K09F3G675",
+     "U:I753WB2F1M",
+     "U:XM0M87F357",
+     "U:H77VEI93A8"
+    ],
+    "n_actives": 2,
+    "n_inactives": 16,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": true
+    }
+   },
+   "meta": {
+    "company": "I WORLD LLC",
+    "product_name": "SUGARGIRL SET SCREEN SPF 30 SETTING POWDER SUNSCREEN LIGHT (ZINC OXIDE, TITANIUM DIOXIDE) POWDER",
+    "spf_label": 30
+   },
+   "verified_at": "2026-10-20"
+  },
   "US:SPL-1fb845bc-150a-5472-e054-00144ff88e88": {
    "first_seen": "2026-10-09",
    "fp": {
@@ -111579,6 +111628,48 @@
    },
    "verified_at": "2026-10-20"
   },
+  "US:SPL-28c346ea-391b-bfa9-e063-6394a90ae282": {
+   "first_seen": "2026-10-20",
+   "fp": {
+    "actives": [
+     [
+      "U:4X49Y0596W",
+      4.9
+     ],
+     [
+      "U:5A68WGF6WM",
+      9.5
+     ],
+     [
+      "U:G63QQF2NOX",
+      2.9
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "c2e01d88bb2486e3",
+    "fp_full": "51b146028029e76c",
+    "fp_inactives": "975829f60cf48995",
+    "inactives": [
+     "U:059QF0KO0R",
+     "U:3K9958V90M",
+     "U:668Z5835Z3",
+     "U:1P9D0Z171K",
+     "U:B697894SGQ"
+    ],
+    "n_actives": 3,
+    "n_inactives": 5,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": true
+    }
+   },
+   "meta": {
+    "company": "AOPLINE HEALTH INDUSTRY TECHNOLOGY (GUANGZHOU) CO., LTD.",
+    "product_name": "SUNSCREEN SETTING SPRITZ, SPF 45 (SUNSCREEN SETTING SPRAY) LIQUID",
+    "spf_label": 45
+   },
+   "verified_at": "2026-10-20"
+  },
   "US:SPL-28c51c59-dbfb-45e5-b536-6e5d5c5560d6": {
    "first_seen": "2026-08-26",
    "fp": {
@@ -113263,6 +113354,48 @@
     "spf_label": null
    },
    "verified_at": "2026-10-13"
+  },
+  "US:SPL-293e9656-8644-b9aa-e063-6294a90a5b27": {
+   "first_seen": "2026-10-20",
+   "fp": {
+    "actives": [
+     [
+      "U:4X49Y0596W",
+      4.9
+     ],
+     [
+      "U:5A68WGF6WM",
+      9.5
+     ],
+     [
+      "U:G63QQF2NOX",
+      2.9
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "c2e01d88bb2486e3",
+    "fp_full": "1730d4b0e5ad6413",
+    "fp_inactives": "a06f660d72f4d006",
+    "inactives": [
+     "U:668Z5835Z3",
+     "U:3K9958V90M",
+     "U:1P9D0Z171K",
+     "U:B697894SGQ",
+     "U:059QF0KO0R"
+    ],
+    "n_actives": 3,
+    "n_inactives": 5,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": true
+    }
+   },
+   "meta": {
+    "company": "CARDINAL HEALTH, INC.",
+    "product_name": "SUNSCREEN SETTING SPRITZ, SPF 45 (SUNSCREEN SETTING SPRAY) LIQUID",
+    "spf_label": 45
+   },
+   "verified_at": "2026-10-20"
   },
   "US:SPL-29445885-f466-46fb-bbc9-6c9d8e250c25": {
    "first_seen": "2026-08-26",
@@ -198215,6 +198348,56 @@
    },
    "verified_at": "2026-10-20"
   },
+  "US:SPL-396393c4-b50c-3877-e063-6294a90a0e9b": {
+   "first_seen": "2026-10-20",
+   "fp": {
+    "actives": [
+     [
+      "U:059QF0KO0R",
+      35.0
+     ],
+     [
+      "U:SOI2LOH54Z",
+      8.0
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "5ed290ca018c8cf9",
+    "fp_full": "beadc12feb5e5aae",
+    "fp_inactives": "1e8c5daa9eee31c3",
+    "inactives": [
+     "U:15FIX9V2JP",
+     "U:ZY81Z83H0X",
+     "U:J2S07SB0YL",
+     "U:BT3S9L53JK",
+     "U:QXF936IX43",
+     "U:9S60Q72309",
+     "U:05545M0E3M",
+     "U:C9H2L21V7U",
+     "U:2DMT128M1S",
+     "U:ICS790225B",
+     "U:R0ZB2556P8",
+     "U:25X51I8RD4",
+     "U:UDR641JW8W",
+     "U:147D247K3P",
+     "U:XJ6S9RV06F",
+     "U:YSE9PPT4TH",
+     "U:PDC6A3C0OX"
+    ],
+    "n_actives": 2,
+    "n_inactives": 17,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": true
+    }
+   },
+   "meta": {
+    "company": "GUANGHZOU AIXIN BIOTECH CO LTD",
+    "product_name": "TINTED SUNSCREEN FOUNDATION LIQUID",
+    "spf_label": null
+   },
+   "verified_at": "2026-10-20"
+  },
   "US:SPL-396cae82-7641-e1b2-e063-6394a90a7c07": {
    "first_seen": "2026-10-09",
    "fp": {
@@ -233530,6 +233713,31 @@
    },
    "verified_at": "2026-10-20"
   },
+  "US:SPL-4443398b-4073-448e-e054-00144ff8d46c": {
+   "first_seen": "2026-10-20",
+   "fp": {
+    "actives": [],
+    "coverage": "full",
+    "fp_actives": "97d170e1550eee4a",
+    "fp_full": "84651ba5e8184f13",
+    "fp_inactives": "5bae4f8fc923fa8d",
+    "inactives": [
+     "N:hydrating inactives inactives"
+    ],
+    "n_actives": 0,
+    "n_inactives": 1,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": true
+    }
+   },
+   "meta": {
+    "company": "YOUNIQUE LLC",
+    "product_name": "YOUNIQUE ROYALTY HYDRATING DAY CREAM SPF 20 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) LOTION YOUNIQUE ROYALTY RENEWING DAY CREAM SPF 20 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) LOTION",
+    "spf_label": 20
+   },
+   "verified_at": "2026-10-20"
+  },
   "US:SPL-4443d4e6-bdc9-4547-9189-e94e9e0bdd2d": {
    "first_seen": "2026-08-26",
    "fp": {
@@ -246599,6 +246807,48 @@
    },
    "verified_at": "2026-10-20"
   },
+  "US:SPL-473d6804-8d20-6899-e063-6294a90a3131": {
+   "first_seen": "2026-10-20",
+   "fp": {
+    "actives": [
+     [
+      "U:4X49Y0596W",
+      4.9
+     ],
+     [
+      "U:5A68WGF6WM",
+      9.5
+     ],
+     [
+      "U:G63QQF2NOX",
+      2.9
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "c2e01d88bb2486e3",
+    "fp_full": "068e964deb41f0bb",
+    "fp_inactives": "ecc0e165e95fefe9",
+    "inactives": [
+     "U:B697894SGQ",
+     "U:668Z5835Z3",
+     "U:059QF0KO0R",
+     "U:3K9958V90M",
+     "U:1P9D0Z171K"
+    ],
+    "n_actives": 3,
+    "n_inactives": 5,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": true
+    }
+   },
+   "meta": {
+    "company": "FSA STORE INC",
+    "product_name": "SUNSCREEN SETTING SPRITZ, SPF 45 (SUNSCREEN SETTING SPRAY) SPRAY",
+    "spf_label": 45
+   },
+   "verified_at": "2026-10-20"
+  },
   "US:SPL-47511c2b-f83f-43bf-963d-0b1ab6a9c673": {
    "first_seen": "2026-10-09",
    "fp": {
@@ -248588,6 +248838,48 @@
     "company": "AOPLINE BIOTECHNOLOGY (GUANGZHOU) CO., LTD.",
     "product_name": "ALOHA MINERAL BLOCK-BRUSH ON MINERAL (SUNSCREEN SPF50) POWDER",
     "spf_label": 50
+   },
+   "verified_at": "2026-10-20"
+  },
+  "US:SPL-47ddf752-cae2-313f-e063-6294a90a7e3a": {
+   "first_seen": "2026-10-20",
+   "fp": {
+    "actives": [
+     [
+      "U:4X49Y0596W",
+      4.9
+     ],
+     [
+      "U:5A68WGF6WM",
+      9.5
+     ],
+     [
+      "U:G63QQF2NOX",
+      2.9
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "c2e01d88bb2486e3",
+    "fp_full": "a879d171a302f745",
+    "fp_inactives": "be02732f27b45011",
+    "inactives": [
+     "U:668Z5835Z3",
+     "U:059QF0KO0R",
+     "U:3K9958V90M",
+     "U:1P9D0Z171K",
+     "U:B697894SGQ"
+    ],
+    "n_actives": 3,
+    "n_inactives": 5,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": true
+    }
+   },
+   "meta": {
+    "company": "AOPLINE BIOTECHNOLOGY (GUANGZHOU) CO., LTD.",
+    "product_name": "SUNSCREEN SETTING SPRITZ, SPF 45 (SUNSCREEN SETTING SPRAY) SPRAY",
+    "spf_label": 45
    },
    "verified_at": "2026-10-20"
   },
@@ -443648,6 +443940,57 @@
     "company": "BBHC CO., LTD",
     "product_name": "CELGEN MILD SUN (OCTINOXATE, OCTISALATE, BEMOTRIZINOL, TITANIUM DIOXIDE, ETHYLHEXYL TRIAZONE, AVOBENZONE) CREAM",
     "spf_label": null
+   },
+   "verified_at": "2026-10-20"
+  },
+  "US:SPL-ae6af6e0-c7e9-4d5d-9b46-69989d4d8666": {
+   "first_seen": "2026-10-20",
+   "fp": {
+    "actives": [
+     [
+      "U:15FIX9V2JP",
+      3.104
+     ],
+     [
+      "U:4Y5P7MUD51",
+      7.0
+     ],
+     [
+      "U:SOI2LOH54Z",
+      2.88
+     ]
+    ],
+    "coverage": "full",
+    "fp_actives": "e1e2a8c77bb31330",
+    "fp_full": "f53ba9aa1ac028a1",
+    "fp_inactives": "fd8237c552cc2639",
+    "inactives": [
+     "U:059QF0KO0R",
+     "U:7SEV7J4R1U",
+     "U:V8A1AW0880",
+     "U:ETJ7Z6XBU4",
+     "U:B952ZGW1IL",
+     "U:DR0K5NOJ4R",
+     "U:Z1917F0578",
+     "U:92RU3N3Y1O",
+     "U:5QB0T2IUN0",
+     "U:A2I8C7HI9T",
+     "U:Z8IX2SC1OH",
+     "U:5EVU04N5QU",
+     "U:C9H2L21V7U",
+     "U:Z4KHF2C175"
+    ],
+    "n_actives": 3,
+    "n_inactives": 14,
+    "profile": {
+     "actives_concentration": true,
+     "inactive_order": true
+    }
+   },
+   "meta": {
+    "company": "SKINFOOD CO., LTD.",
+    "product_name": "RED ORANGE SUN PACT SPF 50 PLUS PA PLUS PLUS PLUS (OCTINOXATE) POWDER",
+    "spf_label": 50
    },
    "verified_at": "2026-10-20"
   },

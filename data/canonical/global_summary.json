@@ -2,11 +2,11 @@
  "generated_from": {
   "AU": 501,
   "CA": 1924,
-  "US": 9536
+  "US": 9544
  },
- "total_products": 11961,
- "total_with_full_ingredients": 11888,
- "distinct_ingredients_after_normalisation": 6874,
+ "total_products": 11969,
+ "total_with_full_ingredients": 11896,
+ "distinct_ingredients_after_normalisation": 6875,
  "ingredients_present_in_every_jurisdiction": [
   "1,2-hexanediol",
   "acacia",
@@ -212,11 +212,11 @@
  "top_ingredients": [
   [
    "water",
-   8698
+   8703
   ],
   [
    "glycerin",
-   6394
+   6395
   ],
   [
    "phenoxyethanol",
@@ -228,19 +228,19 @@
   ],
   [
    "dimethicone",
-   4467
+   4468
   ],
   [
    "tocopherol",
-   3809
+   3810
   ],
   [
    "caprylic/capric triglyceride",
-   3509
+   3511
   ],
   [
    "caprylyl glycol",
-   3436
+   3437
   ],
   [
    "xanthan gum",
@@ -248,7 +248,7 @@
   ],
   [
    "ethylhexylglycerin",
-   3006
+   3008
   ],
   [
    "disodium edta",
@@ -256,11 +256,11 @@
   ],
   [
    "silica",
-   2903
+   2905
   ],
   [
    "iron oxide",
-   2874
+   2875
   ],
   [
    "butyloctyl salicylate",
@@ -276,15 +276,15 @@
   ],
   [
    "aloe barbadensis leaf",
-   2393
+   2394
   ],
   [
    "triethoxycaprylylsilane",
-   2345
+   2346
   ],
   [
    "cetearyl alcohol",
-   2190
+   2191
   ],
   [
    "stearic acid",
@@ -304,11 +304,11 @@
   ],
   [
    "mica",
-   1701
+   1702
   ],
   [
    "alcohol",
-   1480
+   1484
   ],
   [
    "glyceryl monostearate",
@@ -324,7 +324,7 @@
   ],
   [
    "titanium dioxide",
-   1276
+   1277
   ],
   [
    "cetyl alcohol",
@@ -368,7 +368,7 @@
   ],
   [
    "aluminum hydroxide",
-   1113
+   1115
   ]
  ],
  "per_jurisdiction": {
@@ -407,9 +407,9 @@
    }
   },
   "US": {
-   "products": 9536,
-   "with_full_ingredients": 9478,
-   "mineral_only": 3848,
+   "products": 9544,
+   "with_full_ingredients": 9486,
+   "mineral_only": 3849,
    "baby_labelled": 452,
    "median_ingredients": 22,
    "zinc_median_percent": 13.1,
