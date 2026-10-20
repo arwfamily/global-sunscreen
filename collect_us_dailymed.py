@@ -140,6 +140,8 @@ def main():
     store, dropped, why = {}, [], Counter()
     for p in products:
         keep, reason = in_scope(p, CATEGORIES)
+        if not keep and p.get("setid") in release:
+            keep, reason = True, None    # the verified release counts it a sunscreen (corrected actives, named sunscreen)
         if keep and p.get("setid") in release_out:
             keep, reason = False, f"us_release:{release_out[p.get('setid')]}"
         if not keep:
