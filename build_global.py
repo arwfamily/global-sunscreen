@@ -276,7 +276,8 @@ def main():
             "a baby/kids-care brand line); Australia and Canada are the product "
             "name. Canada's recommended-population field is kept as "
             "population_includes_children.",
-            "Korea covers baby/kids sunscreens only (hand-verified); Korean label "
+            "Korea is hand-collected (mostly baby/kids sunscreens, plus the adult "
+            "ones met on the way; not the whole market); Korean label "
             "names are mapped to INCI by two agreeing readings "
             "(data/regulatory/kr_inci_map.json).",
             "Australia's excipient lists are alphabetical, so no "

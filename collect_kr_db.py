@@ -47,7 +47,9 @@ def main():
     db = {r["id"]: r for r in map(json.loads, DB.open()) if r.get("id")}
     out = []
     for x in sheet:
-        if x.get("Scope") != "include" or x.get("Verification") == "duplicate":
+        # every Korean sunscreen we hold goes in (as every US, CA and AU sunscreen does);
+        # baby/kids is the sheet's reviewed scope. A duplicate row is the same product.
+        if x.get("Verification") == "duplicate":
             continue
         d = db.get(x["ID"]) or {}
         names = split_list(x.get("전성분 (verified)")) or list(d.get("ingredients_ko") or [])
@@ -87,8 +89,8 @@ def main():
             "data_status": "complete" if names else "not_collected",
             "verification": x.get("Verification"),
             "verification_basis": x.get("Verification basis"),
-            "baby_flag_source": "reviewed",
-            "baby_reviewed": True,            # the sheet's reviewed scope: name, or a baby/kids-care brand line
+            "baby_flag_source": "reviewed" if x.get("Scope") == "include" else None,
+            "baby_reviewed": x.get("Scope") == "include",   # the sheet's reviewed scope: name, or a baby/kids-care brand line
             "scope_reason": x.get("Scope reason"),
             "collection_method": "manual (verified sheet)",
             "source_url": x.get("Source URL (MUSE)") or d.get("source_url"),
@@ -104,7 +106,7 @@ def main():
     v["KR"] = {"last_verified": today, "records": len(out),
                "source": "hand-verified Korean baby/kids sunscreen sheet (화장품법 제10조 전성분)"}
     VERIFIED.write_text(json.dumps(v, indent=1, sort_keys=True))
-    print(f"[*] KR: {len(out)} baby/kids sunscreens -> {OUT.name}")
+    print(f"[*] KR: {len(out)} sunscreens ({sum(1 for r in out if r['baby_reviewed'])} baby/kids) -> {OUT.name}")
 
 
 if __name__ == "__main__":

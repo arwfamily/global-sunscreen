@@ -2,12 +2,12 @@
  "generated_from": {
   "AU": 501,
   "CA": 1924,
-  "KR": 93,
+  "KR": 134,
   "US": 9544
  },
- "total_products": 11650,
- "total_with_full_ingredients": 11580,
- "distinct_ingredients_after_normalisation": 6700,
+ "total_products": 11691,
+ "total_with_full_ingredients": 11621,
+ "distinct_ingredients_after_normalisation": 6952,
  "ingredients_present_in_every_jurisdiction": [
   "1,2-hexanediol",
   "acrylates copolymer",
@@ -146,55 +146,55 @@
  "top_ingredients": [
   [
    "water",
-   8565
+   8603
   ],
   [
    "glycerin",
-   6273
+   6302
   ],
   [
    "phenoxyethanol",
-   4471
+   4473
   ],
   [
    "tocopheryl acetate",
-   4461
+   4463
   ],
   [
    "dimethicone",
-   4296
+   4305
   ],
   [
    "tocopherol",
-   3776
+   3795
   ],
   [
    "caprylic/capric triglyceride",
-   3411
+   3419
   ],
   [
    "caprylyl glycol",
-   3387
+   3396
   ],
   [
    "xanthan gum",
-   3313
+   3323
   ],
   [
    "ethylhexylglycerin",
-   2961
+   2989
   ],
   [
    "disodium edta",
-   2943
+   2956
   ],
   [
    "butyloctyl salicylate",
-   2766
+   2784
   ],
   [
    "silica",
-   2735
+   2744
   ],
   [
    "iron oxide",
@@ -202,7 +202,7 @@
   ],
   [
    "butylene glycol",
-   2434
+   2470
   ],
   [
    "aloe barbadensis leaf",
@@ -210,27 +210,27 @@
   ],
   [
    "polyhydroxystearic acid",
-   2352
+   2360
   ],
   [
    "triethoxycaprylylsilane",
-   2250
+   2266
   ],
   [
    "cetearyl alcohol",
-   2199
+   2209
   ],
   [
    "stearic acid",
-   2097
+   2112
   ],
   [
    "sodium chloride",
-   1874
+   1876
   ],
   [
    "propanediol",
-   1735
+   1761
   ],
   [
    "alkyl (c12-15) benzoate",
@@ -238,7 +238,7 @@
   ],
   [
    "alcohol",
-   1475
+   1477
   ],
   [
    "glyceryl monostearate",
@@ -257,24 +257,24 @@
    1329
   ],
   [
-   "cetyl alcohol",
-   1252
+   "1,2-hexanediol",
+   1287
   ],
   [
-   "1,2-hexanediol",
-   1251
+   "cetyl alcohol",
+   1254
   ],
   [
    "sodium benzoate",
-   1175
+   1176
   ],
   [
    "peg-100 stearate",
-   1164
+   1170
   ],
   [
    "pentylene glycol",
-   1143
+   1152
   ],
   [
    "dimethicone/vinyl dimethicone crosspolymer (soft particle)",
@@ -286,11 +286,15 @@
   ],
   [
    "propylene glycol",
-   1100
+   1102
   ],
   [
    "lecithin",
    1092
+  ],
+  [
+   "niacinamide",
+   1091
   ],
   [
    "cyclomethicone-5",
@@ -298,11 +302,7 @@
   ],
   [
    "titanium dioxide",
-   1087
-  ],
-  [
-   "niacinamide",
-   1076
+   1089
   ]
  ],
  "per_jurisdiction": {
@@ -343,19 +343,19 @@
    }
   },
   "KR": {
-   "products": 93,
-   "with_full_ingredients": 90,
-   "mineral_only": 62,
-   "licence_or_listing_active": 93,
+   "products": 134,
+   "with_full_ingredients": 131,
+   "mineral_only": 77,
+   "licence_or_listing_active": 134,
    "baby_labelled": 93,
-   "median_ingredients": 34,
+   "median_ingredients": 35,
    "zinc_median_percent": 19.2,
    "zinc_median_is_estimate": false,
    "publishes": "no concentrations; full list in legally-mandated descending order",
    "last_verified": "2026-10-20",
    "shared_formulation": {
-    "clusters": 7,
-    "products": 15,
+    "clusters": 9,
+    "products": 19,
     "cross_company_clusters": 1,
     "cross_company_products": 2
    }
@@ -386,7 +386,7 @@
   "The US corpus is every DailyMed SPL with a UV-filter active (UNII search plus a title sweep of all SPL listings).",
   "SPF makeup, SPF lip products and diaper creams are out of scope in every jurisdiction, by the same rules (global_excluded.jsonl).",
   "baby_labelled: US and Korea are reviewed decisions (product name, or a baby/kids-care brand line); Australia and Canada are the product name. Canada's recommended-population field is kept as population_includes_children.",
-  "Korea covers baby/kids sunscreens only (hand-verified); Korean label names are mapped to INCI by two agreeing readings (data/regulatory/kr_inci_map.json).",
+  "Korea is hand-collected (mostly baby/kids sunscreens, plus the adult ones met on the way; not the whole market); Korean label names are mapped to INCI by two agreeing readings (data/regulatory/kr_inci_map.json).",
   "Australia's excipient lists are alphabetical, so no concentration can be inferred from their order.",
   "Korea publishes no concentrations; ingredient position is a proxy, not a measurement."
  ]
