@@ -36,6 +36,21 @@ OUT = ROOT / "data/canonical/kr_ingredients.jsonl"
 VERIFIED = ROOT / "data/canonical/_verified.json"
 
 
+BABY_KO = re.compile(r"아기|베이비|키즈|유아|어린이|baby|kids?", re.I)
+# UV filters permitted in Korea (INCI, as core.normalize folds them); anything else on a
+# label that absorbs UV (e.g. benzotriazolyl dodecyl p-cresol) is an inactive here
+KR_FILTERS = {"zinc oxide", "titanium dioxide", "ethylhexyl methoxycinnamate", "octinoxate",
+              "ethylhexyl salicylate", "octisalate", "homosalate", "octocrylene",
+              "butyl methoxydibenzoylmethane", "avobenzone", "bis-ethylhexyloxyphenol methoxyphenyl triazine",
+              "ethylhexyl triazone", "diethylamino hydroxybenzoyl hexyl benzoate",
+              "methylene bis-benzotriazolyl tetramethylbutylphenol", "polysilicone-15", "isoamyl p-methoxycinnamate",
+              "phenylbenzimidazole sulfonic acid", "ensulizole", "terephthalylidene dicamphor sulfonic acid",
+              "drometrizole trisiloxane", "diethylhexyl butamido triazone", "benzophenone-3", "oxybenzone",
+              "benzophenone-4", "benzophenone-8", "4-methylbenzylidene camphor", "menthyl anthranilate",
+              "ethyl dihydroxypropyl paba", "disodium phenyl dibenzimidazole tetrasulfonate", "cinoxate",
+              "tris-biphenyl triazine"}
+
+
 def split_list(s):
     s = re.sub(r"(?<=\d),(?=\d)", "\u0001", s or "")      # 1,2-헥산다이올
     return [p.replace("\u0001", ",").strip() for p in s.split(",") if p.strip()]
@@ -45,6 +60,29 @@ def main():
     today = datetime.date.today().isoformat()
     sheet = json.loads(SHEET.read_text())
     db = {r["id"]: r for r in map(json.loads, DB.open()) if r.get("id")}
+    # products in the KR DB that the verified sheet does not have yet (added later,
+    # e.g. KR-20261009-214..222, user-verified on Coupang): same treatment, scope by
+    # the product-name rule until a person reviews them
+    from core.normalize import _kr_map
+    in_sheet = {x["ID"] for x in sheet}
+    km = _kr_map()
+    for rid, d in db.items():
+        if rid in in_sheet or not d.get("ingredients_ko"):
+            continue
+        name = d.get("product") or ""
+        baby = bool(BABY_KO.search(name))
+        filters = [f for f in d.get("uv_filters_ko") or [] if normalize_name(km.get(f, f)) in KR_FILTERS]
+        sheet.append({
+            "ID": rid, "브랜드": d.get("brand"), "Brand": d.get("brand_en") or d.get("brand"), "제품명": name,
+            "SPF": d.get("spf"), "PA": d.get("pa"), "Scope": "include" if baby else "exclude",
+            "Scope reason": ("product name says baby/kids (rule; not yet reviewed)" if baby
+                             else "no baby/kids wording in the product name (rule; not yet reviewed)"),
+            "Verification": d.get("review_status"), "Verification basis": d.get("source"),
+            "전성분 (verified)": ", ".join(d["ingredients_ko"]),
+            "UV filters (KR list)": ", ".join(filters), "UV filters (INCI)": ", ".join(km.get(f) or normalize_name(f).title() for f in filters),
+            "Mineral only (ZnO/TiO2 only)": "Yes" if d.get("mineral_only") else "No",
+            "Source URL (MUSE)": d.get("source_url"), "Coupang URL": d.get("coupang_url"),
+            "Captured": (d.get("last_captured") or "")[:10]})
     out = []
     for x in sheet:
         # every Korean sunscreen we hold goes in (as every US, CA and AU sunscreen does);

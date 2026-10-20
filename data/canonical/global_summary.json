@@ -2,12 +2,12 @@
  "generated_from": {
   "AU": 501,
   "CA": 1924,
-  "KR": 134,
+  "KR": 143,
   "US": 9544
  },
- "total_products": 11691,
- "total_with_full_ingredients": 11621,
- "distinct_ingredients_after_normalisation": 6778,
+ "total_products": 11700,
+ "total_with_full_ingredients": 11630,
+ "distinct_ingredients_after_normalisation": 6787,
  "ingredients_present_in_every_jurisdiction": [
   "1,2-hexanediol",
   "acrylates copolymer",
@@ -16,6 +16,7 @@
   "acrylates/dimethicone copolymer",
   "alcohol",
   "allantoin",
+  "aloe barbadensis leaf",
   "ammonium acryloyldimethyltaurate/vp copolymer",
   "ammonium polyacryloyldimethyl taurate",
   "argania spinosa kernel oil",
@@ -158,11 +159,11 @@
  "top_ingredients": [
   [
    "water",
-   8604
+   8613
   ],
   [
    "glycerin",
-   6302
+   6308
   ],
   [
    "phenoxyethanol",
@@ -170,43 +171,43 @@
   ],
   [
    "tocopheryl acetate",
-   4463
+   4465
   ],
   [
    "dimethicone",
-   4305
+   4307
   ],
   [
    "tocopherol",
-   3795
+   3802
   ],
   [
    "caprylic/capric triglyceride",
-   3419
+   3424
   ],
   [
    "caprylyl glycol",
-   3398
+   3402
   ],
   [
    "xanthan gum",
-   3323
+   3324
   ],
   [
    "ethylhexylglycerin",
-   2990
+   2996
   ],
   [
    "disodium edta",
-   2956
+   2958
   ],
   [
    "butyloctyl salicylate",
-   2784
+   2787
   ],
   [
    "silica",
-   2744
+   2746
   ],
   [
    "iron oxide",
@@ -214,19 +215,19 @@
   ],
   [
    "butylene glycol",
-   2470
+   2475
   ],
   [
    "aloe barbadensis leaf",
-   2389
+   2390
   ],
   [
    "polyhydroxystearic acid",
-   2360
+   2363
   ],
   [
    "triethoxycaprylylsilane",
-   2267
+   2271
   ],
   [
    "cetearyl alcohol",
@@ -234,15 +235,15 @@
   ],
   [
    "stearic acid",
-   2112
+   2118
   ],
   [
    "sodium chloride",
-   1876
+   1878
   ],
   [
    "propanediol",
-   1761
+   1766
   ],
   [
    "alkyl (c12-15) benzoate",
@@ -250,7 +251,7 @@
   ],
   [
    "alcohol",
-   1477
+   1478
   ],
   [
    "glyceryl monostearate",
@@ -270,7 +271,7 @@
   ],
   [
    "1,2-hexanediol",
-   1287
+   1293
   ],
   [
    "cetyl alcohol",
@@ -286,7 +287,7 @@
   ],
   [
    "pentylene glycol",
-   1152
+   1155
   ],
   [
    "dimethicone/vinyl dimethicone crosspolymer (soft particle)",
@@ -306,7 +307,7 @@
   ],
   [
    "niacinamide",
-   1091
+   1092
   ],
   [
    "cyclomethicone-5",
@@ -355,11 +356,11 @@
    }
   },
   "KR": {
-   "products": 134,
-   "with_full_ingredients": 131,
-   "mineral_only": 77,
-   "licence_or_listing_active": 134,
-   "baby_labelled": 93,
+   "products": 143,
+   "with_full_ingredients": 140,
+   "mineral_only": 83,
+   "licence_or_listing_active": 143,
+   "baby_labelled": 98,
    "median_ingredients": 35,
    "zinc_median_percent": 19.2,
    "zinc_median_is_estimate": false,

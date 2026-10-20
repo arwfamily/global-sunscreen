@@ -85,6 +85,11 @@
    "inci": "C13-15 Alkane",
    "note": ""
   },
+  "C13-16아이소알칸": {
+   "confidence": "low",
+   "inci": "C13-16 Isoparaffin",
+   "note": "printed as isoalkane; may be a C13-15 Alkane/Isoalkane variant"
+  },
   "C13-16아이소알케인": {
    "confidence": "high",
    "inci": "C13-16 Isoalkane",
@@ -275,6 +280,11 @@
    "inci": "Glutamine",
    "note": ""
   },
+  "글루타치온": {
+   "confidence": "high",
+   "inci": "Glutathione",
+   "note": ""
+  },
   "글루타티온": {
    "confidence": "high",
    "inci": "Glutathione",
@@ -308,6 +318,11 @@
   "글리세릴카프릴레이트": {
    "confidence": "high",
    "inci": "Glyceryl Caprylate",
+   "note": ""
+  },
+  "금잔화꽃추출물": {
+   "confidence": "high",
+   "inci": "Calendula Officinalis Flower Extract",
    "note": ""
   },
   "기장추출물": {
@@ -390,6 +405,11 @@
    "inci": "Camellia Sinensis Leaf Oil",
    "note": ""
   },
+  "녹차잎": {
+   "confidence": "low",
+   "inci": "Camellia Sinensis Leaf",
+   "note": "likely fragment of a longer name (e.g. extract/water)"
+  },
   "녹차추출물": {
    "confidence": "high",
    "inci": "Camellia Sinensis Leaf Extract",
@@ -465,6 +485,11 @@
    "inci": "Dibutyl Adipate",
    "note": ""
   },
+  "다이부틸에칠헥사노일글루타마이드": {
+   "confidence": "high",
+   "inci": "Dibutyl Ethylhexanoyl Glutamide",
+   "note": ""
+  },
   "다이부틸에틸헥사노일글루타마이드": {
    "confidence": "high",
    "inci": "Dibutyl Ethylhexanoyl Glutamide",
@@ -478,6 +503,11 @@
   "다이스테아릴다이모늄클로라이드": {
    "confidence": "high",
    "inci": "Distearyldimonium Chloride",
+   "note": ""
+  },
+  "다이실록산": {
+   "confidence": "high",
+   "inci": "Disiloxane",
    "note": ""
   },
   "다이아이소부틸아디페이트": {
@@ -550,6 +580,11 @@
    "inci": "Diphenylsiloxy Phenyl Trimethicone",
    "note": ""
   },
+  "다이페닐실록시페닐트리메티콘": {
+   "confidence": "high",
+   "inci": "Diphenylsiloxy Phenyl Trimethicone",
+   "note": ""
+  },
   "다이펜타에리스리틸헥사C5-9애씨드에스터": {
    "confidence": "high",
    "inci": "Dipentaerythrityl Hexa C5-9 Acid Esters",
@@ -585,6 +620,11 @@
    "inci": "Oenothera Biennis (Evening Primrose) Flower Extract",
    "note": ""
   },
+  "담쟁이덩굴추출물": {
+   "confidence": "low",
+   "inci": "Parthenocissus Tricuspidata Extract",
+   "note": "could map to Hedera Helix Extract"
+  },
   "당근추출물": {
    "confidence": "low",
    "inci": "Daucus Carota Sativa (Carrot) Root Extract",
@@ -604,6 +644,11 @@
    "confidence": "low",
    "inci": "Cucurbita Pepo (Pumpkin) Seed Oil",
    "note": ""
+  },
+  "대나무수": {
+   "confidence": "low",
+   "inci": "Bambusa Vulgaris Water",
+   "note": "bamboo species uncertain"
   },
   "대추추출물": {
    "confidence": "high",
@@ -785,6 +830,11 @@
    "inci": "Arachis Hypogaea (Peanut) Extract",
    "note": ""
   },
+  "라벤더꽃": {
+   "confidence": "high",
+   "inci": "Lavandula Angustifolia Flower",
+   "note": "readers agreed except for the bracketed common name"
+  },
   "라벤더꽃/잎/줄기추출물": {
    "confidence": "high",
    "inci": "Lavandula Angustifolia (Lavender) Flower/Leaf/Stem Extract",
@@ -831,6 +881,11 @@
    "note": ""
   },
   "라우릴폴리글리세릴-3 폴리다이메틸실록시에틸다이메티콘": {
+   "confidence": "high",
+   "inci": "Lauryl Polyglyceryl-3 Polydimethylsiloxyethyl Dimethicone",
+   "note": ""
+  },
+  "라우릴폴리글리세릴-3폴리다이메틸실록시에칠다이메티콘": {
    "confidence": "high",
    "inci": "Lauryl Polyglyceryl-3 Polydimethylsiloxyethyl Dimethicone",
    "note": ""
@@ -945,6 +1000,11 @@
    "inci": "Aloysia Citrodora Leaf Extract",
    "note": "readers differed; settled by a third reading (KCIA naming)"
   },
+  "레스베라트롤": {
+   "confidence": "high",
+   "inci": "Resveratrol",
+   "note": ""
+  },
   "레시틴": {
    "confidence": "high",
    "inci": "Lecithin",
@@ -959,6 +1019,11 @@
    "confidence": "high",
    "inci": "Lecithin",
    "note": ""
+  },
+  "렌틸콩씨추출물": {
+   "confidence": "high",
+   "inci": "Lens Esculenta Seed Extract",
+   "note": "readers agreed except for the bracketed common name"
   },
   "로즈마리잎오일": {
    "confidence": "high",
@@ -1235,6 +1300,11 @@
    "inci": "Paeonia Suffruticosa Root Extract",
    "note": ""
   },
+  "모링가씨오일": {
+   "confidence": "high",
+   "inci": "Moringa Oleifera Seed Oil",
+   "note": ""
+  },
   "목련나무껍질추출물": {
    "confidence": "low",
    "inci": "Magnolia Officinalis Bark Extract",
@@ -1294,6 +1364,11 @@
    "confidence": "high",
    "inci": "Undaria Pinnatifida Extract",
    "note": ""
+  },
+  "밀납": {
+   "confidence": "high",
+   "inci": "Beeswax",
+   "note": "typo"
   },
   "밀싹추출물": {
    "confidence": "low",
@@ -1475,6 +1550,11 @@
    "inci": "Vetiveria Zizanoides Root Oil",
    "note": ""
   },
+  "베티베리아지자니오이데스뿌리오일": {
+   "confidence": "high",
+   "inci": "Vetiveria Zizanoides Root Oil",
+   "note": ""
+  },
   "베헤네스-25": {
    "confidence": "high",
    "inci": "Beheneth-25",
@@ -1496,6 +1576,11 @@
    "note": ""
   },
   "벤조트라이아졸릴도데실p-크레솔": {
+   "confidence": "high",
+   "inci": "Benzotriazolyl Dodecyl p-Cresol",
+   "note": ""
+  },
+  "벤조트리아졸릴도데실p-크레솔": {
    "confidence": "high",
    "inci": "Benzotriazolyl Dodecyl p-Cresol",
    "note": ""
@@ -1708,6 +1793,11 @@
   "비타민나무열매오일": {
    "confidence": "high",
    "inci": "Hippophae Rhamnoides Fruit Oil",
+   "note": ""
+  },
+  "비타민나무열매추출물": {
+   "confidence": "high",
+   "inci": "Hippophae Rhamnoides Fruit Extract",
    "note": ""
   },
   "비타민나무열매추출물(0.1ppm)": {
@@ -2170,6 +2260,11 @@
    "inci": "Sorbitan Sesquioleate",
    "note": ""
   },
+  "소르비탄아이소스테아레이트": {
+   "confidence": "high",
+   "inci": "Sorbitan Isostearate",
+   "note": ""
+  },
   "소르비탄올리베이트": {
    "confidence": "high",
    "inci": "Sorbitan Olivate",
@@ -2188,6 +2283,11 @@
   "소엽잎추출물": {
    "confidence": "high",
    "inci": "Perilla Frutescens Leaf Extract",
+   "note": ""
+  },
+  "솔루블프로테오글리칸": {
+   "confidence": "high",
+   "inci": "Soluble Proteoglycan",
    "note": ""
   },
   "솔비탄세스퀴올리에이트": {
@@ -2285,6 +2385,11 @@
    "inci": "Brassica Rapa Leaf Extract",
    "note": ""
   },
+  "슈도알테로모나스발효추출물": {
+   "confidence": "high",
+   "inci": "Pseudoalteromonas Ferment Extract",
+   "note": ""
+  },
   "스위트아몬드오일": {
    "confidence": "high",
    "inci": "Prunus Amygdalus Dulcis (Sweet Almond) Oil",
@@ -2335,6 +2440,11 @@
    "inci": "Glycyrrhiza Glabra (Licorice) Root Extract",
    "note": ""
   },
+  "스피룰리나플라텐시스추출물": {
+   "confidence": "high",
+   "inci": "Spirulina Platensis Extract",
+   "note": ""
+  },
   "스피어민트잎오일": {
    "confidence": "high",
    "inci": "Mentha Viridis (Spearmint) Leaf Oil",
@@ -2354,6 +2464,11 @@
    "confidence": "high",
    "inci": "Spinacia Oleracea (Spinach) Leaf Extract",
    "note": ""
+  },
+  "시나모믹카시아잎오일": {
+   "confidence": "high",
+   "inci": "Cinnamomum Cassia Leaf Oil",
+   "note": "typo"
   },
   "시메티콘": {
    "confidence": "high",
@@ -2460,6 +2575,11 @@
    "inci": "Argania Spinosa Kernel Oil",
    "note": ""
   },
+  "아르지닌": {
+   "confidence": "high",
+   "inci": "Arginine",
+   "note": ""
+  },
   "아마란스씨추출물": {
    "confidence": "low",
    "inci": "Amaranthus Caudatus Seed Extract",
@@ -2469,6 +2589,11 @@
    "confidence": "high",
    "inci": "Linum Usitatissimum (Linseed) Seed Oil",
    "note": ""
+  },
+  "아마씨추출물": {
+   "confidence": "high",
+   "inci": "Linum Usitatissimum Seed Extract",
+   "note": "readers agreed except for the bracketed common name"
   },
   "아미노메칠프로판올": {
    "confidence": "high",
@@ -2499,6 +2624,11 @@
    "confidence": "high",
    "inci": "Persea Gratissima (Avocado) Oil",
    "note": ""
+  },
+  "아보카도추출물": {
+   "confidence": "high",
+   "inci": "Persea Gratissima Fruit Extract",
+   "note": "readers agreed except for the bracketed common name"
   },
   "아세타마이드엠이에이": {
    "confidence": "high",
@@ -2573,6 +2703,11 @@
   "아이소데실네오펜타노에이트": {
    "confidence": "high",
    "inci": "Isodecyl Neopentanoate",
+   "note": ""
+  },
+  "아이소도데칸": {
+   "confidence": "high",
+   "inci": "Isododecane",
    "note": ""
   },
   "아이소도데케인": {
@@ -2665,6 +2800,11 @@
    "inci": "Aloe Barbadensis Flower Extract",
    "note": ""
   },
+  "알로에베라잎": {
+   "confidence": "low",
+   "inci": "Aloe Barbadensis Leaf",
+   "note": "likely fragment of a longer name"
+  },
   "알로에베라잎수": {
    "confidence": "high",
    "inci": "Aloe Barbadensis Leaf Water",
@@ -2720,7 +2860,22 @@
    "inci": "Algin",
    "note": ""
   },
+  "알코올": {
+   "confidence": "high",
+   "inci": "Alcohol",
+   "note": ""
+  },
+  "알테로모나스발효추출물": {
+   "confidence": "high",
+   "inci": "Alteromonas Ferment Extract",
+   "note": ""
+  },
   "알파-비사보롤": {
+   "confidence": "high",
+   "inci": "Bisabolol",
+   "note": ""
+  },
+  "알파-비사볼올": {
    "confidence": "high",
    "inci": "Bisabolol",
    "note": ""
@@ -3065,6 +3220,11 @@
    "inci": "Urea",
    "note": ""
   },
+  "우뭇가사리추출물": {
+   "confidence": "high",
+   "inci": "Gelidium Amansii Extract",
+   "note": ""
+  },
   "우유추출물": {
    "confidence": "low",
    "inci": "Milk Extract",
@@ -3074,6 +3234,11 @@
    "confidence": "low",
    "inci": "Milk Extract",
    "note": "concentration mark removed"
+  },
+  "운데칸": {
+   "confidence": "high",
+   "inci": "Undecane",
+   "note": ""
   },
   "운데케인": {
    "confidence": "high",
@@ -3185,6 +3350,11 @@
    "inci": "Isoamyl p-Methoxycinnamate",
    "note": ""
   },
+  "인도멀구슬나무잎추출물": {
+   "confidence": "high",
+   "inci": "Melia Azadirachta Leaf Extract",
+   "note": ""
+  },
   "인도칸나뿌리추출물": {
    "confidence": "low",
    "inci": "Canna Indica Root Extract",
@@ -3193,6 +3363,11 @@
   "인동덩굴꽃추출물": {
    "confidence": "high",
    "inci": "Lonicera Japonica (Honeysuckle) Flower Extract",
+   "note": ""
+  },
+  "인삼뿌리추출물": {
+   "confidence": "high",
+   "inci": "Panax Ginseng Root Extract",
    "note": ""
   },
   "인삼수": {
@@ -3335,6 +3510,11 @@
    "inci": "Rehmannia Glutinosa Root Extract",
    "note": ""
   },
+  "진저뿌리오일": {
+   "confidence": "high",
+   "inci": "Zingiber Officinale Root Oil",
+   "note": "readers agreed except for the bracketed common name"
+  },
   "질경이추출물": {
    "confidence": "high",
    "inci": "Plantago Asiatica Extract",
@@ -3440,6 +3620,11 @@
    "inci": "Caffeine",
    "note": ""
   },
+  "카프릴릭/카프릭/미리스틱/스테아릭트라이글리세라이드": {
+   "confidence": "high",
+   "inci": "Caprylic/Capric/Myristic/Stearic Triglyceride",
+   "note": ""
+  },
   "카프릴릴글라이콜": {
    "confidence": "high",
    "inci": "Caprylyl Glycol",
@@ -3510,6 +3695,11 @@
    "inci": "Ceratonia Siliqua (Carob) Fruit Extract",
    "note": ""
   },
+  "캐모마일꽃수": {
+   "confidence": "high",
+   "inci": "Chamomilla Recutita Flower Water",
+   "note": "readers agreed except for the bracketed common name"
+  },
   "캐모마일꽃오일": {
    "confidence": "low",
    "inci": "Chamomilla Recutita (Matricaria) Flower Oil",
@@ -3528,6 +3718,11 @@
   "커피콩추출물": {
    "confidence": "high",
    "inci": "Coffea Arabica (Coffee) Seed Extract",
+   "note": ""
+  },
+  "케일잎추출물": {
+   "confidence": "high",
+   "inci": "Brassica Oleracea Acephala Leaf Extract",
    "note": ""
   },
   "코코-카프릴레이트/카프레이트": {
@@ -3578,6 +3773,11 @@
   "쿼터늄-18벤토나이트": {
    "confidence": "high",
    "inci": "Quaternium-18 Bentonite",
+   "note": ""
+  },
+  "쿼터늄-90벤토나이트": {
+   "confidence": "high",
+   "inci": "Quaternium-90 Bentonite",
    "note": ""
   },
   "퀴노아씨추출물": {
@@ -3680,6 +3880,11 @@
    "inci": "Salicornia Herbacea Extract",
    "note": ""
   },
+  "트라이데칸": {
+   "confidence": "high",
+   "inci": "Tridecane",
+   "note": ""
+  },
   "트라이데케인": {
    "confidence": "high",
    "inci": "Tridecane",
@@ -3724,6 +3929,11 @@
    "confidence": "high",
    "inci": "Triethoxycaprylylsilane",
    "note": "typo"
+  },
+  "트라이에칠시트레이트": {
+   "confidence": "high",
+   "inci": "Triethyl Citrate",
+   "note": ""
   },
   "트라이에틸헥사노인": {
    "confidence": "high",
@@ -3794,6 +4004,11 @@
    "confidence": "high",
    "inci": "Paraffin",
    "note": ""
+  },
+  "파래추출물": {
+   "confidence": "low",
+   "inci": "Enteromorpha Compressa Extract",
+   "note": "seaweed species uncertain"
   },
   "파파야열매추출물": {
    "confidence": "high",
@@ -3905,6 +4120,11 @@
    "inci": "Phenyl Trimethicone",
    "note": ""
   },
+  "페닐트리메티콘": {
+   "confidence": "high",
+   "inci": "Phenyl Trimethicone",
+   "note": ""
+  },
   "페룰릭애씨드": {
    "confidence": "high",
    "inci": "Ferulic Acid",
@@ -3921,6 +4141,11 @@
    "note": ""
   },
   "펜타에리스리틸테트라-다이-t-부틸하이드록시하이드로신나메이트": {
+   "confidence": "high",
+   "inci": "Pentaerythrityl Tetra-Di-t-Butyl Hydroxyhydrocinnamate",
+   "note": ""
+  },
+  "펜타에리스리틸테트라-다이-티-부틸하이드록시하이드로신나메이트": {
    "confidence": "high",
    "inci": "Pentaerythrityl Tetra-Di-t-Butyl Hydroxyhydrocinnamate",
    "note": ""
@@ -3945,6 +4170,11 @@
    "inci": "Pentylene Glycol",
    "note": ""
   },
+  "편백수": {
+   "confidence": "high",
+   "inci": "Chamaecyparis Obtusa Water",
+   "note": ""
+  },
   "편백수(38%)": {
    "confidence": "high",
    "inci": "Chamaecyparis Obtusa Water",
@@ -3963,6 +4193,11 @@
   "포도추출물": {
    "confidence": "low",
    "inci": "Vitis Vinifera (Grape) Fruit Extract",
+   "note": ""
+  },
+  "포스포리피드": {
+   "confidence": "high",
+   "inci": "Phospholipids",
    "note": ""
   },
   "포타슘세틸포스페이트": {
@@ -4120,6 +4355,11 @@
    "inci": "Polyglyceryl-3 Ricinoleate",
    "note": ""
   },
+  "폴리글리세릴-3메틸글루코스다이스테아레이트": {
+   "confidence": "high",
+   "inci": "Polyglyceryl-3 Methylglucose Distearate",
+   "note": ""
+  },
   "폴리글리세릴-3메틸글루코오스다이스테아레이트": {
    "confidence": "high",
    "inci": "Polyglyceryl-3 Methylglucose Distearate",
@@ -4133,6 +4373,11 @@
   "폴리글리세릴-3올리에이트": {
    "confidence": "high",
    "inci": "Polyglyceryl-3 Oleate",
+   "note": ""
+  },
+  "폴리글리세릴-3폴리다이메틸실록시에칠다이메티콘": {
+   "confidence": "high",
+   "inci": "Polyglyceryl-3 Polydimethylsiloxyethyl Dimethicone",
    "note": ""
   },
   "폴리글리세릴-3폴리다이메틸실록시에틸다이메티콘": {
@@ -4365,6 +4610,11 @@
    "inci": "Propane",
    "note": ""
   },
+  "프로폴리스추출물": {
+   "confidence": "high",
+   "inci": "Propolis Extract",
+   "note": ""
+  },
   "프로필렌글라이콜": {
    "confidence": "high",
    "inci": "Propylene Glycol",
@@ -4485,6 +4735,11 @@
    "inci": "Phytosphingosine",
    "note": ""
   },
+  "피페르니그룸열매오일": {
+   "confidence": "high",
+   "inci": "Piper Nigrum Fruit Oil",
+   "note": "readers agreed except for the bracketed common name"
+  },
   "하늘타리뿌리추출물": {
    "confidence": "high",
    "inci": "Trichosanthes Kirilowii Root Extract",
@@ -4586,6 +4841,11 @@
    "note": ""
   },
   "하이드록시프로필트라이모늄하이알루로네이트": {
+   "confidence": "high",
+   "inci": "Hydroxypropyltrimonium Hyaluronate",
+   "note": ""
+  },
+  "하이드록시프로필트리모늄하이알루로네이트": {
    "confidence": "high",
    "inci": "Hydroxypropyltrimonium Hyaluronate",
    "note": ""
@@ -4879,16 +5139,16 @@
  "note": "Korean label names (KCIA standard names) -> INCI, two independent readings that agree; 'review' holds the disagreements, not used",
  "review": {
   "*저단선꽃/줄기추출물": {
-   "A": "Melilotus Officinalis Flower/Stem Extract",
-   "B": null
+   "A": "Lonicera Japonica (Honeysuckle) Flower/Stem Extract",
+   "B": "Dendrobium Nobile Flower/Stem Extract"
   },
   "사쿠신": {
-   "A": "Sakuranetin",
-   "B": null
+   "A": "Sacran",
+   "B": "Sarcosine"
   },
   "판추출물": {
-   "A": "Pandanus Amaryllifolius Leaf Extract",
-   "B": "Phaseolus Angularis Seed Extract"
+   "A": null,
+   "B": "Piper Betle Leaf Extract"
   }
  }
 }
