@@ -7,26 +7,30 @@
  },
  "total_products": 11691,
  "total_with_full_ingredients": 11621,
- "distinct_ingredients_after_normalisation": 6952,
+ "distinct_ingredients_after_normalisation": 6778,
  "ingredients_present_in_every_jurisdiction": [
   "1,2-hexanediol",
   "acrylates copolymer",
   "acrylates/c10-30 alkyl acrylate crosspolymer",
   "acrylates/c12-22 alkyl methacrylate copolymer",
+  "acrylates/dimethicone copolymer",
   "alcohol",
   "allantoin",
   "ammonium acryloyldimethyltaurate/vp copolymer",
   "ammonium polyacryloyldimethyl taurate",
   "argania spinosa kernel oil",
   "arginine",
+  "ascorbyl glucoside",
   "ascorbyl palmitate",
   "avocado oil",
   "beeswax",
   "behenyl alcohol",
   "benzyl alcohol",
   "bht",
+  "bisabolol",
   "butylene glycol dicaprylate/dicaprate",
   "butyloctyl salicylate",
+  "caffeine",
   "candelilla wax",
   "caprylic/capric triglyceride",
   "caprylyl glycol",
@@ -69,6 +73,7 @@
   "hydrated silica",
   "hydrogenated coconut oil",
   "hydroxyacetophenone",
+  "isobutane",
   "isododecane",
   "isohexadecane",
   "isononyl isononanoate",
@@ -77,6 +82,7 @@
   "isostearic acid",
   "kaolin",
   "lauryl glucoside",
+  "lavender oil",
   "lecithin",
   "maltodextrin",
   "methylparaben",
@@ -84,11 +90,15 @@
   "mica",
   "microcrystalline cellulose",
   "microcrystalline wax",
+  "mineral oil",
+  "myristic acid",
+  "neopentyl glycol diheptanoate",
   "octyldodecanol",
   "oleic acid",
   "palmitic acid",
   "panthenol",
   "peg-100 stearate",
+  "peg-30 dipolyhydroxystearate",
   "pentaerythrityl tetra-di-t-butyl hydroxyhydrocinnamate",
   "pentylene glycol",
   "phenoxyethanol",
@@ -101,9 +111,11 @@
   "polyglyceryl-4 oleate",
   "polyhydroxystearic acid",
   "polymethylsilsesquioxane",
+  "polysorbate-20",
   "polysorbate-60",
   "potassium cetyl phosphate",
   "potassium hydroxide",
+  "potassium sorbate",
   "proline",
   "propanediol",
   "propylene carbonate",
@@ -146,7 +158,7 @@
  "top_ingredients": [
   [
    "water",
-   8603
+   8604
   ],
   [
    "glycerin",
@@ -154,7 +166,7 @@
   ],
   [
    "phenoxyethanol",
-   4473
+   4474
   ],
   [
    "tocopheryl acetate",
@@ -174,7 +186,7 @@
   ],
   [
    "caprylyl glycol",
-   3396
+   3398
   ],
   [
    "xanthan gum",
@@ -182,7 +194,7 @@
   ],
   [
    "ethylhexylglycerin",
-   2989
+   2990
   ],
   [
    "disodium edta",
@@ -198,7 +210,7 @@
   ],
   [
    "iron oxide",
-   2564
+   2565
   ],
   [
    "butylene glycol",
@@ -214,7 +226,7 @@
   ],
   [
    "triethoxycaprylylsilane",
-   2266
+   2267
   ],
   [
    "cetearyl alcohol",
@@ -282,7 +294,7 @@
   ],
   [
    "potassium sorbate",
-   1116
+   1117
   ],
   [
    "propylene glycol",
@@ -354,10 +366,10 @@
    "publishes": "no concentrations; full list in legally-mandated descending order",
    "last_verified": "2026-10-20",
    "shared_formulation": {
-    "clusters": 9,
-    "products": 19,
-    "cross_company_clusters": 1,
-    "cross_company_products": 2
+    "clusters": 11,
+    "products": 23,
+    "cross_company_clusters": 2,
+    "cross_company_products": 4
    }
   },
   "US": {
