@@ -42,11 +42,32 @@ CATEGORIES = tuple(c.strip() for c in
                    os.environ.get("US_CATEGORIES",
                                   ",".join(DEFAULT_CATEGORIES)).split(",")
                    if c.strip())
+# The verified release (one record per label, label-checked inactive list, filter type,
+# baby/kids, status, recalls). Attached to each record as `verified`; the registered
+# list above stays the fingerprinted one, so the switch cannot fake a reformulation.
+RELEASE = os.environ.get(
+    "US_RELEASE",
+    "https://raw.githubusercontent.com/arwfamily/tinysafe-dailymed-scraper-v2/"
+    "main/data/releases/us/latest/us_all.jsonl")
+RELEASE_MANIFEST = RELEASE.rsplit("/", 1)[0] + "/manifest.json"
+DISCONTINUED = ROOT / "data" / "canonical" / "us_discontinued.jsonl"
 RAW = ROOT / "data" / "raw" / "us" / "us_sunscreens.jsonl"
 OUT = ROOT / "data" / "canonical" / "us_ingredients.jsonl"
 EXCL = ROOT / "data" / "canonical" / "us_excluded.jsonl"
 VERIFIED = ROOT / "data" / "canonical" / "_verified.json"
 VOLATILE = ("observed", "verified_at", "last_seen")
+
+
+def verified_block(v, release_id):
+    recs = v.get("recalls") or []
+    return {"release_id": release_id, "status": v.get("status"),
+            "inactives": v.get("inactives"), "inactive_source": v.get("inactive_source"),
+            "label_check": v.get("label_check"), "label_check_date": v.get("label_check_date"),
+            "filter_type": v.get("filter_type"), "is_mineral": v.get("is_mineral"),
+            "is_baby_kids": v.get("is_baby_kids"), "thin_reason": v.get("thin_reason"),
+            "flags": [f[0] for f in v.get("flags") or []],
+            "recalls_matched": [r.get("recall_number") for r in recs if r.get("status") == "matched"],
+            "recalls_needs_review": [r.get("recall_number") for r in recs if r.get("status") == "needs_review"]}
 
 
 def fetch():
@@ -84,6 +105,20 @@ def main():
     print(f"[*] {len(products)} SPLs in the corpus (last_seen {corpus_version}) "
           f"— keeping categories {CATEGORIES}")
 
+    release, release_id = {}, None
+    try:
+        with urllib.request.urlopen(urllib.request.Request(
+                RELEASE, headers={"User-Agent": "arw-ingredients/1.0"}), timeout=300) as r:
+            for line in r.read().decode().splitlines():
+                if line.strip():
+                    v = json.loads(line)
+                    release[v["setid"]] = v
+        with urllib.request.urlopen(RELEASE_MANIFEST, timeout=60) as r:
+            release_id = json.loads(r.read()).get("release_id")
+        print(f"[*] verified release {release_id}: {len(release)} labels")
+    except Exception as e:  # noqa: BLE001
+        print(f"[!] verified release not fetched ({e}); records carry no `verified` block this run")
+
     previous = {}
     if OUT.exists():
         for line in OUT.open():
@@ -104,6 +139,9 @@ def main():
                             "excluded_reason": reason})
             continue
         rec = build_record(p, today, corpus_version)
+        v = release.get(p.get("setid"))
+        if v:
+            rec["verified"] = verified_block(v, release_id)
         old = previous.get(rec["id"])
         if old and {k: v for k, v in rec.items() if k not in VOLATILE} == \
                    {k: v for k, v in old.items() if k not in VOLATILE}:
@@ -112,8 +150,13 @@ def main():
                     rec[k] = old[k]
         store[rec["id"]] = rec
 
+    seen = {p.get("setid") for p in products}
+    gone = [dict(verified_block(v, release_id), id=f"US:SPL-{sid}", product_name=v.get("name"),
+                 company=v.get("brand"), spf_label=v.get("spf"))
+            for sid, v in release.items() if sid not in seen and v.get("status") == "discontinued"]
     for path, rows in ((OUT, sorted(store.values(), key=lambda x: x["id"])),
-                       (EXCL, sorted(dropped, key=lambda x: x["id"]))):
+                       (EXCL, sorted(dropped, key=lambda x: x["id"])),
+                       (DISCONTINUED, sorted(gone, key=lambda x: x["id"]))):
         tmp = path.with_suffix(".tmp")
         with tmp.open("w") as f:
             for r in rows:
