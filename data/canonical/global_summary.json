@@ -2,241 +2,72 @@
  "generated_from": {
   "AU": 501,
   "CA": 1924,
+  "KR": 93,
   "US": 9544
  },
- "total_products": 11557,
- "total_with_full_ingredients": 11490,
- "distinct_ingredients_after_normalisation": 6562,
+ "total_products": 11650,
+ "total_with_full_ingredients": 11580,
+ "distinct_ingredients_after_normalisation": 7248,
  "ingredients_present_in_every_jurisdiction": [
   "1,2-hexanediol",
-  "acacia",
   "acrylates copolymer",
-  "acrylates/c10-30 alkyl acrylate crosspolymer",
-  "acrylates/c12-22 alkyl methacrylate copolymer",
-  "acrylates/dimethicone copolymer",
-  "alcohol",
-  "alkyl (c12-15) benzoate",
   "allantoin",
-  "almond oil",
-  "aloe barbadensis",
-  "aloe barbadensis leaf",
-  "ammonium acryloyldimethyltaurate/vp copolymer",
-  "ammonium polyacryloyldimethyl taurate",
-  "argania spinosa kernel oil",
-  "arginine",
-  "ascorbyl glucoside",
-  "ascorbyl palmitate",
-  "avocado oil",
-  "beeswax",
-  "behenyl alcohol",
-  "bentonite",
-  "benzyl alcohol",
-  "bht",
-  "bis-diglyceryl polyacyladipate-2",
-  "bisabolol",
-  "butylene glycol dicaprylate/dicaprate",
   "butyloctyl salicylate",
-  "c13-14 isoparaffin",
-  "c18-36 acid triglyceride",
-  "caffeine",
-  "calcium stearate",
-  "candelilla wax",
   "caprylic/capric triglyceride",
-  "capryloyl glycine",
-  "caprylyl glycol",
   "caprylyl methicone",
-  "carbomer-934",
-  "carbomer-940",
-  "carnauba wax",
-  "carnosine",
-  "castor oil",
-  "centella asiatica",
   "ceramide np",
   "ceramide ns",
-  "ceresin",
-  "ceteareth-20",
-  "cetearyl alcohol",
-  "cetearyl glucoside",
-  "cetearyl isononanoate",
-  "cetyl alcohol",
-  "cetyl dimethicone",
-  "cetyl phosphate",
-  "chlorphenesin",
-  "citral",
-  "citric acid",
-  "coco-caprylate",
-  "cocoglycerides",
-  "coconut oil",
-  "cyclomethicone",
-  "decyl glucoside",
-  "decylene glycol",
-  "dehydroacetic acid",
-  "dehydroxanthan gum",
-  "delta-tocopherol",
-  "denatonium benzoate",
-  "dexpanthenol",
-  "dextrin palmitate",
-  "di-ppg-3 myristyl ether adipate",
-  "diazolidinyl urea",
-  "dibutyl adipate",
-  "dicaprylyl carbonate",
-  "dicaprylyl ether",
-  "diethylhexyl-2,6-naphthalate",
-  "diisopropyl adipate",
-  "diisopropyl sebacate",
-  "dimethicone crosspolymer",
-  "dimethicone/methicone copolymer",
-  "dimethicone/vinyl dimethicone crosspolymer",
-  "dipotassium glycyrrhizate",
-  "dipropylene glycol dibenzoate",
-  "disodium edta",
-  "disodium ethylene dicocamide peg-15 disulfate",
-  "disodium stearoyl glutamate",
   "disteardimonium hectorite",
-  "erythritol",
-  "ethylcellulose",
-  "ethylhexyl methoxycrylene",
   "ethylhexylglycerin",
   "fragrance",
-  "gluconolactone",
   "glycerin",
-  "glyceryl caprylate",
-  "glyceryl isostearate",
-  "glyceryl laurate",
-  "glyceryl monostearate",
-  "glyceryl oleate citrate",
-  "glyceryl polymethacrylate",
-  "glyceryl stearate citrate",
-  "grape seed oil",
-  "helianthus annuus",
-  "hexylene glycol",
-  "honey",
-  "hyaluronic acid",
-  "hydrated silica",
-  "hydrogenated castor oil",
   "hydrogenated coconut oil",
-  "hydrogenated palm glycerides citrate",
-  "hydrogenated vegetable oil",
   "hydroxyacetophenone",
-  "hypromellose",
-  "inulin",
-  "iodopropynyl butylcarbamate",
-  "isoamyl laurate",
-  "isobutane",
   "isododecane",
-  "isohexadecane",
-  "isononyl isononanoate",
-  "isopropyl alcohol",
-  "isopropyl myristate",
-  "isopropyl palmitate",
   "isostearic acid",
-  "isostearyl alcohol",
-  "isostearyl neopentanoate",
-  "kaolin",
-  "lactic acid",
-  "lauryl glucoside",
-  "lauryl lactate",
-  "lavender oil",
-  "lecithin",
-  "maltodextrin",
-  "menthol",
-  "methyl glucose sesquistearate",
-  "methylparaben",
-  "methylpropanediol",
-  "mica",
-  "microcrystalline cellulose",
-  "microcrystalline wax",
-  "mineral oil",
-  "myristic acid",
-  "neopentyl glycol diheptanoate",
-  "nylon-12",
-  "octyl palmitate",
-  "octyl stearate",
-  "octyldodecanol",
-  "oleic acid",
-  "oleyl alcohol",
-  "olive oil",
-  "orange oil",
-  "p-anisic acid",
-  "palmitic acid",
-  "palmitoyl oligopeptide",
   "panthenol",
-  "pantolactone",
-  "peg-100 stearate",
-  "peg-30 dipolyhydroxystearate",
-  "peg-40 stearate",
-  "peg-8 laurate",
-  "peg/ppg-18/18 dimethicone",
-  "pentaerythrityl tetra-di-t-butyl hydroxyhydrocinnamate",
-  "pentylene glycol",
-  "petrolatum",
   "phenoxyethanol",
-  "phenyl trimethicone",
-  "phenylpropanol",
-  "polyester-7",
-  "polyethylene",
   "polyglyceryl-2 dipolyhydroxystearate",
-  "polyglyceryl-3 diisostearate",
-  "polyglyceryl-3 methylglucose distearate",
-  "polyglyceryl-4 diisostearate/polyhydroxystearate/sebacate",
-  "polyglyceryl-4 oleate",
-  "polyhydroxystearic acid",
-  "polymethylsilsesquioxane",
-  "polysorbate-20",
-  "polysorbate-60",
-  "polyurethane-62",
-  "pongamol",
-  "potassium cetyl phosphate",
-  "potassium hydroxide",
-  "potassium sorbate",
-  "ppg-15 stearyl ether",
-  "ppg-15 stearyl ether benzoate",
-  "proline",
   "propanediol",
-  "propylene carbonate",
-  "propylene glycol",
-  "propylparaben",
-  "rice starch",
-  "saccharide isomerate",
-  "safflower oil",
-  "sarcosine",
-  "shea butter",
   "silica",
-  "silica dimethyl silylate",
-  "sodium acetylated hyaluronate",
-  "sodium ascorbate",
-  "sodium ascorbyl phosphate",
-  "sodium benzoate",
-  "sodium chloride"
+  "sodium chloride",
+  "sodium citrate",
+  "sodium hyaluronate",
+  "titanium dioxide",
+  "tocopherol",
+  "tocopheryl acetate",
+  "triethoxycaprylylsilane",
+  "water",
+  "xanthan gum"
  ],
  "top_ingredients": [
   [
    "water",
-   8480
+   8565
   ],
   [
    "glycerin",
-   6223
+   6273
   ],
   [
    "phenoxyethanol",
-   4469
+   4471
   ],
   [
    "tocopheryl acetate",
-   4454
+   4461
   ],
   [
    "dimethicone",
-   4282
+   4294
   ],
   [
    "tocopherol",
-   3731
+   3775
   ],
   [
    "caprylic/capric triglyceride",
-   3375
+   3411
   ],
   [
    "caprylyl glycol",
@@ -244,23 +75,23 @@
   ],
   [
    "xanthan gum",
-   3286
+   3313
+  ],
+  [
+   "ethylhexylglycerin",
+   2961
   ],
   [
    "disodium edta",
    2927
   ],
   [
-   "ethylhexylglycerin",
-   2922
-  ],
-  [
    "butyloctyl salicylate",
-   2732
+   2765
   ],
   [
    "silica",
-   2706
+   2735
   ],
   [
    "iron oxide",
@@ -272,7 +103,7 @@
   ],
   [
    "butylene glycol",
-   2379
+   2380
   ],
   [
    "polyhydroxystearic acid",
@@ -280,7 +111,7 @@
   ],
   [
    "triethoxycaprylylsilane",
-   2204
+   2250
   ],
   [
    "cetearyl alcohol",
@@ -292,15 +123,15 @@
   ],
   [
    "sodium chloride",
-   1860
+   1861
+  ],
+  [
+   "propanediol",
+   1735
   ],
   [
    "alkyl (c12-15) benzoate",
    1725
-  ],
-  [
-   "propanediol",
-   1693
   ],
   [
    "alcohol",
@@ -323,12 +154,12 @@
    1329
   ],
   [
-   "cetyl alcohol",
-   1247
+   "1,2-hexanediol",
+   1249
   ],
   [
-   "1,2-hexanediol",
-   1187
+   "cetyl alcohol",
+   1247
   ],
   [
    "sodium benzoate",
@@ -359,12 +190,12 @@
    1091
   ],
   [
-   "lecithin",
-   1085
+   "titanium dioxide",
+   1087
   ],
   [
-   "titanium dioxide",
-   1083
+   "lecithin",
+   1085
   ],
   [
    "trolamine",
@@ -406,6 +237,24 @@
     "products": 189,
     "cross_company_clusters": 20,
     "cross_company_products": 48
+   }
+  },
+  "KR": {
+   "products": 93,
+   "with_full_ingredients": 90,
+   "mineral_only": 62,
+   "licence_or_listing_active": 93,
+   "baby_labelled": 38,
+   "median_ingredients": 34,
+   "zinc_median_percent": 19.2,
+   "zinc_median_is_estimate": false,
+   "publishes": "no concentrations; full list in legally-mandated descending order",
+   "last_verified": "2026-10-20",
+   "shared_formulation": {
+    "clusters": 6,
+    "products": 13,
+    "cross_company_clusters": 1,
+    "cross_company_products": 2
    }
   },
   "US": {

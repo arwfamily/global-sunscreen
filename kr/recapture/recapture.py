@@ -13,6 +13,7 @@
 5. --apply 없이 실행하면 변경사항만 리포트 (fail-closed)
 """
 import json
+import re
 import sys
 import os
 from datetime import date
@@ -79,6 +80,15 @@ def recapture_record(rec: dict, today: str) -> dict:
     new_ingredients = normalize_list(new_ingredients)
     old_ingredients = normalize_list(rec.get("ingredients_ko", []))
 
+    # 2026-10-20: a page footer (주소 "5층", 배송비 "000원 부과", "온라인 광고") was read as
+    # ingredients and logged as a reformulation. Such a read is never applied.
+    junk = [x for x in new_ingredients if JUNK.search(x)]
+    if junk or (old_ingredients and len(new_ingredients) > 1.4 * len(old_ingredients) + 3):
+        result["status"] = "extract-suspect"
+        result["reason"] = ("non-ingredient text in the extracted list: " + ", ".join(junk[:3])) if junk else \
+            f"list grew from {len(old_ingredients)} to {len(new_ingredients)} items"
+        return result
+
     # 비교는 공백 아티팩트 제거 후 수행
     d = diff_ingredients(
         [normalize_for_compare(x) for x in old_ingredients],
@@ -93,6 +103,9 @@ def recapture_record(rec: dict, today: str) -> dict:
     result["status"] = "changed"
     result["new_ingredients"] = new_ingredients
     return result
+
+
+JUNK = re.compile(r"\d+\s*층|광고|배송|부과|교환|반품|고객센터|사업자|통신판매|대표|주소|전화|\d{1,3},?000\s*원|^\d+$|^\d+원")
 
 
 def apply_change(rec: dict, result: dict, today: str):

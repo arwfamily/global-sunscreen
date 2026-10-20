@@ -263,6 +263,26 @@ _QTY = re.compile(r"\b\d[\d.,]*\s*(?:mg/g|mg|g|%|ppm|w/w|v/v|iu)(?![\w])", re.I)
 _MULTISPACE = re.compile(r"\s+")
 
 
+_KR_MAP = None
+
+
+def _kr_map():
+    """Korean label name -> INCI, from two agreeing independent readings
+    (data/regulatory/kr_inci_map.json, tools/kr_inci_merge.py)."""
+    global _KR_MAP
+    if _KR_MAP is None:
+        import json
+        import os
+        p = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                         "data", "regulatory", "kr_inci_map.json")
+        _KR_MAP = {}
+        if os.path.exists(p):
+            for ko, v in json.load(open(p, encoding="utf-8")).get("map", {}).items():
+                if v.get("inci"):
+                    _KR_MAP[unicodedata.normalize("NFKC", ko).strip()] = v["inci"]
+    return _KR_MAP
+
+
 def normalize_name(raw):
     """Return the canonical counting key for one ingredient name.
 
@@ -274,6 +294,9 @@ def normalize_name(raw):
     s = unicodedata.normalize("NFKC", str(raw)).strip()
     if not s:
         return ""
+    km = _kr_map()
+    if km and s in km and km[s] != s:
+        return normalize_name(km[s])
     for a, b in KO_FOLD:
         s = s.replace(a, b)
     s = s.lower()

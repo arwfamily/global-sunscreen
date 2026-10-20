@@ -43,7 +43,7 @@ EXCLUDED = CANON / "global_excluded.jsonl"
 # "recommended population: children" is a suitability statement on most
 # sunscreen licences, not a baby product, so it is kept as its own field.
 BABY_NAME = re.compile(r"\b(?:BAB(?:Y|IES)|INFANTS?|NEWBORN|TODDLERS?|KIDS?|KIDZ|CHILD(?:REN)?(?:'S)?|JUNIOR|"
-                       r"LITTLE ONES|B[EÉ]B[EÉ]S?|ENFANTS?|NI[ÑN]OS)\b", re.I)
+                       r"LITTLE ONES|B[EÉ]B[EÉ]S?|ENFANTS?|NI[ÑN]OS)\b|아기|베이비|키즈|유아|어린이|아이(?:용|들)", re.I)
 PCT_UNIT = re.compile(r"^\s*(?:%|percent)\s*(?:\((?:w/w|p/p)\)|p/p|w/w)?\s*$", re.I)
 
 
