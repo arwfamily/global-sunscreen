@@ -93,7 +93,9 @@ jobs:
         # never be the reason Korea quietly stops updating.
         env:
           PYTHONUNBUFFERED: "1"
-        run: python collect_kr_labels.py
+        run: |
+          python collect_kr_labels.py
+          python collect_kr_db.py
 
       - name: Publish
         if: always()
