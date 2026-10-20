@@ -32,21 +32,40 @@ from pathlib import Path
 
 from core.fingerprint import fingerprint, profile_for, remember_labels
 from core.normalize import normalize_list, normalize_name
+from core.scope_rules import scope_reason
+import re
 
 ROOT = Path(__file__).parent
 CANON = ROOT / "data" / "canonical"
 OUT = CANON / "global_sunscreens.jsonl"
+EXCLUDED = CANON / "global_excluded.jsonl"
+# Product-name baby/kids words, the same rule in every country. Canada's
+# "recommended population: children" is a suitability statement on most
+# sunscreen licences, not a baby product, so it is kept as its own field.
+BABY_NAME = re.compile(r"\b(?:BAB(?:Y|IES)|INFANTS?|NEWBORN|TODDLERS?|KIDS?|KIDZ|CHILD(?:REN)?(?:'S)?|JUNIOR|"
+                       r"LITTLE ONES|B[EÉ]B[EÉ]S?|ENFANTS?|NI[ÑN]OS)\b", re.I)
+PCT_UNIT = re.compile(r"^\s*(?:%|percent)\s*(?:\((?:w/w|p/p)\)|p/p|w/w)?\s*$", re.I)
+
+
+def ca_percent(a):
+    """LNHPD files strength as quantity + unit; a weight-per-weight percent is the
+    label %. w/v and v/v are not w/w, so they stay unknown."""
+    if a.get("percent_w_w") is not None:
+        return a["percent_w_w"]
+    if a.get("quantity") is not None and PCT_UNIT.match(a.get("unit") or ""):
+        q = a["quantity"]
+        return q if 0 < q <= 40 else None
+    return None
 SUMMARY = CANON / "global_summary.json"
 
 # What each register actually publishes. Printed with every summary so a
 # number is never read as if it meant the same thing in four countries.
 PUBLISHES = {
-    "US": "full inactive list in formulation order, every ingredient with a "
-          "UNII; active strengths are filed WITHOUT their unit upstream, so "
-          "percent_w_w is null and percent_estimate carries an assumption "
-          "(see docs/upstream_unit_patch.md)",
-    "CA": "actives with exact %, inactive names only (mineral filters only — "
-          "chemical-filter sunscreens are DIN/DPD and not in LNHPD)",
+    "US": "label-verified inactive list (printed Drug Facts + SPL table, label "
+          "order) from the US release; active % w/w from the printed Drug Facts panel",
+    "CA": "actives with exact % w/w (LNHPD quantity), inactive names only "
+          "(natural health product licences: mineral filters; chemical-filter "
+          "sunscreens are DIN/DPD and not in LNHPD)",
     "AU": "actives with mg/g, excipients alphabetical (hand-read from PDFs)",
     "KR": "no concentrations; full list in legally-mandated descending order",
 }
@@ -71,7 +90,7 @@ def main():
     if not jurs:
         raise SystemExit("[!] no canonical files yet — run the collectors first")
 
-    records, by_jur = [], {}
+    records, by_jur, excluded = [], {}, []
     for jur in jurs:
         rows = load(jur)
         by_jur[jur] = rows
@@ -85,13 +104,25 @@ def main():
             # percentage (see docs/upstream_unit_patch.md). Printing it as
             # percent_w_w is exactly the mistake this project keeps warning
             # other people about: it turns a 216 mg/g zinc into "216%".
+            v = r.get("verified") if jur == "US" else None
+            why_out = scope_reason(r.get("product_name") or "")
+            if jur != "US" and why_out:
+                excluded.append({"global_id": r["id"], "jurisdiction": jur,
+                                 "product_name": r.get("product_name"),
+                                 "company": r.get("company"), "excluded_reason": why_out})
+                continue
             actives = [{"name": a.get("name"),
                         "unii": a.get("unii"),
-                        "percent_w_w": a.get("percent_w_w"),
+                        "percent_w_w": ca_percent(a) if jur == "CA" else a.get("percent_w_w"),
                         "percent_estimate": a.get("percent_estimate"),
                         "estimate_basis": a.get("estimate_basis")}
                        for a in r.get("actives") or []]
+            # `ingredients` (the cross-country vocabulary) stays on the register's
+            # controlled names: for the US the FDA substance names. The US label-
+            # verified list (printed Drug Facts + filing, label order, duplicates
+            # under another name removed) is carried as ingredients_label_verified.
             published = r.get("inactives") or []
+            label_list = (v.get("inactives") or None) if v else None
             normalised = normalize_list(published)
             if len(normalised) != len(published):
                 # An ingredient must never leave the record between the
@@ -109,19 +140,28 @@ def main():
                 "product_name": r.get("product_name"),
                 "company": r.get("company"),
                 "spf_label": r.get("spf_label"),
-                "baby_labelled": bool(r.get("baby_flag_source")),
+                "baby_labelled": (bool(v.get("is_baby_kids")) if v else
+                                  bool(BABY_NAME.search(r.get("product_name") or ""))),
+                "population_includes_children": (bool(r.get("baby_flag_source"))
+                                                 if jur == "CA" else None),
                 # Human-readable filter names, not the fingerprint's
                 # identity strings.
                 "uv_filters": sorted(r.get("uv_filters") or []),
                 "actives": actives,
-                "mineral_only": r.get("mineral_only"),
+                "mineral_only": ((v.get("filter_type") == "mineral_only") if v
+                                 else r.get("mineral_only")),
+                "filter_type": v.get("filter_type") if v else None,
+                "label_check": v.get("label_check") if v else None,
+                "recalls_matched": v.get("recalls_matched") if v else None,
                 "zinc_percent": r.get("zinc_percent"),
                 "zinc_percent_is_estimate": bool(
                     r.get("zinc_percent_is_estimate")),
                 "zinc_position": r.get("zinc_position"),
                 "ingredients": normalised,
-                "ingredients_as_published": r.get("inactives") or [],
-                "n_ingredients": fp["n_inactives"],
+                "ingredients_as_published": published,
+                "ingredients_label_verified": label_list,
+                "n_ingredients": len(label_list) if label_list else fp["n_inactives"],
+                "n_ingredients_register": fp["n_inactives"],
                 "coverage": fp["coverage"],
                 "concentrations_published": prof["actives_concentration"],
                 "order_is_data": prof["inactive_order"],
@@ -140,7 +180,8 @@ def main():
     # enormous fake cluster.
     clusters = defaultdict(list)
     for rec in records:
-        if rec["coverage"] == "full" and rec["n_ingredients"] >= 5:
+        # clusters compare the register's own list, the one the fingerprint is built on
+        if rec["coverage"] == "full" and rec["n_ingredients_register"] >= 5:
             clusters[(rec["jurisdiction"], rec["fp_inactives"])].append(rec)
     cluster_stats = {j: {"clusters": 0, "products": 0,
                          "cross_company_clusters": 0,
@@ -161,6 +202,9 @@ def main():
             cluster_stats[jur]["cross_company_clusters"] += 1
             cluster_stats[jur]["cross_company_products"] += len(members)
 
+    with EXCLUDED.open("w") as f:
+        for r in sorted(excluded, key=lambda x: x["global_id"]):
+            f.write(json.dumps(r, ensure_ascii=False) + "\n")
     with OUT.open("w") as f:
         for r in sorted(records, key=lambda x: x["global_id"]):
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
@@ -184,6 +228,7 @@ def main():
             "products": len(rows),
             "with_full_ingredients": len(full),
             "mineral_only": sum(1 for r in rows if r["mineral_only"]),
+            "licence_or_listing_active": sum(1 for r in rows if r.get("status_active") is not False),
             "baby_labelled": sum(1 for r in rows if r["baby_labelled"]),
             "median_ingredients": (sorted(r["n_ingredients"] for r in full)
                                    [len(full) // 2] if full else None),
@@ -218,12 +263,17 @@ def main():
             "thing — see per_jurisdiction.publishes before quoting a share.",
             "Canada covers mineral-filter sunscreens only (NHP). Chemical "
             "sunscreens are regulated as drugs (DIN) and are not in LNHPD.",
-            "US concentrations are not publishable yet: the upstream "
-            "scraper drops the SPL strength unit, so 50 may be 5% or 50%. "
-            "Ingredient presence, filter systems and formulation clusters "
-            "are unaffected; percentages are not.",
-            "The US corpus is cast on 19 UV-filter UNIIs, so a sunscreen "
-            "using only a filter outside that set is not collected.",
+            "US active percentages come from the printed Drug Facts panel. US "
+            "`ingredients` uses the FDA filing's substance names (a controlled "
+            "vocabulary for cross-country counts); the label-verified list a "
+            "parent reads is `ingredients_label_verified`.",
+            "The US corpus is every DailyMed SPL with a UV-filter active (UNII "
+            "search plus a title sweep of all SPL listings).",
+            "SPF makeup, SPF lip products and diaper creams are out of scope in "
+            "every jurisdiction, by the same rules (global_excluded.jsonl).",
+            "baby_labelled means the product name says baby/kids, in every "
+            "jurisdiction (US: reviewed decisions). Canada's recommended-population "
+            "field is kept as population_includes_children.",
             "Australia's excipient lists are alphabetical, so no "
             "concentration can be inferred from their order.",
             "Korea publishes no concentrations; ingredient position is a "

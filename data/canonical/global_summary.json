@@ -4,9 +4,9 @@
   "CA": 1924,
   "US": 9544
  },
- "total_products": 11969,
- "total_with_full_ingredients": 11896,
- "distinct_ingredients_after_normalisation": 6875,
+ "total_products": 11557,
+ "total_with_full_ingredients": 11490,
+ "distinct_ingredients_after_normalisation": 6562,
  "ingredients_present_in_every_jurisdiction": [
   "1,2-hexanediol",
   "acacia",
@@ -60,7 +60,6 @@
   "cetearyl isononanoate",
   "cetyl alcohol",
   "cetyl dimethicone",
-  "cetyl palmitate",
   "cetyl phosphate",
   "chlorphenesin",
   "citral",
@@ -124,7 +123,6 @@
   "iodopropynyl butylcarbamate",
   "isoamyl laurate",
   "isobutane",
-  "isocetyl alcohol",
   "isododecane",
   "isohexadecane",
   "isononyl isononanoate",
@@ -142,7 +140,6 @@
   "lecithin",
   "maltodextrin",
   "menthol",
-  "menthyl lactate",
   "methyl glucose sesquistearate",
   "methylparaben",
   "methylpropanediol",
@@ -172,9 +169,7 @@
   "peg/ppg-18/18 dimethicone",
   "pentaerythrityl tetra-di-t-butyl hydroxyhydrocinnamate",
   "pentylene glycol",
-  "perlite",
   "petrolatum",
-  "phenethyl alcohol",
   "phenoxyethanol",
   "phenyl trimethicone",
   "phenylpropanol",
@@ -207,201 +202,208 @@
   "sarcosine",
   "shea butter",
   "silica",
-  "silica dimethyl silylate"
+  "silica dimethyl silylate",
+  "sodium acetylated hyaluronate",
+  "sodium ascorbate",
+  "sodium ascorbyl phosphate",
+  "sodium benzoate",
+  "sodium chloride"
  ],
  "top_ingredients": [
   [
    "water",
-   8703
+   8480
   ],
   [
    "glycerin",
-   6395
+   6223
   ],
   [
    "phenoxyethanol",
-   4658
+   4469
   ],
   [
    "tocopheryl acetate",
-   4528
+   4454
   ],
   [
    "dimethicone",
-   4468
+   4282
   ],
   [
    "tocopherol",
-   3810
+   3731
   ],
   [
    "caprylic/capric triglyceride",
-   3511
+   3375
   ],
   [
    "caprylyl glycol",
-   3437
+   3342
   ],
   [
    "xanthan gum",
-   3338
-  ],
-  [
-   "ethylhexylglycerin",
-   3008
+   3286
   ],
   [
    "disodium edta",
-   2984
+   2927
   ],
   [
-   "silica",
-   2905
-  ],
-  [
-   "iron oxide",
-   2875
+   "ethylhexylglycerin",
+   2922
   ],
   [
    "butyloctyl salicylate",
-   2755
+   2732
   ],
   [
-   "butylene glycol",
-   2519
+   "silica",
+   2706
   ],
   [
-   "polyhydroxystearic acid",
-   2401
+   "iron oxide",
+   2564
   ],
   [
    "aloe barbadensis leaf",
-   2394
+   2389
+  ],
+  [
+   "butylene glycol",
+   2379
+  ],
+  [
+   "polyhydroxystearic acid",
+   2313
   ],
   [
    "triethoxycaprylylsilane",
-   2346
+   2204
   ],
   [
    "cetearyl alcohol",
-   2191
+   2181
   ],
   [
    "stearic acid",
-   2141
+   2059
   ],
   [
    "sodium chloride",
-   1948
+   1860
   ],
   [
    "alkyl (c12-15) benzoate",
-   1729
+   1725
   ],
   [
    "propanediol",
-   1717
-  ],
-  [
-   "mica",
-   1702
+   1693
   ],
   [
    "alcohol",
-   1484
+   1474
   ],
   [
    "glyceryl monostearate",
-   1473
+   1470
+  ],
+  [
+   "mica",
+   1461
   ],
   [
    "shea butter",
-   1403
+   1360
   ],
   [
    "tetrahexyldecyl ascorbate",
-   1369
-  ],
-  [
-   "titanium dioxide",
-   1277
+   1329
   ],
   [
    "cetyl alcohol",
-   1256
+   1247
   ],
   [
    "1,2-hexanediol",
-   1218
+   1187
   ],
   [
    "sodium benzoate",
-   1204
+   1173
   ],
   [
    "peg-100 stearate",
-   1169
-  ],
-  [
-   "potassium sorbate",
-   1168
-  ],
-  [
-   "lecithin",
-   1167
-  ],
-  [
-   "pentylene glycol",
-   1136
-  ],
-  [
-   "cyclopentasiloxane",
-   1125
+   1162
   ],
   [
    "dimethicone/vinyl dimethicone crosspolymer (soft particle)",
    1125
   ],
   [
-   "propylene glycol",
-   1118
+   "potassium sorbate",
+   1116
   ],
   [
-   "aluminum hydroxide",
-   1115
+   "pentylene glycol",
+   1108
+  ],
+  [
+   "propylene glycol",
+   1097
+  ],
+  [
+   "cyclomethicone-5",
+   1091
+  ],
+  [
+   "lecithin",
+   1085
+  ],
+  [
+   "titanium dioxide",
+   1083
+  ],
+  [
+   "trolamine",
+   1072
   ]
  ],
  "per_jurisdiction": {
   "AU": {
-   "products": 501,
-   "with_full_ingredients": 500,
-   "mineral_only": 131,
-   "baby_labelled": 55,
+   "products": 492,
+   "with_full_ingredients": 491,
+   "mineral_only": 127,
+   "licence_or_listing_active": 492,
+   "baby_labelled": 37,
    "median_ingredients": 17,
    "zinc_median_percent": 22.75,
    "zinc_median_is_estimate": false,
    "publishes": "actives with mg/g, excipients alphabetical (hand-read from PDFs)",
    "last_verified": "2026-10-20",
    "shared_formulation": {
-    "clusters": 88,
-    "products": 239,
+    "clusters": 86,
+    "products": 233,
     "cross_company_clusters": 33,
     "cross_company_products": 112
    }
   },
   "CA": {
-   "products": 1924,
-   "with_full_ingredients": 1910,
-   "mineral_only": 1908,
-   "baby_labelled": 873,
-   "median_ingredients": 27,
-   "zinc_median_percent": 13.5,
+   "products": 1521,
+   "with_full_ingredients": 1513,
+   "mineral_only": 1507,
+   "licence_or_listing_active": 1175,
+   "baby_labelled": 116,
+   "median_ingredients": 26,
+   "zinc_median_percent": 15.0,
    "zinc_median_is_estimate": false,
-   "publishes": "actives with exact %, inactive names only (mineral filters only — chemical-filter sunscreens are DIN/DPD and not in LNHPD)",
+   "publishes": "actives with exact % w/w (LNHPD quantity), inactive names only (natural health product licences: mineral filters; chemical-filter sunscreens are DIN/DPD and not in LNHPD)",
    "last_verified": null,
    "shared_formulation": {
-    "clusters": 97,
-    "products": 231,
+    "clusters": 80,
+    "products": 189,
     "cross_company_clusters": 20,
     "cross_company_products": 48
    }
@@ -409,12 +411,13 @@
   "US": {
    "products": 9544,
    "with_full_ingredients": 9486,
-   "mineral_only": 3849,
-   "baby_labelled": 452,
-   "median_ingredients": 22,
+   "mineral_only": 3915,
+   "licence_or_listing_active": 9544,
+   "baby_labelled": 583,
+   "median_ingredients": 26,
    "zinc_median_percent": 13.1,
    "zinc_median_is_estimate": true,
-   "publishes": "full inactive list in formulation order, every ingredient with a UNII; active strengths are filed WITHOUT their unit upstream, so percent_w_w is null and percent_estimate carries an assumption (see docs/upstream_unit_patch.md)",
+   "publishes": "label-verified inactive list (printed Drug Facts + SPL table, label order) from the US release; active % w/w from the printed Drug Facts panel",
    "last_verified": "2026-10-20",
    "shared_formulation": {
     "clusters": 834,
@@ -427,8 +430,10 @@
  "caveats": [
   "Counts are comparable only where the registers publish the same thing — see per_jurisdiction.publishes before quoting a share.",
   "Canada covers mineral-filter sunscreens only (NHP). Chemical sunscreens are regulated as drugs (DIN) and are not in LNHPD.",
-  "US concentrations are not publishable yet: the upstream scraper drops the SPL strength unit, so 50 may be 5% or 50%. Ingredient presence, filter systems and formulation clusters are unaffected; percentages are not.",
-  "The US corpus is cast on 19 UV-filter UNIIs, so a sunscreen using only a filter outside that set is not collected.",
+  "US active percentages come from the printed Drug Facts panel. US `ingredients` uses the FDA filing's substance names (a controlled vocabulary for cross-country counts); the label-verified list a parent reads is `ingredients_label_verified`.",
+  "The US corpus is every DailyMed SPL with a UV-filter active (UNII search plus a title sweep of all SPL listings).",
+  "SPF makeup, SPF lip products and diaper creams are out of scope in every jurisdiction, by the same rules (global_excluded.jsonl).",
+  "baby_labelled means the product name says baby/kids, in every jurisdiction (US: reviewed decisions). Canada's recommended-population field is kept as population_includes_children.",
   "Australia's excipient lists are alphabetical, so no concentration can be inferred from their order.",
   "Korea publishes no concentrations; ingredient position is a proxy, not a measurement."
  ]
