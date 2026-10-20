@@ -87,7 +87,8 @@ def main():
             "data_status": "complete" if names else "not_collected",
             "verification": x.get("Verification"),
             "verification_basis": x.get("Verification basis"),
-            "baby_flag_source": "product_name",
+            "baby_flag_source": "reviewed",
+            "baby_reviewed": True,            # the sheet's reviewed scope: name, or a baby/kids-care brand line
             "scope_reason": x.get("Scope reason"),
             "collection_method": "manual (verified sheet)",
             "source_url": x.get("Source URL (MUSE)") or d.get("source_url"),

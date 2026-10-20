@@ -7,38 +7,141 @@
  },
  "total_products": 11650,
  "total_with_full_ingredients": 11580,
- "distinct_ingredients_after_normalisation": 7248,
+ "distinct_ingredients_after_normalisation": 6700,
  "ingredients_present_in_every_jurisdiction": [
   "1,2-hexanediol",
   "acrylates copolymer",
+  "acrylates/c10-30 alkyl acrylate crosspolymer",
+  "acrylates/c12-22 alkyl methacrylate copolymer",
+  "alcohol",
   "allantoin",
+  "ammonium acryloyldimethyltaurate/vp copolymer",
+  "ammonium polyacryloyldimethyl taurate",
+  "argania spinosa kernel oil",
+  "arginine",
+  "ascorbyl palmitate",
+  "avocado oil",
+  "beeswax",
+  "behenyl alcohol",
+  "benzyl alcohol",
+  "bht",
+  "butylene glycol dicaprylate/dicaprate",
   "butyloctyl salicylate",
+  "candelilla wax",
   "caprylic/capric triglyceride",
+  "caprylyl glycol",
   "caprylyl methicone",
+  "carnauba wax",
   "ceramide np",
   "ceramide ns",
+  "ceresin",
+  "cetearyl alcohol",
+  "cetyl alcohol",
+  "cetyl dimethicone",
+  "chlorphenesin",
+  "citral",
+  "citric acid",
+  "coconut oil",
+  "decyl glucoside",
+  "dehydroacetic acid",
+  "dextrin palmitate",
+  "dibutyl adipate",
+  "dicaprylyl carbonate",
+  "dicaprylyl ether",
+  "diethylhexyl-2,6-naphthalate",
+  "diisopropyl adipate",
+  "diisopropyl sebacate",
+  "dimethicone crosspolymer",
+  "dimethicone/vinyl dimethicone crosspolymer",
+  "dipotassium glycyrrhizate",
+  "dipropylene glycol dibenzoate",
+  "disodium edta",
   "disteardimonium hectorite",
+  "erythritol",
+  "ethylhexyl methoxycrylene",
   "ethylhexylglycerin",
   "fragrance",
   "glycerin",
+  "glyceryl caprylate",
+  "glyceryl stearate citrate",
+  "grape seed oil",
+  "hyaluronic acid",
+  "hydrated silica",
   "hydrogenated coconut oil",
   "hydroxyacetophenone",
   "isododecane",
+  "isohexadecane",
+  "isononyl isononanoate",
+  "isopropyl myristate",
+  "isopropyl palmitate",
   "isostearic acid",
+  "kaolin",
+  "lauryl glucoside",
+  "lecithin",
+  "maltodextrin",
+  "methylparaben",
+  "methylpropanediol",
+  "mica",
+  "microcrystalline cellulose",
+  "microcrystalline wax",
+  "octyldodecanol",
+  "oleic acid",
+  "palmitic acid",
   "panthenol",
+  "peg-100 stearate",
+  "pentaerythrityl tetra-di-t-butyl hydroxyhydrocinnamate",
+  "pentylene glycol",
   "phenoxyethanol",
+  "phenyl trimethicone",
+  "polyethylene",
   "polyglyceryl-2 dipolyhydroxystearate",
+  "polyglyceryl-3 diisostearate",
+  "polyglyceryl-3 methylglucose distearate",
+  "polyglyceryl-4 diisostearate/polyhydroxystearate/sebacate",
+  "polyglyceryl-4 oleate",
+  "polyhydroxystearic acid",
+  "polymethylsilsesquioxane",
+  "polysorbate-60",
+  "potassium cetyl phosphate",
+  "potassium hydroxide",
+  "proline",
   "propanediol",
+  "propylene carbonate",
+  "propylene glycol",
+  "propylparaben",
   "silica",
+  "silica dimethyl silylate",
+  "sodium acetylated hyaluronate",
+  "sodium ascorbyl phosphate",
+  "sodium benzoate",
   "sodium chloride",
   "sodium citrate",
   "sodium hyaluronate",
+  "sodium hydroxide",
+  "sodium polyacrylate",
+  "sodium stearoyl glutamate",
+  "sorbic acid",
+  "sorbitan isostearate",
+  "sorbitan olivate",
+  "sorbitan stearate",
+  "sorbitol",
+  "squalane",
+  "stearalkonium hectorite",
+  "stearic acid",
+  "stearyl alcohol",
+  "synthetic beeswax",
+  "synthetic wax",
   "titanium dioxide",
   "tocopherol",
   "tocopheryl acetate",
+  "tribehenin",
   "triethoxycaprylylsilane",
+  "trihydroxystearin",
+  "trimethylpentanediol/adipic acid/glycerin crosspolymer",
+  "trisodium ethylenediamine disuccinate",
   "water",
-  "xanthan gum"
+  "xanthan gum",
+  "zinc stearate"
  ],
  "top_ingredients": [
   [
@@ -59,11 +162,11 @@
   ],
   [
    "dimethicone",
-   4294
+   4296
   ],
   [
    "tocopherol",
-   3775
+   3776
   ],
   [
    "caprylic/capric triglyceride",
@@ -71,7 +174,7 @@
   ],
   [
    "caprylyl glycol",
-   3342
+   3387
   ],
   [
    "xanthan gum",
@@ -83,11 +186,11 @@
   ],
   [
    "disodium edta",
-   2927
+   2943
   ],
   [
    "butyloctyl salicylate",
-   2765
+   2766
   ],
   [
    "silica",
@@ -98,16 +201,16 @@
    2564
   ],
   [
+   "butylene glycol",
+   2434
+  ],
+  [
    "aloe barbadensis leaf",
    2389
   ],
   [
-   "butylene glycol",
-   2380
-  ],
-  [
    "polyhydroxystearic acid",
-   2313
+   2352
   ],
   [
    "triethoxycaprylylsilane",
@@ -115,15 +218,15 @@
   ],
   [
    "cetearyl alcohol",
-   2181
+   2199
   ],
   [
    "stearic acid",
-   2059
+   2097
   ],
   [
    "sodium chloride",
-   1861
+   1874
   ],
   [
    "propanediol",
@@ -135,7 +238,7 @@
   ],
   [
    "alcohol",
-   1474
+   1475
   ],
   [
    "glyceryl monostearate",
@@ -143,7 +246,7 @@
   ],
   [
    "mica",
-   1461
+   1462
   ],
   [
    "shea butter",
@@ -154,20 +257,24 @@
    1329
   ],
   [
-   "1,2-hexanediol",
-   1249
+   "cetyl alcohol",
+   1252
   ],
   [
-   "cetyl alcohol",
-   1247
+   "1,2-hexanediol",
+   1251
   ],
   [
    "sodium benzoate",
-   1173
+   1175
   ],
   [
    "peg-100 stearate",
-   1162
+   1164
+  ],
+  [
+   "pentylene glycol",
+   1143
   ],
   [
    "dimethicone/vinyl dimethicone crosspolymer (soft particle)",
@@ -178,12 +285,12 @@
    1116
   ],
   [
-   "pentylene glycol",
-   1108
+   "propylene glycol",
+   1100
   ],
   [
-   "propylene glycol",
-   1097
+   "lecithin",
+   1092
   ],
   [
    "cyclomethicone-5",
@@ -194,12 +301,8 @@
    1087
   ],
   [
-   "lecithin",
-   1085
-  ],
-  [
-   "trolamine",
-   1072
+   "niacinamide",
+   1076
   ]
  ],
  "per_jurisdiction": {
@@ -244,15 +347,15 @@
    "with_full_ingredients": 90,
    "mineral_only": 62,
    "licence_or_listing_active": 93,
-   "baby_labelled": 38,
+   "baby_labelled": 93,
    "median_ingredients": 34,
    "zinc_median_percent": 19.2,
    "zinc_median_is_estimate": false,
    "publishes": "no concentrations; full list in legally-mandated descending order",
    "last_verified": "2026-10-20",
    "shared_formulation": {
-    "clusters": 6,
-    "products": 13,
+    "clusters": 7,
+    "products": 15,
     "cross_company_clusters": 1,
     "cross_company_products": 2
    }
@@ -282,7 +385,8 @@
   "US active percentages come from the printed Drug Facts panel. US `ingredients` uses the FDA filing's substance names (a controlled vocabulary for cross-country counts); the label-verified list a parent reads is `ingredients_label_verified`.",
   "The US corpus is every DailyMed SPL with a UV-filter active (UNII search plus a title sweep of all SPL listings).",
   "SPF makeup, SPF lip products and diaper creams are out of scope in every jurisdiction, by the same rules (global_excluded.jsonl).",
-  "baby_labelled means the product name says baby/kids, in every jurisdiction (US: reviewed decisions). Canada's recommended-population field is kept as population_includes_children.",
+  "baby_labelled: US and Korea are reviewed decisions (product name, or a baby/kids-care brand line); Australia and Canada are the product name. Canada's recommended-population field is kept as population_includes_children.",
+  "Korea covers baby/kids sunscreens only (hand-verified); Korean label names are mapped to INCI by two agreeing readings (data/regulatory/kr_inci_map.json).",
   "Australia's excipient lists are alphabetical, so no concentration can be inferred from their order.",
   "Korea publishes no concentrations; ingredient position is a proxy, not a measurement."
  ]

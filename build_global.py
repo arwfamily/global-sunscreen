@@ -141,6 +141,7 @@ def main():
                 "company": r.get("company"),
                 "spf_label": r.get("spf_label"),
                 "baby_labelled": (bool(v.get("is_baby_kids")) if v else
+                                  bool(r["baby_reviewed"]) if r.get("baby_reviewed") is not None else
                                   bool(BABY_NAME.search(r.get("product_name") or ""))),
                 "population_includes_children": (bool(r.get("baby_flag_source"))
                                                  if jur == "CA" else None),
@@ -271,9 +272,13 @@ def main():
             "search plus a title sweep of all SPL listings).",
             "SPF makeup, SPF lip products and diaper creams are out of scope in "
             "every jurisdiction, by the same rules (global_excluded.jsonl).",
-            "baby_labelled means the product name says baby/kids, in every "
-            "jurisdiction (US: reviewed decisions). Canada's recommended-population "
-            "field is kept as population_includes_children.",
+            "baby_labelled: US and Korea are reviewed decisions (product name, or "
+            "a baby/kids-care brand line); Australia and Canada are the product "
+            "name. Canada's recommended-population field is kept as "
+            "population_includes_children.",
+            "Korea covers baby/kids sunscreens only (hand-verified); Korean label "
+            "names are mapped to INCI by two agreeing readings "
+            "(data/regulatory/kr_inci_map.json).",
             "Australia's excipient lists are alphabetical, so no "
             "concentration can be inferred from their order.",
             "Korea publishes no concentrations; ingredient position is a "
