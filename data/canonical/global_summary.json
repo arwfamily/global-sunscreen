@@ -2,11 +2,11 @@
  "generated_from": {
   "AU": 501,
   "CA": 1924,
-  "US": 10261
+  "US": 9536
  },
- "total_products": 12686,
- "total_with_full_ingredients": 12612,
- "distinct_ingredients_after_normalisation": 7026,
+ "total_products": 11961,
+ "total_with_full_ingredients": 11888,
+ "distinct_ingredients_after_normalisation": 6874,
  "ingredients_present_in_every_jurisdiction": [
   "1,2-hexanediol",
   "acacia",
@@ -101,7 +101,6 @@
   "fragrance",
   "gluconolactone",
   "glycerin",
-  "glyceryl behenate",
   "glyceryl caprylate",
   "glyceryl isostearate",
   "glyceryl laurate",
@@ -207,168 +206,169 @@
   "safflower oil",
   "sarcosine",
   "shea butter",
-  "silica"
+  "silica",
+  "silica dimethyl silylate"
  ],
  "top_ingredients": [
   [
    "water",
-   9228
+   8698
   ],
   [
    "glycerin",
-   6770
+   6394
   ],
   [
    "phenoxyethanol",
-   5031
-  ],
-  [
-   "dimethicone",
-   4829
+   4658
   ],
   [
    "tocopheryl acetate",
-   4781
+   4528
+  ],
+  [
+   "dimethicone",
+   4467
   ],
   [
    "tocopherol",
-   4020
+   3809
   ],
   [
    "caprylic/capric triglyceride",
-   3645
+   3509
   ],
   [
    "caprylyl glycol",
-   3631
+   3436
   ],
   [
    "xanthan gum",
-   3407
+   3338
   ],
   [
    "ethylhexylglycerin",
-   3222
-  ],
-  [
-   "iron oxide",
-   3208
-  ],
-  [
-   "silica",
-   3173
+   3006
   ],
   [
    "disodium edta",
-   3127
+   2984
   ],
   [
-   "butylene glycol",
-   2859
+   "silica",
+   2903
+  ],
+  [
+   "iron oxide",
+   2874
   ],
   [
    "butyloctyl salicylate",
-   2858
+   2755
   ],
   [
-   "triethoxycaprylylsilane",
-   2646
-  ],
-  [
-   "aloe barbadensis leaf",
-   2451
+   "butylene glycol",
+   2519
   ],
   [
    "polyhydroxystearic acid",
-   2441
+   2401
   ],
   [
-   "stearic acid",
-   2342
+   "aloe barbadensis leaf",
+   2393
+  ],
+  [
+   "triethoxycaprylylsilane",
+   2345
   ],
   [
    "cetearyl alcohol",
-   2215
+   2190
+  ],
+  [
+   "stearic acid",
+   2141
   ],
   [
    "sodium chloride",
-   2166
-  ],
-  [
-   "mica",
-   1925
-  ],
-  [
-   "propanediol",
-   1789
+   1948
   ],
   [
    "alkyl (c12-15) benzoate",
-   1779
+   1729
+  ],
+  [
+   "propanediol",
+   1717
+  ],
+  [
+   "mica",
+   1701
   ],
   [
    "alcohol",
-   1542
+   1480
   ],
   [
    "glyceryl monostearate",
-   1498
+   1473
   ],
   [
    "shea butter",
-   1456
+   1403
   ],
   [
    "tetrahexyldecyl ascorbate",
-   1452
+   1369
   ],
   [
    "titanium dioxide",
-   1404
-  ],
-  [
-   "aluminum hydroxide",
-   1363
-  ],
-  [
-   "cyclomethicone-5",
-   1333
-  ],
-  [
-   "1,2-hexanediol",
-   1325
+   1276
   ],
   [
    "cetyl alcohol",
-   1290
+   1256
+  ],
+  [
+   "1,2-hexanediol",
+   1218
   ],
   [
    "sodium benzoate",
-   1274
-  ],
-  [
-   "potassium sorbate",
-   1258
-  ],
-  [
-   "lecithin",
-   1213
-  ],
-  [
-   "niacinamide",
    1204
   ],
   [
-   "squalane",
-   1199
+   "peg-100 stearate",
+   1169
+  ],
+  [
+   "potassium sorbate",
+   1168
+  ],
+  [
+   "lecithin",
+   1167
+  ],
+  [
+   "pentylene glycol",
+   1136
+  ],
+  [
+   "cyclopentasiloxane",
+   1125
   ],
   [
    "dimethicone/vinyl dimethicone crosspolymer (soft particle)",
-   1187
+   1125
   ],
   [
    "propylene glycol",
-   1185
+   1118
+  ],
+  [
+   "aluminum hydroxide",
+   1113
   ]
  ],
  "per_jurisdiction": {
@@ -381,7 +381,7 @@
    "zinc_median_percent": 22.75,
    "zinc_median_is_estimate": false,
    "publishes": "actives with mg/g, excipients alphabetical (hand-read from PDFs)",
-   "last_verified": "2026-10-19",
+   "last_verified": "2026-10-20",
    "shared_formulation": {
     "clusters": 88,
     "products": 239,
@@ -407,20 +407,20 @@
    }
   },
   "US": {
-   "products": 10261,
-   "with_full_ingredients": 10202,
-   "mineral_only": 4101,
-   "baby_labelled": 454,
+   "products": 9536,
+   "with_full_ingredients": 9478,
+   "mineral_only": 3848,
+   "baby_labelled": 452,
    "median_ingredients": 22,
-   "zinc_median_percent": 12.0,
+   "zinc_median_percent": 13.1,
    "zinc_median_is_estimate": true,
    "publishes": "full inactive list in formulation order, every ingredient with a UNII; active strengths are filed WITHOUT their unit upstream, so percent_w_w is null and percent_estimate carries an assumption (see docs/upstream_unit_patch.md)",
-   "last_verified": "2026-10-19",
+   "last_verified": "2026-10-20",
    "shared_formulation": {
-    "clusters": 900,
-    "products": 2963,
-    "cross_company_clusters": 337,
-    "cross_company_products": 1178
+    "clusters": 834,
+    "products": 2709,
+    "cross_company_clusters": 329,
+    "cross_company_products": 1150
    }
   }
  },
