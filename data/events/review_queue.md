@@ -79,3 +79,9 @@
   - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f45b59b6-4991-155e-e053-2995a90a471c
 - **[US] SHEER DEFENSE TINTED MOISTURIZER SPF 15 L10 MERLE NORMAN (OCTINOXATE, TITANIUM DIOXIDE) LIQUID** (US:SPL-c892e067-5a79-4903-a1f8-d5a9962c1d5c, sev 1) — MERLE NORMAN COSMETICS, INC.
   - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c892e067-5a79-4903-a1f8-d5a9962c1d5c
+
+## 2026-10-22
+
+- **[CA] Velvet Screen Blurring Mineral Skinscreen** (CA:NPN-80146540, sev 2) — Grace & Fire Pty Ltd
+  - removed: licorice root extract, nelumbo nucifera flower wax, pongamol
+  - https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80146540
