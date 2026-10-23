@@ -3,11 +3,11 @@
   "AU": 501,
   "CA": 1924,
   "KR": 143,
-  "US": 9544
+  "US": 9507
  },
- "total_products": 11700,
- "total_with_full_ingredients": 11630,
- "distinct_ingredients_after_normalisation": 6786,
+ "total_products": 11663,
+ "total_with_full_ingredients": 11593,
+ "distinct_ingredients_after_normalisation": 6774,
  "ingredients_present_in_every_jurisdiction": [
   "1,2-hexanediol",
   "acrylates copolymer",
@@ -159,47 +159,47 @@
  "top_ingredients": [
   [
    "water",
-   8613
+   8577
   ],
   [
    "glycerin",
-   6308
+   6281
   ],
   [
    "phenoxyethanol",
-   4474
+   4457
   ],
   [
    "tocopheryl acetate",
-   4465
+   4457
   ],
   [
    "dimethicone",
-   4307
+   4297
   ],
   [
    "tocopherol",
-   3802
+   3795
   ],
   [
    "caprylic/capric triglyceride",
-   3424
+   3413
   ],
   [
    "caprylyl glycol",
-   3402
+   3392
   ],
   [
    "xanthan gum",
-   3324
+   3317
   ],
   [
    "ethylhexylglycerin",
-   2996
+   2985
   ],
   [
    "disodium edta",
-   2958
+   2945
   ],
   [
    "butyloctyl salicylate",
@@ -211,15 +211,15 @@
   ],
   [
    "iron oxide",
-   2565
+   2563
   ],
   [
    "butylene glycol",
-   2475
+   2467
   ],
   [
    "aloe barbadensis leaf",
-   2390
+   2365
   ],
   [
    "polyhydroxystearic acid",
@@ -231,15 +231,15 @@
   ],
   [
    "cetearyl alcohol",
-   2209
+   2201
   ],
   [
    "stearic acid",
-   2118
+   2089
   ],
   [
    "sodium chloride",
-   1878
+   1877
   ],
   [
    "propanediol",
@@ -254,16 +254,16 @@
    1478
   ],
   [
-   "glyceryl monostearate",
-   1470
-  ],
-  [
    "mica",
    1462
   ],
   [
+   "glyceryl monostearate",
+   1457
+  ],
+  [
    "shea butter",
-   1360
+   1358
   ],
   [
    "tetrahexyldecyl ascorbate",
@@ -275,15 +275,15 @@
   ],
   [
    "cetyl alcohol",
-   1254
+   1230
   ],
   [
    "sodium benzoate",
-   1176
+   1174
   ],
   [
    "peg-100 stearate",
-   1170
+   1160
   ],
   [
    "pentylene glycol",
@@ -295,15 +295,11 @@
   ],
   [
    "potassium sorbate",
-   1117
+   1116
   ],
   [
    "propylene glycol",
-   1102
-  ],
-  [
-   "lecithin",
-   1092
+   1097
   ],
   [
    "niacinamide",
@@ -312,6 +308,10 @@
   [
    "cyclomethicone-5",
    1091
+  ],
+  [
+   "lecithin",
+   1089
   ],
   [
    "titanium dioxide",
@@ -329,7 +329,7 @@
    "zinc_median_percent": 22.75,
    "zinc_median_is_estimate": false,
    "publishes": "actives with mg/g, excipients alphabetical (hand-read from PDFs)",
-   "last_verified": "2026-10-22",
+   "last_verified": "2026-10-23",
    "shared_formulation": {
     "clusters": 86,
     "products": 233,
@@ -365,7 +365,7 @@
    "zinc_median_percent": 19.2,
    "zinc_median_is_estimate": false,
    "publishes": "no concentrations; full list in legally-mandated descending order",
-   "last_verified": "2026-10-22",
+   "last_verified": "2026-10-23",
    "shared_formulation": {
     "clusters": 11,
     "products": 23,
@@ -374,21 +374,21 @@
    }
   },
   "US": {
-   "products": 9544,
-   "with_full_ingredients": 9486,
+   "products": 9507,
+   "with_full_ingredients": 9449,
    "mineral_only": 3915,
-   "licence_or_listing_active": 9544,
+   "licence_or_listing_active": 9507,
    "baby_labelled": 583,
-   "median_ingredients": 26,
+   "median_ingredients": 24,
    "zinc_median_percent": 13.1,
    "zinc_median_is_estimate": true,
    "publishes": "label-verified inactive list (printed Drug Facts + SPL table, label order) from the US release; active % w/w from the printed Drug Facts panel",
-   "last_verified": "2026-10-22",
+   "last_verified": "2026-10-23",
    "shared_formulation": {
-    "clusters": 834,
-    "products": 2709,
-    "cross_company_clusters": 329,
-    "cross_company_products": 1150
+    "clusters": 831,
+    "products": 2700,
+    "cross_company_clusters": 326,
+    "cross_company_products": 1141
    }
   }
  },
