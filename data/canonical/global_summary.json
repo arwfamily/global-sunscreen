@@ -3,11 +3,11 @@
   "AU": 501,
   "CA": 1924,
   "KR": 143,
-  "US": 9507
+  "US": 9419
  },
- "total_products": 11663,
- "total_with_full_ingredients": 11593,
- "distinct_ingredients_after_normalisation": 6774,
+ "total_products": 11575,
+ "total_with_full_ingredients": 11505,
+ "distinct_ingredients_after_normalisation": 6752,
  "ingredients_present_in_every_jurisdiction": [
   "1,2-hexanediol",
   "acrylates copolymer",
@@ -159,47 +159,47 @@
  "top_ingredients": [
   [
    "water",
-   8577
+   8497
   ],
   [
    "glycerin",
-   6281
+   6234
   ],
   [
    "phenoxyethanol",
-   4457
+   4453
   ],
   [
    "tocopheryl acetate",
-   4457
+   4434
   ],
   [
    "dimethicone",
-   4297
+   4285
   ],
   [
    "tocopherol",
-   3795
+   3789
   ],
   [
    "caprylic/capric triglyceride",
-   3413
+   3412
   ],
   [
    "caprylyl glycol",
-   3392
+   3389
   ],
   [
    "xanthan gum",
-   3317
+   3313
   ],
   [
    "ethylhexylglycerin",
-   2985
+   2981
   ],
   [
    "disodium edta",
-   2945
+   2900
   ],
   [
    "butyloctyl salicylate",
@@ -207,7 +207,7 @@
   ],
   [
    "silica",
-   2746
+   2745
   ],
   [
    "iron oxide",
@@ -215,31 +215,31 @@
   ],
   [
    "butylene glycol",
-   2467
-  ],
-  [
-   "aloe barbadensis leaf",
-   2365
+   2462
   ],
   [
    "polyhydroxystearic acid",
    2363
   ],
   [
+   "aloe barbadensis leaf",
+   2353
+  ],
+  [
    "triethoxycaprylylsilane",
-   2271
+   2268
   ],
   [
    "cetearyl alcohol",
-   2201
+   2166
   ],
   [
    "stearic acid",
-   2089
+   2076
   ],
   [
    "sodium chloride",
-   1877
+   1875
   ],
   [
    "propanediol",
@@ -251,19 +251,19 @@
   ],
   [
    "alcohol",
-   1478
+   1471
   ],
   [
    "mica",
-   1462
+   1460
   ],
   [
    "glyceryl monostearate",
-   1457
+   1443
   ],
   [
    "shea butter",
-   1358
+   1356
   ],
   [
    "tetrahexyldecyl ascorbate",
@@ -271,19 +271,19 @@
   ],
   [
    "1,2-hexanediol",
-   1293
+   1290
   ],
   [
    "cetyl alcohol",
-   1230
+   1217
   ],
   [
    "sodium benzoate",
-   1174
+   1171
   ],
   [
    "peg-100 stearate",
-   1160
+   1156
   ],
   [
    "pentylene glycol",
@@ -291,31 +291,31 @@
   ],
   [
    "dimethicone/vinyl dimethicone crosspolymer (soft particle)",
-   1125
+   1124
   ],
   [
    "potassium sorbate",
-   1116
+   1112
   ],
   [
    "propylene glycol",
-   1097
-  ],
-  [
-   "niacinamide",
-   1092
-  ],
-  [
-   "cyclomethicone-5",
-   1091
-  ],
-  [
-   "lecithin",
-   1089
+   1088
   ],
   [
    "titanium dioxide",
-   1089
+   1088
+  ],
+  [
+   "niacinamide",
+   1088
+  ],
+  [
+   "cyclomethicone-5",
+   1085
+  ],
+  [
+   "lecithin",
+   1084
   ]
  ],
  "per_jurisdiction": {
@@ -329,7 +329,7 @@
    "zinc_median_percent": 22.75,
    "zinc_median_is_estimate": false,
    "publishes": "actives with mg/g, excipients alphabetical (hand-read from PDFs)",
-   "last_verified": "2026-10-23",
+   "last_verified": "2026-10-24",
    "shared_formulation": {
     "clusters": 86,
     "products": 233,
@@ -365,7 +365,7 @@
    "zinc_median_percent": 19.2,
    "zinc_median_is_estimate": false,
    "publishes": "no concentrations; full list in legally-mandated descending order",
-   "last_verified": "2026-10-23",
+   "last_verified": "2026-10-24",
    "shared_formulation": {
     "clusters": 11,
     "products": 23,
@@ -374,19 +374,19 @@
    }
   },
   "US": {
-   "products": 9507,
-   "with_full_ingredients": 9449,
-   "mineral_only": 3915,
-   "licence_or_listing_active": 9507,
+   "products": 9419,
+   "with_full_ingredients": 9361,
+   "mineral_only": 3883,
+   "licence_or_listing_active": 9419,
    "baby_labelled": 583,
-   "median_ingredients": 24,
+   "median_ingredients": 25,
    "zinc_median_percent": 13.1,
    "zinc_median_is_estimate": true,
    "publishes": "label-verified inactive list (printed Drug Facts + SPL table, label order) from the US release; active % w/w from the printed Drug Facts panel",
-   "last_verified": "2026-10-23",
+   "last_verified": "2026-10-24",
    "shared_formulation": {
-    "clusters": 831,
-    "products": 2700,
+    "clusters": 821,
+    "products": 2670,
     "cross_company_clusters": 326,
     "cross_company_products": 1141
    }
