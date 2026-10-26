@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "KR-20261008-001",
+    "product": "키즈 앤 베이비 촉촉 선크림 SPF50+ PA++++",
+    "source": "brand-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-002",
+    "product": "키즈 앤 베이비 모이스처 선크림 SPF50+ PA++++",
+    "source": "brand-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-003",
+    "product": "이지 워시 선스크린 SPF50+ PA++++",
+    "source": "brand-official-text",
+    "status": "unchanged",
+    "diff": {
+      "changed": false,
+      "added": [],
+      "removed": [],
+      "reordered": false,
+      "summary": "변경 없음"
+    }
+  },
+  {
+    "id": "KR-20261008-004",
+    "product": "징크 마일드 업 선크림 SPF50+ PA++++",
+    "source": "brand-official-text",
+    "status": "changed",
+    "diff": {
+      "changed": true,
+      "added": [
+        "징크옥사이드(192,000ppm)",
+        "다이메티헥실카보네이트",
+        "캐모마일꽃오일 - 코민트오일",
+        "루신"
+      ],
+      "removed": [
+        "징크옥사이드",
+        "000ppm)",
+        "다이에틸헥실카보네이트",
+        "캐모마일꽃오일",
+        "콘민트오일",
+        "류신"
+      ],
+      "reordered": false,
+      "summary": "추가: 징크옥사이드(192,000ppm), 다이메티헥실카보네이트, 캐모마일꽃오일 - 코민트오일, 루신; 제거: 징크옥사이드, 000ppm), 다이에틸헥실카보네이트, 캐모마일꽃오일, 콘민트오일, 류신"
+    },
+    "new_ingredients": [
+      "정제수",
+      "징크옥사이드(192,000ppm)",
+      "헥실라우레이트",
+      "카프릴릴메티콘",
+      "부틸렌글라이콜",
+      "다이메티헥실카보네이트",
+      "실리카",
+      "폴리글리세릴-4다이아이소스테아레이트/폴리하이드록시스테아레이트/세바케이트",
+      "글리세린",
+      "다이스테아다이모늄헥토라이트",
+      "판테놀",
+      "1,2-헥산다이올",
+      "하이드로젠다이메티콘",
+      "소듐클로라이드",
+      "폴리글리세릴-3폴리리시놀리에이트",
+      "솔비탄세스퀴올리에이트",
+      "해바라기씨오일",
+      "폴리글리세릴-3리시놀리에이트",
+      "다이소듐이디티에이",
+      "광곽향오일",
+      "살비아오일",
+      "소두구씨오일",
+      "캐모마일꽃오일 - 코민트오일",
+      "멕시칸주니퍼오일",
+      "알란토인",
+      "미리스토일/팔미토일옥소스테아라마이드/아라카마이드엠이에이",
+      "약모밀추출물",
+      "루신",
+      "라이신",
+      "페닐알라닌",
+      "트레오닌",
+      "발린"
+    ]
+  },
+  {
+    "id": "KR-20261008-005",
+    "product": "키즈 야외놀이 워터프루프 선로션 SPF50+ PA++++",
+    "source": "brand-official-text",
+    "status": "extract-failed",
+    "diff": null,
+    "reason": "전성분 텍스트를 추출하지 못함"
+  },
+  {
+    "id": "KR-20261008-006",
+    "product": "톡톡 페이셜 선팩트 SPF43 PA+++",
+    "source": "brand-official-text",
+    "status": "changed",
+    "diff": {
+      "changed": true,
+      "added": [
+        "폴리글리세릴-2다이폴리하이드록시스테아레이트",
+        "다이소듐이디티에이 ※ 2021.07월EWG등급기준바다친구들을생각한"
+      ],
+      "removed": [
+        "폴리글리세릴-2디폴리하이드록시스테아레이트",
+        "디소듐이디티에이"
+      ],
+      "reordered": false,
+      "summary": "추가: 폴리글리세릴-2다이폴리하이드록시스테아레이트, 다이소듐이디티에이 ※ 2021.07월EWG등급기준바다친구들을생각한; 제거: 폴리글리세릴-2디폴리하이드록시스테아레이트, 디소듐이디티에이"
+    },
+    "new_ingredients": [
+      "정제수",
+      "캐모마일꽃오일",
+      "징크옥사이드 (CI 77947)",
+      "갈바눔수지오일",
+      "해바라기씨오일",
+      "다이카프릴릴카보네이트",
+      "병풀추출물",
+      "에틸헥실팔미테이트",
+      "티타늄디옥사이드 (CI 77891)",
+      "하이드로제네이티드 폴리아이소부텐",
+      "폴리글리세릴-3폴리다이메틸 실록시에틸다이메티콘",
+      "카프릴릴메티콘",
+      "다이페닐실록시페닐트라이메티콘",
+      "부틸렌글라이콜",
+      "메틸메타크릴레이트크로스 폴리머",
+      "폴리글리세릴-2다이폴리 하이드록시스테아레이트",
+      "합성비즈왁스",
+      "폴리하이드록시스테아릭애씨드",
+      "올리브오일",
+      "다이스테아다이모늄헥토라이트",
+      "폴리메틸실세스퀴옥세인",
+      "소듐클로라이드",
+      "비닐다이메티콘/메티콘실세 스퀴옥세인크로스폴리머",
+      "알루미늄하이드록사이드",
+      "하이드로젠다이메티콘",
+      "프로필렌카보네이트",
+      "스테아릭애씨드",
+      "카프릴릴글라이콜",
+      "글리세릴카프릴레이트",
+      "미리스토일/팔미토일옥소스 테아라마이드/아라카마이드 엠이에이",
+      "판테놀",
+      "아틀라스시다나무껍질오일",
+      "토코페롤",
+      "불가리스쑥오일",
+      "다이소듐이디티에이 ※ 2021.07월 EWG 등급 기준 바다 친구들을 생각한"
+    ]
+  },
+  {
+    "id": "KR-20261008-007",
+    "product": "야외놀이 유아 선스틱 SPF50+ PA++++",
+    "source": "brand-official-text",
+    "status": "extract-failed",
+    "diff": null,
+    "reason": "전성분 텍스트를 추출하지 못함"
+  },
+  {
+    "id": "KR-20261008-008",
+    "product": "엔젤키즈 이지워시 선크림 SPF50+ PA++++",
+    "source": "enuri-text",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (enuri-text) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-009",
+    "product": "베이비 마일드 선크림 SPF50+ PA++++",
+    "source": "brand-official-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-010",
+    "product": "데일리 모이스처 테라피 UV 어드밴스드 선스크린 SPF50+ PA++++",
+    "source": "brand-official-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-011",
+    "product": "옥시젠 베이비 칼라민 선크림 SPF50+ PA++++",
+    "source": "brand-official-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-012",
+    "product": "옥시젠 베이비 칼라민 선쿠션 SPF50+ PA++++",
+    "source": "brand-official-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-013",
+    "product": "프레쉬 마일드 선스틱 SPF50+ PA++++",
+    "source": "11st-seller-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (11st-seller-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-014",
+    "product": "키즈 선스크린 SPF50+ 110ml",
+    "source": "brand-official-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-015",
+    "product": "듀얼프루프 선스틱 SPF50+ PA++++",
+    "source": "brand-official-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-106",
+    "product": "데일리 무기자차 선스틱 SPF50+ PA++++",
+    "source": "brand-official-text",
+    "status": "unchanged",
+    "diff": {
+      "changed": false,
+      "added": [],
+      "removed": [],
+      "reordered": false,
+      "summary": "변경 없음"
+    }
+  },
+  {
+    "id": "KR-20261008-107",
+    "product": "키즈 선스크린 SPF50+ 200ml",
+    "source": "brand-official-text",
+    "status": "extract-failed",
+    "diff": null,
+    "reason": "전성분 텍스트를 추출하지 못함"
+  },
+  {
+    "id": "KR-20261008-108",
+    "product": "베이비 마일드 업 선크림 SPF35 PA+++",
+    "source": "danawa-spec-text",
+    "status": "extract-failed",
+    "diff": null,
+    "reason": "전성분 텍스트를 추출하지 못함"
+  },
+  {
+    "id": "KR-20261008-109",
+    "product": "시카 넛 워터풀 카밍 선스틱 SPF50+ PA++++",
+    "source": "brand-official-text",
+    "status": "changed",
+    "diff": {
+      "changed": true,
+      "added": [],
+      "removed": [
+        "아시아티코사이드"
+      ],
+      "reordered": false,
+      "summary": "제거: 아시아티코사이드"
+    },
+    "new_ingredients": [
+      "정제수",
+      "다이메티콘",
+      "합성왁스",
+      "에틸헥실팔미테이트",
+      "에칠헥실메톡시신나메이트",
+      "옥토크릴렌",
+      "에칠헥실살리실레이트",
+      "부틸메톡시디벤조일메탄",
+      "세레신",
+      "나이아신아마이드",
+      "비스-에칠헥실옥시페놀메톡시페닐트리아진",
+      "글리세린",
+      "1,2-헥산다이올",
+      "세틸피이지/피피지-10/1다이메티콘",
+      "캠퍼",
+      "부틸렌글라이콜",
+      "에틸헥실글리세린",
+      "유칼립투스잎오일",
+      "크로뮴옥사이드그린",
+      "로즈마리잎오일",
+      "페퍼민트오일",
+      "라벤더오일",
+      "아데노신",
+      "해바라기씨오일",
+      "마카다미아씨오일",
+      "스위트아몬드오일",
+      "레몬그라스잎오일",
+      "시트랄",
+      "리모넨",
+      "브로콜리추출물",
+      "자주개자리추출물",
+      "양배추추출물",
+      "밀싹추출물",
+      "리날룰",
+      "유채추출물",
+      "무씨추출물",
+      "비에이치티",
+      "알로에베라잎추출물",
+      "다시마추출물",
+      "참마뿌리추출물",
+      "당느릅나무뿌리추출물",
+      "제비꽃꽃추출물",
+      "병풀추출물",
+      "제라니올",
+      "녹차추출물",
+      "애플민트잎추출물",
+      "감나무잎추출물",
+      "포도추출물",
+      "커피콩추출물",
+      "잇꽃꽃추출물",
+      "호장근뿌리추출물",
+      "밤껍질추출물",
+      "초피나무열매추출물",
+      "타임잎추출물",
+      "마데카소사이드",
+      "마데카식애씨드",
+      "아시아틱애씨드"
+    ]
+  },
+  {
+    "id": "KR-20261008-110",
+    "product": "더마UV365 장벽수분 무기자차 선크림 SPF50+ PA++++",
+    "source": "amoremall-schema-text",
+    "status": "unchanged",
+    "diff": {
+      "changed": false,
+      "added": [],
+      "removed": [],
+      "reordered": false,
+      "summary": "변경 없음"
+    }
+  },
+  {
+    "id": "KR-20261008-016",
+    "product": "해피 보 마일드 선스크린",
+    "source": "brand-official-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-017",
+    "product": "해피 보 이지워시 선스틱",
+    "source": "brand-official-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-018",
+    "product": "해피 보 선 메탈 쿠션",
+    "source": "brand-official-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-019",
+    "product": "선스프레이",
+    "source": "brand-official-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-111",
+    "product": "징크 수분 이지워시 선크림 SPF50+ PA++++",
+    "source": "brand-official-text",
+    "status": "unchanged",
+    "diff": {
+      "changed": false,
+      "added": [],
+      "removed": [],
+      "reordered": false,
+      "summary": "변경 없음"
+    }
+  },
+  {
+    "id": "KR-20261008-076",
+    "product": "더블하트 쿨링 선팩트 SPF50+ PA++++",
+    "source": "brand-official-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-077",
+    "product": "아토앤오투 옥시젠 베이비 선스틱",
+    "source": "brand-official-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-078",
+    "product": "퍼펙트 에너지 UV 선 쉴드 SPF50+ PA++++",
+    "source": "brand-official-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-079",
+    "product": "모이스처라이징 마일드 선스크린",
+    "source": "brand-official-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-080",
+    "product": "노엘로힐스 스킨 베리어 선스틱",
+    "source": "brand-official-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-081",
+    "product": "노엘로힐스 스킨 베리어 선쿠션",
+    "source": "brand-official-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-082",
+    "product": "노엘로힐스 스킨 베리어 선크림",
+    "source": "brand-official-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-083",
+    "product": "그린핑거 파워쉴드 선스틱 워터프루프 SPF50+ PA++++",
+    "source": "11st-seller-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (11st-seller-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-031",
+    "product": "라센스 로에 큐어 아쿠아 마일드 그린 선크림 SPF50+ PA++++",
+    "source": "brand-official-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-032",
+    "product": "일리윤 세라마이드 아토 선로션 SPF50+ PA++++",
+    "source": "brand-official-text",
+    "status": "unchanged",
+    "diff": {
+      "changed": false,
+      "added": [],
+      "removed": [],
+      "reordered": false,
+      "summary": "변경 없음"
+    }
+  },
+  {
+    "id": "KR-20261008-033",
+    "product": "일리윤 저자극 이지워시 선크림 SPF50+ PA++++",
+    "source": "brand-official-text",
+    "status": "unchanged",
+    "diff": {
+      "changed": false,
+      "added": [],
+      "removed": [],
+      "reordered": false,
+      "summary": "변경 없음"
+    }
+  },
+  {
+    "id": "KR-20261008-034",
+    "product": "이지워시 마일드 선크림 SPF30 PA++++",
+    "source": "brand-official-text",
+    "status": "unchanged",
+    "diff": {
+      "changed": false,
+      "added": [],
+      "removed": [],
+      "reordered": false,
+      "summary": "변경 없음"
+    }
+  },
+  {
+    "id": "KR-20261008-112",
+    "product": "프레시 선스틱 마일드 SPF50+ PA++++",
+    "source": "brand-official-text",
+    "status": "extract-suspect",
+    "diff": null,
+    "reason": "non-ingredient text in the extracted list: 온라인 광고, 배송비, 500원(최초 배송비 무료인 경우 5"
+  },
+  {
+    "id": "KR-20261008-113",
+    "product": "모이스처 선쿠션 마일드 SPF50+ PA++++",
+    "source": "brand-official-text",
+    "status": "extract-suspect",
+    "diff": null,
+    "reason": "non-ingredient text in the extracted list: 온라인 광고, 700원 4, 230원 궁중비책 워터풀 선로션 마일드 80g 24"
+  },
+  {
+    "id": "KR-20261008-114",
+    "product": "워터풀 선로션 마일드 SPF50+ PA++++",
+    "source": "brand-official-text",
+    "status": "extract-suspect",
+    "diff": null,
+    "reason": "non-ingredient text in the extracted list: 온라인 광고, 배송비, 500원(최초 배송비 무료인 경우 5"
+  },
+  {
+    "id": "KR-20261008-115",
+    "product": "엑설런트 선스틱 SPF50+ PA++++",
+    "source": "brand-official-text",
+    "status": "unchanged",
+    "diff": {
+      "changed": false,
+      "added": [],
+      "removed": [],
+      "reordered": false,
+      "summary": "변경 없음"
+    }
+  },
+  {
+    "id": "KR-20261008-116",
+    "product": "워셔블 썬스틱 SPF50+ PA++++",
+    "source": "brand-official-text",
+    "status": "fetch-failed",
+    "diff": null,
+    "reason": "HTTP Error 400: Bad Request"
+  },
+  {
+    "id": "KR-20261008-117",
+    "product": "그린에너지 선스크린 50ml",
+    "source": "brand-official-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-118",
+    "product": "이지베리어 UV 선스틱 SPF50+ PA++++ 16g",
+    "source": "brand-official-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-119",
+    "product": "시나모롤 워셔블 선크림 80ml",
+    "source": "marketplace-detail-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (marketplace-detail-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-120",
+    "product": "포레스트 멀티 디펜스 선쿠션 (헬로키티 에디션) 13g",
+    "source": "marketplace-detail-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (marketplace-detail-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-121",
+    "product": "야외놀이 쿨링 선스프레이 (포차코 에디션) 95ml",
+    "source": "marketplace-detail-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (marketplace-detail-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-122",
+    "product": "야외놀이 워셔블 선팩트 (포차코 에디션) 15g",
+    "source": "marketplace-detail-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (marketplace-detail-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-123",
+    "product": "순한 무기자차 선쿠션 (포차코 에디션) 12g",
+    "source": "marketplace-detail-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (marketplace-detail-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-124",
+    "product": "순한 무기자차 선쿠션 리필 12g",
+    "source": "marketplace-detail-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (marketplace-detail-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-125",
+    "product": "유브이 마스터 키즈 앤 맘 선크림 SPF35 PA+++",
+    "source": "retailer-official-text",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (retailer-official-text) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-052",
+    "product": "무기자차 장벽 선크림 SPF50+ PA++++ 50ml",
+    "source": "brand-official-text",
+    "status": "changed",
+    "diff": {
+      "changed": true,
+      "added": [
+        "1.2-헥산다이올. 아우릴폴리글리세릴-3폴리다이메틸실록시에틸다이메티콘",
+        "매실추추물"
+      ],
+      "removed": [
+        "1,2-헥산다이올",
+        "라우릴폴리글리세릴-3폴리다이메틸실록시에틸다이메티콘",
+        "매실추출물"
+      ],
+      "reordered": false,
+      "summary": "추가: 1.2-헥산다이올. 아우릴폴리글리세릴-3폴리다이메틸실록시에틸다이메티콘, 매실추추물; 제거: 1,2-헥산다이올, 라우릴폴리글리세릴-3폴리다이메틸실록시에틸다이메티콘, 매실추출물"
+    },
+    "new_ingredients": [
+      "정제수",
+      "징크옥사이드",
+      "사이클로헥사실록세인",
+      "부틸옥틸살리실레이트",
+      "프로필헵틸카프릴레이트",
+      "아이소도데케인",
+      "판테놀",
+      "폴리글리세릴-3폴리다이메틸실록시에틸다이메티콘",
+      "카프릴릴메티콘",
+      "나이아신아마이드",
+      "프로판다이올",
+      "다이실록세인",
+      "다이스테아다이모늄헥토라이트",
+      "마그네슘설페이트",
+      "트라이에톡시카프릴릴실레인",
+      "폴리메틸실세스퀴옥세인",
+      "폴리글리세릴-2다이폴리하이드록시스테아레이트",
+      "1.2-헥산다이올. 아우릴폴리글리세릴-3폴리다이메틸실록시에틸다이메티콘",
+      "카프릴릴글라이콜",
+      "글리세릴카프릴레이트",
+      "에틸헥실글리세린",
+      "아데노신",
+      "부틸렌글라이콜",
+      "인삼수",
+      "소듐하이알루로네이트",
+      "황금추출물",
+      "매실추추물",
+      "토코페롤",
+      "세라마이드엔피"
+    ]
+  },
+  {
+    "id": "KR-20261008-126",
+    "product": "실키선스틱 SPF50+ PA++++ 15g",
+    "source": "retailer-official-text",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (retailer-official-text) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-127",
+    "product": "베이비 선스크린 60g",
+    "source": "retailer-official-text",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (retailer-official-text) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-128",
+    "product": "자작나무 수분 선쿠션 15g",
+    "source": "retailer-official-text",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (retailer-official-text) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-129",
+    "product": "선크림 SPF50+ PA++++ 60g",
+    "source": "retailer-official-text",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (retailer-official-text) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-130",
+    "product": "마일드 선크림 SPF30 PA+++ 60ml",
+    "source": "retailer-official-text",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (retailer-official-text) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-131",
+    "product": "베이비 워셔블 썬팩트 SPF35 PA+++ 15g",
+    "source": "retailer-official-text",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (retailer-official-text) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-132",
+    "product": "쿨링 선스프레이 SPF50+ PA+++ 150ml",
+    "source": "retailer-official-text",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (retailer-official-text) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-133",
+    "product": "핑크퐁 무기자차 선스틱 SPF50+ PA+++ 20g",
+    "source": "retailer-official-text",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (retailer-official-text) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-134",
+    "product": "큐어 아쿠아 마일드 그린 선크림 SPF50+ PA++++ 40ml",
+    "source": "retailer-official-text",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (retailer-official-text) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-135",
+    "product": "시카 넛 워터풀 카밍 선스틱 SPF50+ PA++++",
+    "source": "retailer-official-text",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (retailer-official-text) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-136",
+    "product": "미네랄 베리어 선크림 SPF50+ PA++++",
+    "source": "retailer-official-text",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (retailer-official-text) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-137",
+    "product": "해피 보 마일드 선 스크린 SPF50+ PA++++ 50ml",
+    "source": "retailer-official-text",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (retailer-official-text) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-138",
+    "product": "베이비 앤 키즈 이지워시 선크림 SPF50+ PA++++ 50ml",
+    "source": "retailer-official-text",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (retailer-official-text) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-139",
+    "product": "야외놀이 선스틱 SPF50+ PA++++ 21g",
+    "source": "brand-official-text",
+    "status": "fetch-failed",
+    "diff": null,
+    "reason": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "KR-20261008-140",
+    "product": "무기자차 이지워시 선크림 SPF50+ PA++++ 50ml",
+    "source": "brand-official-text",
+    "status": "extract-failed",
+    "diff": null,
+    "reason": "전성분 텍스트를 추출하지 못함"
+  },
+  {
+    "id": "KR-20261008-141",
+    "product": "야외놀이 힘센 유아 선크림 SPF50+ PA++++ 70ml",
+    "source": "coupang-detail",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (coupang-detail) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-142",
+    "product": "아토 마일드 선크림 SPF50+ PA++++",
+    "source": "glowpick",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (glowpick) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-143",
+    "product": "퀴노아 유기농 선크림 SPF50+ PA++++",
+    "source": "brand-official-mall",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-mall) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-144",
+    "product": "퀴노아 유기농 선쿠션 SPF50+ PA++++",
+    "source": "brand-official-mall",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-mall) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-145",
+    "product": "무기자차 선쿠션 (퓨어 카밍 선쿠션) SPF50+ PA++++",
+    "source": "brand-official-mall",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-mall) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-146",
+    "product": "소이베베X핑크퐁 아기상어 베이비 워셔블 선크림 80g SPF35++",
+    "source": "brand-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-147",
+    "product": "마일드 카밍 선로션 SPF50+ PA++++ 40ml",
+    "source": "brand-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-148",
+    "product": "워터핏 수분 선세럼 SPF50+ PA++++ 50ml",
+    "source": "brand-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-149",
+    "product": "퍼펙트 에너지 선쉴드 SPF50+ PA++++",
+    "source": "ocr-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (ocr-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-150",
+    "product": "옥시젠 베이비 선스틱 SPF50+ PA++++ 20g",
+    "source": "ocr-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (ocr-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-151",
+    "product": "쿨링 선팩트 13g",
+    "source": "ocr-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (ocr-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-152",
+    "product": "선스프레이 SPF50+ PA++++ 150ml",
+    "source": "ocr-image",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (ocr-image) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-153",
+    "product": "이지투워시 마일드 선밀크 50ml SPF30 PA++++",
+    "source": "brand-official-mall",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-mall) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-154",
+    "product": "이지투워시 야외놀이 선크림 50ml SPF50+ PA++++",
+    "source": "brand-official-mall",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official-mall) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-155",
+    "product": "비건 유아용 선쿠션 스틱 SPF50+ PA++++ 30ml",
+    "source": "brand-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-156",
+    "product": "유아용 비건 선크림 SPF50+ PA++++ 50ml",
+    "source": "brand-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-157",
+    "product": "수분 선팩트 SPF35 PA++ 13g",
+    "source": "brand-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-158",
+    "product": "유아용 수분 선세럼 SPF35 PA++ 50ml",
+    "source": "brand-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-159",
+    "product": "워터프루프 선크림 SPF50+ PA++++ 50ml",
+    "source": "brand-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-160",
+    "product": "무기자차 선팩트 SPF50+ PA++++ 13g (선팩트고양이/리필 동일 처방)",
+    "source": "brand-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-161",
+    "product": "실키선스틱 SPF50+ PA++++ 15g",
+    "source": "search-snippet",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (search-snippet) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-162",
+    "product": "바를x브레드이발소 아기 선크림 무기자차 SPF45 PA++++ 50ml",
+    "source": "brand-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-163",
+    "product": "아토 마일드 선크림 SPF50+ PA++++ 75ml",
+    "source": "brand-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-164",
+    "product": "키즈앤베이비 워터프루프 선스틱 SPF50+ PA++++ 15g",
+    "source": "brand-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-165",
+    "product": "베리 하이 프로텍션 선 로션 SPF50+ 40ml",
+    "source": "global-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (global-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-166",
+    "product": "Kids Sport Roll-On 75ml",
+    "source": "global-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (global-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-167",
+    "product": "레 앙팡 유아용 선크림 SPF50+ 250ml",
+    "source": "global-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (global-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-168",
+    "product": "선 키즈 스윔&플레이 선 로션 SPF50+ 150ml",
+    "source": "global-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (global-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-169",
+    "product": "에코 선 모이스처라이저 SPF50+ PA++++ 100g",
+    "source": "brand-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-170",
+    "product": "무기자차 선크림 SPF50+ 50g",
+    "source": "brand-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-171",
+    "product": "징크 소프트 선스틱 SPF50+ 17g",
+    "source": "brand-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261008-172",
+    "product": "징크 무기자차 선쿠션 SPF50+ PA++++ 15g",
+    "source": "brand-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-173",
+    "product": "실키 포켓 선스틱 SPF50+ PA++++ 17g (실키선스틱 15g 동일 처방 추정)",
+    "source": "derived-same-formula",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (derived-same-formula) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-174",
+    "product": "포레스트 멀티 디펜스 선쿠션 (시나모롤 에디션) SPF50+ PA+++ 13g (헬로키티 에디션 동일 처방 추정)",
+    "source": "derived-same-formula",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (derived-same-formula) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-175",
+    "product": "키즈 쿨링 스포츠 선 스프레이 SPF50+ PA++++",
+    "source": "search-snippet",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (search-snippet) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-176",
+    "product": "울트라스포츠 썬크림 키즈 SPF100 118ml",
+    "source": "global-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (global-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-177",
+    "product": "올데이 세이프 선스틱 SPF50+ PA++++ 20g",
+    "source": "brand-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-178",
+    "product": "아토 바이탈 비타 선쿠션 SPF50+ PA++++ 14ml",
+    "source": "brand-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-179",
+    "product": "눈시림제로 논나노 무기자차 촉촉 선크림 SPF50+ PA++++ 80ml",
+    "source": "brand-official",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (brand-official) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-180",
+    "product": "유브이마스터 페이스앤바디 선크림 SPF50+ PA++++ 80ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-181",
+    "product": "엔젤키즈 이지워시 선스틱 SPF50+ PA++++ 18g",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-182",
+    "product": "유아용 빅 선 쿠션 SPF50+ PA++++ 25g",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-183",
+    "product": "아기상어 베이비 워셔블 선쿠션 SPF50+ PA++++",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-184",
+    "product": "그린에너지 온가족 진정 수분 선크림 SPF50+ PA++++",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-185",
+    "product": "소프트블록 촉촉 선팩트 마이멜로디 에디션 SPF50+ PA++++ 16g",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-186",
+    "product": "무기자차 야외놀이 선팩트 SPF50+ PA++++ 16g",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-187",
+    "product": "촉촉선팩트 소프트블록 리필 SPF50+ PA++++ 16g",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-188",
+    "product": "포레스트 귤타민 비타토닝 톤업 선크림 SPF50+ PA++++ 50ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-189",
+    "product": "논나노 미네랄 선쿠션 리필 SPF50+ PA++++ 15g",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-190",
+    "product": "앰플엔 징크 진정 선케어 SPF50+ PA++++ 40ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-191",
+    "product": "뽀로로 선블록 크림 SPF50+ PA++++ 50ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-192",
+    "product": "에브리데이 선블록 SPF50+ PA++++ 200ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-193",
+    "product": "피토세린 이지워시 마일드 선크림 SPF50+ PA++++ 60ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-194",
+    "product": "포켓몬 UV 선크림 피카츄 SPF50+ PA++++ 80ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-195",
+    "product": "퓨어더마 유브이 배리어 퍼펙트 선스틱 짱구 SPF50+ PA++++ 19g",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-196",
+    "product": "퓨어더마 유브이 배리어 퍼펙트 선쿠션 짱구 SPF50+ PA++++ 15g",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-197",
+    "product": "퓨어더마 짱구 UV 배리어 퍼펙트 선크림 SPF50+ PA++++ 80ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-198",
+    "product": "카멜리 썬키즈 무자극 무백탁 선크림 SPF50+ PA++++ 50ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-199",
+    "product": "쌀 PDRN 무기자차 워셔블 유아 선크림 SPF35 PA++ 50ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-200",
+    "product": "뿌리는 어린이 선밀크 SPF50+ PA++++ 50g",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-201",
+    "product": "유아 선스틱 프레쉬 SPF50+ PA++++ 15g",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-202",
+    "product": "워셔블 유아 선크림 SPF50+ PA++++ 80ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-203",
+    "product": "아기 수분 선크림 SPF50+ PA++++ 50ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-204",
+    "product": "선크림 SPF50+ PA++++ 100ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-205",
+    "product": "자외선 차단 크림 SPF50+ PA++++ 100ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-206",
+    "product": "더순한 워셔블 썬 SPF35 PA+++ 50ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-207",
+    "product": "퀸즈랜드 미네랄 썬크림 SPF50+ PA++++ 70ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-208",
+    "product": "퀸즈랜드 미네랄 썬크림 팩트 15g",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-209",
+    "product": "얇게 발리는 저자극 선쿠션 SPF50+ PA++++ (노엘로힐스)",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-210",
+    "product": "저자극 이지워시 선스틱 SPF50+ PA++++ (노엘로힐스)",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-211",
+    "product": "저자극 이지워시 선크림 SPF30 PA+++ (노엘로힐스)",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-212",
+    "product": "키즈 선크림 SPF50+ PA++++ 60ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-213",
+    "product": "퍼펙트 선크림 SPF50+ PA+++ 60ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-214",
+    "product": "패밀리 대용량 이지워시 선크림 SPF50+ PA++++ 190ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-215",
+    "product": "시카 온가족 선스틱 SPF50+ PA++++ 22g",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-216",
+    "product": "순한 무기자차 선크림 SPF50+ PA++++ 50ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-217",
+    "product": "무기자차 선크림 SPF50+ PA++++ 50ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-218",
+    "product": "씨앗품은 무기자차 아기 선밀크 SPF50+ PA++++ 50ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-219",
+    "product": "키즈 프로폴리스 수딩 선크림 SPF50+ PA++++ 50ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-220",
+    "product": "키즈케어 무기자차 선크림 SPF50+ PA++++ 40ml",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-221",
+    "product": "씨앗품은 무기자차 아기 선쿠션 SPF50+ PA++++ 15g",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  },
+  {
+    "id": "KR-20261009-222",
+    "product": "키즈 프로폴리스 수딩 선스틱 SPF50+ PA++++ 19g",
+    "source": "user-manual-coupang",
+    "status": "manual-queue",
+    "diff": null,
+    "reason": "이미지/수동 출처 (user-manual-coupang) — 수동 재확인 필요"
+  }
+]
