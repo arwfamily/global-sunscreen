@@ -85,3 +85,10 @@
 - **[CA] Velvet Screen Blurring Mineral Skinscreen** (CA:NPN-80146540, sev 2) — Grace & Fire Pty Ltd
   - removed: licorice root extract, nelumbo nucifera flower wax, pongamol
   - https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80146540
+
+## 2026-10-26
+
+- **[CA] Naturium Dew Glow Moisturizer Mineral SPF 50** (CA:NPN-80147886, sev 2) — e.l.f. Cosmetics, Inc.
+  - added: polyricinoleic acid
+  - removed: polyglycerol esters of interesterified ricinoleic acid
+  - https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80147886

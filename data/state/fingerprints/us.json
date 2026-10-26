@@ -1,11 +1,11 @@
 {
  "baseline_taken": "2026-08-26",
  "counts": {
-  "events_this_run": 0,
-  "records": 9419
+  "events_this_run": 1,
+  "records": 9418
  },
  "jurisdiction": "US",
- "last_run": "2026-10-25",
+ "last_run": "2026-10-26",
  "profile": {
   "actives_concentration": true,
   "inactive_order": true,
@@ -500,7 +500,7 @@
     "product_name": "BANANA BOAT SPORT PERFORMANCE (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-004df4e5-dba9-6030-e063-6394a90a76d3": {
    "first_seen": "2026-08-26",
@@ -640,7 +640,7 @@
     "product_name": "BANANA BOAT ULTRA DEFENSE (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-0053ae49-b9a1-c3f4-e063-6394a90abcb8": {
    "first_seen": "2026-08-26",
@@ -1921,7 +1921,7 @@
     "product_name": "CLEAR GLOW BROAD SPECTRUM SUNCREEN SPF 50 (AVOBENZONE, HOMOSALATE OCTISALATE, OCTOCRYLENE) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-01221d57-9eec-7e77-e063-6394a90a6042": {
    "first_seen": "2026-08-26",
@@ -1976,7 +1976,7 @@
     "product_name": "NAKED SUNDAYS CABANA GLOW MINERAL GLOW SERUM DROPS BRONZE 40ML WITH WILD ROSELLA SPF 50 (TITANIUM OXIDE, ZINC OXIDE) LIQUID",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-01273e8c-aef0-d800-e063-6294a90abd49": {
    "first_seen": "2026-08-26",
@@ -2032,7 +2032,7 @@
     "product_name": "NAKED SUNDAYS CABANA GLOW MINERAL GLOW SERUM DROPS ILLUMINATING 40ML WITH PINK ALGAE SPF 50 (TITANIUM OXIDE, ZINC OXIDE) LIQUID",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-0127f290-8c5e-4285-e063-6294a90ae128": {
    "first_seen": "2026-08-26",
@@ -2091,7 +2091,7 @@
     "product_name": "NAKED SUNDAYS CABANA GLOW MINERAL GLOW SERUM DROPS PEARL 40ML WITH PINK ALGAE SPF 50 (TITANIUM OXIDE, ZINC OXIDE) LIQUID",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-012be422-1b4c-443c-9484-02efc744296d": {
    "first_seen": "2026-08-26",
@@ -2225,7 +2225,7 @@
     "product_name": "BOTANICS MATTIFYING DAY ALL BRIGHT SUNSCREEN BROAD SPECTRUM SPF 15 (AVOBENZONE, OCTISALATE, OCTOCRYLENE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-01529c59-8806-6423-e063-6294a90a49e3": {
    "first_seen": "2026-10-09",
@@ -2630,7 +2630,7 @@
     "product_name": "SHEER DEFENSE TINTED SPF 46 (ZINC OXIDE, OCTINOXATE) CREAM",
     "spf_label": 46
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-017bd43b-ad7d-7d7b-e063-6294a90a97b2": {
    "first_seen": "2026-10-09",
@@ -2756,7 +2756,7 @@
     "product_name": "FACECOTZ (TITANIUM DIOXIDE, ZINC OXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-018fd6aa-fa5c-4ebf-95ce-f43d3fcaccc8": {
    "first_seen": "2026-08-26",
@@ -3565,7 +3565,7 @@
     "product_name": "DR.JART CICAPAIR TIGER GRASS CAMO DROPS (ZINC OXIDE, TITANIUM DIOXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-01cfe6a6-c2e4-8fb8-e063-6294a90adc78": {
    "first_seen": "2026-10-09",
@@ -3669,7 +3669,7 @@
     "product_name": "DR.JART CICAPAIR TIGER GRASS COLOR CORRECTING TREATMENT (ZINC OXIDE, TITANIUM DIOXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-01dcfd14-7a1d-98fa-e063-6294a90a0336": {
    "first_seen": "2026-10-09",
@@ -7583,7 +7583,7 @@
     "product_name": "ULTRASOLSUNSCREEN SUNSCREEN LOTION SPF45 (AVOBENZONE, OCTINOXATE, OCTISALATE, OXYBENZONE) LOTION",
     "spf_label": 45
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-03593e3c-c98a-43af-82bc-10331e23342c": {
    "first_seen": "2026-08-26",
@@ -8141,7 +8141,7 @@
     "product_name": "QUENCH AND PROTECT HYDRATING SPF30 (ZINC DIOXIDE AND TITANIUM DIOXIDE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-039fba4b-720a-9199-e063-6394a90adbfb": {
    "first_seen": "2026-08-26",
@@ -8696,7 +8696,7 @@
     "product_name": "DUANE READE PREVAIL MOISTURIZING SUNSCREEN SPF 30 (AVOBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-03e002cf-8526-4e0d-94d7-896d3714d539": {
    "first_seen": "2026-10-06",
@@ -9071,7 +9071,7 @@
     "product_name": "BROAD SPECTRUM SPF50 SPF 50 (AVOBENZONE, HOMOSALATE OCTISALATE,) GEL",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-042817f9-675e-056a-e063-6394a90a2d97": {
    "first_seen": "2026-10-09",
@@ -9218,7 +9218,7 @@
     "product_name": "PLAY EVERYDAY FACE SPF 50 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) LOTION PLAY EVERYDAY SUNSCREEN SPF 50 WITH SUNFLOWER EXTRACT (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-04293280-e74a-f293-e063-6394a90a06f6": {
    "first_seen": "2026-08-26",
@@ -9271,7 +9271,7 @@
     "product_name": "HYDRATING SUNSCREEN MOISTURIZER BROAD SPECTRUM SPF50 SPF 50 (AVOBENZONE, HOMOSALATE OCTISALATE,) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-0430bf68-ee36-4762-a245-ec280cb480a5": {
    "first_seen": "2026-10-09",
@@ -9813,7 +9813,7 @@
     "product_name": "SAFE SEA SUNSCREEN WITH JELLYFISH STING PROTECTIVE SPF 15 (OCTINOXATE, ZINC OXIDE) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-0464448b-342b-4e54-a20e-6ec6bd622889": {
    "first_seen": "2026-08-26",
@@ -11521,7 +11521,7 @@
     "product_name": "DERMALOGICA DYNAMIC SKIN RECOVERY SPF 50 (SUNSCREEN) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-052dea5d-a775-8dc2-e063-6294a90a4f19": {
    "first_seen": "2026-08-26",
@@ -12918,7 +12918,7 @@
     "product_name": "HAWAIIAN TROPIC ISLAND SPORT SPF 30 (AVOBENZONE AND OCTOCRYLENE AND OXYBENZONE) SPRAY",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-05cb5a91-205f-b652-e063-6294a90a0664": {
    "first_seen": "2026-10-09",
@@ -15293,7 +15293,7 @@
     "product_name": "ACU MOIST (HYDRATING LOTION WITH SPF 15) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-06c1ac52-474c-db5c-e063-6294a90afb5f": {
    "first_seen": "2026-08-26",
@@ -16876,7 +16876,7 @@
     "product_name": "SUNSCREEN MIST BROAD SPECTRUM SPF 30 SUPERGOOP (AVOBENZONE, HOMOSALATE, OCTINOXATE, OCTISALATE, OCTOCRYLENE) SPRAY",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-0708ec87-16c4-412b-971b-d4572931c780": {
    "first_seen": "2026-10-09",
@@ -17410,7 +17410,7 @@
     "product_name": "MINERALIUM HDRA SOURCE MOISTURIZING PROTECTOR SPF 25 (OCTINOXATE, OCTOCRYLENE, OCTISALATE, AVOBENZONE, HOMOSALATE CREAM) CREAM",
     "spf_label": 25
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-073f8b95-6f46-4341-817f-22f5b4f32542": {
    "first_seen": "2026-08-26",
@@ -17957,7 +17957,7 @@
     "product_name": "REPAIRWEAR UPLIFTING FIRMING BROAD SPECTRUM SPF 15 DRY (OCTINOXATE, OCTISALATE, AND TITANIUM DIOXIDE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-0770e251-95d0-43de-88f1-bc0a29811e4e": {
    "first_seen": "2026-08-26",
@@ -18297,7 +18297,7 @@
     "product_name": "SCENTUAL AROMA BEAUTY SUN VEIL SPF30 (TITANIUM DIOXIDE, ZINC OXIDE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-079abd47-697d-45ce-910c-9a1658742d69": {
    "first_seen": "2026-08-26",
@@ -18761,7 +18761,7 @@
     "product_name": "FACE IT POWER PERFECTION 32800312 (OCTINOXATE AND TITANIUM DIOXIDE CREAM) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-07d7d0ff-6507-147c-e054-00144ff8d46c": {
    "first_seen": "2026-10-09",
@@ -21221,7 +21221,7 @@
     "product_name": "LANCOME PARIS ABSOLUE PREMIUM BX REPLENISHING AND REJUVENATING DAY (AVOBENZONE, OCTISALATE AND OCTOCRYLENE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-08671d39-3be2-d666-e063-6294a90a6207": {
    "first_seen": "2026-10-09",
@@ -21829,7 +21829,7 @@
     "product_name": "CREAM (ZINC OXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-08a36887-3997-8fff-e063-6394a90ae9d5": {
    "first_seen": "2026-08-26",
@@ -23001,7 +23001,7 @@
     "product_name": "RITE AID BABY SUNSCREEN (AVOBENZONE HOMOSALATE OCTISALATE OCTOCRYLENE OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-08e8bc10-85d8-4215-8351-7ec12029416c": {
    "first_seen": "2026-08-26",
@@ -23393,7 +23393,7 @@
     "product_name": "SAFE SEA SUNSCREEN WITH JELLYFISH STING PROTECTIVE SPF 50 (OCTINOXATE, OCTISALATE, ZINC OXIDE, TITANIUM DIOXIDE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-08fb4748-d22d-35af-e063-6394a90a0827": {
    "first_seen": "2026-08-26",
@@ -23513,7 +23513,7 @@
     "product_name": "BANANA BOAT KIDS TEAR FREE CONTINUOUS SPF 50 (AVOBENZONE AND HOMOSALATE AND OCTINOXATE AND OCTISALATE AND OCTOCRYLENE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-090904d1-c04c-3fca-e063-6294a90a7cc7": {
    "first_seen": "2026-10-09",
@@ -23685,7 +23685,7 @@
     "product_name": "ULTRASOLSUNSCREEN CLEAR CONTINUOUS SPRAY SPF43 (AVOBENZONE, HOMOSALATE, OCTINOXATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) AEROSOL, SPRAY",
     "spf_label": 43
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-0915fa13-64c1-4cba-8019-7875fbba1847": {
    "first_seen": "2026-08-26",
@@ -25145,7 +25145,7 @@
     "product_name": "ZO SKIN HEALTH AGGRESSIVE ANTI-AGING PROGRAM (TITANIUM DIOXIDE) KIT",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-09c80c29-2996-483b-a39a-779a10cb23b2": {
    "first_seen": "2026-10-09",
@@ -25610,7 +25610,7 @@
     "product_name": "THINKKIDS SPF 50 (ZINC OXIDE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-0a00cc7a-ebe8-4347-8dbb-86ae8c51b81e": {
    "first_seen": "2026-10-09",
@@ -26037,7 +26037,7 @@
     "product_name": "DAYWEAR ADVANCED MULTI-PROTECTION ANTI-OXIDANT 24H-MOISTURE CREME BROAD SPECTRUM SPF15 (AVOBENZONE, HOMOSALATE, OCTISALATE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-0a245b1b-eaf6-7011-e063-6294a90ab68f": {
    "first_seen": "2026-10-09",
@@ -27231,7 +27231,7 @@
     "product_name": "EXCHANGE SELECT SPORT SUNSCREEN SPF 30 (OCTINOXATE OXYBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-0a6ce431-7370-44ff-839c-6e42d3a5bc10": {
    "first_seen": "2026-10-09",
@@ -28351,7 +28351,7 @@
     "product_name": "DR YOUNG PROTECT PREVENT 2P BLEMISH BASE (TITANIUM DIOXIDE, OCTINOXATE, ZINC OXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-0acd9110-4ba5-227a-e063-6294a90ad942": {
    "first_seen": "2026-10-09",
@@ -29849,7 +29849,7 @@
     "product_name": "PROTECTION 50 BODY (AVOBENZONE AND OCTINOXATE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-0b8444ac-790f-477f-8360-e011967fd507": {
    "first_seen": "2026-08-26",
@@ -31062,7 +31062,7 @@
     "product_name": "GOLFERSSKIN FACE SUNSCREEN (OCTOCRYLENE, TITANIUM DIOXIDE, ZINC OXIDE) STICK",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-0c1ed603-4597-4ee5-9120-4ccf1d0a7288": {
    "first_seen": "2026-08-26",
@@ -31972,7 +31972,7 @@
     "product_name": "KIDS SUNSCREEN SPF 50 (AVOBENZONE 3.0% HOMOSALATE 15.0% OCTISALATE 5.0% OCTOCRYLENE 10.0%) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-0c5d339c-6e7c-4287-b261-a0f5f8fdd06d": {
    "first_seen": "2026-08-26",
@@ -33009,7 +33009,7 @@
     "product_name": "ANHYDROUS SPF 30 (TITANIUM DIOXIDE, ZINC OXIDE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-0cca7b65-e24a-429c-b157-5f4e343424ab": {
    "first_seen": "2026-08-26",
@@ -33456,7 +33456,7 @@
     "product_name": "NAKED SUNDAYS CABANA GLOW MINERAL GLOW SERUM DROPS SHEER TINT 15ML SPF 50 (ZINC OXIDE) LIQUID",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-0cf9361f-f292-6429-e063-6294a90add0e": {
    "first_seen": "2026-08-26",
@@ -33783,7 +33783,7 @@
     "product_name": "BANANA BOAT ULTRA DEFENSE SPF 85 (AVOBENZONE AND HOMOSALATE AND OCTOCRYLENE AND OXYBENZONE) SPRAY",
     "spf_label": 85
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-0d279529-a07e-4116-a8d3-561025637206": {
    "first_seen": "2026-08-26",
@@ -36367,7 +36367,7 @@
     "product_name": "DAILY DEFENSE MINERAL SUNSCREEN SERUM BROAD SPECTRUM SPF 33 (ZINC OXIDE) LOTION",
     "spf_label": 33
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-0ddc3bb9-595e-4ebd-ad3e-df4d94fd34ed": {
    "first_seen": "2026-08-26",
@@ -36666,7 +36666,7 @@
     "product_name": "GINZING SPF 30 DAILY MOISTURIZER (AVOBENZONE,HOMOSALATE,OCTISALATE,OCTOCRYLENE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-0e18d601-700a-4c1c-a434-22582253bd95": {
    "first_seen": "2026-10-09",
@@ -39099,7 +39099,7 @@
     "product_name": "ALBA HAWAIIAN COCONUT SISCREEN SPF 15 (HOMOSALATE, ETHYLHEXYL SALICYLATE, OCTOCRYLENE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-0eb122d8-6826-4843-bed1-9e0cb8316e6d": {
    "first_seen": "2026-10-09",
@@ -41206,7 +41206,7 @@
     "product_name": "VITAZING SPF 15 ENERGY BOOSTING MOISTURIZER WITH MANGOSTEEN BROAD SPECTRUM SPF 15 (AVOBENZONE, OCTISALATE, AND OCTOCRYLENE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-0fb25f5d-a3af-46fb-906a-a5ccc62a4b22": {
    "first_seen": "2026-08-26",
@@ -42148,7 +42148,7 @@
     "product_name": "ORIGINS GINZING ENERGY-BOOSTING TINTED MOISTURIZER BROAD SPECTRUM SPF 40 (OCTINOXATE, OCTISALATE, OCTOCRYLENE, TITANIUM DIOXIDE, AND ZINC OXIDE) LIQUID",
     "spf_label": 40
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-0fed0008-6540-3728-e054-00144ff88e88": {
    "first_seen": "2026-10-09",
@@ -42391,7 +42391,7 @@
     "product_name": "ALBA BOTANICA NATURAL EVEN ADVANCED SEA MOSS MOISTURIZER SPF15 (HOMOSALATE, OCTOCRYLENE, ETHYLHEXYL SALICYLATE ) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1030a55e-8159-4645-bda0-13e1d89f00e7": {
    "first_seen": "2026-10-09",
@@ -42426,7 +42426,7 @@
     "product_name": "ATOBOS CENTELLA BABY SUN (TITANIUM DIOXIDE, ZINC OXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1030c5a4-3067-48e6-a21c-0d327ef434d0": {
    "first_seen": "2026-10-09",
@@ -44407,7 +44407,7 @@
     "product_name": "REPAIRWEAR UPLIFTING FIRMING BROAD SPECTUM SPF 15 - NORMAL COMBO TO COMBINATION OILY (OCTINOXATE, OCTISALATE, AND TITANIUM DIOXIDE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-10f1c4fa-d319-40da-9758-36c8585b9fc0": {
    "first_seen": "2026-08-26",
@@ -44636,7 +44636,7 @@
     "product_name": "REPAIRWEAR LASER FOCUS SPF 15 LINE SMOOTHING CO/O (OCTINOXATE, TITANIUM DIOXIDE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-10f832e7-c2b5-b847-e063-6294a90a20d5": {
    "first_seen": "2026-08-26",
@@ -45092,7 +45092,7 @@
     "product_name": "PETER ISLAND SUNSCREEN SPF 30 (HOMOSALATE, OXYBENZONE, OCTISALATE, AVOBENZONE, OCTOCRYLENE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-11334e45-4bc2-d597-e063-6294a90a323e": {
    "first_seen": "2026-08-26",
@@ -45781,7 +45781,7 @@
     "product_name": "TOTAL SUNCARE SUNSCREEN SPF 70 (AVOBENZONE, HOMOSALATE, OCTINOXATE, OCTISALATE, OXYBENZONE) SPRAY",
     "spf_label": 70
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-116479f1-2b7a-4a65-a124-06e499490c32": {
    "first_seen": "2026-08-26",
@@ -46152,7 +46152,7 @@
     "product_name": "MULTI PROTECTION UV BOUNCER (OCTINOXATE, OCTOCRYLENE, OCTISALATE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-11762d42-215a-7812-e063-6294a90a077c": {
    "first_seen": "2026-08-26",
@@ -46741,7 +46741,7 @@
     "product_name": "COCO EVE BODY SUNSCREEN SPF50 PLUS LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-11a9f402-2a83-4ff9-bd02-3c5a7ff34bf9": {
    "first_seen": "2026-08-26",
@@ -47024,7 +47024,7 @@
     "product_name": "BELIF THE TRUE CREAM AQUA BOMB SUNSCREEN BROAD SPECTRUM SPF 45 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) CREAM",
     "spf_label": 45
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-11c651e2-072e-770e-e063-6394a90ad6fa": {
    "first_seen": "2026-08-26",
@@ -47066,7 +47066,7 @@
     "product_name": "BELIF THE TRUE CREAM AQUA BOMB SUNSCREEN BROAD SPECTRUM SPF 45 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) CREAM",
     "spf_label": 45
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-11c65e7f-fe11-8115-e063-6394a90a8594": {
    "first_seen": "2026-08-26",
@@ -47108,7 +47108,7 @@
     "product_name": "BELIF THE TRUE CREAM AQUA BOMB SUNSCREEN BROAD SPECTRUM SPF 45 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) CREAM",
     "spf_label": 45
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-11c6cf95-8923-af79-e063-6294a90a4f44": {
    "first_seen": "2026-08-26",
@@ -47150,7 +47150,7 @@
     "product_name": "BELIF THE TRUE CREAM AQUA BOMB SUNSCREEN BROAD SPECTRUM SPF 45 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) CREAM",
     "spf_label": 45
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-11d3c60e-238d-999e-e063-6394a90a624b": {
    "first_seen": "2026-08-26",
@@ -47213,7 +47213,7 @@
     "product_name": "SUNSTATION USA SPF-30 SPORT SUNSCREEN (ZINC OXIDE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-11d54b18-59b2-0d53-e063-6394a90adb02": {
    "first_seen": "2026-08-26",
@@ -50118,7 +50118,7 @@
     "product_name": "SPF30 SUNSCREEN (OCTISALATE, OCTISALATE, OXYBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-12ab55ea-fc00-458c-8a37-3c60687e62e0": {
    "first_seen": "2026-10-09",
@@ -51096,7 +51096,7 @@
     "product_name": "ORGANIC MATTERS SPF 50 SUNSCREEN (ZINC OXIDE) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-12ff4689-f7e2-49db-8848-608c61b41ef0": {
    "first_seen": "2026-08-26",
@@ -51826,7 +51826,7 @@
     "product_name": "FOTE CABANA BEACH CLUB WITH BLOOD ORANGE AND ESSENTIAL OILS SPF 8 DRY TANNING SUNSCREEN (HOMOSALATE, OCTISALATE) AEROSOL, SPRAY",
     "spf_label": 8
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1335f5bd-df62-91ad-e063-6394a90adb2e": {
    "first_seen": "2026-08-26",
@@ -51856,7 +51856,7 @@
     "product_name": "SUNSCREEN LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-13381b0d-52f6-4736-b2bf-faf34d5028a8": {
    "first_seen": "2026-10-09",
@@ -54912,7 +54912,7 @@
     "product_name": "SUNSCREEN (TITANIUM DIOXIDE 6.8%) LIQUID",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-146925bc-3619-45bc-9f49-d83f805d27e7": {
    "first_seen": "2026-10-09",
@@ -56321,7 +56321,7 @@
     "product_name": "SK1N NATURAL SUNSCREEN SPF 20 (ZINC OXIDE) LOTION",
     "spf_label": 20
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-14cff1a3-89b9-f4da-e063-6394a90a1a41": {
    "first_seen": "2026-08-26",
@@ -56591,7 +56591,7 @@
     "product_name": "PRO-TECT SUNSCREEN FOR PROFESSIONALS (MERADIMATE, OCTINOXATE, OCTISALATE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-14e7f08a-be00-0404-e054-00144ff8d46c": {
    "first_seen": "2026-10-09",
@@ -57729,7 +57729,7 @@
     "product_name": "ULTRASOL NATURE BABY SUNSCREEN (AVOBENZONE, OCTINOXATE, OCTISALATE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-157718ab-afbe-40b6-b9c1-bd268ba5dcf3": {
    "first_seen": "2026-08-26",
@@ -57773,7 +57773,7 @@
     "product_name": "BANANA BOAT SPORT PERFORMANCE SPF 30 (AVOBENZONE AND OCTOCRYLENE AND OXYBENZONE) SPRAY",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-157cb8ca-1a36-41fb-be9e-b157b146dc4d": {
    "first_seen": "2026-08-26",
@@ -62695,7 +62695,7 @@
     "product_name": "REVITALIZING SUPREME PLUS GLOBAL ANTI-AGING CELL POWER CREME BROAD SPECTRUM SPF 15 (AVOBENZONE, OCTISALATE, AND OCTOCRYLENE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-178f648e-953b-71b9-e054-00144ff8d46c": {
    "first_seen": "2026-08-26",
@@ -64549,7 +64549,7 @@
     "product_name": "CRATIV SUNSCREEN (ETHYLHEXYL METHOXYCINNAMATE,TITANIUM DIOXIDE, HOMOSALATE, ETHYLHEXYL, SALICYLATE, OCTOCRYLENE, BIS-ETHYLHEXYLOXYPHENOLMETHOXYPHENYLTRIAZINE,4-METHYLBENZYLIDENE CAMPHOR, DIMETHICONE,BUTYL METHOXYDIBENZOYLMETHANE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-18303bc2-2e00-4a9e-900f-86397ca9d163": {
    "first_seen": "2026-08-26",
@@ -65006,7 +65006,7 @@
     "product_name": "2000DL-CL30V (SPF30 BS ORIGINAL) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-187597ff-59ea-dcf5-e063-6394a90acbbf": {
    "first_seen": "2026-08-26",
@@ -65050,7 +65050,7 @@
     "product_name": "2000DL-CL30V (SPF30 BS CHOCOLATE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-187cd4ad-781f-b0e4-e063-6394a90a414b": {
    "first_seen": "2026-08-26",
@@ -68824,7 +68824,7 @@
     "product_name": "SPF-30 SPORT MOISTURIZER (ZINC OXIDE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-19e6a2ed-acc9-4813-a0bb-694e7a0a6126": {
    "first_seen": "2026-08-26",
@@ -69494,7 +69494,7 @@
     "product_name": "ABIB QUICK SUNSTICK PROTECTION BAR (HOMOSALATE,OCTOCRYLENE,OCTISALATE,AVOBENZONE) STICK",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1a2ab632-6443-1aa9-e063-6394a90a0c05": {
    "first_seen": "2026-08-26",
@@ -69890,7 +69890,7 @@
     "product_name": "DERMA BRILLIANCE SUNSCREEN SPF 30 (OCTINOXATE, OXYBENZONE, OCTISALATE, AVOBENZONE AND OCTOCRYLENE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1a3e5163-2ecf-4f6c-b40e-e38040875c2e": {
    "first_seen": "2026-08-26",
@@ -71048,7 +71048,7 @@
     "product_name": "OI LIN SUNMILK SUNSCREEN SPF 25 (SUNSCREEN, TITANIUM DIOXIDE) EMULSION",
     "spf_label": 25
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1ac59ef1-113e-4ad1-90c3-38353bc7e1ec": {
    "first_seen": "2026-10-09",
@@ -72646,7 +72646,7 @@
     "product_name": "RITE AID OIL FREE FACES SUNSCREEN SPF 30 (AVOBENZONE HOMOSALATE OCTISALATE OCTOCRYLENE OXYBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1b8cf050-29ec-43fe-9ccc-7938742a746a": {
    "first_seen": "2026-08-26",
@@ -73072,7 +73072,7 @@
     "product_name": "PAPA RECIPE BOMBEE MOIST SUN ESSENCE (OCTINOXATE, HOMOSALATE, OCTISALATE, TITANIUM DIOXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1bb4a177-034c-e79d-e063-6294a90ab732": {
    "first_seen": "2026-10-09",
@@ -73276,7 +73276,7 @@
     "product_name": "MURAD - ENVIRONMENTAL SHIELD - ESSENTIAL-C DAY MOISTURE BROAD SPECTRUM SPF 30 (AVOBENZONE, HOMOSALATE, OCTINOXATE, OCTISALATE, OXYBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1bbd14ec-4240-f0c2-e063-6394a90a2c07": {
    "first_seen": "2026-10-09",
@@ -73984,7 +73984,7 @@
     "product_name": "BANANA BOAT DEEP TANNING DRY SPF 4 (AVOBENZONE AND OCTOCRYLENE AND OXYBENZONE) OIL",
     "spf_label": 4
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1becc44a-b6ce-47bd-8b9c-595830c9f03a": {
    "first_seen": "2026-08-26",
@@ -74859,7 +74859,7 @@
     "product_name": "BATH AND BODY WORKS SPF PINK PINEAPPLE SUNRISE (AVOBENZONE,HOMOSALATE,OCTISALATE,OCTOCRYLENE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1c30de8a-4d29-bbac-e063-6294a90a84d9": {
    "first_seen": "2026-10-09",
@@ -75512,7 +75512,7 @@
     "product_name": "BATH AND BODY WORKS SPF PINK PINEAPPLE SUNRISE (AVOBENZONE,HOMOSALATE,OCTISALATE,OCTOCRYLENE) SPRAY",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1c37b8d7-de72-f534-e063-6294a90aeab7": {
    "first_seen": "2026-10-09",
@@ -76056,7 +76056,7 @@
     "product_name": "RESILIENCE MULTI-EFFECT TRI-PEPTIDE FACE AND NECK CREME BROAD SPECTRUM SPF 15 (AVOBENZONE, OCTISALATE, AND OCTOCRYLENE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1c6b71d2-3f5d-485f-b571-2e046cbcef91": {
    "first_seen": "2026-08-26",
@@ -76610,7 +76610,7 @@
     "product_name": "EXCHANGE SELECT SPORT SUNSCREEN SPF 50 (AVOBENZONE HOMOSALATE OCTISALATE OCTOCRYLENE OXYBENZONE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1cb6bf0f-b410-4da6-acbd-103da6e9c959": {
    "first_seen": "2026-10-09",
@@ -78018,7 +78018,7 @@
     "product_name": "BEACH GYPSY GLITTER SUNSCREEN SPF 30 (OCTINOXATE, OCTOCRYLENE, OCTISALATE, AVOBENZONE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1d26bfb0-3c05-4a0c-9d4b-810359222730": {
    "first_seen": "2026-08-26",
@@ -78265,7 +78265,7 @@
     "product_name": "STANDARD PROCEDURE SPF 50 SUNSCREEN (HOMOSALATE, OCTOCRYLENE, OCTISALATE, AVOBENZONE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1d4559e7-91d4-6c85-e063-6394a90af895": {
    "first_seen": "2026-10-09",
@@ -79893,7 +79893,7 @@
     "product_name": "NAKED SUNDAYS CABANA GLOW MINERAL GLOW SERUM DROPS BRONZE 40ML WITH WILD ROSELLA SPF 50 (ZINC OXIDE) LIQUID",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1dda8259-4121-3c76-e063-6394a90af189": {
    "first_seen": "2026-10-09",
@@ -80010,7 +80010,7 @@
     "product_name": "NAKED SUNDAYS CABANA GLOW MINERAL GLOW SERUM DROPS ILLUMINATING 40ML WITH PINK ALGAE SPF 50 (ZINC OXIDE) LIQUID",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1ddad045-7703-ea7e-e063-6394a90a2a5a": {
    "first_seen": "2026-08-26",
@@ -80066,7 +80066,7 @@
     "product_name": "NAKED SUNDAYS CABANA GLOW MINERAL GLOW SERUM DROPS PEARL 40ML WITH PINK ALGAE SPF 50 (ZINC OXIDE) LIQUID",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1ddb1f53-69dd-643a-e063-6394a90ad600": {
    "first_seen": "2026-08-26",
@@ -80123,7 +80123,7 @@
     "product_name": "NAKED SUNDAYS CABANA GLOW MINERAL GLOW SERUM DROPS SHEER TINT 40ML SPF 50 (ZINC OXIDE) LIQUID",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1de296f5-276b-4e8f-8db2-78ea01965c4a": {
    "first_seen": "2026-08-26",
@@ -81282,7 +81282,7 @@
     "product_name": "CVS PHARMACY SPF 30 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1e86c2a9-a5c3-95cb-e063-6394a90a014d": {
    "first_seen": "2026-08-26",
@@ -82135,7 +82135,7 @@
     "product_name": "SAND SKY AUSTRALIAN SUNSHIELD BODY SUNSCREEN SPF50 PLUS LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1ee81fd4-740c-4ab8-943f-817574df4ad2": {
    "first_seen": "2026-08-26",
@@ -83893,7 +83893,7 @@
     "product_name": "PRO-TECT EVERYDAY SUNSCREEN SPF 15 (OCTINOXATE, OCTISALATE, PADIMATE O) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1fbe85a2-4cd7-45bd-85a2-83bbf75c5f97": {
    "first_seen": "2026-10-09",
@@ -84302,7 +84302,7 @@
     "product_name": "MEIJER SPORT SPF 30 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-1fff88a0-4d23-4cd7-872e-1a0b8c680342": {
    "first_seen": "2026-10-09",
@@ -85610,7 +85610,7 @@
     "product_name": "SOLAR DEW MINERAL SERUM (ZINC OXIDE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-20755fd4-ad05-4de2-84f5-fb29c0c5b104": {
    "first_seen": "2026-10-09",
@@ -86546,7 +86546,7 @@
     "product_name": "DALBA VEGAN TONE-UP SUNSCREEN (HOMOSALATE, ETHYLHEXYL METHOXYCINNAMATE,TITANIUM DIOXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-20ae82ae-bc8f-89d1-e063-6394a90afff2": {
    "first_seen": "2026-10-09",
@@ -86606,7 +86606,7 @@
     "product_name": "DALBA VEGAN FRESH SUN CUSHION (ZINC OXIDE, HOMOSALATE, OCTOCRYLENE) SPONGE",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-20b18cea-95e9-3527-e063-6294a90a4db4": {
    "first_seen": "2026-08-26",
@@ -90615,7 +90615,7 @@
     "product_name": "GOLFERSSKIN SUNSCREEN ZINC (OCTINOXATE, TITANIUM DIOXIDE, ZINC OXIDE) STICK",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-21ff7f78-b543-0bea-e063-6294a90aed70": {
    "first_seen": "2026-10-09",
@@ -91690,7 +91690,7 @@
     "product_name": "DALLAS JAMES SKINCARE CO. SPF 50 SUNSCREEN CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-22616f2c-eb71-8dd7-e063-6294a90ac318": {
    "first_seen": "2026-08-26",
@@ -92500,7 +92500,7 @@
     "product_name": "CLINIQUE SMART BROAD SPECTRUM SPF 15 CUSTOM-REPAIR MOISTURIZER DRY COMBINATION (AVOBENZONE AND OCTISALATE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-228dcd68-aaba-0451-e063-6394a90a8ad0": {
    "first_seen": "2026-08-26",
@@ -92614,7 +92614,7 @@
     "product_name": "CLINIQUE SKIN SUPPLIES FOR MEN AGE DEFENSE HYDRATOR SPF 15 (OCTINOXATE, OCTISALATE, AVOBENZONE) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-228fab45-e0d2-f219-e063-6294a90a1ef6": {
    "first_seen": "2026-10-09",
@@ -92990,7 +92990,7 @@
     "product_name": "TUROSKIN SPORT SUNSCREEN BROAD SPECTRUM SPF 30 WR SR 80MIN (AVOBENZONE,HOMOSALATE,OCTISALATE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-22a60fb9-0fea-92c0-e063-6394a90a088c": {
    "first_seen": "2026-08-26",
@@ -94323,7 +94323,7 @@
     "product_name": "ANEW SOLAR ADVANCE SUNSCREEN BODY MIST (HOMOSALATE, OCTINOXATE, OCTISALATE, OXYBENZONE, AVOBENZONE, OCTOCRYLENE ) SPRAY",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-22f59a88-02d7-ebdb-e063-6394a90a957b": {
    "first_seen": "2026-08-26",
@@ -94761,7 +94761,7 @@
     "product_name": "PRO-TECT EVERYDAY SUNSCREEN SPF 15 (OCTINOXATE, OCTISALATE, PADIMATE O) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-23085ab9-5abb-a572-e063-6394a90ae34a": {
    "first_seen": "2026-08-26",
@@ -95487,7 +95487,7 @@
     "product_name": "PRO-TECT EVERYDAY SUNSCREEN SPF 15 (OCTINOXATE, OCTISALATE, PADIMATE O) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-232d224f-cb54-3a9c-e054-00144ff88e88": {
    "first_seen": "2026-08-26",
@@ -95534,7 +95534,7 @@
     "product_name": "PRO-TECT EVERYDAY SUNSCREEN SPF 15 (OCTINOXATE, OCTISALATE, PADIMATE O) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-232d3c1b-6d0b-203d-e054-00144ff8d46c": {
    "first_seen": "2026-08-26",
@@ -95581,7 +95581,7 @@
     "product_name": "PRO-TECT EVERYDAY SUNSCREEN SPF 15 (OCTINOXATE, OCTISALATE, PADIMATE O) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-232d4805-ccb9-3f6e-e054-00144ff88e88": {
    "first_seen": "2026-08-26",
@@ -95628,7 +95628,7 @@
     "product_name": "PRO-TECT EVERYDAY SUNSCREEN SPF 15 (OCTINOXATE, OCTISALATE, PADIMATE O) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-232d4805-ccc7-3f6e-e054-00144ff88e88": {
    "first_seen": "2026-08-26",
@@ -95675,7 +95675,7 @@
     "product_name": "PRO-TECT EVERYDAY SUNSCREEN SPF 15 (OCTINOXATE, OCTISALATE, PADIMATE O) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-232d7902-e3c5-450d-e054-00144ff88e88": {
    "first_seen": "2026-08-26",
@@ -95722,7 +95722,7 @@
     "product_name": "PRO-TECT EVERYDAY SUNSCREEN SPF 15 (OCTINOXATE, OCTISALATE, PADIMATE O) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-23598ad1-12a3-fe65-e063-6394a90a4f6f": {
    "first_seen": "2026-08-26",
@@ -95787,7 +95787,7 @@
     "product_name": "TARGET UP AND UP MORNING FACIAL MOISTURIZING WITH SPF 30 SUNSCREEN AND CERAMIDES (HOMOSALATE, OCTOCRYLENE, ZINC OXIDE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-235a9430-b445-8d5c-e063-6394a90a9354": {
    "first_seen": "2026-10-09",
@@ -96050,7 +96050,7 @@
     "product_name": "MEIJER SPORT SPF 50 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-2388ae53-0a61-43c0-8936-c639887a5649": {
    "first_seen": "2026-08-26",
@@ -99137,7 +99137,7 @@
     "product_name": "SAFE SEA SUNSCREEN WITH JELLYFISH STING PROTECTIVE SPF 30 (OCTINOXATE, OCTISALATE, OXYBENZONE, TITANIUM DIOXIDE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-245edcdc-4414-43f7-bf83-e16fc3310f3a": {
    "first_seen": "2026-08-26",
@@ -100647,7 +100647,7 @@
     "product_name": "NAKED SUNDAYS CABANA GLOW MINERAL GLOW SERUM DROPS BRONZE 15ML WITH WILD ROSELLA SPF 50 (ZINC OXIDE) LIQUID",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-24e9ea4d-3073-c126-e063-6394a90a7c6e": {
    "first_seen": "2026-08-26",
@@ -100704,7 +100704,7 @@
     "product_name": "NAKED SUNDAYS CABANA GLOW MINERAL GLOW SERUM DROPS ILLUMINATING 15ML WITH PINK ALGAE SPF 50 (ZINC OXIDE) LIQUID",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-24ea340a-06cd-b085-e063-6394a90adff9": {
    "first_seen": "2026-08-26",
@@ -100761,7 +100761,7 @@
     "product_name": "NAKED SUNDAYS CABANA GLOW MINERAL GLOW SERUM DROPS PEARL 15ML WITH PINK ALGAE SPF 50 (ZINC OXIDE) LIQUID",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-24fe5112-e318-4d46-ad33-b3dc53ec07f6": {
    "first_seen": "2026-10-09",
@@ -100804,7 +100804,7 @@
     "product_name": "CELONIA SIGNATURE BIO TONE UP SUN BLOCK (HOMOSALATE, OCTISALATE, TITANIUM DIOXIDE, AVOBENZONE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-24ffb6ec-d922-40c0-b325-c15f8433027a": {
    "first_seen": "2026-10-09",
@@ -101572,7 +101572,7 @@
     "product_name": "REN CLEAN FAVOURITES (ZINC OXIDE) KIT",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-252fdc91-bbe2-58ec-e063-6294a90a5067": {
    "first_seen": "2026-08-26",
@@ -101943,7 +101943,7 @@
     "product_name": "COSMEDIX SPF50 (SUNSCREEN) EMULSION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-2564e811-70f5-4d00-be8e-686b55e31630": {
    "first_seen": "2026-08-26",
@@ -103206,7 +103206,7 @@
     "product_name": "PLANTSCRIPTION ANTI AGING OIL FREE BROAD SPECTRUM SPF 25 (AVOBENZONE, OCTISALATE, AND OCTOCRYLENE) CREAM",
     "spf_label": 25
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-25d9c520-431a-5546-e063-6394a90a4e0d": {
    "first_seen": "2026-08-26",
@@ -106273,7 +106273,7 @@
     "product_name": "SUNSOLVE MD MINERAL SHADE AGATE 003 (ZINC OXIDE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-26e13356-9ab5-246a-e063-6394a90a2a70": {
    "first_seen": "2026-10-09",
@@ -106327,7 +106327,7 @@
     "product_name": "SUNSOLVE MD MINERAL SHADE BRONZITE 004 (ZINC OXIDE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-26e1508f-d386-329b-e063-6394a90a0a98": {
    "first_seen": "2026-10-09",
@@ -106380,7 +106380,7 @@
     "product_name": "SUNSOLVE MD MINERAL SHADE GARNET 005 (ZINC OXIDE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-26e16b5e-dd2e-6fb8-e063-6394a90a6a7f": {
    "first_seen": "2026-10-09",
@@ -106435,7 +106435,7 @@
     "product_name": "SUNSOLVE MD MINERAL SHADE ONYX 006 (ZINC OXIDE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-26e2b82c-8d7a-7261-e063-6394a90a7c0d": {
    "first_seen": "2026-08-26",
@@ -107022,7 +107022,7 @@
     "product_name": "SUNSOLVE MD CORRECT AND FADE (ZINC OXIDE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-26f3cdda-b990-15cb-e063-6394a90ade29": {
    "first_seen": "2026-10-09",
@@ -108023,7 +108023,7 @@
     "product_name": "CIELE GLOW AND PROTECT (ZINC OXIDE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-2732a8d2-6f56-c088-e063-6294a90af308": {
    "first_seen": "2026-10-09",
@@ -108131,7 +108131,7 @@
     "product_name": "SUN VOYAGE KIT (AVOBENZONE, HOMOSALATE, OCTOCRYLENE, OCTISALATE) KIT",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-2735c5c7-a4ef-33c3-e063-6294a90abf97": {
    "first_seen": "2026-08-26",
@@ -108686,7 +108686,7 @@
     "product_name": "SELECT BRAND SUNSCREEN (OCTINOXATE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-279a5214-79b2-44e9-b003-378d0b992395": {
    "first_seen": "2026-10-09",
@@ -110515,7 +110515,7 @@
     "product_name": "PLAY SUNSCREEN SPF 50 (HOMOSALATE, OCTOCRYLENE, OCTISALATE, AVOBENZONE) STICK",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-2861453a-12e9-faeb-e063-6394a90a527c": {
    "first_seen": "2026-08-26",
@@ -110989,7 +110989,7 @@
     "product_name": "DT COLLAGEN (OCTOCRYLENE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-28851cd3-655b-4352-9f59-eadff0d29c32": {
    "first_seen": "2026-10-09",
@@ -111512,7 +111512,7 @@
     "product_name": "LIKEWISE FACIAL MOISTURIZER - SUN PROTECTANT SPF 50 OILY SKIN (TITANIUM DIOXIDE, ZINC OXIDE) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-28bef68d-7e5b-4281-9653-2fbeb4c84ef8": {
    "first_seen": "2026-08-26",
@@ -112704,7 +112704,7 @@
     "product_name": "EXCHANGE SELECT SPORT SUNSCREEN SPF 30 (AVOBENZONE HOMOSALATE OCTISALATE OCTOCRYLENE OXYBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-2913eb8a-3cb0-21d4-e054-00144ff88e88": {
    "first_seen": "2026-08-26",
@@ -113163,7 +113163,7 @@
     "product_name": "DUANE READE SUNSCREEN SPF 30 (AVOBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-29337ce8-79dc-4aab-bc7c-49d1974ea580": {
    "first_seen": "2026-08-26",
@@ -114404,7 +114404,7 @@
     "product_name": "PETER ISLAND SUNSCREEN SPF 50 (OCTOCRYLENE OXYBENZONE ZINC OXIDE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-29833fff-d574-4e4e-81e8-42ee85dd0cc5": {
    "first_seen": "2026-10-09",
@@ -114896,7 +114896,7 @@
     "product_name": "ULTRASOLSUNSCREEN KIDS SUNSCREEN SPRAY LOTION SPF 30 (AVOBENZONE, OCTINOXATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) SPRAY",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-298707d4-72ed-796f-e063-6294a90aa5cd": {
    "first_seen": "2026-10-09",
@@ -116841,7 +116841,7 @@
     "product_name": "NATURAL SUNSCREEN (ZINC OXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-29b70afe-cf9d-d0ba-e063-6394a90a1cc4": {
    "first_seen": "2026-08-26",
@@ -118361,7 +118361,7 @@
     "product_name": "DUANE READE PREVAIL MOISTURIZING SUNSCREEN SPF 50 (AVOBENZONE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-2a0c3dd1-4bc0-6664-e063-6294a90af4b3": {
    "first_seen": "2026-08-26",
@@ -118844,7 +118844,7 @@
     "product_name": "GLOW OIL SPF 50 SUNKISSED COCONUT (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) OIL GLOW OIL SPF 50 BEACH FLOWER (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) OIL",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-2a54ed65-12d5-8a96-e063-6394a90a6e02": {
    "first_seen": "2026-08-26",
@@ -121367,7 +121367,7 @@
     "product_name": "ULTRASOLSUNSCREEN SUNSCREEN LOTION SPF 15 (AVOBENZONE, OCTISALATE, OCTOCRYLENE) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-2aabf782-65f9-e894-e063-6394a90a1ea3": {
    "first_seen": "2026-08-26",
@@ -123302,7 +123302,7 @@
     "product_name": "GLAMTOX ACTIVE DAILY MOISTURIZING SUNSCREEN (HOMOSALATE, OCTINOXATE, OXYBENZONE) LIQUID",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-2abe084b-7478-e923-e063-6394a90ac941": {
    "first_seen": "2026-10-09",
@@ -127188,7 +127188,7 @@
     "product_name": "QUENCH AND PROTECT HYDRATING SPF 30 (ZINC OXIDE AND TITANIUM DIOXIDE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-2bc94923-b221-5159-e063-6394a90ab8ff": {
    "first_seen": "2026-08-26",
@@ -127747,7 +127747,7 @@
     "product_name": "MENOW SUNSCREEN (ETHYLHEXYL METHOXYCINNAMATE, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, ZINC OXIDE, TITANIUM DIOXIDE) POWDER",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-2be51fdf-c3f2-463b-8c7d-bda07db17e1b": {
    "first_seen": "2026-08-26",
@@ -129077,7 +129077,7 @@
     "product_name": "PRO FORMULA (ZINC OXIDE, TITANIUM DIOXIDE) STICK",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-2c703df8-23af-d630-e063-6294a90a1a24": {
    "first_seen": "2026-08-26",
@@ -130085,7 +130085,7 @@
     "product_name": "AESOP AVAIL BODY SUNSCREEN BROAD SPECTRUM SPF 50 (AVOBENZONE, OCTISALATE, OCTOCRYLENE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-2cb4dfdc-9f5d-4de2-8b4d-6e1573d7acf8": {
    "first_seen": "2026-08-26",
@@ -133755,7 +133755,7 @@
     "product_name": "ZO SKIN HEALTH OSSENTIAL DAILY POWER DEFENSE ANTI-AGING FORMULA AND OCLIPSE SUNSCREEN PLUS PRIMER BROAD SPECTRUM SPF 30 UVA/UVB PROTECTION (TITANIUM DIOXIDE AND ZINC OXIDE) KIT",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-2d9d6440-39b3-312a-e063-6394a90aa072": {
    "first_seen": "2026-08-26",
@@ -134278,7 +134278,7 @@
     "product_name": "RITE AID SPF 30 (AVOBENZONE, HOMOSALATE, OCTISALATE,OCTOCRYLENE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-2dc7e81f-89f1-4fcb-8a34-8fb737129bab": {
    "first_seen": "2026-08-26",
@@ -134704,7 +134704,7 @@
     "product_name": "SPORT SUNSTICK SPF 30 SUNSCREEN (AVOBENZONE, OCTINOXATE, OCTISALATE) STICK",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-2dda185c-6ff8-953d-e063-6394a90acc53": {
    "first_seen": "2026-08-26",
@@ -135074,7 +135074,7 @@
     "product_name": "ULTRASENSITIVE TINT SPF 30 (TITANIUM DIOXIDE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-2df7d68d-cdfe-46b5-a265-4aeba4116df3": {
    "first_seen": "2026-10-09",
@@ -136760,7 +136760,7 @@
     "product_name": "ULTRASOLSUNSCREEN SPORT SUNSCREEN LOTION CONTINUOUS SPRAY SPF 45 (AVOBENZONE, HOMOSALATE, OCTINOXATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) AEROSOL, SPRAY",
     "spf_label": 45
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-2e69011b-5cc8-4df4-b4d8-0948d0b4a33d": {
    "first_seen": "2026-08-26",
@@ -137064,7 +137064,7 @@
     "product_name": "THINKSPORT SPF 50 (ZINC OXIDE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-2e85cf6e-a2a7-4871-bdb6-1d72088c3031": {
    "first_seen": "2026-08-26",
@@ -138044,7 +138044,7 @@
     "product_name": "THE FACE SHOP HYDRO SUN BARRIER 2-IN-1 SPF AND MOISTURIZER (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-2eea94e1-2409-8ad6-e063-6294a90a5df8": {
    "first_seen": "2026-08-26",
@@ -138264,7 +138264,7 @@
     "product_name": "EQUATEDAYTIMEFACELOTION (EQUATE DAYTIME FACE LOTION WITH SUNSCREEN, SPF 30, 3 OZ) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-2f069114-9ca8-aed4-e063-6394a90a46d8": {
    "first_seen": "2026-10-09",
@@ -143345,7 +143345,7 @@
     "product_name": "ULTRASOL SPORT (AVOBENZONE, OCTINOXATE, OCTISALATE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3073334f-ba67-30fc-e063-6294a90a1a78": {
    "first_seen": "2026-08-26",
@@ -148475,7 +148475,7 @@
     "product_name": "ESTRO-LIFT DAY THERAPY MOISTURIZER AND SPF 30 SUNSCREEN (OCTINOXATE, OCTISALATE, OXYBENZONE, AND TITANIUM DIOXIDE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3146bcd9-d562-9ba6-e063-6294a90a37aa": {
    "first_seen": "2026-10-09",
@@ -149096,7 +149096,7 @@
     "product_name": "HEB SPF 50 SHINE SUNSCREEN WITH VITAMIN C CONTINUOUS SUNSCREEN (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-314c54ed-32f8-5c20-e063-6394a90a0af5": {
    "first_seen": "2026-08-26",
@@ -149743,7 +149743,7 @@
     "product_name": "MURAD - ENVIRONMENTAL SHIELD - CITY SKIN AGE DEFENSE BROAD SPECTRUM SPF-50 (TITANIUM DIOXIDE, ZINC OXIDE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3162c1cd-c385-4ef9-8da1-d1593b56147f": {
    "first_seen": "2026-08-26",
@@ -153134,7 +153134,7 @@
     "product_name": "FIRMING DAY SPF 30 (ZINC OXIDE OCTINOXATE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-321e58d0-9964-4da9-af6b-66ba81b60cf7": {
    "first_seen": "2026-10-09",
@@ -155261,7 +155261,7 @@
     "product_name": "SMOOTHING MINERAL SUNSCREEN TINTED (TITANIUM DIOXIDE, ZINC OXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3275303d-a448-4fb4-bdce-6442823f8996": {
    "first_seen": "2026-10-09",
@@ -155434,7 +155434,7 @@
     "product_name": "POWERPATCH DARK SPOT PROTECTOR (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXBENZONE) GEL",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3285e28d-5716-b576-e063-6294a90a8905": {
    "first_seen": "2026-08-26",
@@ -155972,7 +155972,7 @@
     "product_name": "ZINC OXIDE, TITANIUM DIOXIDE CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-32abb463-eb24-4ace-8bb7-23bf8a370e43": {
    "first_seen": "2026-10-09",
@@ -158001,7 +158001,7 @@
     "product_name": "KARYNG COMPLETE SPF SUNSCREEN LIGHT/MEDIUM (SUNSCREEN) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-335ec22c-6a9a-c4d1-e063-6394a90ac0b0": {
    "first_seen": "2026-10-09",
@@ -158117,7 +158117,7 @@
     "product_name": "KARYNG COMPLETE SPF SUNSCREEN MEDIUM/DARK (SUNSCREEN) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3360a208-5f17-a74b-e063-6294a90a13e1": {
    "first_seen": "2026-10-09",
@@ -160518,7 +160518,7 @@
     "product_name": "SHADE SPF30 CLIMATE CONTROL (OCTISALATE, OCTOCRYLENE, ZINC OXIDE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-340929aa-6fd8-49e9-932e-b4851caa0b02": {
    "first_seen": "2026-08-26",
@@ -164117,7 +164117,7 @@
     "product_name": "ORGANIC FRUITS ACNE SPOT TREATMENT - YUJA (1% SALICYLIC ACID) (SALICYLIC ACID) CREAM WHAMISA ORGANIC PEAR BLOSSOM SUNSCREEN (ZINC OXIDE) CREAM WHAMISA ORGANIC PEAR BLOSSOM SUNSCREEN POWDER (ZINC OXIDE, TITANIUM DIOXIDE) POWDER",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-34fae072-536c-ad41-e063-6394a90af0af": {
    "first_seen": "2026-08-26",
@@ -167654,7 +167654,7 @@
     "product_name": "LA PRAIRIE SWITZERLAND ANTI-AGING DAY CREAM SPF 30 (AVOBENZONE, OCTINOXATE, OCTISALATE, OCTOCRYLENE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-354ef99d-a94d-438d-b62f-c91b2107e266": {
    "first_seen": "2026-08-26",
@@ -167716,7 +167716,7 @@
     "product_name": "BILBOA KIDS SUNSCREEN SPF 50 PLUS (HOMOSALATE, OCTISALATE, OXYBENZONE, ZINC OXIDE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-35596166-0aa0-4329-8964-a48217a217b3": {
    "first_seen": "2026-10-09",
@@ -196065,7 +196065,7 @@
     "product_name": "COLLAGEN GLOW MINERAL SUNSCREEN SPF 50 (ZINC OXIDE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-389cbce6-552c-4633-babd-7b672632f0b9": {
    "first_seen": "2026-10-09",
@@ -196627,7 +196627,7 @@
     "product_name": "BIOLUMIN-C HEAT AGING PROTECTOR SPF50 (OCTOCRYLENE, HOMOSALATE, OCTISALATE, AND AVOBENZONE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-38d0d165-e981-284a-e063-6294a90acace": {
    "first_seen": "2026-10-09",
@@ -197848,7 +197848,7 @@
     "product_name": "PREP (PLUS) PRIME BEAUTY BALM SPF 35 (OCTINOXATE, OCTISALATE, OXYBENZONE, TITANIUM DIOXIDE, ZINC OXIDE) CREAM",
     "spf_label": 35
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-390ec986-d550-4d08-acd0-08040c8476c1": {
    "first_seen": "2026-08-26",
@@ -200843,7 +200843,7 @@
     "product_name": "AMARTE ULTRA VEIL DAILY (SUNSCREEN) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-39eea41c-8703-cf1f-e063-6394a90a5b1f": {
    "first_seen": "2026-10-09",
@@ -203740,7 +203740,7 @@
     "product_name": "PREDIRE PARIS SKIN SHIELD PROTECTOR MINERAL DEFENSE CREAM CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3a7cc69a-6027-4dfd-b9ef-9d4390fe630c": {
    "first_seen": "2026-08-26",
@@ -204353,7 +204353,7 @@
     "product_name": "THE MEN PEN TALLOW GUARD SPF 30 PREMIUM ZINC SUNSCREEN (ZINC OXIDE) STICK",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3aa6550e-d1ed-4064-bf58-e694705669a8": {
    "first_seen": "2026-10-09",
@@ -204445,7 +204445,7 @@
     "product_name": "THE MEN PEN TALLOW GUARD SPF 30 PREMIUM ZINC SUNSCREEN (ZINC OXIDE) STICK",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3aadb658-d12d-ae8d-e063-6394a90a6496": {
    "first_seen": "2026-08-26",
@@ -209425,7 +209425,7 @@
     "product_name": "RIVERSOL DAILY GLOW MINERAL UNTINTED (ZINC OXIDE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3bc7d94e-e312-a9ca-e063-6394a90a4338": {
    "first_seen": "2026-10-09",
@@ -209485,7 +209485,7 @@
     "product_name": "RIVERSOL DAILY GLOW MINERAL TINTED (ZINC OXIDE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3bc8593d-fc6c-04aa-e063-6394a90a6d56": {
    "first_seen": "2026-08-26",
@@ -210979,7 +210979,7 @@
     "product_name": "AIRFIT INVISIBLE SUNSCREEN (HOMOSALATE, OCTISALATE, OCTOCRYLENE, AVOBENZONE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3c414e9b-6c3e-2c8d-e063-6394a90af4a6": {
    "first_seen": "2026-10-09",
@@ -211644,7 +211644,7 @@
     "product_name": "100% MINERAL SUNSCREEN CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3c4b4e54-9a21-42ae-b5c0-c88f5812a0de": {
    "first_seen": "2026-10-09",
@@ -212668,7 +212668,7 @@
     "product_name": "ULTRASOLSUNSCREEN KIDS CLEAR CONTINUOUS SPRAY (AVOBENZONE, HOMOSALATE, OCTINOXATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) AEROSOL, SPRAY",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3c936ed0-ab7a-ccec-e063-6294a90afd93": {
    "first_seen": "2026-10-09",
@@ -215042,7 +215042,7 @@
     "product_name": "CLINIQUE BROAD SPECTRUM SPF 30 OIL FREE FACE WITH SOLAR SMART (OCTINOXATE, OCTISALATE, TITANIUM DIOXIDE, AND ZINC OXIDE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3d2a702b-2ff6-473a-9ab1-823e0e53a8cf": {
    "first_seen": "2026-08-26",
@@ -216208,7 +216208,7 @@
     "product_name": "WANDER BEAUTY PACK UP AND GLOW PRIMING (TITANIUM DIOXIDE, ZINC OXIDE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3d86da52-6354-f53e-e063-6394a90aac55": {
    "first_seen": "2026-08-26",
@@ -217776,7 +217776,7 @@
     "product_name": "KROGER SPORT SUNSCREEN SPF 50 (AVOBENZONE HOMOSALATE OCTISALATE OCTOCRYLENE OXYBENZONE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3e392af6-1401-4a2f-9ba4-e43f0fd0fca1": {
    "first_seen": "2026-08-26",
@@ -218502,7 +218502,7 @@
     "product_name": "ZINC OXIDE TITANIUM OXIDE LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3e6fe9f3-486b-bba7-e063-6294a90adf37": {
    "first_seen": "2026-08-26",
@@ -218686,7 +218686,7 @@
     "product_name": "HELLO BELLO KIDS MINERAL SUNSCREEN (ZINC OXIDE TITANIUM OXIDE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3e7da094-5fb6-4a0f-89c4-8289f0a67cdb": {
    "first_seen": "2026-08-26",
@@ -218971,7 +218971,7 @@
     "product_name": "ZINC OXIDE TITANIUM OXIDE LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3e8b0a0b-846a-cce7-e063-6294a90a6bb3": {
    "first_seen": "2026-08-26",
@@ -219411,7 +219411,7 @@
     "product_name": "ATONO2 BABY SUN CREAM (ETHYLHEXYL METHOXYCINNAMATE, TITANIUM DIOXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3ebe1aa3-9a14-46f7-941d-8b4ca1dbc052": {
    "first_seen": "2026-08-26",
@@ -221500,7 +221500,7 @@
     "product_name": "BELLA BLU SKIN CARE NON TINTED SUNSCREEN (ZINC OXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3f67b92f-3892-46f6-a6a6-b4c9d1714990": {
    "first_seen": "2026-08-26",
@@ -222445,7 +222445,7 @@
     "product_name": "WALGREENS SUNSCREEN SPORT SPF 50 (AVOBENZONE HOMOSALATE OCTISALATE OCTOCRYLENE OXYBENZONE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3fa41ed1-2f7f-18e6-e063-6294a90a0a8b": {
    "first_seen": "2026-08-26",
@@ -222974,7 +222974,7 @@
     "product_name": "BANANA BOAT SPORT PERFORMANCE (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-3fe7e1c3-e6cd-1420-e063-6394a90a4138": {
    "first_seen": "2026-08-26",
@@ -225500,7 +225500,7 @@
     "product_name": "DR.JART CICAPAIR TIGER GRASS COLOR CORRECTING TREATMENT (ZINC OXIDE, TITANIUM DIOXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-40fd5146-f4f0-4c2d-a786-d18f8ade1bef": {
    "first_seen": "2026-08-26",
@@ -226181,7 +226181,7 @@
     "product_name": "DEFEND AND BALANCE TINTED MINERAL SUNSCREEN SPF 50 (SUNSCREEN) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-41376da3-5274-b133-e063-6394a90afa13": {
    "first_seen": "2026-10-09",
@@ -227694,7 +227694,7 @@
     "product_name": "CALENDULA ESSENTIAL HYDRATING BROAD SPECTRUM SPF 30 SUNSCREEN (ZINC OXIDE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-41dc9a05-d9b6-4026-a4f6-e89bc455dd25": {
    "first_seen": "2026-10-09",
@@ -228663,7 +228663,7 @@
     "product_name": "ULTRASOL OIL-FREE SUNSCREEN (AVOBENZONE, OCTINOXATE, OCTISALATE, OXYBENZONE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-42325963-0917-43c4-8fe0-130336c7fa81": {
    "first_seen": "2026-08-26",
@@ -230660,7 +230660,7 @@
     "product_name": "PEACHY TINTED FACIAL SUNSCREEN (ZINC OXIDE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-42f17245-92a9-3915-e063-6394a90a6817": {
    "first_seen": "2026-10-09",
@@ -231147,7 +231147,7 @@
     "product_name": "SNOWSKIN SUNSCREEN (OCTINOXATE, OXYBENZONE, TITANIUM DIOXIDE, ZINC OXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-4307e83a-65a1-4084-ac98-ae31f820140f": {
    "first_seen": "2026-08-26",
@@ -231841,7 +231841,7 @@
     "product_name": "SOLOVEGAN (HOMOSALATE, OCTISALATE, OCTOCRYLENE, AVOBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-43599d17-81f4-4c6e-b6bd-d1e700b668ee": {
    "first_seen": "2026-10-09",
@@ -232639,7 +232639,7 @@
     "product_name": "SEA STAR SPARKLE SPF 50 GLITTER SUNSCREEN COTTON CANDY (HOMOSALATE, OCTOCRYLENE, OCTISALATE, ZINC OXIDE) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-43cea601-a6c0-4de3-e063-6294a90aa8eb": {
    "first_seen": "2026-10-09",
@@ -232872,7 +232872,7 @@
     "product_name": "SNOWSKIN FACE SUNSCREEN (OCTOCRYLENE, TITANIUM DIOXIDE, ZINC OXIDE) STICK",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-43e175b4-7a48-431e-bf27-9ce7dee53f5e": {
    "first_seen": "2026-10-09",
@@ -233682,7 +233682,7 @@
     "product_name": "ULTRASOLSUNSCREEN KIDS SUNSCREEN LOTION SPF 34 (AVOBENZONE, OCTINOXATE, OCTISALATE, OXYBENZONE ) LOTION",
     "spf_label": 34
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-44321dff-1a61-452f-8324-6de2a196db51": {
    "first_seen": "2026-08-26",
@@ -235209,7 +235209,7 @@
     "product_name": "ATTITUDE SUNLY MINERAL SUNSCREEN SPRAYER SPF 50 UNSCENTED (ZINC OXIDE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-449a6027-4d0d-40e1-af58-3553071d6fdf": {
    "first_seen": "2026-08-26",
@@ -235498,7 +235498,7 @@
     "product_name": "ATTITUDE SUNLY BABY MINERAL SUNSCREEN SPRAYER SPF 50 UNSCENTED (ZINC OXIDE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-44a9838e-06a6-5a98-e063-6394a90aaba1": {
    "first_seen": "2026-08-26",
@@ -235540,7 +235540,7 @@
     "product_name": "ATTITUDE SUNLY KIDS MINERAL SUNSCREEN SPRAYER SPF 50 UNSCENTED (ZINC OXIDE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-44a98951-6b25-6ee7-e063-6394a90a5433": {
    "first_seen": "2026-08-26",
@@ -235587,7 +235587,7 @@
     "product_name": "ATTITUDE SUNLY MINERAL SUNSCREEN SPRAYER SPF 50 TROPICAL COCO (ZINC OXIDE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-44a9d7c1-a4cf-d7bb-e063-6394a90a1f47": {
    "first_seen": "2026-08-26",
@@ -235630,7 +235630,7 @@
     "product_name": "ATTITUDE SENSITIVE NATURAL MINERAL SUNSCREEN SPRAYER SPF 50 UNSCENTED (ZINC OXIDE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-44aa1349-e3f1-9b80-e063-6294a90a0fbd": {
    "first_seen": "2026-08-26",
@@ -235677,7 +235677,7 @@
     "product_name": "ATTITUDE SUNLY KIDS MINERAL SUNSCREEN SPRAYER SPF 50 WATERMELON AND COCO (ZINC OXIDE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-44aa37e6-e696-022a-e054-00144ff88e88": {
    "first_seen": "2026-08-26",
@@ -235789,7 +235789,7 @@
     "product_name": "ATTITUDE SUNLY MINERAL SUNSCREEN SPRAYER SPF 50 SUN KISSED VANILLA (ZINC OXIDE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-44aaa3c8-ccc4-ae93-e063-6394a90aedc5": {
    "first_seen": "2026-08-26",
@@ -236392,7 +236392,7 @@
     "product_name": "MEIJER OIL FREE SPF 15 (OCTINOXATE, OXYBENZONE) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-44c8bd53-e8fa-4e2d-bf9b-c23e2b820b33": {
    "first_seen": "2026-08-26",
@@ -236585,7 +236585,7 @@
     "product_name": "MDSOLARSCIENCES SPF30 PLUS MINERAL SCREEN (TITANIUM DIOXIDE AND ZINC OXIDE) GEL",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-44dd513e-ebaa-0d6a-e063-6394a90a78b7": {
    "first_seen": "2026-08-26",
@@ -240272,7 +240272,7 @@
     "product_name": "AL00378 ALBA COOL SPORT SUNSCREEN SPF50 (AVOBENZONE, HOMOSALATE, OCTOCRYLENE, OCTYL SALICYLATE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-4567d413-d8cc-677b-e063-6294a90a1a42": {
    "first_seen": "2026-08-26",
@@ -241852,7 +241852,7 @@
     "product_name": "SOLAR DEFENSE BODY (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) AEROSOL, SPRAY",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-45ec77c5-5ec4-0e51-e054-00144ff8d46c": {
    "first_seen": "2026-10-09",
@@ -242362,7 +242362,7 @@
     "product_name": "SUNSCREEN CREAM (ZINC OXIDE 12%,TITANIUM DIOXIDE 8%, HOMOSALATE 12%, OCTISALATE4.5%,PHENYLBENZIMIDAZOLE SULFONIC ACID 3.5%) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-46133b89-9f93-4342-adaa-3e10f5193aba": {
    "first_seen": "2026-10-09",
@@ -242795,7 +242795,7 @@
     "product_name": "GLOW THIS WAY (OCTISALATE, OCTOCRYLENE, ZINC OXIDE, AVOBENZONE, HOMOSALATE) KIT",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-4620c41a-2188-00f5-e063-6394a90a613c": {
    "first_seen": "2026-08-26",
@@ -244029,7 +244029,7 @@
     "product_name": "THE MELT MIST SHEEREST MINERAL MIST SUNCARE FOR BODY (TITANIUM DIOXIDE, ZINC OXIDE) SPRAY",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-465e1ba2-e967-edb9-e063-6294a90aa31c": {
    "first_seen": "2026-10-09",
@@ -244212,7 +244212,7 @@
     "product_name": "WALGREENS SUNSCREENSPF 45 SPF 45 SPF 45 (ZINC OXIDE) LOTION",
     "spf_label": 45
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-46641a33-d658-4ef0-9b7a-062adc401dde": {
    "first_seen": "2026-08-26",
@@ -248521,7 +248521,7 @@
     "product_name": "DAILY HYDRATING MINERAL BODY SUNSCREEN BROAD SPECTRUM SPF 30 SUNSCREEN (ZINC OXIDE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-47d6ad8b-1081-ee21-e063-6294a90a0e63": {
    "first_seen": "2026-08-26",
@@ -251008,7 +251008,7 @@
     "product_name": "NEOVA DNA DAMAGE CONTROL - SILC SHEER SPF 45 (OCTINOXATE, TITANIUM DIOXIDE) EMULSION",
     "spf_label": 45
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-48393640-4b97-04de-e063-6294a90aa6a6": {
    "first_seen": "2026-10-09",
@@ -251098,7 +251098,7 @@
     "product_name": "GINZING SPF 40 ENERGY-BOOSTING TINTED MOISTURIZER BROAD SPECTRUM SPF 40 SHEER TINT RELEASE (HOMOSALATE,OCTINOXATE,OCTISALATE, AND ZINC OXIDE) LIQUID",
     "spf_label": 40
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-483d0d28-56f3-4b37-af03-0331e1653d73": {
    "first_seen": "2026-10-09",
@@ -252977,7 +252977,7 @@
     "product_name": "AGE DEFENSE FOR EYES 5 IN 1 (ZINC OXIDE AND TITANIUM DIOXIDE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-48da4589-0f5a-c25b-e063-6394a90ac18b": {
    "first_seen": "2026-08-26",
@@ -257804,7 +257804,7 @@
     "product_name": "SUN VEIL ILLUMINATINGELIXIR FACE SUNSCREEN SPF 38 (OCTISALATE, OCTOCRYLENE, ZINC OXIDE) LOTION",
     "spf_label": 38
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-4a16dbb7-e860-4aae-8e8b-67abbe8295bd": {
    "first_seen": "2026-10-09",
@@ -258475,7 +258475,7 @@
     "product_name": "RENOVE UV SHIELD BROAD SPECTRUM SPF 50 (AVOBENZONE, OCTINOXATE SUNSCREEN) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-4a376e93-85e8-40a5-8641-d3e3d11fdeea": {
    "first_seen": "2026-10-09",
@@ -261209,7 +261209,7 @@
     "product_name": "MOISTURISING SUNSCREEN SPF 30 (HOMOSALATE, OCTISALATE, OCTINOXATE, OCTOCRYLENE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-4b394107-7830-c2c6-e063-6294a90a07d9": {
    "first_seen": "2026-10-09",
@@ -261950,7 +261950,7 @@
     "product_name": "PERFECT MINERAL SUNSCREEN (TITANIUM DIOXIDE, ZINC OXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-4b93cd22-1289-29bc-e063-6294a90ab781": {
    "first_seen": "2026-10-09",
@@ -264146,7 +264146,7 @@
     "product_name": "RESILIENCE LIFT EXTREME (OCTINOXATE AND TITANIUM DIOXIDE) LIQUID",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-4c20e273-f0c3-1f5d-e054-00144ff8d46c": {
    "first_seen": "2026-10-09",
@@ -264948,7 +264948,7 @@
     "product_name": "REPAIRWEAR LASER FOCUS LINE SMOOTHING BROAD SPECTRUM SPF 15 -VERY DRY TO DRY COMBINATION (OCTINOXATE, OCTISALATE, AND TITANIUM DIOXIDE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-4c49dbf1-d1fe-ad4a-e063-6394a90af151": {
    "first_seen": "2026-08-26",
@@ -265991,7 +265991,7 @@
     "product_name": "BANANA BOAT ULTRA DEFENSE BROAD SPECTRUM (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-4cb268ea-f2b5-ddd1-e063-6394a90a1e96": {
    "first_seen": "2026-08-26",
@@ -266397,7 +266397,7 @@
     "product_name": "MELAO RICE PROBIOTICS SUNSCREEN (ZINC OXIDE,ETHYLHEXYL SALICYLATE,ETHYLHEXYL METHOXYCINNAMATE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-4cd0a8a7-11aa-e168-e063-6394a90a2ff2": {
    "first_seen": "2026-10-09",
@@ -267632,7 +267632,7 @@
     "product_name": "PREMIER TINTED MINERAL SUNSCREEN (BROAD SPECTRUM SPF30) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-4d3a36b9-7d63-01ac-e063-6294a90af4fb": {
    "first_seen": "2026-10-09",
@@ -269615,7 +269615,7 @@
     "product_name": "EXCHANGE SELECT SUNSCREEN SPF 45 (OCTINOXATE OXYBENZONE) LOTION",
     "spf_label": 45
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-4ddbe349-6880-a5fc-e063-6294a90a275c": {
    "first_seen": "2026-10-09",
@@ -272484,7 +272484,7 @@
     "product_name": "BANANA BOAT ULTRA DEFENSE SHEER PROTECT (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-4eb6892f-8106-46b7-9475-34df20c2b8d4": {
    "first_seen": "2026-08-26",
@@ -272844,7 +272844,7 @@
     "product_name": "BANANA BOAT ULTRA DEFENSE SHEER PROTECT SPF 30 (AVOBENZONE AND OCTOCRYLENE AND OXYBENZONE) SPRAY",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-4ec58c23-16b1-03bb-e063-6394a90a46c0": {
    "first_seen": "2026-08-26",
@@ -275498,7 +275498,7 @@
     "product_name": "TIME ZONE LINE AND WRINKLE REDUCING CREME SPF 15 NORMAL COMBO SKIN (OCTINOXATE, OCTSALATE, AVOBENZONE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-4f6a7666-f171-4a73-ace5-41927814b3a0": {
    "first_seen": "2026-08-26",
@@ -276788,7 +276788,7 @@
     "product_name": "SUNSCREEN (ZINC OXIDE SUNSCREEN) STICK",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-4fa7bffa-2585-5212-e054-00144ff88e88": {
    "first_seen": "2026-08-26",
@@ -277906,7 +277906,7 @@
     "product_name": "LAZY FACE SPF 30 FACESCREEN (TITANIUM DIOXIDE, ZINC OXIDE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-50101b55-793e-dbe4-e063-6394a90a6199": {
    "first_seen": "2026-08-26",
@@ -278609,7 +278609,7 @@
     "product_name": "CLINIQUE REPAIRWEAR UPLIFTING FIRMING BROAD SPECTRUM SPF 15 DRY COMBO OILY (OCTINOXATE, OCTISALATE, AND TITANIUM DIOXIDE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-507560fe-c7ad-329a-e063-6394a90a039a": {
    "first_seen": "2026-08-26",
@@ -280375,7 +280375,7 @@
     "product_name": "KROGER SPORT SUNSCREEN SPF 30 (AVOBENZONE HOMOSALATE OCTISALATE OCTOCRYLENE OXYBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-5118a0a4-728b-6884-e063-6394a90a02b3": {
    "first_seen": "2026-08-26",
@@ -283754,7 +283754,7 @@
     "product_name": "BANANA BOAT SPORT PERFORMANCE ACTIVE DRY PROTECT (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-524264b8-d360-1d7b-e063-6394a90ab115": {
    "first_seen": "2026-08-26",
@@ -285299,7 +285299,7 @@
     "product_name": "PUBLIX SPF 30 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-529d119d-6c90-4578-8194-20630925debe": {
    "first_seen": "2026-08-26",
@@ -285514,7 +285514,7 @@
     "product_name": "SNOWSKIN SUNSCREEN ZINC (OCTINOXATE, TITANIUM DIOXIDE, ZINC OXIDE) STICK",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-52ba2f12-839f-cea1-e063-6394a90a5ae6": {
    "first_seen": "2026-08-26",
@@ -285668,7 +285668,7 @@
     "product_name": "ODACITE COLOR BALM - SIENNA ROSE (ZINC OXIDE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-52ba8e03-1944-b73d-e063-6294a90a5039": {
    "first_seen": "2026-10-09",
@@ -285725,7 +285725,7 @@
     "product_name": "ODACITE COLOR BALM - GOLDEN HOUR (ZINC OXIDE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-52ba9423-8b9b-38f7-e063-6394a90a95da": {
    "first_seen": "2026-08-26",
@@ -285857,7 +285857,7 @@
     "product_name": "ODACITE COLOR BALM - FROSTED PETAL (ZINC OXIDE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-52bb52ec-2cd7-f8cc-e063-6294a90aa61b": {
    "first_seen": "2026-10-09",
@@ -287581,7 +287581,7 @@
     "product_name": "ULTRASOL SPORT (AVOBENZONE, OCTINOXATE, OCTISALATE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-53184e71-67b8-441d-8b6d-fa49534f8662": {
    "first_seen": "2026-08-26",
@@ -287948,7 +287948,7 @@
     "product_name": "SEA STAR SPARKLE SPF 50 GLITTER SUNSCREEN COCO LIME (HOMOSALATE, OCTOCRYLENE, OCTISALATE, ZINC OXIDE) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-533e6623-108e-4d05-8527-c5af643f0800": {
    "first_seen": "2026-08-26",
@@ -289423,7 +289423,7 @@
     "product_name": "VEGAN COLLAGEN EVERY DAY (AVOBENZONE, HOMOSALATE, OCTOCRYLENE, AND OCTISALATE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-53a724e9-229e-eea4-e063-6294a90a7d5e": {
    "first_seen": "2026-08-26",
@@ -289882,7 +289882,7 @@
     "product_name": "SUPERDEFENSE BROAD SPECTRUM SPF 25 FATIGUE PLUS 1ST SIGNS OF AGE MULTI-CORRECTING (AVOBENZONE AND OCTISALATE) CREAM",
     "spf_label": 25
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-53c09714-6137-7102-e063-6294a90a72a4": {
    "first_seen": "2026-08-26",
@@ -291221,7 +291221,7 @@
     "product_name": "ULTA SUN DRY TOUCH SPF 55 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": 55
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-544dba29-4785-4ab6-e063-6394a90a17b3": {
    "first_seen": "2026-10-09",
@@ -292371,7 +292371,7 @@
     "product_name": "CVS PHARMACY SPORT SPF 50 (AVOBENZONE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-548b7c90-ef97-38ab-e063-6394a90ac609": {
    "first_seen": "2026-08-26",
@@ -292656,7 +292656,7 @@
     "product_name": "BY THE BEACH SUNCARE (SPF 30 FACE AND BODY DRY OIL COCO LOCO) LIQUID",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-549bbd19-8e22-e420-e063-6294a90a6a98": {
    "first_seen": "2026-08-26",
@@ -292702,7 +292702,7 @@
     "product_name": "BY THE BEACH SUNCARE (SPF 30 FACE AND BODY DRY OIL MELON DAZE) LIQUID",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-549bd1b1-a6e2-b35c-e063-6394a90a8d0e": {
    "first_seen": "2026-08-26",
@@ -297718,7 +297718,7 @@
     "product_name": "TIME ZONE LINE AND WRINKLE REDUCING CREME SPF 15 FOR DRY SKIN (OCTSALATE, AVOBENZONE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-56200212-bedc-6e1e-e063-6394a90a3666": {
    "first_seen": "2026-08-26",
@@ -300872,7 +300872,7 @@
     "product_name": "HAWAIIAN TROPIC (AVOBENZONE,HOMOSALATE,OCTISALATE,OCTOCRYLENE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-56ad0dce-410e-9d78-e063-6294a90a1c3e": {
    "first_seen": "2026-08-26",
@@ -301333,7 +301333,7 @@
     "product_name": "BIOCORNEUM SILISHIELD MINERAL SPF 30 (MINERAL SUNSCREEN SPF 30) GEL",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-56e57ca0-d163-4580-9bca-747acce4d69f": {
    "first_seen": "2026-08-26",
@@ -301691,7 +301691,7 @@
     "product_name": "MEDICUBE PDRN SILKY SUNSCREEN (HOMOSALATE, OCTOCRYLENE, OCTISALATE, AVOBENZONE) STICK",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-57192d6f-eea5-4544-b607-1d5d4eb4fec4": {
    "first_seen": "2026-08-26",
@@ -301818,7 +301818,7 @@
     "product_name": "ULTRA VIOLETTE FAVE SCREEN BROAD SPECTRUM SPF 50 (AVOBENZONE, BEMOTRIZINOL, OCTISALATE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-5742da4b-6713-4de9-8ab8-b2bf2983371a": {
    "first_seen": "2026-08-26",
@@ -303052,7 +303052,7 @@
     "product_name": "ZO SKIN HEALTH SUNSMART TRIPLE PROTECTION PROGRAM NATURAL MELANIN AND ANTIOXIDANT DEFENDERS WITH SUNSCREEN PLUS PRIMER SPF 30 (TITANIUM DIOXIDE AND ZINC OXIDE) KIT",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-57f07e8a-1043-47e4-9d7b-6e78fdc34119": {
    "first_seen": "2026-08-26",
@@ -305581,7 +305581,7 @@
     "product_name": "EXCHANGE SELECT SPORT SUNSCREEN SPF 15 (OCTINOXATE OXYBENZONE) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-58dd81db-46d4-d763-e063-6394a90abb0b": {
    "first_seen": "2026-10-09",
@@ -308458,7 +308458,7 @@
     "product_name": "SOLEO ORGANICS SUNSCREEN (ZINC OXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-59eeaea1-d726-99f3-e063-6394a90aeea3": {
    "first_seen": "2026-09-01",
@@ -308606,7 +308606,7 @@
     "product_name": "CLINIQUE SMART CUSTOM REPAIR MOISTURIZER BROAD SPECTRUM SPF 15 - VERY DRY/DRY (AVOBENZONE AND OCTISALATE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-59efb7dd-83f9-4222-9b7e-ea17ac4ece00": {
    "first_seen": "2026-08-26",
@@ -309058,7 +309058,7 @@
     "product_name": "BANANA BOAT KIDS PROTECT AND PLAY SPF 85 (AVOBENZONE AND HOMOSALATE AND OCTOCRYLENE AND OXYBENZONE) SPRAY",
     "spf_label": 85
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-5a1c7df8-0358-46e9-93ed-57fc098edac0": {
    "first_seen": "2026-08-26",
@@ -310328,7 +310328,7 @@
     "product_name": "CVS PHARMACY SUNSCREEN SPF 45 (OCTINOXATE, OCTOCRLYENE, ZINC OXIDE) LOTION",
     "spf_label": 45
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-5ac266e4-7471-42d0-bf1c-c792714129c0": {
    "first_seen": "2026-08-26",
@@ -311380,7 +311380,7 @@
     "product_name": "BANANA BOAT SPORT PERFORMANCE (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-5b3cc278-efaa-4adc-a5fb-9833243d2c0d": {
    "first_seen": "2026-10-09",
@@ -312448,7 +312448,7 @@
     "product_name": "SELECT BRAND SUNSCREEN (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-5bb5d035-16d9-4843-b9aa-d30730c88508": {
    "first_seen": "2026-10-09",
@@ -314568,7 +314568,7 @@
     "product_name": "COVER PLUS CORRECT/TINTED MOISTURIZER CC CRM FAIR (OCTINOXATE, OCTISALATE, OXYBENZONE, AND TITANIUM DIOXIDE) CREAM COVER PLUS CORRECT/TINTED MOISTURIZER CC CRM LIGHT (OCTINOXATE, OCTISALATE, OXYBENZONE, AND TITANIUM DIOXIDE) CREAM COVER PLUS CORRECT/TINTED MOISTURIZER CC CRM MED (OCTINOXATE, OCTISALATE, OXYBENZONE, AND TITANIUM DIOXIDE) CREAM COVER PLUS CORRECT/TINTED MOISTURIZER CC CRM MED/DEEP (OCTINOXATE, OCTISALATE, OXYBENZONE, AND TITANIUM DIOXIDE) CREAM COVER PLUS CORRECT/TINTED MOISTURIZER CC CRM PORCELAIN (OCTINOXATE, OCTISALATE, OXYBENZONE, AND TITANIUM DIOXIDE) CREAM COVER PLUS CORRECT/TINTED MOISTURIZER CC CRM GOLDEN LIGHT (OCTINOXATE, OCTISALATE, OXYBENZONE, AND TITANIUM DIOXIDE) CREAM COVER PLUS CORRECT/TINTED MOISTURIZER CC CRM GOLDEN MEDIUM (OCTINOXATE, OCTISALATE, OXYBENZONE, AND TITANIUM DIOXIDE) CREAM COVER PLUS CORRECT/TINTED MOISTURIZER CC CRM GOLDEN ALMOND (OCTINOXATE, OCTISALATE, OXYBENZONE, AND TITANIUM DIOXIDE) CREAM COVER PLUS CORRECT/TINTED MOISTURIZER CC CRM DEEP ALMOND (OCTINOXATE, OCTISALATE, OXYBENZONE, AND TITANIUM DIOXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-5c5aad09-9f93-4634-8db1-c67570b38b2b": {
    "first_seen": "2026-08-26",
@@ -314903,7 +314903,7 @@
     "product_name": "AIRFIT INVISIBLE SUNSCREEN (HOMOSALATE, OCTISALATE, OCTOCRYLENE, AVOBENZONE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-5c9cd98b-070b-46b0-aaad-670d664f412f": {
    "first_seen": "2026-08-26",
@@ -316158,7 +316158,7 @@
     "product_name": "ULTRASOLSUNSCREEN SUNSCREEN FACE CREAM SPF 34 (AVOBENZONE, OCTINOXATE, OCTISALATE, OXYBENZONE) CREAM",
     "spf_label": 34
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-5d786f6a-f11a-04de-e063-6394a90ac584": {
    "first_seen": "2026-10-20",
@@ -317011,7 +317011,7 @@
     "product_name": "DUANE READE BABY SUNSCREENSPF 50 SPF 50 (AVOBENZONE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-5e02b820-e53a-42cb-abdb-2925617c29ca": {
    "first_seen": "2026-10-09",
@@ -317969,7 +317969,7 @@
     "product_name": "WALGREENS SUNSCREEN BABY SPF 50 (HOMOSALATE, OXYBENZONE, OCTISALATE, AVOBENZONE, OCTOCRYLENE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-5ee32301-d7b0-49a0-923b-b0e7c2e5872d": {
    "first_seen": "2026-10-09",
@@ -318233,7 +318233,7 @@
     "product_name": "SKIN 79 THE PRESTIGE BEBLESH BALM (5G) (ZINC OXIDE, TITANIUM DIOXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-5f1027b3-d001-40db-b778-f963453ac691": {
    "first_seen": "2026-10-09",
@@ -321065,7 +321065,7 @@
     "product_name": "H.E.B BABY (SPF 50 SUNSCREEN) AEROSOL, SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-612c5730-c3b4-486e-8ce9-8a861f676fa8": {
    "first_seen": "2026-10-09",
@@ -321239,7 +321239,7 @@
     "product_name": "AL0038400 ALBA BOTANICA FAST FIX SUN SPF30 (OCTOCRYLENE, OCTYL SALICYLATE, ZINC OXIDE) STICK",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-615c5349-7fff-4145-9d65-1687247163be": {
    "first_seen": "2026-08-26",
@@ -322305,7 +322305,7 @@
     "product_name": "NEOVA DNA DAMAGE CONTROL - EVERYDAY SPF 43 (ZINC OXIDE, OCTINOXATE, OCTISALATE) EMULSION",
     "spf_label": 43
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-61d06b61-5299-2627-e053-2991aa0a70ed": {
    "first_seen": "2026-08-26",
@@ -323212,7 +323212,7 @@
     "product_name": "ULTRASOL SUNSCREEN LOTION SPF 45 (AVOBENZONE, OCTINOXATE, OCTISALATE, OXYYBENZONE) LOTION",
     "spf_label": 45
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-625037c2-f5f8-4391-baed-7204ca287f35": {
    "first_seen": "2026-08-26",
@@ -326337,7 +326337,7 @@
     "product_name": "SEA STAR SPARKLE SPF 50 GLITTER SUNSCREEN COCO LIME (HOMOSALATE, OCTOCRYLENE, OCTISALATE, ZINC OXIDE) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-63b420ba-ac69-5670-e053-2a91aa0a864b": {
    "first_seen": "2026-08-26",
@@ -328689,7 +328689,7 @@
     "product_name": "DUANE READE SUNSCREEN SPF 45 (ZINC OXIDE) LOTION",
     "spf_label": 45
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-653c1abf-a2e4-4d71-903d-bd16c1625b29": {
    "first_seen": "2026-08-26",
@@ -329091,7 +329091,7 @@
     "product_name": "ULTRA SENSITIVE FACEBLOCK SPF 25 (TITANIUM DIOXIDE) LOTION",
     "spf_label": 25
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-657b04c6-d15b-470b-92e6-e59ed7e8b116": {
    "first_seen": "2026-08-26",
@@ -330833,7 +330833,7 @@
     "product_name": "CETAPHIL DAILY FACIAL MOISTURIZER WITH SUNCREEN SPF 50 (OCTINOXATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE, TITANIUM DIOXIDE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-66624df4-cb6c-4cfb-bbbe-9f885f2ad778": {
    "first_seen": "2026-08-26",
@@ -333723,7 +333723,7 @@
     "product_name": "CITY STICK SPF 15 (TITANIUM DIOXIDE) STICK",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-67efcd94-00af-477b-bd14-d1c7b95d305a": {
    "first_seen": "2026-10-09",
@@ -336818,7 +336818,7 @@
     "product_name": "MORE THAN MOISTURE SPF 30 (ZINC OXIDE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-69229e6a-a2bb-4948-a5b6-d885929cbc05": {
    "first_seen": "2026-10-09",
@@ -336879,7 +336879,7 @@
     "product_name": "RITE AID ULTIMATE SHEER (AVOBENZONE HOMOSALATE OCTISALATE OCTOCRYLENE OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-6925c546-056e-4be8-b4e9-55da0b6b62b3": {
    "first_seen": "2026-08-26",
@@ -336994,7 +336994,7 @@
     "product_name": "TOTAL SUNCARE SUNSCREEN SPF 50 (AVOBENZONE, HOMOSALATE, OCTINOXATE, OCTISALATE, OXYBENZONE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-692f9cda-eb6c-431f-a575-3778c6e12e3b": {
    "first_seen": "2026-10-09",
@@ -337971,7 +337971,7 @@
     "product_name": "ULTRASOLSUNSCREEN SUNSCREEN SPRAY LOTION SPF 15 (AVOBENZONE, OCTINOXATE, OXYBENZONE) SPRAY",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-69fefe59-a5dc-4014-e053-2a91aa0ae13b": {
    "first_seen": "2026-08-26",
@@ -339933,7 +339933,7 @@
     "product_name": "DUANE READE SUNSCREEN SPF 15 (OCTINOXATE) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-6aee8288-0def-40fc-81f0-604901ccc4a1": {
    "first_seen": "2026-08-26",
@@ -340362,7 +340362,7 @@
     "product_name": "SOORYEHAN BICHAEK JADAN SUN (ZINC OXIDE, TITANIUM DIOXIDE, PHENYLBENZIMIDAZOLE SULFONIC ACID) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-6b4d59e2-04f5-4a37-a8fd-062b1dca0794": {
    "first_seen": "2026-08-26",
@@ -340474,7 +340474,7 @@
     "product_name": "PUBLIX SUNSCREEN SPF 15 (OCTINOXATE, OXYBENZONE) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-6b65d6d9-7ff3-4c84-986e-ef180161eadb": {
    "first_seen": "2026-10-09",
@@ -342043,7 +342043,7 @@
     "product_name": "PETER ISLAND SUNSCREEN SPF 70 (HOMOSALATE, OXYBENZONE, OCTISALATE, AVOBENZONE, OCTOCRYLENE) LOTION",
     "spf_label": 70
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-6c915dc6-b37d-4cca-9859-6c15fc761a80": {
    "first_seen": "2026-10-09",
@@ -342598,7 +342598,7 @@
     "product_name": "SEA STAR SPARKLE SPF 50 GLITTER SUNSCREEN COTTON CANDY (HOMOSALATE, OCTOCRYLENE, OCTISALATE, ZINC OXIDE) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-6ccdc093-8af9-4bd8-84b0-f229fccd2f1c": {
    "first_seen": "2026-08-26",
@@ -343300,7 +343300,7 @@
     "product_name": "BANANA BOAT ULTRAMIST BABY TEAR FREE CONTINUOUS SPF 50 (AVOBENZONE AND HOMOSALATE AND OCTINOXATE AND OCTISALATE AND OCTOCRYLENE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-6d0d1b1f-eaf7-603c-e053-2a91aa0ad307": {
    "first_seen": "2026-08-26",
@@ -345563,7 +345563,7 @@
     "product_name": "MDSOLARSCIENCES SPF 40 QUICK DRY (AVOBENZONE, OCTISALATE, AND OCTOCRYLENE) SPRAY",
     "spf_label": 40
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-6edc0941-bb21-4797-a875-81f727694774": {
    "first_seen": "2026-10-09",
@@ -345894,7 +345894,7 @@
     "product_name": "WATERBLOCK SOLAR SPF 30 (HOMOSALATE, OCTINOXATE, OCTISALATE, OCTOCRYLENE, AND OXYBENZONE) LIQUID",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-6f108b71-b051-4163-8b17-c2481f60e3de": {
    "first_seen": "2026-08-26",
@@ -347812,7 +347812,7 @@
     "product_name": "PETER ISLAND CONTINOUS SUNSCREEN SPF 30 (OCTOCRYLENE AVOBENZONE OCTISALATE HOMOSALATE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-6feeb834-21b7-4a2c-90ba-7e775ce668fd": {
    "first_seen": "2026-10-09",
@@ -347887,7 +347887,7 @@
     "product_name": "BANANA BOAT SPORT PERFORMANCE (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-6ff00b6e-1cc7-4cc4-842b-4e379f75e454": {
    "first_seen": "2026-10-09",
@@ -348542,7 +348542,7 @@
     "product_name": "EVERYDAY SUNSCREEN SPF 50 (AVOBENZONE, HOMOSALATE, OCTINOXATE, OCTISALATE) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-705f9494-f60b-f5fb-e053-2991aa0adda4": {
    "first_seen": "2026-10-09",
@@ -349015,7 +349015,7 @@
     "product_name": "ULTRASOLSUNSCREEN NATURE BABY SUNSCREEN FACE CREAM SPF 45 (AVOBENZONE, OCTINOXATE, OCTISALATE, OXYBENZONE) CREAM",
     "spf_label": 45
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-70b94df9-2160-450c-a722-cb842f58c319": {
    "first_seen": "2026-08-26",
@@ -350213,7 +350213,7 @@
     "product_name": "BANANA BOAT PROTECTIVE DRY SPF 6 (OCTOCRYLENE AND OXYBENZONE AND AVOBENZONE) OIL",
     "spf_label": 6
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-71856cb3-9386-4569-80e4-92826342e386": {
    "first_seen": "2026-08-26",
@@ -350904,7 +350904,7 @@
     "product_name": "DAYLIGHT TINTED RADIANCE MOISTURIZER BROAD SPECTRUM SPF 32 - MEDIUM (ZINC OXIDE AND TITANIUM DIOXIDE) CREAM",
     "spf_label": 32
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-722462d8-d2ab-44ce-9065-673ab2076269": {
    "first_seen": "2026-10-09",
@@ -351035,7 +351035,7 @@
     "product_name": "ULTRASOL NATURE BABY SUNSCREEN (TITANIUM DIOXIDE, ZINC OXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-7244cdf7-2763-48a0-80f4-8b6d8feb0f88": {
    "first_seen": "2026-08-26",
@@ -351381,7 +351381,7 @@
     "product_name": "SHIMMERY SUN (OCTINOXATE TITANIUM DIOXIDE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-72ac1954-f94e-494c-99cd-3c70a321e45f": {
    "first_seen": "2026-10-09",
@@ -351479,7 +351479,7 @@
     "product_name": "JORDAN FAT KIDS TALLOW SUNSCREEN SPF 30 (MENTHOL, METHYL SALICYLATE) OINTMENT",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-72cf5079-80f6-4c87-a0d8-bb17a518f8c4": {
    "first_seen": "2026-08-26",
@@ -351539,7 +351539,7 @@
     "product_name": "ULTRASOLSUNSCREEN KIDS SUNSCREEN LOTION CONTINUOUS SPRAY SPF 45 (AVOBENZONE, HOMOSALATE, OCTINOXATE, OCTISALATE, OCTOCRYLENE , OXYBENZONE) AEROSOL, SPRAY",
     "spf_label": 45
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-72ee2c06-242e-29a2-e053-2991aa0ad8dc": {
    "first_seen": "2026-10-09",
@@ -351789,7 +351789,7 @@
     "product_name": "ZO MEDICAL ZO NON-HYDROQUINONE HYPERPIGMENTATION SYSTEM FOR SKIN BRIGHTENING (TITANIUM DIOXIDE) KIT",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-733912b9-1d07-4d85-9750-7ce29351f8d4": {
    "first_seen": "2026-08-26",
@@ -351844,7 +351844,7 @@
     "product_name": "SEA PURE HYDRATING SEA PURE HYDRATING SPF20 (TITANIUM DIOXIDE) LOTION",
     "spf_label": 20
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-733e7853-ab11-4887-83a2-b9d95c163453": {
    "first_seen": "2026-08-26",
@@ -354814,7 +354814,7 @@
     "product_name": "WKND UNDERWATER SUN SCREEN 50ML (OCTINOXATE, OCTISALATE, TITANIUM DIOXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-751d5194-f5ea-401b-9439-7770510a588c": {
    "first_seen": "2026-08-26",
@@ -354943,7 +354943,7 @@
     "product_name": "CLINIQUE CX PROTECTIVE BASE SPF 40 (OCTINOXATE, OCTISALATE, ZINC OXIDE,TITANIUM DIOXIDE) CREAM",
     "spf_label": 40
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-754186c8-3c88-40a0-a4e3-35e3ea9d1b4c": {
    "first_seen": "2026-08-26",
@@ -355000,7 +355000,7 @@
     "product_name": "SUNSCREEN (HOMOSALATE, OCTINOXATE, OCTISALATE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-7548658a-5371-4aed-baf8-e5dc54262223": {
    "first_seen": "2026-10-09",
@@ -355760,7 +355760,7 @@
     "product_name": "PETER ISLAND CONTINUOUS SPORT SUNSCREEN SPF 50 (HOMOSALATE, OXYBENZONE, OCTISALATE, AVOBENZONE, OCTOCRYLENE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-75d985ca-971d-4529-a9f0-685c8879b942": {
    "first_seen": "2026-08-26",
@@ -357905,7 +357905,7 @@
     "product_name": "SUNSCREEN MIST BROAD SPECTRUM SPF 50 SUPERGOOP (AVOBENZONE, HOMOSALATE, OCTINOXATE, OCTISALATE, OCTOCRYLENE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-777ecbd3-9577-421d-b476-0bb7726b3120": {
    "first_seen": "2026-10-09",
@@ -358637,7 +358637,7 @@
     "product_name": "IPKN MOIST AND FIRM BEAUTY BALM LIGHT (TITANIUM DIOXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-77e4bbcc-0a51-4e9c-9328-46bcbf4f8129": {
    "first_seen": "2026-08-26",
@@ -359690,7 +359690,7 @@
     "product_name": "PAPA RECIPE HONEY MOIST SUN ESSENCE (OCTINOXATE, HOMOSALATE, OCTISALATE, TITANIUM DIOXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-787bf3c4-d7a6-44f8-a96c-75e3ae4f838f": {
    "first_seen": "2026-08-26",
@@ -359771,7 +359771,7 @@
     "product_name": "CITY BLOCK SHEER SPF 25 OIL FREE DAILY FACE PROTECTOR (TITANIUM DIOXIDE, ZINC OXIDE) LOTION",
     "spf_label": 25
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-789d6e73-0a0d-43e2-a69f-d5c9732805c1": {
    "first_seen": "2026-10-09",
@@ -359814,7 +359814,7 @@
     "product_name": "PAPA RECIPE BOMBEE MOIST SUN ESSENCE (OCTINOXATE, HOMOSALATE, OCTISALATE, TITANIUM DIOXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-78a53063-e2ba-4fa3-8c17-7bc8e60c1306": {
    "first_seen": "2026-10-09",
@@ -361803,7 +361803,7 @@
     "product_name": "BANANA BOAT ULTRA DEFENCE SPF 30 FOR UK (HOMOSALATE AND OCTINOXATE AND OCTISALATE AND OCTOCRYLENE AND OXYBENZONE AND AVOBENZONE) SPRAY",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-7a7c0711-3320-43e9-8266-604c0e5e4525": {
    "first_seen": "2026-10-09",
@@ -363979,7 +363979,7 @@
     "product_name": "SELECT BRAND SUNSCREEN (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-7c1e780a-1831-4f49-a92e-e36017d241a2": {
    "first_seen": "2026-09-08",
@@ -365258,7 +365258,7 @@
     "product_name": "BOTANIC TWENTY DAILY SUNBLOCK SPF50 (OCTINOXATE, TITANIUM DIOXIDE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-7cc920de-c91f-4040-a0b9-ea216d6f9bd7": {
    "first_seen": "2026-08-26",
@@ -365697,7 +365697,7 @@
     "product_name": "ULTRASOL KIDS (AVOBENZONE, OCTINOXATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) AEROSOL, FOAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-7d1e134b-bac2-4c2c-a5f7-5717b2e62eef": {
    "first_seen": "2026-08-26",
@@ -365923,7 +365923,7 @@
     "product_name": "RITE AID ULTIMATE SHEER (AVOBENZONE HOMOSALATE OCTISALATE OCTOCRYLENE OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-7d4f820d-e154-428e-89c2-2e26e088ceef": {
    "first_seen": "2026-08-26",
@@ -365980,7 +365980,7 @@
     "product_name": "SUNSCREEN (HOMOSALATE, OCTINOXATE, OCTISALATE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-7d7d17a0-7607-1d70-e053-2a91aa0a564f": {
    "first_seen": "2026-08-26",
@@ -367593,7 +367593,7 @@
     "product_name": "REPAIRWEAR LIFT SPF 15 FIRMING DAY DRY COMBO SKIN (OCTINOXATE, OCTISALATE, TITANIUM DIOXIDE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-7e2a41e9-27ba-49fe-bb20-acf79c0a6dd4": {
    "first_seen": "2026-08-26",
@@ -367693,7 +367693,7 @@
     "product_name": "LANOCREME HYDRATING DAY SPF15 (AVOBENZONE, OXYBENZONE, OCTYL METHOXYCINNAMATE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-7e48a3d2-e453-4733-b42b-8bea804cda59": {
    "first_seen": "2026-09-08",
@@ -367837,7 +367837,7 @@
     "product_name": "BANANA BOAT QUIK DRI SPORT BODY AND SCALP SPF 30 (AVOBENZONE AND OCTOCRYLENE AND OXYBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-7e5930fe-eb0f-4a21-8065-8831dd5b351c": {
    "first_seen": "2026-10-09",
@@ -368207,7 +368207,7 @@
     "product_name": "GOODSENSE SUNSCREEN SPF 30 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-7ebcc977-c5ae-4720-b201-7d7d32896090": {
    "first_seen": "2026-08-26",
@@ -370020,7 +370020,7 @@
     "product_name": "SUNSCREEN CREAM SPF 30 (HOMOSALATE, OCTYL METHOXYCINNAMATE, BENZOPHENONE-3, TITANIUM DIOXIDE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-803c7ddc-dabe-4e14-e053-2991aa0aed90": {
    "first_seen": "2026-08-26",
@@ -370411,7 +370411,7 @@
     "product_name": "JURLIQUE SPF40 HIGH PROTECTION SUNSCREEN (AVOBENZONE, OCTINOXATE, AND OCTOCRYLENE) CREAM",
     "spf_label": 40
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-806b4e40-0e02-424b-80e7-026a211b4dfe": {
    "first_seen": "2026-10-09",
@@ -371319,7 +371319,7 @@
     "product_name": "QT SUN BLOCK (OCTINOXATE, TITANIUM DIOXIDE, ENZACAMENE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-80e4f4fd-16d2-4c9f-bf4b-e19dce87d9e5": {
    "first_seen": "2026-08-26",
@@ -371523,7 +371523,7 @@
     "product_name": "KISS MY FACE SPF 30 FACE STICK (AVOBENZONE, HOMOSALATE, OCTINOXATE, OCTOCRYLENE) STICK",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-812caa99-1e1e-4ab8-9f9a-fb3384c684dd": {
    "first_seen": "2026-08-26",
@@ -371636,7 +371636,7 @@
     "product_name": "RITE AID SUNSCREEN (AVOBENZONE HOMOSALATE OCTISALATE OCTOCRYLENE OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-81314669-4f4a-43cd-b8e8-69bba0e67fb2": {
    "first_seen": "2026-08-26",
@@ -372738,7 +372738,7 @@
     "product_name": "EVERYDAY SUNSCREEN WITH SUNFLOWER EXTRACT BROAD SPECTRUM SPF 30 (AVOBENZONE, HOMOSALATE, OCTISALATE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-81c83ce9-3c21-47af-9392-24fd537cb7ca": {
    "first_seen": "2026-08-26",
@@ -373267,7 +373267,7 @@
     "product_name": "EVERYDAY SUNSCREEN SPF 50 WITH SUNFLOWER EXTRACT (AVOBENZONE, HOMOSALATE, OCTINOXATE, OCTISALATE) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-82607bff-a1d9-4b82-8294-1d48b33d4833": {
    "first_seen": "2026-08-26",
@@ -373332,7 +373332,7 @@
     "product_name": "DUANE READE SUNSCREEN SPF 70 (AVOBENZONE) LOTION",
     "spf_label": 70
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-82623c46-9ec3-4331-a2db-9b8d07fa1817": {
    "first_seen": "2026-10-09",
@@ -374126,7 +374126,7 @@
     "product_name": "SANTO REMEDIOS PIEL ETERNA RADIANCE SUNSCREEN PRIMER SPF-42 (TITANIUM DIOXIDE, ZINC OXIDE) LOTION",
     "spf_label": 42
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-82d2af99-7c42-4ce5-94e0-b2ac60b8db1b": {
    "first_seen": "2026-08-26",
@@ -374191,7 +374191,7 @@
     "product_name": "GOOD INSTINCTS PROPER SUNSCREEN SPF 50 (ZINC OXIDE, TITANIUM DIOXIDE) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-82d788fa-0bd7-43bc-b687-3e64b41c7afa": {
    "first_seen": "2026-08-26",
@@ -375511,7 +375511,7 @@
     "product_name": "IM SPORTS AQUA SUNGEL (OCTYL METHOXYCINNAMATE, HOMOSALATE, OCTYL SALICYLATE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-83581bfd-ffb0-5600-e053-2a91aa0a039a": {
    "first_seen": "2026-10-09",
@@ -376322,7 +376322,7 @@
     "product_name": "BILBOA CAPRI SUNSCREEN SPF 15 (AVOBENZONE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-841e1b3d-dbbc-4bb0-886a-fb2d077ae739": {
    "first_seen": "2026-10-09",
@@ -376628,7 +376628,7 @@
     "product_name": "MINERAL REPAIR SPF 45 (ZINC OXIDE) LOTION",
     "spf_label": 45
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-8464710a-e27a-48cd-93cd-90c22a64c665": {
    "first_seen": "2026-08-26",
@@ -378057,7 +378057,7 @@
     "product_name": "PUBLIX SPORT SPF 50 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-859461ea-582e-8185-e053-2991aa0a954a": {
    "first_seen": "2026-08-26",
@@ -378367,7 +378367,7 @@
     "product_name": "DUANE READE SPORTS SUNSCREEN SPF 50 (AVOBENZONE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-85f3dd47-4f1f-4fa3-a171-4f4b7707191c": {
    "first_seen": "2026-08-26",
@@ -379975,7 +379975,7 @@
     "product_name": "AHAVA ACTIVE DEADSEA MINERALS MINERAL SUNCARE SPF 30 (OCTOCRYLENE) SPRAY",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-86fc4539-e1c5-4d0f-a418-f48729cb2b20": {
    "first_seen": "2026-08-26",
@@ -380735,7 +380735,7 @@
     "product_name": "ULTRASOLSUNSCREEN SUNSCREEN LOTION SPF 34 (AVOBENZONE , OCTINOXATE, OCTISALATE, OXYBENZONE) LOTION",
     "spf_label": 34
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-8770fb8a-4eaf-4a87-97d4-7b05f07dd103": {
    "first_seen": "2026-08-26",
@@ -381601,7 +381601,7 @@
     "product_name": "PETER ISLAND SUNSCREEN SPF 30 (HOMOSALATE, OXYBENZONE, OCTISALATE, AVOBENZONE, OCTOCRYLENE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-87ee593d-668c-f592-e053-2a95a90a17b1": {
    "first_seen": "2026-10-09",
@@ -383793,7 +383793,7 @@
     "product_name": "NO-AD SPF4 DARK TANNING OIL (OCTINOXATE, OCTISALATE) SPRAY",
     "spf_label": 4
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-89a37969-bb8b-46a5-8975-9a207957fbe0": {
    "first_seen": "2026-10-09",
@@ -384013,7 +384013,7 @@
     "product_name": "BANANA BOAT KIDS ULTRAMIST TEAR FREE SPF 30 (AVOBENZONE AND HOMOSALATE AND OCTISALATE AND OCTOCRYLENE) SPRAY",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-89d6a73d-acb2-4b85-94a8-0ee365d02f4a": {
    "first_seen": "2026-08-26",
@@ -384166,7 +384166,7 @@
     "product_name": "SELECT BRAND SPORT SUNSCREEN SPF 30 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-89de5468-e908-4611-885d-53eebbca333f": {
    "first_seen": "2026-08-26",
@@ -384838,7 +384838,7 @@
     "product_name": "LIKEWISE FACIAL MOISTURIZER - SUN PROTECTANT SPF 50 NORMAL TO DRY SKIN (OCTINOXATE, OCTISALATE, ZINC OXIDE) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-8a864edf-5741-44a4-8615-e809ce986588": {
    "first_seen": "2026-08-26",
@@ -385624,7 +385624,7 @@
     "product_name": "LAB SERIES DAY RESCUE DEFENSE BROAD SPECTRUM SPF 35 (AVOBENZONE, HOMOSALATE, OCTISALATE, AND OXYBENZONE) LOTION",
     "spf_label": 35
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-8b252589-14be-49a3-8c66-4410071ecccb": {
    "first_seen": "2026-10-09",
@@ -386877,7 +386877,7 @@
     "product_name": "KROGER SUNSCREEN SPF 8 (OCTINOXATE OXYBENZONE) LOTION",
     "spf_label": 8
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-8bd88ee8-4683-432c-b141-eb92ff4b9580": {
    "first_seen": "2026-08-26",
@@ -387415,7 +387415,7 @@
     "product_name": "SURFERSSKIN SUNSCREEN ZINC (OCTINOXATE, TITANIUM DIOXIDE, ZINC OXIDE) STICK",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-8c502e11-6e97-46d6-8775-1bbafaeb18f8": {
    "first_seen": "2026-10-09",
@@ -387927,7 +387927,7 @@
     "product_name": "ELASTOLOGY AGE BLOCKER MOISTURIZER AND SPF 30 SUNSCREEN (OCTINOXATE, OCTISALATE, OXYBENZONE, AND TITANIUM DIOXIDE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-8cd03079-c625-4a22-a3a6-15452ac746e5": {
    "first_seen": "2026-08-26",
@@ -389762,7 +389762,7 @@
     "product_name": "RITE AID SPORT SUNSCREEN (AVOBENZONE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-8db9f5e0-a8d6-4872-b4c6-cb92c43d25c2": {
    "first_seen": "2026-10-09",
@@ -391459,7 +391459,7 @@
     "product_name": "GOODSENSE SPORT SUNSCREEN SPF 50 (AVOBENZONE, HOMOSALATE, OCTOCRYLENE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-8e614886-977d-9d32-e053-2995a90ae946": {
    "first_seen": "2026-08-26",
@@ -391520,7 +391520,7 @@
     "product_name": "GOODSENSE SPORT SUNSCREEN SPF 30 (AVOBENZONE, HOMOSALATE, OCTOCRYLENE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-8e80b538-3e7c-4971-972f-9da650612638": {
    "first_seen": "2026-08-26",
@@ -392609,7 +392609,7 @@
     "product_name": "PETER ISLAND SUNSCREENSPF 50 SPF 50 (HOMOSALATE, OXYBENZONE, OCTISALATE, AVOBENZONE, OCTOCRYLENE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-8f15b988-c009-4ca7-bb46-c0fb0aa62643": {
    "first_seen": "2026-08-26",
@@ -394536,7 +394536,7 @@
     "product_name": "EXCHANGE SELECT SUNSCREEN SPF 15 (OCTINOXATE OXYBENZONE) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-906fa925-a9cc-4c5a-a915-06584daf3426": {
    "first_seen": "2026-10-09",
@@ -395077,7 +395077,7 @@
     "product_name": "WALGREENS SUNSCREEN SPF 15 (OCTINOXATE OXYBENZONE ) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-91035a82-ba8d-4b5f-ad4e-8a42e527f2e0": {
    "first_seen": "2026-08-26",
@@ -396529,7 +396529,7 @@
     "product_name": "PLANTSCRIPTION SPF 25 POWER ANTI-AGING OIL FREE BROAD SPECTRUM (AVOBENZONE, HOMOSALATE, OCTISALATE, AND OCTOCRYLENE) CREAM",
     "spf_label": 25
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-91c9d0a3-e87c-40c5-9fad-70f272f26d95": {
    "first_seen": "2026-08-26",
@@ -396583,7 +396583,7 @@
     "product_name": "RITE AID SPORT SUNSCREENSPF 50 SPF 50 (AVOBENZONE HOMOSALATE OCTISALATE OCTOCRYLENE OXYBENZONE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-91d6dcfc-2632-4809-8bf2-fd234311103f": {
    "first_seen": "2026-08-26",
@@ -397208,7 +397208,7 @@
     "product_name": "CVS PHARMACY SPF 15 (OCTINOXATE, OXYBENZONE) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-9221d7ad-3167-47b5-b20a-cdc2174a4cf3": {
    "first_seen": "2026-08-26",
@@ -397515,7 +397515,7 @@
     "product_name": "BOTANICS SHINE AWAY MATTIFYING DAY CREAM SUNSCREEN BROAD SPECTRUM SPF 15 (AVOBENZONE, OCTISALATE, OCTOCRYLENE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-9258acd6-a56d-4883-9f08-1213e181a80b": {
    "first_seen": "2026-08-26",
@@ -398915,7 +398915,7 @@
     "product_name": "ULTRASOLSUNSCREEN SUNSCREEN LOTION SPF 34 (AVOBENZONE, OCTINOXATE, OCTISALATE, OXYBENZONE) LOTION",
     "spf_label": 34
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-9323c8fa-1707-45b3-b655-bce034ba9e21": {
    "first_seen": "2026-08-26",
@@ -400752,7 +400752,7 @@
     "product_name": "SK1N NATURAL SUNSCREEN SPF 40 (ZINC OXIDE) LOTION",
     "spf_label": 40
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-949a2796-717c-4820-ae09-2636e3dd6e3d": {
    "first_seen": "2026-08-26",
@@ -404272,7 +404272,7 @@
     "product_name": "ULTRASOLSUNSCREEN SPORT CLEAR CONTINUOUS SPRAY (AVOBENZONE, HOMOSALATE, OCTINOXATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) AEROSOL, SPRAY",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-96fd37fb-c3ff-413f-b2c8-50754f320ecc": {
    "first_seen": "2026-08-26",
@@ -404811,7 +404811,7 @@
     "product_name": "CVS SPF 8 (OCTINOXATE, OXYBENZONE) LOTION",
     "spf_label": 8
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-974bb69c-e76e-49a6-b754-ad337250ac2f": {
    "first_seen": "2026-08-26",
@@ -406012,7 +406012,7 @@
     "product_name": "LIKEWISE FACIAL MOISTURIZER - SUN PROTECTANT SPF 50 NORMAL TO OILY SKIN (OCTINOXATE, OCTISALATE, ZINC OXIDE) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-97c1da03-b79c-46a3-a9f0-7aeb94ed66da": {
    "first_seen": "2026-08-26",
@@ -406683,7 +406683,7 @@
     "product_name": "QUICK AND CLEAN OIL FREE SUN SPF35 PA (TITANIUM DIOXIDE) CREAM",
     "spf_label": 35
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-9839570f-eeef-4140-a6ca-9fd2c9767a5b": {
    "first_seen": "2026-08-26",
@@ -407163,7 +407163,7 @@
     "product_name": "MEIJER SUNSCREEN SPF 15 (OCTINOXATE, OXYBENZONE) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-98959445-9073-4e76-9793-af9dcd8c3977": {
    "first_seen": "2026-08-26",
@@ -408624,7 +408624,7 @@
     "product_name": "REEF REPAIR SPF 50 SUNCREAM (ZINC OXIDE, 25%) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-9965ccd1-821d-4d9d-8a56-e87440b809ee": {
    "first_seen": "2026-10-09",
@@ -408671,7 +408671,7 @@
     "product_name": "THINK ALOE AND TEA LEAVES ZINC OXIDE (ZINC OXIDE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-996fc76e-bd7e-305b-e053-2995a90ac103": {
    "first_seen": "2026-08-26",
@@ -408715,7 +408715,7 @@
     "product_name": "REEF REPAIR SPF 30 SUNCREAM (ZINC OXIDE, 20%) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-99741e3c-cce2-407b-e053-2995a90ae6d7": {
    "first_seen": "2026-08-26",
@@ -408895,7 +408895,7 @@
     "product_name": "BANANA BOAT DEEP TANNING DRY SPF 8 (AVOBENZONE AND OCTOCRYLENE AND OXYBENZONE) OIL",
     "spf_label": 8
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-9983563c-1e63-0748-e053-2a95a90a971e": {
    "first_seen": "2026-08-26",
@@ -409612,7 +409612,7 @@
     "product_name": "ADVANCED TIME ZONE AGE REVERSING LINE WRINKLE BROAD SPECTRUM SPF 15 DRY SKIN (AVOBENZONE, OCTISALATE, AND OCTOCRYLENE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-99d7525d-b636-7f8e-e053-2a95a90a2080": {
    "first_seen": "2026-08-26",
@@ -410746,7 +410746,7 @@
     "product_name": "ULTRASOLSUNSCREEN KIDS SUNSCREEN MOUSSE (AVOBENZONE, OCTINOXATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) AEROSOL, FOAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-9a967cd1-9eec-4255-b14b-ac2e33e4dbf0": {
    "first_seen": "2026-10-09",
@@ -411822,7 +411822,7 @@
     "product_name": "SUNSCREEN (ZINC OXIDE SUNSREEN) OINTMENT",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-9ad3ad4e-3bff-4dc3-a132-7b921127d934": {
    "first_seen": "2026-08-26",
@@ -411889,7 +411889,7 @@
     "product_name": "RITE AID ESSENTIAL DEFENSE SPF 45 (AVOBENZONE HOMOSALATE OCTISALATE OCTOCRYLENE OXYBENZONE) LOTION",
     "spf_label": 45
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-9adea1a4-efa6-4fe1-85e8-ed69fa098a87": {
    "first_seen": "2026-08-26",
@@ -411991,7 +411991,7 @@
     "product_name": "MDSOLARSCIENCES SPF40 ULTRA-SPORT (MERADIMATE AND OCTISALATE AND OCTOCRYLENE AND TITANIUM DIOXIDE AND ZINC OXIDE) STICK",
     "spf_label": 40
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-9ae0da69-98ba-0a6e-e053-2995a90a9574": {
    "first_seen": "2026-08-26",
@@ -413156,7 +413156,7 @@
     "product_name": "EXCHANGE SELECT SUNSCREEN SPF 30 (AVOBENZONE HOMOSALATE OCTOCRYLENE OXYBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-9b544c85-ff58-4617-8e74-b0c84db4a25c": {
    "first_seen": "2026-08-26",
@@ -414530,7 +414530,7 @@
     "product_name": "PLAY ANTIOXIDANT BODY MIST SPF 50 WITH VITAMIN C (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-9c5cb5b1-fb73-4a32-a8a6-52eef091df03": {
    "first_seen": "2026-08-26",
@@ -414926,7 +414926,7 @@
     "product_name": "BANANA BOAT SPORT PERFORMANCE (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-9c9a0fa4-b440-4d7f-805e-d997e120024d": {
    "first_seen": "2026-08-26",
@@ -415012,7 +415012,7 @@
     "product_name": "CLINIQUE SMART CUSTOM REPAIR MOISTURIZER BROAD SPECTRUM SPF 15 - COMBINATION/OILY TO OILY (AVOBENZONE AND OCTISALATE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-9c9e9d2a-64b1-4b53-81ad-0b347f89a93e": {
    "first_seen": "2026-08-26",
@@ -416197,7 +416197,7 @@
     "product_name": "RITE AID SPORT SUNSCREENSPF 30 SPF 30 (AVOBENZONE HOMOSALATE OCTISALATE OCTOCRYLENE OXYBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-9da16c11-9111-4485-9a2d-f2c1f91e7550": {
    "first_seen": "2026-08-26",
@@ -416490,7 +416490,7 @@
     "product_name": "WALGREENS SUNSCREEN SPF 30 (AVOBENZONE HOMOSALATE OCTOCRYLENE OXYBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-9ddfd0ae-4ed6-48c0-80ef-a8e7b0e8b4ab": {
    "first_seen": "2026-10-09",
@@ -417411,7 +417411,7 @@
     "product_name": "TRADER JOES ZINC OXIDE MINERAL SUNSCREEN SPF 30 (ZINC OXIDE) SPRAY",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-9e4f5a1d-79c3-1fab-e053-2a95a90a1ca0": {
    "first_seen": "2026-08-26",
@@ -420038,7 +420038,7 @@
     "product_name": "DUANE READE PREVAIL MOISTURIZING SUNSCREEN SPF 80 (AVOBENZONE) LOTION",
     "spf_label": 80
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-9f68c46b-accd-47bd-bc79-84b37f5e097d": {
    "first_seen": "2026-08-26",
@@ -423880,7 +423880,7 @@
     "product_name": "DR YOUNG PROTECT PREVENT 2P PEARL BRIGHTENING BALM (TITANIUM DIOXIDE, OCTINOXATE, ZINC OXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-a1daf1db-f494-415f-9074-6f184cd184ff": {
    "first_seen": "2026-10-09",
@@ -424874,7 +424874,7 @@
     "product_name": "SPF 30 PURE MINERAL FACE BODY SUNSCREEN (ZINC OXIDE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-a297ff64-678c-4936-8384-022606a2f33c": {
    "first_seen": "2026-10-09",
@@ -425208,7 +425208,7 @@
     "product_name": "SAFE SEA FOR KIDS SUNSCREEN WITH JELLYFISH STING PROTECTIVE SPF 30 PLUS (OCTINOXATE, OCTISALATE, OXYBENZONE, TITANIUM DIOXIDE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-a2bbf6f8-b8ad-4cd9-abeb-7ec0a4ddb45c": {
    "first_seen": "2026-10-09",
@@ -426131,7 +426131,7 @@
     "product_name": "ULTRASOL SUNSCREEN SPF45 (AVOBENZONE, HOMOSALATE, OCTINOXATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) AEROSOL, SPRAY",
     "spf_label": 45
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-a33d8788-be6a-4d7b-b4a4-ca26e02508bd": {
    "first_seen": "2026-10-09",
@@ -427104,7 +427104,7 @@
     "product_name": "SPORT SUNSCREEN SPF 50 (AVOBENZONE 3.0% HOMOSALATE 15.0% OCTISALATE 5.0% OCTOCRYLENE 10.0%) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-a40cc070-98fa-4ed1-b39d-2beb7d50abe6": {
    "first_seen": "2026-08-26",
@@ -429454,7 +429454,7 @@
     "product_name": "LIKEWISE HAND MOISTURIZER - SUN PROTECTANT SPF 50 (OCTINOXATE, OCTISALATE, ZINC OXIDE) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-a55b2cba-6de5-4a6f-b70a-584cedd74599": {
    "first_seen": "2026-10-09",
@@ -429944,7 +429944,7 @@
     "product_name": "TOTAL SUNCARE SUNSCREEN SPF 15 (AVOBENZONE, OCTISALATE, OCTINOXATE, OXYBENZONE ) SPRAY",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-a5a4d229-0ae9-4f36-905f-930f925489b8": {
    "first_seen": "2026-08-26",
@@ -430627,7 +430627,7 @@
     "product_name": "SELECT BRAND BABY SUNSCREEN (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-a5f3b6c8-6778-4f0f-95d0-d464e04f8c61": {
    "first_seen": "2026-08-26",
@@ -431603,7 +431603,7 @@
     "product_name": "PROTECTION 50 SPORT (AVOBENZONE AND OCTINOXATE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-a6802f0c-8e90-4ba3-822d-0a2ec335f5e0": {
    "first_seen": "2026-08-26",
@@ -432991,7 +432991,7 @@
     "product_name": "BANANA BOAT SPORT PERFORMANCE SPF 15 (AVOBENZONE AND HOMOSALATE AND OCTINOXATE AND OCTISALATE AND OCTOCRYLENE AND OXYBENZONE) SPRAY",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-a747e30b-b769-4bac-97af-e9d420a627dd": {
    "first_seen": "2026-10-09",
@@ -433792,7 +433792,7 @@
     "product_name": "BANANA BOAT ULTRA DEFENSE SHEER PROTECT SPF 50 (AVOBENZONE AND OCTOCRYLENE AND OXYBENZONE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-a8591509-65f7-4e62-8642-4b8e63f1fef3": {
    "first_seen": "2026-08-26",
@@ -433831,7 +433831,7 @@
     "product_name": "THINKSPORT SUNSCREEN SPF 30 (ZINC OXIDE) STICK",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-a85ead96-c9c4-6c20-e053-2a95a90ae0c9": {
    "first_seen": "2026-10-09",
@@ -434407,7 +434407,7 @@
     "product_name": "BILBOA CAPRI SUNSCREEN SPF 50 PLUS (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-a909f7e2-21ac-cf9e-e053-2995a90a6f90": {
    "first_seen": "2026-10-09",
@@ -435148,7 +435148,7 @@
     "product_name": "LANCOME PARIS ABSOLUE PREMIUM BX REPLENISHING REJUVENATING BROAD SPECTRUM SPF 15 DAY (AVOBENZONE, OCTISALATE AND OCTOCRYLENE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-a9be40e3-a8f0-4f40-be13-7866f35db668": {
    "first_seen": "2026-08-26",
@@ -435204,7 +435204,7 @@
     "product_name": "DUANE READE SPORT SUNSCREEN SPF 50 (AVOBENZONE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-a9bf1342-1c4b-48ad-a955-715647df125a": {
    "first_seen": "2026-08-26",
@@ -438663,7 +438663,7 @@
     "product_name": "PREVAGE ANTI AGING EYE SUNSCREEN SPF 15 (OCTINOXATE AND OXYBENZONE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-ab84b94b-8e04-605f-e053-2a95a90a8e34": {
    "first_seen": "2026-08-26",
@@ -440092,7 +440092,7 @@
     "product_name": "MEIJER OIL FREE SPF 30 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-ac5bbf3f-e1e0-4e03-bc5a-d6029dfb4e91": {
    "first_seen": "2026-10-09",
@@ -442471,7 +442471,7 @@
     "product_name": "BRILLIE ULTIMATE SOOTHING SUN SHIELD (ETHYLHEXYL METHOXYCINNAMATE, BENZOPHENONE-4, TITANIUM DIOXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-ad6646c7-c6aa-4610-a0c7-ddd1ddd13cde": {
    "first_seen": "2026-08-26",
@@ -446705,7 +446705,7 @@
     "product_name": "SUNSCREEN MANGO AND COCONUT (AVOBENZONE, OCTINOXATE, OCTISALATE, OCTOCRYLENE, AND OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-b00148c0-7545-104a-e053-2995a90a0bde": {
    "first_seen": "2026-08-26",
@@ -448478,7 +448478,7 @@
     "product_name": "SUPERDEFENSE BROAD SPECTRUM SPF 25 FATIGUE PLUS 1ST SIGNS OF AGE MULTI-CORRECTING VERY DRY TO DRY COMBINATION (AVOBENZONE, HOMOSALATE, AND OCTISALATE) CREAM",
     "spf_label": 25
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-b0f47e0d-cd0e-4d37-a2d8-bf343d19cdf5": {
    "first_seen": "2026-08-26",
@@ -449258,7 +449258,7 @@
     "product_name": "ULTRASOLSUNSCREEN SUNSCREEN LOTION CONTINUOUS SPRAY SPF 45 (AVOBENZONE, HOMOSALATE, OCTINOXATE , OCTISALATE , OCTOCRYLENE , OXYBENZONE) AEROSOL, SPRAY",
     "spf_label": 45
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-b15cffc3-417a-430e-bafe-ffd98bef5476": {
    "first_seen": "2026-08-26",
@@ -451457,7 +451457,7 @@
     "product_name": "THINKSPORT DAILY FACE SPF 50 (ZINC OXIDE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-b247adbe-dfe8-df0a-e053-2995a90a34d9": {
    "first_seen": "2026-10-09",
@@ -452199,7 +452199,7 @@
     "product_name": "PREVAGE ANTI-AGING EYE CREAM SPF 15 (OCTINOXATE, OXYBENZONE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-b2aa8032-cd62-4bce-a2b4-fc6fc6fc91f8": {
    "first_seen": "2026-10-09",
@@ -453438,7 +453438,7 @@
     "product_name": "ULTRASOL SUNSCREEN (AVOBENZONE, HOMOSALATE, OCTINOXATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) AEROSOL, SPRAY",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-b3747373-ef67-89ff-e053-2995a90afcde": {
    "first_seen": "2026-10-09",
@@ -454123,7 +454123,7 @@
     "product_name": "SPF50 SUNSCREEN (SUNSCREEN) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-b3d2da09-d9c9-4c27-82fe-a434ece2f099": {
    "first_seen": "2026-10-09",
@@ -454912,7 +454912,7 @@
     "product_name": "PUBLIX SPF 30 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE OXYBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-b441f976-4f2a-ba19-e053-2995a90ad79a": {
    "first_seen": "2026-08-26",
@@ -455138,7 +455138,7 @@
     "product_name": "SURFERSSKIN FACE SUNSCREEN (OCTOCRYLENE, TITANIUM DIOXIDE, ZINC OXIDE) STICK",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-b444d3cf-4d44-6d08-e053-2a95a90ac6a1": {
    "first_seen": "2026-10-09",
@@ -455258,7 +455258,7 @@
     "product_name": "SUNSCREEN FACESTICK SPF30 (FACESTICK SUNSCREEN) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-b45d0ab6-b14d-4e3e-807a-886e6fffdded": {
    "first_seen": "2026-10-09",
@@ -456919,7 +456919,7 @@
     "product_name": "KOPHER CALMING OCEAN SUN (ETHYLHEXYL METHOXYCINNAMATE, ZINC OXIDE, ETHYLHEXYL SALICYLATE, TITANIUM DIOXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-b55be8cb-7f21-45b0-bb8f-a60182077ca3": {
    "first_seen": "2026-08-26",
@@ -457223,7 +457223,7 @@
     "product_name": "BY NATURE HYDRATING DAY SPF 15 (AVOBENZONE, OXYBENZONE, OCTYL METHOXYCINNAMATE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-b585f216-4234-47c5-9a6b-8b133ef48aae": {
    "first_seen": "2026-10-09",
@@ -460048,7 +460048,7 @@
     "product_name": "VITAZING ENERGY BOOSTING MOISTURIZER SPF 15 (AVOBENZONE, OCTISALATE, OCTOCRYLENE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-b61987db-ef99-48b4-9be0-60555a8fcabb": {
    "first_seen": "2026-08-26",
@@ -461641,7 +461641,7 @@
     "product_name": "DUANE READE OIL FREE SUNSCREEN SPF 30 (AVOBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-b6e8f361-fd31-4f21-9095-c5159a826175": {
    "first_seen": "2026-08-26",
@@ -463025,7 +463025,7 @@
     "product_name": "SUNSCREEN (ZINC OXIDE SUNSCREEN) STICK",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-b7a3eed5-c8ca-ffda-e053-2a95a90a73bb": {
    "first_seen": "2026-08-26",
@@ -463272,7 +463272,7 @@
     "product_name": "PETER ISLAND ULTIMATE SHEER DRY TOUCH SUNSCREEN SPF 70 (HOMOSALATE, OXYBENZONE, OCTISALATE, AVOBENZONE, OCTOCRYLENE) LOTION",
     "spf_label": 70
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-b7b077b7-a443-6411-e053-2a95a90ab799": {
    "first_seen": "2026-10-09",
@@ -465566,7 +465566,7 @@
     "product_name": "REJUVE SUNSCREEN 100 (INC OXIDE,OCTINOXATE,OCTISALATE,HOMOSALATE,TITANIUM DIOXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-b8d39629-8729-44ae-97d6-bbb219e3bdfd": {
    "first_seen": "2026-08-26",
@@ -466366,7 +466366,7 @@
     "product_name": "AVALON ORGANICS LAVENDER LUMINOSITY MOISTURE PLUS SPF15 ( ZINC OXIDE, TITANIUM DIOXIDE ) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-b92ff1e9-9dc4-46cb-a99d-98ff15bffc79": {
    "first_seen": "2026-10-09",
@@ -469260,7 +469260,7 @@
     "product_name": "PETER ISLAND ULTIMATE SHEER DRY TOUCH SUNSCREEN SPF 70 (HOMOSALATE, OXYBENZONE, OCTISALATE, AVOBENZONE, OCTOCRYLENE) LOTION",
     "spf_label": 70
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-ba8356c8-130e-463c-8e8a-c9412280e4a7": {
    "first_seen": "2026-10-09",
@@ -469296,7 +469296,7 @@
     "product_name": "LIFT-ME DAY CREAM WITH ANTI-AGEING AND REGENERATIVE SILICIUM - UV FILTERS (OCTINOXATE, AVOBENZONE, OXYBENZONE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-ba864a08-e66d-d286-e053-2995a90a1854": {
    "first_seen": "2026-08-26",
@@ -470220,7 +470220,7 @@
     "product_name": "RITE AID ULTIMATE SHEER (AVOBENZONE HOMOSALATE OCTISALATE OCTOCRYLENE OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-bae69545-3b5a-4994-a357-7f93c474340f": {
    "first_seen": "2026-08-26",
@@ -470358,7 +470358,7 @@
     "product_name": "PURE FINISH MINERAL TINTED MOISTURIZER SPF 15 LIGHT (OCTINOXATE) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-bae9b2e0-a435-4343-91e7-d6fb6df11bd1": {
    "first_seen": "2026-10-09",
@@ -470579,7 +470579,7 @@
     "product_name": "MEDIK8 PHYSICAL SUNSCREEN SPF 50 (ZINC OXIDE) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-bb00d6d7-cc51-4fee-a0df-68bbd5bc50d6": {
    "first_seen": "2026-10-09",
@@ -470864,7 +470864,7 @@
     "product_name": "B.TAN TROPIC LIKE ITS HOT SPF 15 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) SPRAY",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-bb26c010-299e-3dc5-e053-2995a90a2c89": {
    "first_seen": "2026-10-09",
@@ -472088,7 +472088,7 @@
     "product_name": "ULTRASOL NATURE BABY SUNSCREEN (TITANIUM DIOXIDE, ZINC OXIDE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-bbed806c-117d-ffa2-e053-2a95a90a930a": {
    "first_seen": "2026-10-09",
@@ -475862,7 +475862,7 @@
     "product_name": "YOUTH SURGE SPF 15 AGE DECELERATING MOISTURIZER ANTI RIDES HYDRATANT (OCTINOXATE AND TITANIUM DIOXIDE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-bc9c3add-f00e-4e44-b1e3-190ada603834": {
    "first_seen": "2026-08-26",
@@ -478029,7 +478029,7 @@
     "product_name": "BANANA BOAT PROTECTIVE DRY SPF 10 (HOMOSALATE AND OCTISALATE AND OCTOCRYLENE AND AVOBENZONE) OIL",
     "spf_label": 10
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-bd961a57-c755-598f-e053-2a95a90a55a1": {
    "first_seen": "2026-08-26",
@@ -481724,7 +481724,7 @@
     "product_name": "WALGREENS SUNSCREEN SPORT BROAD SPECTRUM SPF 30 (AVOBENZONE HOMOSALATE OCTISALATE OCTOCRYLENE OXYBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-bfce2865-8d7c-4586-b8a2-b9ea7c462af4": {
    "first_seen": "2026-08-26",
@@ -482900,7 +482900,7 @@
     "product_name": "THINKKIDS PLAY READY MINERAL ROLL-ON SPF 45 (ZINC OXIDE) LOTION",
     "spf_label": 45
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-c0421c97-72bd-fcac-e053-2995a90aac28": {
    "first_seen": "2026-08-26",
@@ -483889,7 +483889,7 @@
     "product_name": "HEAD TO TOE KIT (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) KIT",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-c094c40e-eee3-3727-e053-2a95a90a63db": {
    "first_seen": "2026-08-26",
@@ -485219,7 +485219,7 @@
     "product_name": "SPF BEST SELLERS MINI KIT (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) KIT",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-c12272c3-d4ed-2212-e053-2995a90add37": {
    "first_seen": "2026-10-09",
@@ -489813,7 +489813,7 @@
     "product_name": "BANANA BOAT SPORT SPF 50 (AVOBENZONE AND OCTOCRYLENE AND OXYBENZONE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-c3609f6d-d17a-79a0-e053-2995a90a8aab": {
    "first_seen": "2026-10-09",
@@ -489888,7 +489888,7 @@
     "product_name": "RGO DAILY ESSENCE SUN (OCTINOXATE, TITANIUM DIOXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-c37b4a16-9dbd-4eba-b89e-c4c2ec78d4f5": {
    "first_seen": "2026-08-26",
@@ -489941,7 +489941,7 @@
     "product_name": "WALGREENS SUNSCREEN SPORT SPF 30 (OCTINOXATE OXYBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-c38cb4fa-8b8d-4c2d-9c32-301e120db1a1": {
    "first_seen": "2026-10-09",
@@ -491312,7 +491312,7 @@
     "product_name": "BANANA BOAT SPORT PERFORMANCE (AVOBENZONE, HOMOSALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-c4b20e6a-c194-457c-bfbd-06f60a11d086": {
    "first_seen": "2026-08-26",
@@ -493554,6 +493554,7 @@
      "inactive_order": true
     }
    },
+   "gone_since": "2026-10-26",
    "meta": {
     "company": "SBS BILIMSEL BIO COZUMLER SANAYI VE TICARET ANONIM SIRKETI PINAR SUBESI",
     "product_name": "PROPOLIS NASAL PLUS (PLUS NASAL) LIQUID PROPOLIS NASAL (NASAL) LIQUID SUNSCREEN SPF50 (NON NANO ZINC OXIDE) CREAM SUNSCREEN FOR FACE SPF50 (NON NANO ZINC OXIDE) CREAM AFTERSUN (NON NANO ZINC OXIDE) CREAM DIAPER RASH CREAM (NON NANO ZINC OXIDE) CREAM SUNSCREEN FOR KIDS SPF50 (NON NANO ZINC OXIDE) CREAM S.O.S CREAM INTENSIVE MOISTURIZING SKIN PROTECTANT (NON NANO ZINC OXIDE) CREAM ACNE CONTROL SERUM (SALICYLIC ACID) LIQUID",
@@ -493938,7 +493939,7 @@
     "product_name": "SUNSCREEN SPRAYS (ETHYLHEXYL METHOXYCINNAMATE) SPRAY",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-c6267a29-46a5-5f38-e053-2a95a90a0117": {
    "first_seen": "2026-08-26",
@@ -495784,7 +495785,7 @@
     "product_name": "PLANTSCRIPTION SPF 25 POWER ANTI AGING BROAD SPECTRUM 25 (AVOBENZONE, HOMOSALATE, OCTISLATE, AND OCTOCRYLENE) CREAM",
     "spf_label": 25
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-c70a3f80-84a9-4ce7-88a1-4c50d15d758c": {
    "first_seen": "2026-10-09",
@@ -497110,7 +497111,7 @@
     "product_name": "FRUIT OF THE EARTH CABANA BEACH CLUBWITH BLOOD ORANGE AND ESSENTIAL OILS SPF 50 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-c780d5cf-8388-42e0-e053-2a95a90a7c04": {
    "first_seen": "2026-08-26",
@@ -497494,7 +497495,7 @@
     "product_name": "FRUIT OF THE EARTH CABANA BEACH CLUB WITH BLOOD ORANGE AND ESSENTIAL OILS SPF 30 (AVOBENZONE, HOMOSALATE, OCTOCRYLENE) SPRAY",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-c7924d60-03fb-4a4d-b718-e324f6f1f65f": {
    "first_seen": "2026-10-09",
@@ -501420,7 +501421,7 @@
     "product_name": "HYDRATING SPF 30 (AVOBENZONE 3% HOMOSALATE 10% OCTISALATE 5% OCTOCRYLENE 10%) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-c8d1be79-a585-4e04-ade2-4ee6d8e962a6": {
    "first_seen": "2026-08-26",
@@ -501551,7 +501552,7 @@
     "product_name": "CELESTY ANTIOXIDANT SERIES REJUVENATING SUNSCREEN SPF 30 (ZINC OXIDE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-c8d4feca-7bee-2413-e053-2a95a90a739c": {
    "first_seen": "2026-08-26",
@@ -502378,7 +502379,7 @@
     "product_name": "PETER ISLAND SUNSCREEN SPF 50 (HOMOSALATE, OXYBENZONE, OCTISALATE, AVOBENZONE, OCTOCRYLENE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-c94d00f9-42ce-1d43-e053-2a95a90a058d": {
    "first_seen": "2026-10-09",
@@ -503162,7 +503163,7 @@
     "product_name": "BRIGHT GUARD SPORT SPF (ZINC SPF) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-c9b8e04c-11ee-4c4f-8693-aa4dc6e66aca": {
    "first_seen": "2026-10-09",
@@ -505229,7 +505230,7 @@
     "product_name": "BANANA BOAT KIDS PROTECT AND PLAY SPF 50 (AVOBENZONE AND OCTOCRYLENE AND OXYBENZONE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-cb0944e9-072d-4ef7-8b12-de3da6cf96be": {
    "first_seen": "2026-08-26",
@@ -505956,7 +505957,7 @@
     "product_name": "PROFESSIONAL SOLUTIONS SUNCREEN SPF 30 (OCTINOXATE AND TITANIUM DIOXIDE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-cb8feddc-ae98-42ea-ad1e-583dcacfa5d9": {
    "first_seen": "2026-10-09",
@@ -507160,7 +507161,7 @@
     "product_name": "HEAD-TO-TOE FAVORITES MINI SET (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) KIT",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-cbfc3728-7efe-43e3-91ad-6f89b1b7e94a": {
    "first_seen": "2026-08-26",
@@ -507600,7 +507601,7 @@
     "product_name": "BILBOA CAPRI SUNSCREEN SPF 30 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-cc4e4b99-5f42-4a93-a3a0-ea19f57d2783": {
    "first_seen": "2026-08-26",
@@ -508407,7 +508408,7 @@
     "product_name": "EQUALIZER (TITANIUM DIOXIDE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-cca5d399-5017-4b8d-8a19-3f6370664c18": {
    "first_seen": "2026-08-26",
@@ -509085,7 +509086,7 @@
     "product_name": "SPF BESTSELLERS STARTER KIT (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) KIT",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-ccd1b1fa-d44e-6b0e-e053-2995a90a157b": {
    "first_seen": "2026-08-26",
@@ -509203,7 +509204,7 @@
     "product_name": "HAWAIIAN TROPIC KIDS SPF 30 (AVOBENZONE AND OCTOCRYLENE AND OXYBENZONE) SPRAY",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-cce10ecc-6231-41ac-b85c-33c342e65cdb": {
    "first_seen": "2026-08-26",
@@ -509667,7 +509668,7 @@
     "product_name": "THE PURE LOTUS JEJU BOTANICAL SUNCREAM (HOMOSALATE, OCTOCRYLENE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-cd211d06-b91e-44b1-99fe-fa0794f10221": {
    "first_seen": "2026-08-26",
@@ -510165,7 +510166,7 @@
     "product_name": "SKIN 79 THE PRESTIGE BEBLESH BALM (40G) (ZINC OXIDE, TITANIUM DIOXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-cd4a56a0-f3b9-44fe-bef6-09b78e6e3055": {
    "first_seen": "2026-10-09",
@@ -510754,7 +510755,7 @@
     "product_name": "YOUTH SURGE (OCTISALATE, AVOBENZONE, OCTOCRYLENE, AND HOMOSALATE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-cd80661f-348c-4bfd-a85c-041db1a1d0f4": {
    "first_seen": "2026-10-09",
@@ -512688,7 +512689,7 @@
     "product_name": "PUBLIX KIDS SPF 50 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-ce93b371-26ab-4493-98e0-98234c3a9ba6": {
    "first_seen": "2026-08-26",
@@ -519129,7 +519130,7 @@
     "product_name": "RESILIENCE MULTI-EFFECT TRI-PEPTIDE FACE AND NECK CREME BROAD SPECTRUM SPF 15 DRY SKIN (AVOBENZONE, OCTISALATE, AND OCTOCRYLENE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d1cd71bd-1e87-4aa9-9eee-ddb4d1274b8d": {
    "first_seen": "2026-10-09",
@@ -520356,7 +520357,7 @@
     "product_name": "HEAD TO TOE KIT (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) KIT",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d2902f2f-a57c-4f3c-ae8f-62a7b21e3547": {
    "first_seen": "2026-08-26",
@@ -520764,7 +520765,7 @@
     "product_name": "SPF BEST SELLERS MINI KIT (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) KIT",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d2be3beb-16a0-71d0-e053-2a95a90ac398": {
    "first_seen": "2026-10-09",
@@ -521212,7 +521213,7 @@
     "product_name": "NEOVA DNA DAMAGE CONTROL - ACTIVE SPF 45 (ZINC OXIDE, OCTINOXATE, OCTISALATE) EMULSION",
     "spf_label": 45
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d2e6da66-9c6f-4c7e-b43d-3072e1c6444a": {
    "first_seen": "2026-08-26",
@@ -522610,7 +522611,7 @@
     "product_name": "HEAD-TO-TOE FAVORITES MINI SET (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) KIT",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d30d9d02-bc31-db3c-e053-2a95a90a0dab": {
    "first_seen": "2026-08-26",
@@ -522778,7 +522779,7 @@
     "product_name": "EVERYDAY SUPERSTARS SPF DISCOVERY KIT (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, ZINC OXIDE) KIT",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d30fd00e-12da-4db9-bb77-5f6c81f0022c": {
    "first_seen": "2026-10-09",
@@ -523060,7 +523061,7 @@
     "product_name": "SPF BESTSELLERS STARTER KIT (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) KIT",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d34669b8-acbc-7c93-e053-2a95a90adbe4": {
    "first_seen": "2026-10-09",
@@ -523261,7 +523262,7 @@
     "product_name": "EVERYDAY SUPERSTARS SPF DISCOVERY KIT (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, ZINC OXIDE) KIT",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d365ed6d-a92f-473b-be19-b8b63d17f3b7": {
    "first_seen": "2026-08-26",
@@ -523595,7 +523596,7 @@
     "product_name": "BANANA BOAT PROTECTIVE DRY SPF 15 (AVOBENZONE AND OCTOCRYLENE AND OXYBENZONE) OIL",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d38127d2-c144-573c-e053-2a95a90a0a90": {
    "first_seen": "2026-10-09",
@@ -523799,7 +523800,7 @@
     "product_name": "BANANA BOAT SPORT PERFORMANCE ACTIVE DRY PROTECT SPF UVB 50 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d3984138-763b-1002-e053-2995a90acefc": {
    "first_seen": "2026-08-26",
@@ -524310,7 +524311,7 @@
     "product_name": "ATOBOS BABY SUN (TITANIUM DIOXIDE, ZINC OXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d3d471b8-7430-98b0-e053-2995a90aba4b": {
    "first_seen": "2026-08-26",
@@ -527952,7 +527953,7 @@
     "product_name": "BLACK GIRL SUNSCREEN SPF 50 KIDS (AVOBENZONE 3%, HOMOSALATE 15%, OCTISALATE 5%, OCTOCRYLENE 10%) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d54a35a2-4f5d-4aec-8be4-1d8e00d4618f": {
    "first_seen": "2026-08-26",
@@ -528445,7 +528446,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 SUNSCREEN LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d5805b6c-30a4-4df4-9ef0-46e1e2868b4e": {
    "first_seen": "2026-08-26",
@@ -528514,7 +528515,7 @@
     "product_name": "AVALON ORGANICS COQ10 REPAIR WRINKLE DEFENSE BROAD SPECTRUM SPF15 ( ZINC OXIDE, TITANIUM DIOXIDE ) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d5876848-1de3-481a-aa94-a0db7598da7b": {
    "first_seen": "2026-10-09",
@@ -528998,7 +528999,7 @@
     "product_name": "BRIGHTEN SPF 30 (ZINC OXIDE OCTINOXATE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d5c80339-1fbc-435c-b786-f7dfef7f2832": {
    "first_seen": "2026-08-26",
@@ -530918,7 +530919,7 @@
     "product_name": "BELIF THE TRUE CREAM AQUA BOMB SUNSCREEN BROAD SPECTRUM SPF 50 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d68048b5-219c-414a-918f-b063b44fe7b5": {
    "first_seen": "2026-08-26",
@@ -531014,7 +531015,7 @@
     "product_name": "BELIF THE TRUE CREAM AQUA BOMB SUNSCREEN BROAD SPECTRUM SPF 50 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d680b6f6-e1a9-47a4-e053-2a95a90ae3b0": {
    "first_seen": "2026-08-26",
@@ -531702,7 +531703,7 @@
     "product_name": "SURFERS BARRIER (ZINC OXIDE) STICK",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d6e36095-2449-4224-a1a6-d41f8a639707": {
    "first_seen": "2026-08-26",
@@ -532430,7 +532431,7 @@
     "product_name": "WALGREENS SUNSCREENSPF 70 SPF 70 (OCTOCRYLENE OXYBENZONE ZINC OXIDE) LOTION",
     "spf_label": 70
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d728b89c-692f-485b-88c3-929b2f0350d5": {
    "first_seen": "2026-10-09",
@@ -532550,7 +532551,7 @@
     "product_name": "CVS PHARMACY OIL FREE FACES SPF 30 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d7356412-2a9c-437c-810f-613aadb3fce1": {
    "first_seen": "2026-08-26",
@@ -532610,7 +532611,7 @@
     "product_name": "KROGER SUNSCREEN SPF 30 (AVOBENZONE HOMOSALATE OCTISALATE OCTOCRYLENE OXYBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d735e687-e812-4fd2-9090-9cc4794ec6d6": {
    "first_seen": "2026-08-26",
@@ -535044,7 +535045,7 @@
     "product_name": "PETER ISLAND KIDS SUNSCREEN SPF 65 (HOMOSALATE, OXYBENZONE, OCTISALATE, AVOBENZONE, OCTOCRYLENE) LOTION",
     "spf_label": 65
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d8d24ed4-7676-43ea-8c94-e2e2be678cff": {
    "first_seen": "2026-10-09",
@@ -536585,7 +536586,7 @@
     "product_name": "PETER ISLAND BABY SUNSCREEN SPF 50 (HOMOSALATE, OXYBENZONE, OCTISALATE, AVOBENZONE, OCTOCRYLENE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d967b7d0-453a-4420-886a-70ecf46528d2": {
    "first_seen": "2026-08-26",
@@ -537440,7 +537441,7 @@
     "product_name": "MEIJER SUSCREEN SPF 8 (OCTINOXATE, OXYBENZONE) LOTION",
     "spf_label": 8
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-d9c6e3af-2d74-4cf9-af80-95ed9a5ea5cb": {
    "first_seen": "2026-10-09",
@@ -538336,7 +538337,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 - REFILL LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-da46a053-79db-301d-e053-2995a90aed67": {
    "first_seen": "2026-08-26",
@@ -538863,7 +538864,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 - REFILL LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-da6d3bca-09ca-9ff3-e053-2a95a90af8df": {
    "first_seen": "2026-08-26",
@@ -538948,7 +538949,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 - REFILL LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-da6debab-e592-4954-9432-00e5c6316ec8": {
    "first_seen": "2026-08-26",
@@ -539078,7 +539079,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 - REFILL LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-da72fa27-08bf-4f6f-aa85-899f87ef2180": {
    "first_seen": "2026-10-09",
@@ -539213,7 +539214,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 - REFILL LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-da989a2f-d40b-4309-9ae0-14891e624560": {
    "first_seen": "2026-08-26",
@@ -539431,7 +539432,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 - REFILL LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-dabfef4c-d3a2-135b-e053-2a95a90a3f51": {
    "first_seen": "2026-08-26",
@@ -539516,7 +539517,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 - REFILL LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-dac03084-f4b1-5b20-e053-2995a90ab283": {
    "first_seen": "2026-08-26",
@@ -539601,7 +539602,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 - REFILL LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-dac912da-1543-420e-b137-16f31557e435": {
    "first_seen": "2026-08-26",
@@ -539833,7 +539834,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 - REFILL LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-dacf8d1c-88fc-23ab-e053-2a95a90af56f": {
    "first_seen": "2026-08-26",
@@ -540003,7 +540004,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 - REFILL LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-dacfe63f-8aa5-f404-e053-2995a90ad5fa": {
    "first_seen": "2026-08-26",
@@ -540334,7 +540335,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 - REFILL LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-dad08115-f066-b6d4-e053-2a95a90aaea6": {
    "first_seen": "2026-08-26",
@@ -540419,7 +540420,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 - REFILL LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-dad12b33-1ad0-1113-e053-2995a90aa6ce": {
    "first_seen": "2026-08-26",
@@ -540571,7 +540572,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 - REFILL LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-dad1d8b6-8719-e001-e053-2995a90a253a": {
    "first_seen": "2026-10-09",
@@ -540799,7 +540800,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 SUNSCREEN LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-dad27b2c-9f96-5f72-e053-2a95a90a3483": {
    "first_seen": "2026-08-26",
@@ -540884,7 +540885,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 SUNSCREEN LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-dad3cde7-c98e-868b-e053-2995a90a9c1d": {
    "first_seen": "2026-08-26",
@@ -540969,7 +540970,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 SUNSCREEN LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-dad406f8-6416-e7dc-e053-2a95a90ac120": {
    "first_seen": "2026-08-26",
@@ -541054,7 +541055,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 SUNSCREEN LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-dad45385-7363-bd27-e053-2995a90ae50a": {
    "first_seen": "2026-08-26",
@@ -541139,7 +541140,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 SUNSCREEN LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-dad4b244-2d34-40cb-88dc-991358df83b0": {
    "first_seen": "2026-08-26",
@@ -541274,7 +541275,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 SUNSCREEN LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-dae59edf-b8fb-ebbe-e053-2a95a90a18c2": {
    "first_seen": "2026-08-26",
@@ -541359,7 +541360,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 SUNSCREEN LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-dae5d960-729c-4a3a-e053-2a95a90ac319": {
    "first_seen": "2026-08-26",
@@ -541444,7 +541445,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 SUNSCREEN LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-dae6216b-e5a7-3b06-e053-2995a90a2f0e": {
    "first_seen": "2026-08-26",
@@ -541529,7 +541530,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 SUNSCREEN LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-dae8ed9b-3534-aa41-e053-2995a90a435a": {
    "first_seen": "2026-08-26",
@@ -541614,7 +541615,7 @@
     "product_name": "SUNSHINE SKIN TINT BROAD SPECTRUM SPF 30 SUNSCREEN LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-dae921ca-724c-20eb-e053-2995a90a8604": {
    "first_seen": "2026-08-26",
@@ -543153,7 +543154,7 @@
     "product_name": "COLD PLASMA PLUS NECK AND CHEST SPF25 (TITANIUM DIOXIDE) CREAM",
     "spf_label": 25
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-dba6e01b-a8ec-4812-bbe0-e418bb067032": {
    "first_seen": "2026-08-26",
@@ -543678,7 +543679,7 @@
     "product_name": "EVERYDAY SUNSCREEN SPF 50 SUPERGOOP (AVOBENZONE, HOMOSALATE, OCTINOXATE, OCTISALATE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-dbc94b96-69f0-4636-a629-e920eebe93c5": {
    "first_seen": "2026-08-26",
@@ -546306,7 +546307,7 @@
     "product_name": "HYDRATING GLOW MIST SPF 50 (AVOBENZONE, OCTISALATE, OCTOCRYLENE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-dca478a0-c319-68d8-e053-2a95a90a10fc": {
    "first_seen": "2026-10-09",
@@ -548124,7 +548125,7 @@
     "product_name": "CELLULAR SWISS UV PROTECTION VEIL SPF30 (OCTOCRYLENE, HOMOSALATE, OCTISALATE, AVOBENZONE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-dd956b14-36f6-4b8a-a654-a00538a3a9e6": {
    "first_seen": "2026-10-09",
@@ -549086,7 +549087,7 @@
     "product_name": "MR DAILY DEFENSE BROAD SPECTRUM SUNSCREEN SPF 55 (OCTINOXATE AND ZINC OXIDE) CREAM",
     "spf_label": 55
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-de003f34-5bc5-43b1-8dbc-ec2e306cb938": {
    "first_seen": "2026-08-26",
@@ -549209,7 +549210,7 @@
     "product_name": "RITE AID RENEWAL SPORT SPF 30 (AVOBENZONE HOMOSALATE OCTISALATE OCTOCRYLENE OXYBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-de0a2f59-a078-480b-b6c6-99be4c572504": {
    "first_seen": "2026-08-26",
@@ -551777,7 +551778,7 @@
     "product_name": "CROC BLOC BROAD SPECTRUM SPF 30 FPS ECRAN SOLAIRE (HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE, AND AVOBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-def3f67a-f94f-40ed-9f93-a1c60c87c6c7": {
    "first_seen": "2026-08-26",
@@ -552459,7 +552460,7 @@
     "product_name": "HYDRATING GLOW MIST SPF 50 (AVOBENZONE, OCTISALATE, OCTOCRYLENE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-df3d296d-ada2-4e0c-a6ae-df0e345a63a8": {
    "first_seen": "2026-10-09",
@@ -553780,7 +553781,7 @@
     "product_name": "ONE AND DONE (SPF 40) CREAM",
     "spf_label": 40
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-dfd77bb5-3ec0-440d-b1e2-c98a538a9878": {
    "first_seen": "2026-10-09",
@@ -554409,7 +554410,7 @@
     "product_name": "ULTRASOLSUNSCREEN KIDS SUNSCREEN LOTION (AVOBENZONE, OCTINOXATE, OCTISALATE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-e04c3da6-bcf0-4032-a033-7a14e00d447a": {
    "first_seen": "2026-08-26",
@@ -558826,7 +558827,7 @@
     "product_name": "PANAMA JACK SPF 15 (OCTINOXATE, OCTISALATE AND OXYBENZONE) SPRAY",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-e296579e-ba30-4a29-afe0-bb51f863369c": {
    "first_seen": "2026-08-26",
@@ -559883,7 +559884,7 @@
     "product_name": "TUROSKIN DAILY MOISTURIZING SUNSCREEN BROADSPECTRUM SPF15 (AVOBENZONE,HOMOSALATE,OCTISALATE) LOTION",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-e375412e-8685-49a2-b1b0-00ab114e14b7": {
    "first_seen": "2026-10-09",
@@ -560224,7 +560225,7 @@
     "product_name": "SUNFREE SUNSCREEN (HOMOSALATE, OCTINOXATE, OCTISALATE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-e3956a48-4055-4520-a0c3-c54d36df84e0": {
    "first_seen": "2026-10-09",
@@ -564267,7 +564268,7 @@
     "product_name": "PETER ISLAND SUNSCREEN SPF 70 (HOMOSALATE, OXYBENZONE, OCTISALATE, AVOBENZONE, OCTOCRYLENE) LOTION",
     "spf_label": 70
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-e60d6a7d-6262-4119-a68b-680bb77b5929": {
    "first_seen": "2026-10-09",
@@ -564484,7 +564485,7 @@
     "product_name": "RITE AID SUNSCREEN (OCTINOXATE, OCTISALATE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-e6320aa3-fda5-41b9-a328-a1a4e23445c7": {
    "first_seen": "2026-08-26",
@@ -564783,7 +564784,7 @@
     "product_name": "EXEL CLARIFYING LINE SPF 50 (OCTINOXATE, OCTOCRYLENE, OXYBENZONE, TATANIUM DIOXIDE) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-e65ad789-6e09-4c29-9e6c-bc26c892c98e": {
    "first_seen": "2026-08-26",
@@ -565320,7 +565321,7 @@
     "product_name": "IST SUNSCREEN SPF 50 (TITANIUM DIOXIDE, ZINC OXIDE) CREAM",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-e6ab922b-5f30-43ee-87ac-f2b9528162ab": {
    "first_seen": "2026-08-26",
@@ -565648,7 +565649,7 @@
     "product_name": "RITE AID SUNSCREEN SPF 30 (AVOBENZONE HOMOSALATE OCTOCRYLENE OXYBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-e6d7512f-438b-4365-b585-eba805866a63": {
    "first_seen": "2026-08-26",
@@ -566775,7 +566776,7 @@
     "product_name": "PUBLIX BABY SPF 50 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-e72f2ad6-f3cb-418d-9ff3-d857cfbe0c21": {
    "first_seen": "2026-08-26",
@@ -566887,7 +566888,7 @@
     "product_name": "RITE AID DARK TANNING SPF 4 (OCTOCRYLENE OXYBENZONE) LOTION",
     "spf_label": 4
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-e7757228-2747-0ae5-e053-2a95a90ac31c": {
    "first_seen": "2026-10-09",
@@ -568872,7 +568873,7 @@
     "product_name": "DUANE READE SPORTS SUNSCREEN SPF 30 (AVOBENZONE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-e879c055-9611-46a2-bcf6-8dd0a29a3129": {
    "first_seen": "2026-08-26",
@@ -570170,7 +570171,7 @@
     "product_name": "PETER ISLAND CONTINUOUS SPORT SUNSCREEN SPF 50 (HOMOSALATE, OXYBENZONE, OCTISALATE, AVOBENZONE, OCTOCRYLENE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-e93c0dc9-2bad-4be9-8f3b-24bb2ae44a8f": {
    "first_seen": "2026-10-09",
@@ -574730,7 +574731,7 @@
     "product_name": "PATRICKS SUNSCREEN (AVOBENZONE, OCTINOXATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-eb3d2c86-6483-4f18-80e5-d54c774a6ffd": {
    "first_seen": "2026-08-26",
@@ -576638,7 +576639,7 @@
     "product_name": "OARS AND ALPS SPF 50 HYDRATING ANTIOXIDANT SUNSCREENSPRAY (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-ec6749b7-377b-4ac5-8992-ac709bd0204e": {
    "first_seen": "2026-08-26",
@@ -577556,7 +577557,7 @@
     "product_name": "BARE REPUBLIC SPF 30 MINERAL SUNSCREEN CITRUS COOLER (ZINC OXIDE) SPRAY",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-ecabcc89-fb09-41a9-e053-2995a90a8b31": {
    "first_seen": "2026-10-09",
@@ -577830,7 +577831,7 @@
     "product_name": "LA MER THE RADIANT SKINTINT BROAD SPECTRUM SPF 30 (OCTINOXATE, OCTISALATE, AND TITANIUM DIOXIDE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-ece7565b-f3e5-3386-e053-2a95a90a5802": {
    "first_seen": "2026-08-26",
@@ -578464,7 +578465,7 @@
     "product_name": "COOLA CLASSIC BODY SPF 50 GUAVA MANGO (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-ed207afe-0b10-74c7-e053-2a95a90a9b87": {
    "first_seen": "2026-08-26",
@@ -581683,7 +581684,7 @@
     "product_name": "BANANA BOAT SPORT PERFORMANCE SPF 85 (AVOBENZONE AND HOMOSALATE AND OCTOCRYLENE AND OXYBENZONE) SPRAY",
     "spf_label": 85
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-eec83ecb-d0ab-7857-e053-2995a90a40ed": {
    "first_seen": "2026-08-26",
@@ -581830,7 +581831,7 @@
     "product_name": "VITAMIN ENRICHED SKIN TINT BROAD SPECTRUM SPF 15 LIQUID",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-eeecf977-b242-4b25-8ba8-ca25b1870598": {
    "first_seen": "2026-10-09",
@@ -582277,7 +582278,7 @@
     "product_name": "RITE AID KIDS SUNSCREEN SPF 50 (AVOBENZONE HOMOSALATE OCTISALATE OCTOCRYLENE OXYBENZONE) SPRAY",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-ef24da08-5cb7-4319-aa78-0d9b8636fe67": {
    "first_seen": "2026-08-26",
@@ -583737,7 +583738,7 @@
     "product_name": "ADVANCED REVITAL (AVOBENZONE, HOMOSALATE, OCTOCRYLENE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-f01516bf-8aed-4402-a3f9-ef11c54d46b3": {
    "first_seen": "2026-08-26",
@@ -584257,7 +584258,7 @@
     "product_name": "ZO SKIN HEALTH ZO FAVORITES (MOTHERS DAY GWP) (TITANIUM DIOXIDE) KIT",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-f0596830-77ed-11f0-e053-2995a90a8ff5": {
    "first_seen": "2026-10-09",
@@ -584656,7 +584657,7 @@
     "product_name": "DR.JART CICAPAIR TIGER GRASS CAMO DROPS (ZINC OXIDE, TITANIUM DIOXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-f069ac72-3eb4-43fb-a1d9-bd70e268964f": {
    "first_seen": "2026-08-26",
@@ -585176,7 +585177,7 @@
     "product_name": "CELLULAR DAY DEFENSE FIRMING SPF 25 (ZINC OXIDE, OXYBENZONE, AND OCTINOXATE) CREAM",
     "spf_label": 25
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-f0cc7ce9-81b3-439f-b5ee-96138de54e78": {
    "first_seen": "2026-10-09",
@@ -586035,7 +586036,7 @@
     "product_name": "CLINIQUE FOR MEN SUPER ENGERGIZER ANTI -FATIGUE HYDRATING CONCENTRATE BROAD SPECTRUM SPF 25 (AVOBENZONE AND OCTISALATE) CREAM",
     "spf_label": 25
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-f114e45c-6c31-2382-e053-2995a90ac754": {
    "first_seen": "2026-08-26",
@@ -587407,7 +587408,7 @@
     "product_name": "REPAIRWEAR LIFT SPF 15 FIRMING DAY COMBO TO OILY SKIN (OCTINOXATE, TITANIUM DIOXIDE) CREAM",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-f181011f-bb48-4704-96c9-5899adc6a75b": {
    "first_seen": "2026-08-26",
@@ -589000,7 +589001,7 @@
     "product_name": "THINKBABY SPF 50 (ZINC OXIDE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-f27ff710-9f75-4279-b0ef-d0cd8e52f3fc": {
    "first_seen": "2026-08-26",
@@ -591975,7 +591976,7 @@
     "product_name": "OARS AND ALPS SPF 70 HYDRATING ANTIOXIDANT SUNSCREEN (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) SPRAY",
     "spf_label": 70
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-f3971b85-a13e-4195-e053-2995a90a73cb": {
    "first_seen": "2026-08-26",
@@ -594863,7 +594864,7 @@
     "product_name": "VEGAN COLLAGEN EVERY DAY SPF 30 (AVOBENZONE, HOMOSALATE, OCTOCRYLENE, OCTYL SALICYLATE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-f44d074f-d970-428c-b073-de73a4c8415d": {
    "first_seen": "2026-10-09",
@@ -595051,7 +595052,7 @@
     "product_name": "CABANA BEACH CLUB WITH MANUKA HONEY AND ESSENTIAL OILS SPF 50 SUNSCREEN (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-f452df0c-ea8d-e25c-e053-2995a90a1143": {
    "first_seen": "2026-08-26",
@@ -595179,7 +595180,7 @@
     "product_name": "CABANA BEACH CLUB WITH BLOOD ORANGE AND ESSENTIAL OILS SPF 50 SUNSCREEN (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-f45b59b6-4991-155e-e053-2995a90a471c": {
    "first_seen": "2026-08-26",
@@ -600080,7 +600081,7 @@
     "product_name": "FRUIT OF THE EARTH SUN TOWN CITY MINERAL SPF 70 SUNSCREEN (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) SPRAY",
     "spf_label": 70
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-f542298a-e9de-7ed0-e053-2995a90a0391": {
    "first_seen": "2026-08-26",
@@ -604149,7 +604150,7 @@
     "product_name": "TOM FORD SOLEIL TINTED MOISTURIZER BROAD SPECTRUM SPF 30 (OCTINOXATE, OCTISALATE, AND TITANIUM DIOXIDE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-f693699d-716c-af7f-e053-2a95a90af11a": {
    "first_seen": "2026-08-26",
@@ -606551,7 +606552,7 @@
     "product_name": "COLLAGEN GLOW MINERAL SUNSCREEN SPF 50 (ZINC OXIDE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-f76e12aa-9d98-5694-e053-6294a90a5256": {
    "first_seen": "2026-08-26",
@@ -606748,7 +606749,7 @@
     "product_name": "SELECT BRAND SUNSCREEN (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-f7997c82-4425-4b32-9558-1a12b96b3475": {
    "first_seen": "2026-10-09",
@@ -607928,7 +607929,7 @@
     "product_name": "BANANA BOAT SPORT PERFORMANCE (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-f802a90c-981e-4288-b9df-1c9d75513b1e": {
    "first_seen": "2026-08-26",
@@ -608388,7 +608389,7 @@
     "product_name": "AIRY SUNSTICK SMOOTING BAR (HOMOSALATE,OCTOCRYLENE,OCTISALATE,AVOBENZONE) STICK",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-f82080b1-ef90-a027-e053-6294a90a19f2": {
    "first_seen": "2026-08-26",
@@ -610821,7 +610822,7 @@
     "product_name": "IMPACT MELANOMA SPF 30 (ZINC OXIDE) LOTION",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-f9645435-e138-45df-a5ec-6dc7b3ff792d": {
    "first_seen": "2026-08-26",
@@ -610943,7 +610944,7 @@
     "product_name": "PETER ISLAND BABY SUNSCREEN SPF 50 (HOMOSALATE, OXYBENZONE, OCTISALATE, AVOBENZONE, OCTOCRYLENE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-f98ee294-3ca5-18bd-e053-6394a90a9aa5": {
    "first_seen": "2026-08-26",
@@ -611751,7 +611752,7 @@
     "product_name": "SUN BLOCK (OCTYL METHOXYCINNAMATE BENZOPHENONE-3 TITANIUM DIOXIDE HOMOSALATE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-f9e48ab7-6d60-41a0-94c6-f5c25ce971cc": {
    "first_seen": "2026-10-09",
@@ -612214,7 +612215,7 @@
     "product_name": "FRUIT OF THE EARTH 100 DRY TOUCH BROAD SPECTRUM SPF 100 FACE SUNSCREEN (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) LOTION",
     "spf_label": 100
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-fa19e9d3-6ab8-cbd6-e053-6294a90aae9b": {
    "first_seen": "2026-08-26",
@@ -612470,7 +612471,7 @@
     "product_name": "BRIGHTER BY NATURE SPF 35 SKIN TONE CORRECTING MOISTURIZER (HOMOSALATE, OCTISALATE, AVOBENZONE, OCTOCRYLENE) LOTION",
     "spf_label": 35
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-fa3c73a3-0dfb-4673-822a-45d946dee260": {
    "first_seen": "2026-08-26",
@@ -612653,7 +612654,7 @@
     "product_name": "DUANE READE SUNSCREEN SPF 50 (AVOBENZONE) LOTION",
     "spf_label": 50
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-fa6b695c-9650-9eba-e053-6394a90aea34": {
    "first_seen": "2026-10-09",
@@ -612989,7 +612990,7 @@
     "product_name": "NATRIA NOURISHING DAILY DEFENSE (ETHYLHEXYL METHOXYCINNAMATE, ZINC OXIDE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-fa9e43e8-166d-4797-aaa0-825476eb1397": {
    "first_seen": "2026-08-26",
@@ -614561,7 +614562,7 @@
     "product_name": "YAY NOVELTY ALL-IN-ONE (TITANIUM DIOXIDE, ZINC OXIDE) LOTION",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-fb841fd7-0c78-01a1-e053-6394a90a4382": {
    "first_seen": "2026-08-26",
@@ -614648,7 +614649,7 @@
     "product_name": "SMART CLINICAL REPAIR BROAD SPECTRUM SPF 30 (AVOBENZONE,HOMOSALATE,OCTINOXATE,OCTISALATE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-fb99a5e8-4f7e-40db-821b-57161b86ce8d": {
    "first_seen": "2026-08-26",
@@ -615827,7 +615828,7 @@
     "product_name": "TOTAL SUNCARE SUNSCREEN SPF 30 (AVOBENZONE, OCTISALATE, OCTINOXATE, OXYBENZONE) SPRAY",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-fbfccb0c-e459-3282-e053-6394a90ad95d": {
    "first_seen": "2026-08-26",
@@ -616652,7 +616653,7 @@
     "product_name": "DYNAMIC RESURFACING SPF 30 (AVOBENZONE, OCTINOXATE, AND OCTOCRYLENE) CREAM",
     "spf_label": 30
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-fc64e2a9-d75e-4b54-a31a-785dcecac069": {
    "first_seen": "2026-08-26",
@@ -617991,7 +617992,7 @@
     "product_name": "ULTRASOL SPORT SUNSCREEN (AVOBENZONE, HOMOSALATE, OCTINOXATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) AEROSOL, SPRAY",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-fd26f2dd-26d6-42d5-80df-b4ef42c64925": {
    "first_seen": "2026-10-09",
@@ -618280,7 +618281,7 @@
     "product_name": "ULTRASOL KIDS SUNSCREEN (AVOBENZONE, OCTINOXATE, OCTISALATE, OXYBENZONE) CREAM",
     "spf_label": null
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-fd5fc3ba-6e7c-4e48-8e65-47c03141df45": {
    "first_seen": "2026-10-09",
@@ -623866,7 +623867,7 @@
     "product_name": "CLINIQUE SKIN SUPPLIES FOR MEN AGE DEFENSE HYDRATOR BROAD SPECTRUM SPF 15 (AVOBENZONE, OCTINOXATE, AND OCTISALATE) LIQUID",
     "spf_label": 15
    },
-   "verified_at": "2026-10-25"
+   "verified_at": "2026-10-26"
   },
   "US:SPL-ff34c7c2-326a-e63a-e053-6294a90aa129": {
    "first_seen": "2026-08-26",

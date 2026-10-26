@@ -3,10 +3,10 @@
   "AU": 501,
   "CA": 1924,
   "KR": 143,
-  "US": 9419
+  "US": 9418
  },
- "total_products": 11575,
- "total_with_full_ingredients": 11505,
+ "total_products": 11574,
+ "total_with_full_ingredients": 11504,
  "distinct_ingredients_after_normalisation": 6752,
  "ingredients_present_in_every_jurisdiction": [
   "1,2-hexanediol",
@@ -159,11 +159,11 @@
  "top_ingredients": [
   [
    "water",
-   8497
+   8496
   ],
   [
    "glycerin",
-   6234
+   6233
   ],
   [
    "phenoxyethanol",
@@ -171,7 +171,7 @@
   ],
   [
    "tocopheryl acetate",
-   4434
+   4433
   ],
   [
    "dimethicone",
@@ -191,7 +191,7 @@
   ],
   [
    "xanthan gum",
-   3313
+   3312
   ],
   [
    "ethylhexylglycerin",
@@ -223,7 +223,7 @@
   ],
   [
    "aloe barbadensis leaf",
-   2353
+   2352
   ],
   [
    "triethoxycaprylylsilane",
@@ -243,7 +243,7 @@
   ],
   [
    "propanediol",
-   1766
+   1765
   ],
   [
    "alkyl (c12-15) benzoate",
@@ -329,7 +329,7 @@
    "zinc_median_percent": 22.75,
    "zinc_median_is_estimate": false,
    "publishes": "actives with mg/g, excipients alphabetical (hand-read from PDFs)",
-   "last_verified": "2026-10-25",
+   "last_verified": "2026-10-26",
    "shared_formulation": {
     "clusters": 86,
     "products": 233,
@@ -365,7 +365,7 @@
    "zinc_median_percent": 19.2,
    "zinc_median_is_estimate": false,
    "publishes": "no concentrations; full list in legally-mandated descending order",
-   "last_verified": "2026-10-25",
+   "last_verified": "2026-10-26",
    "shared_formulation": {
     "clusters": 11,
     "products": 23,
@@ -374,16 +374,16 @@
    }
   },
   "US": {
-   "products": 9419,
-   "with_full_ingredients": 9361,
-   "mineral_only": 3882,
-   "licence_or_listing_active": 9419,
-   "baby_labelled": 583,
+   "products": 9418,
+   "with_full_ingredients": 9360,
+   "mineral_only": 3878,
+   "licence_or_listing_active": 9418,
+   "baby_labelled": 582,
    "median_ingredients": 25,
    "zinc_median_percent": 13.1,
    "zinc_median_is_estimate": true,
    "publishes": "label-verified inactive list (printed Drug Facts + SPL table, label order) from the US release; active % w/w from the printed Drug Facts panel",
-   "last_verified": "2026-10-25",
+   "last_verified": "2026-10-26",
    "shared_formulation": {
     "clusters": 821,
     "products": 2670,
