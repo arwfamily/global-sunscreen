@@ -92,3 +92,30 @@
   - added: polyricinoleic acid
   - removed: polyglycerol esters of interesterified ricinoleic acid
   - https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80147886
+
+## 2026-10-27
+
+- **[US] KARYNG COMPLETE SPF SUNSCREEN LIGHT/MEDIUM (SUNSCREEN) CREAM** (US:SPL-33596253-413d-fba3-e063-6394a90a39e4, sev 2) — KARYNG LLC
+  - added: beta-caryophyllene, citral, geraniol, grapefruit oil, limonene, linalool, pinene
+  - removed: citrus maxima fruit rind oil
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=33596253-413d-fba3-e063-6394a90a39e4
+- **[US] KARYNG COMPLETE SPF SUNSCREEN MEDIUM/DARK (SUNSCREEN) CREAM** (US:SPL-335eee1e-ef1c-41da-e063-6294a90ac273, sev 2) — KARYNG LLC
+  - added: beta-caryophyllene, citral, geraniol, limonene, linalool, pinene
+  - removed: sodium c14-16 olefin sulfonate
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=335eee1e-ef1c-41da-e063-6294a90ac273
+- **[US] SUNCEUTICAL SPF 50 MINERAL BODY CREAM (ZINC OXIDE) CREAM** (US:SPL-2c28198b-2027-f0d0-e063-6294a90aa05b, sev 1) — BAXTER LABORATORIES PTY. LTD.
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2c28198b-2027-f0d0-e063-6294a90aa05b
+- **[US] SILK MINERAL SPF 50 SUNSCREEN FACE (ZINC OXIDE) LOTION** (US:SPL-33ddaac7-925e-259c-e063-6294a90a120c, sev 1) — BAXTER LABORATORIES
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=33ddaac7-925e-259c-e063-6294a90a120c
+- **[US] DAILY BODY MOISTURIZER SUNSCREEN BROAD SPECTRUM SPF 50 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) CREAM** (US:SPL-3e115ef1-f039-4c72-e063-6394a90a7e64, sev 1) — BAXTER LABORATORIES PTY. LTD.
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3e115ef1-f039-4c72-e063-6394a90a7e64
+- **[US] PROTECT AND HYDRATE RADIANCE SUNSCREEN BROAD SPECTRUM SPF 50 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) CREAM** (US:SPL-3e4db4f8-cba5-dbfd-e063-6394a90ab0a0, sev 1) — BAXTER LABORATORIES PTY. LTD.
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3e4db4f8-cba5-dbfd-e063-6394a90ab0a0
+- **[US] SUN GLAZED SPF 30 SUNSCREEN GLOW OIL (AVOBENZONE, HOMOSALATE, OCTOCRYLENE) OIL** (US:SPL-3fa41ed1-2f7f-18e6-e063-6294a90a0a8b, sev 1) — BAXTER LABORATORIES PTY. LTD.
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3fa41ed1-2f7f-18e6-e063-6294a90a0a8b
+- **[US] ZO SKIN HEALTH DAILY MINERAL SUNSHADE BROAD-SPECTRUM SUNSCREEN SPF 50 (FAIR) (TITANIUM DIOXIDE, ZINC OXIDE) LOTION** (US:SPL-4f81e482-8111-451c-e063-6294a90ad148, sev 1) — ZO SKIN HEALTH INC.
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4f81e482-8111-451c-e063-6294a90ad148
+- **[US] ZEUS (ZINC OXIDE) CREAM** (US:SPL-5354c383-08f0-4b89-b36a-96a35f47be3c, sev 1) — NEWPORT APOTHECARY, INC
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5354c383-08f0-4b89-b36a-96a35f47be3c
+- **[US] REDNESS SOLUTIONS DAILY PROTECTIVE BASE BROAD SPECTRUM SPF 15 (TITANIUM DIOXIDE AND ZINC OXIDE) CREAM** (US:SPL-d4133b2c-54e1-43de-98b4-7908a52f0905, sev 1) — CLINIQUE LABORATORIES LLC
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d4133b2c-54e1-43de-98b4-7908a52f0905
