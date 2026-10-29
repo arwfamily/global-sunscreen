@@ -1,11 +1,11 @@
 {
  "AU": {
-  "last_verified": "2026-10-28",
+  "last_verified": "2026-10-29",
   "records": 501,
   "source": "TGA ARTG export + hand-read PDFs"
  },
  "KR": {
-  "last_verified": "2026-10-28",
+  "last_verified": "2026-10-29",
   "records": 143,
   "source": "hand-verified Korean baby/kids sunscreen sheet (\ud654\uc7a5\ud488\ubc95 \uc81c10\uc870 \uc804\uc131\ubd84)"
  },
@@ -15,7 +15,7 @@
   ],
   "corpus_size": 14171,
   "corpus_version": "2026-10-26",
-  "last_verified": "2026-10-28",
+  "last_verified": "2026-10-29",
   "records": 9421,
   "source": "https://raw.githubusercontent.com/arwfamily/tinysafe-dailymed-scraper-v2/main/data/canonical/us_sunscreens.jsonl"
  }
