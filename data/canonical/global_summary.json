@@ -329,7 +329,7 @@
    "zinc_median_percent": 22.75,
    "zinc_median_is_estimate": false,
    "publishes": "actives with mg/g, excipients alphabetical (hand-read from PDFs)",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "shared_formulation": {
     "clusters": 86,
     "products": 233,
@@ -365,7 +365,7 @@
    "zinc_median_percent": 19.2,
    "zinc_median_is_estimate": false,
    "publishes": "no concentrations; full list in legally-mandated descending order",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "shared_formulation": {
     "clusters": 11,
     "products": 23,
@@ -383,7 +383,7 @@
    "zinc_median_percent": 13.1,
    "zinc_median_is_estimate": true,
    "publishes": "label-verified inactive list (printed Drug Facts + SPL table, label order) from the US release; active % w/w from the printed Drug Facts panel",
-   "last_verified": "2026-10-29",
+   "last_verified": "2026-10-30",
    "shared_formulation": {
     "clusters": 821,
     "products": 2670,
