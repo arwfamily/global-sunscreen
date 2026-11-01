@@ -119,3 +119,10 @@
   - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5354c383-08f0-4b89-b36a-96a35f47be3c
 - **[US] REDNESS SOLUTIONS DAILY PROTECTIVE BASE BROAD SPECTRUM SPF 15 (TITANIUM DIOXIDE AND ZINC OXIDE) CREAM** (US:SPL-d4133b2c-54e1-43de-98b4-7908a52f0905, sev 1) — CLINIQUE LABORATORIES LLC
   - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d4133b2c-54e1-43de-98b4-7908a52f0905
+
+## 2026-11-01
+
+- **[CA] Green Cricket Mineral Sunscreen Lotion - Body SPF 30** (CA:NPN-80074569, sev 2) — The Green Cricket Inc.
+  - added: cetearyl olivate, iron oxide, jojoba esters, jojoba seed oil, octyldodecanol, polyglyceryl-6 polyricinoleate, silica, sodium phytate, sorbitan olivate, trihydroxystearin
+  - removed: camellia sinensis leaf extract, glyceryl monostearate, rosemary leaf extract
+  - https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80074569
