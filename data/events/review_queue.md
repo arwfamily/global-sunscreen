@@ -126,3 +126,27 @@
   - added: cetearyl olivate, iron oxide, jojoba esters, jojoba seed oil, octyldodecanol, polyglyceryl-6 polyricinoleate, silica, sodium phytate, sorbitan olivate, trihydroxystearin
   - removed: camellia sinensis leaf extract, glyceryl monostearate, rosemary leaf extract
   - https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80074569
+
+## 2026-11-04
+
+- **[US] BANANA BOAT (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE, OXYBENZONE) SPRAY** (US:SPL-46feef09-69ae-41b4-e054-00144ff8d46c, sev 2) — EDGEWELL PERSONAL CARE BRANDS, LLC
+  - removed: lauryl peg-8 dimethicone (300 cps)
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=46feef09-69ae-41b4-e054-00144ff8d46c
+- **[US] RMS SUPERNATURAL RADIANCE SERUM SPF 30 SUNSCREEN PURE AURA (ZINC OXIDE) EMULSION RMS SUPERNATURAL RADIANCE SERUM SPF 30 SUNSCREEN SOFT AURA (ZINC OXIDE) EMULSION RMS SUPERNATURAL RADIANCE SERUM SPF 30 SUNSCREEN MEDIUM AURA (ZINC OXIDE) EMULSION RMS SUPERNATURAL RADIANCE SERUM SPF 30 SUNSCREEN LIGHT AURA (ZINC OXIDE) EMULSION RMS SUPERNATURAL RADIANCE SERUM SPF 30 SUNSCREEN RICH AURA (ZINC OXIDE) EMULSION** (US:SPL-f45b59b6-4991-155e-e053-2995a90a471c, sev 2) — RMS ORGANICS LLC
+  - added: c9-12 alkane
+  - removed: soybean oil
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f45b59b6-4991-155e-e053-2995a90a471c
+- **[US] BANANA BOAT (AVOBENZONE HOMOSALATE OCTOCRYLENE) SPRAY** (US:SPL-0fda2f46-4322-1284-e054-00144ff8d46c, sev 1) — EDGEWELL PERSONAL CARE BRANDS, LLC
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0fda2f46-4322-1284-e054-00144ff8d46c
+- **[US] BALIBODY SPF15 BRONZE SHIMMERING TANNING GEL (AVOBENZONE, OCTISALATE, OCTOCRYLENE) GEL** (US:SPL-28660ce2-6805-41f3-e063-6394a90af45d, sev 1) — BAXTER LABORATORIES PTY. LTD.
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=28660ce2-6805-41f3-e063-6394a90af45d
+- **[US] SUNCEUTICAL SPF 50 MINERAL GLOW SERUM (ZINC OXIDE) CREAM** (US:SPL-2c2c9b67-9588-efbe-e063-6294a90aa6a4, sev 1) — BAXTER LABORATORIES PTY. LTD.
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2c2c9b67-9588-efbe-e063-6294a90aa6a4
+- **[US] ZO SKIN HEALTH DAILY MINERAL SUNSHADE BROAD-SPECTRUM SUNSCREEN SPF 50 (MEDIUM) (TITANIUM DIOXIDE, ZINC OXIDE) LOTION** (US:SPL-4f95cd0a-f996-648b-e063-6294a90adc28, sev 1) — ZO SKIN HEALTH INC.
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4f95cd0a-f996-648b-e063-6294a90adc28
+- **[US] ZO SKIN HEALTH DAILY MINERAL SUNSHADE BROAD-SPECTRUM SUNSCREEN SPF 50 (TAN) (TITANIUM DIOXIDE, ZINC OXIDE) LOTION** (US:SPL-4f968058-e851-86d0-e063-6294a90aa786, sev 1) — ZO SKIN HEALTH INC.
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4f968058-e851-86d0-e063-6294a90aa786
+- **[US] JACK BLACK LLC (AVOBENZONE/HOMOSALATE/OCTISALATE/PETROLATUM) OINTMENT** (US:SPL-5b2245e8-a877-e2ff-e063-6394a90a2935, sev 1) — JACK BLACK L.L.C.
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5b2245e8-a877-e2ff-e063-6394a90a2935
+- **[US] JACK BLACK (AVOBENZONE/HOMOSALATE/OCTISALATE/PETROLATUM) OINTMENT** (US:SPL-5b27d9e6-2a78-80c1-e063-6394a90aa3e7, sev 1) — JACK BLACK L.L.C
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5b27d9e6-2a78-80c1-e063-6394a90aa3e7
