@@ -5,7 +5,7 @@
   "records": 1925
  },
  "jurisdiction": "CA",
- "last_run": "2026-11-07",
+ "last_run": "2026-11-08",
  "profile": {
   "actives_concentration": true,
   "inactive_order": false,
@@ -63001,7 +63001,7 @@
     "spf_label": 16,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80081372": {
    "first_seen": "2026-08-26",
@@ -63072,7 +63072,7 @@
     "spf_label": 30,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80081435": {
    "first_seen": "2026-08-26",
@@ -63313,7 +63313,7 @@
     "spf_label": 30,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80081725": {
    "first_seen": "2026-08-26",
@@ -63413,7 +63413,7 @@
     "spf_label": 15,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80081796": {
    "first_seen": "2026-08-26",
@@ -63490,7 +63490,7 @@
     "spf_label": 15,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80081822": {
    "first_seen": "2026-08-26",
@@ -64312,7 +64312,7 @@
     "spf_label": 20,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80083423": {
    "first_seen": "2026-08-26",
@@ -64377,7 +64377,7 @@
     "spf_label": 50,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80083428": {
    "first_seen": "2026-08-26",
@@ -64414,7 +64414,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80083619": {
    "first_seen": "2026-08-26",
@@ -64558,7 +64558,7 @@
     "spf_label": 45,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80083916": {
    "first_seen": "2026-08-26",
@@ -64619,7 +64619,7 @@
     "spf_label": 50,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80083936": {
    "first_seen": "2026-08-26",
@@ -64738,7 +64738,7 @@
     "spf_label": 30,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80083961": {
    "first_seen": "2026-08-26",
@@ -64794,7 +64794,7 @@
     "spf_label": 30,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80083974": {
    "first_seen": "2026-08-26",
@@ -64852,7 +64852,7 @@
     "spf_label": 30,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80083988": {
    "first_seen": "2026-08-26",
@@ -64922,7 +64922,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80084008": {
    "first_seen": "2026-08-26",
@@ -64980,7 +64980,7 @@
     "spf_label": 50,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80084009": {
    "first_seen": "2026-08-26",
@@ -65055,7 +65055,7 @@
     "spf_label": 25,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80084011": {
    "first_seen": "2026-08-26",
@@ -65229,7 +65229,7 @@
     "spf_label": 15,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80084031": {
    "first_seen": "2026-08-26",
@@ -65296,7 +65296,7 @@
     "spf_label": 50,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80084327": {
    "first_seen": "2026-08-26",
@@ -65345,7 +65345,7 @@
     "spf_label": null,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80084471": {
    "first_seen": "2026-08-26",
@@ -65541,7 +65541,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80084543": {
    "first_seen": "2026-08-26",
@@ -65742,7 +65742,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80084637": {
    "first_seen": "2026-08-26",
@@ -65787,7 +65787,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80084937": {
    "first_seen": "2026-08-26",
@@ -65852,7 +65852,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80084945": {
    "first_seen": "2026-08-26",
@@ -65926,7 +65926,7 @@
     "spf_label": 50,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80084946": {
    "first_seen": "2026-08-26",
@@ -65996,7 +65996,7 @@
     "spf_label": 50,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80084955": {
    "first_seen": "2026-08-26",
@@ -66051,7 +66051,7 @@
     "spf_label": 16,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80084970": {
    "first_seen": "2026-08-26",
@@ -66197,7 +66197,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80084972": {
    "first_seen": "2026-08-26",
@@ -66265,7 +66265,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80084992": {
    "first_seen": "2026-08-26",
@@ -66370,7 +66370,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80085081": {
    "first_seen": "2026-08-26",
@@ -66488,7 +66488,7 @@
     "spf_label": 45,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80085193": {
    "first_seen": "2026-08-26",
@@ -66568,7 +66568,7 @@
     "spf_label": 60,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80085229": {
    "first_seen": "2026-08-26",
@@ -66666,7 +66666,7 @@
     "spf_label": 30,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80085356": {
    "first_seen": "2026-08-26",
@@ -66790,7 +66790,7 @@
     "spf_label": 16,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80085782": {
    "first_seen": "2026-08-26",
@@ -66885,7 +66885,7 @@
     "spf_label": 20,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80085825": {
    "first_seen": "2026-08-26",
@@ -66952,7 +66952,7 @@
     "spf_label": 30,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80085906": {
    "first_seen": "2026-08-26",
@@ -66996,7 +66996,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80086153": {
    "first_seen": "2026-08-26",
@@ -67071,7 +67071,7 @@
     "spf_label": 50,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80086196": {
    "first_seen": "2026-08-26",
@@ -67170,7 +67170,7 @@
     "spf_label": 40,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80086413": {
    "first_seen": "2026-08-26",
@@ -67231,7 +67231,7 @@
     "spf_label": 50,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80086416": {
    "first_seen": "2026-08-26",
@@ -67275,7 +67275,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80086470": {
    "first_seen": "2026-08-26",
@@ -67367,7 +67367,7 @@
     "spf_label": 25,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80086568": {
    "first_seen": "2026-08-26",
@@ -67712,7 +67712,7 @@
     "spf_label": 50,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80086821": {
    "first_seen": "2026-08-26",
@@ -67782,7 +67782,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80086853": {
    "first_seen": "2026-08-26",
@@ -67844,7 +67844,7 @@
     "spf_label": 50,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80086855": {
    "first_seen": "2026-08-26",
@@ -67906,7 +67906,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80086947": {
    "first_seen": "2026-08-26",
@@ -68044,7 +68044,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80087110": {
    "first_seen": "2026-08-26",
@@ -68096,7 +68096,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80087166": {
    "first_seen": "2026-08-26",
@@ -68179,7 +68179,7 @@
     "spf_label": 50,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80087290": {
    "first_seen": "2026-08-26",
@@ -68245,7 +68245,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80087555": {
    "first_seen": "2026-08-26",
@@ -68358,7 +68358,7 @@
     "spf_label": 16,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80087872": {
    "first_seen": "2026-08-26",
@@ -68430,7 +68430,7 @@
     "spf_label": 50,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80087873": {
    "first_seen": "2026-08-26",
@@ -68505,7 +68505,7 @@
     "spf_label": 50,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80087875": {
    "first_seen": "2026-08-26",
@@ -68573,7 +68573,7 @@
     "spf_label": 50,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80087882": {
    "first_seen": "2026-08-26",
@@ -68639,7 +68639,7 @@
     "spf_label": 50,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80087951": {
    "first_seen": "2026-08-26",
@@ -68771,7 +68771,7 @@
     "spf_label": 50,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80087953": {
    "first_seen": "2026-08-26",
@@ -68825,7 +68825,7 @@
     "spf_label": 50,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80088384": {
    "first_seen": "2026-08-26",
@@ -69015,7 +69015,7 @@
     "spf_label": 50,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80088860": {
    "first_seen": "2026-08-26",
@@ -69077,7 +69077,7 @@
     "spf_label": 30,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80088864": {
    "first_seen": "2026-08-26",
@@ -69235,7 +69235,7 @@
     "spf_label": 45,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80089330": {
    "first_seen": "2026-08-26",
@@ -69328,7 +69328,7 @@
     "spf_label": 30,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80089342": {
    "first_seen": "2026-08-26",
@@ -69388,7 +69388,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80089421": {
    "first_seen": "2026-08-26",
@@ -69525,7 +69525,7 @@
     "spf_label": 30,
     "status_active": false
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80089471": {
    "first_seen": "2026-08-26",
@@ -70183,7 +70183,7 @@
     "spf_label": 33,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80089506": {
    "first_seen": "2026-08-26",
@@ -70272,7 +70272,7 @@
     "spf_label": 23,
     "status_active": true
    },
-   "verified_at": "2026-10-10"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80089562": {
    "first_seen": "2026-08-26",
@@ -73665,7 +73665,7 @@
     "spf_label": null,
     "status_active": false
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80093498": {
    "first_seen": "2026-08-26",
@@ -74031,7 +74031,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80094138": {
    "first_seen": "2026-08-26",
@@ -74093,7 +74093,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80094157": {
    "first_seen": "2026-08-26",
@@ -74170,7 +74170,7 @@
     "spf_label": 30,
     "status_active": false
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80094164": {
    "first_seen": "2026-08-26",
@@ -74229,7 +74229,7 @@
     "spf_label": 30,
     "status_active": false
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80094166": {
    "first_seen": "2026-08-26",
@@ -74289,7 +74289,7 @@
     "spf_label": 20,
     "status_active": false
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80094335": {
    "first_seen": "2026-08-26",
@@ -74394,7 +74394,7 @@
     "spf_label": 35,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80094341": {
    "first_seen": "2026-08-26",
@@ -74444,7 +74444,7 @@
     "spf_label": 35,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80094351": {
    "first_seen": "2026-08-26",
@@ -74597,7 +74597,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80094641": {
    "first_seen": "2026-08-26",
@@ -74664,7 +74664,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80094642": {
    "first_seen": "2026-08-26",
@@ -74797,7 +74797,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80094715": {
    "first_seen": "2026-08-26",
@@ -74863,7 +74863,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80094761": {
    "first_seen": "2026-08-26",
@@ -74936,7 +74936,7 @@
     "spf_label": 40,
     "status_active": false
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80094821": {
    "first_seen": "2026-08-26",
@@ -75067,7 +75067,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80094936": {
    "first_seen": "2026-08-26",
@@ -75139,7 +75139,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80094979": {
    "first_seen": "2026-08-26",
@@ -75187,7 +75187,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80095138": {
    "first_seen": "2026-08-26",
@@ -75271,7 +75271,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80095170": {
    "first_seen": "2026-08-26",
@@ -75331,7 +75331,7 @@
     "spf_label": 50,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80095191": {
    "first_seen": "2026-08-26",
@@ -75378,7 +75378,7 @@
     "spf_label": 35,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80095553": {
    "first_seen": "2026-08-26",
@@ -75445,7 +75445,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80095639": {
    "first_seen": "2026-08-26",
@@ -75500,7 +75500,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80095741": {
    "first_seen": "2026-08-26",
@@ -75620,7 +75620,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80096367": {
    "first_seen": "2026-08-26",
@@ -75687,7 +75687,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80096420": {
    "first_seen": "2026-08-26",
@@ -75751,7 +75751,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80096514": {
    "first_seen": "2026-08-26",
@@ -75814,7 +75814,7 @@
     "spf_label": 50,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80096608": {
    "first_seen": "2026-08-26",
@@ -75871,7 +75871,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80096657": {
    "first_seen": "2026-08-26",
@@ -75948,7 +75948,7 @@
     "spf_label": null,
     "status_active": false
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80096733": {
    "first_seen": "2026-08-26",
@@ -75999,7 +75999,7 @@
     "spf_label": 35,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80096858": {
    "first_seen": "2026-08-26",
@@ -76052,7 +76052,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80096954": {
    "first_seen": "2026-08-26",
@@ -76172,7 +76172,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80097034": {
    "first_seen": "2026-08-26",
@@ -76274,7 +76274,7 @@
     "spf_label": 15,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80097042": {
    "first_seen": "2026-08-26",
@@ -76355,7 +76355,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80097532": {
    "first_seen": "2026-08-26",
@@ -76411,7 +76411,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80097656": {
    "first_seen": "2026-08-26",
@@ -76477,7 +76477,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80097684": {
    "first_seen": "2026-08-26",
@@ -76538,7 +76538,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80097685": {
    "first_seen": "2026-08-26",
@@ -76603,7 +76603,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80097841": {
    "first_seen": "2026-08-26",
@@ -76695,7 +76695,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80098840": {
    "first_seen": "2026-08-26",
@@ -76777,7 +76777,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80100369": {
    "first_seen": "2026-08-26",
@@ -76836,7 +76836,7 @@
     "spf_label": 25,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80100444": {
    "first_seen": "2026-08-26",
@@ -76911,7 +76911,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80100515": {
    "first_seen": "2026-08-26",
@@ -76973,7 +76973,7 @@
     "spf_label": 15,
     "status_active": false
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80100728": {
    "first_seen": "2026-08-26",
@@ -77046,7 +77046,7 @@
     "spf_label": 50,
     "status_active": false
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80100744": {
    "first_seen": "2026-08-26",
@@ -77122,7 +77122,7 @@
     "spf_label": 50,
     "status_active": false
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80100745": {
    "first_seen": "2026-08-26",
@@ -77177,7 +77177,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80100756": {
    "first_seen": "2026-08-26",
@@ -77239,7 +77239,7 @@
     "spf_label": 30,
     "status_active": false
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80100761": {
    "first_seen": "2026-08-26",
@@ -77317,7 +77317,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80100763": {
    "first_seen": "2026-08-26",
@@ -77403,7 +77403,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80101015": {
    "first_seen": "2026-08-26",
@@ -77469,7 +77469,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80101137": {
    "first_seen": "2026-08-26",
@@ -77536,7 +77536,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80101274": {
    "first_seen": "2026-08-26",
@@ -77603,7 +77603,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80101443": {
    "first_seen": "2026-08-26",
@@ -77670,7 +77670,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80101700": {
    "first_seen": "2026-08-26",
@@ -77727,7 +77727,7 @@
     "spf_label": 30,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80102106": {
    "first_seen": "2026-08-26",
@@ -77792,7 +77792,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80102292": {
    "first_seen": "2026-08-26",
@@ -77869,7 +77869,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80102293": {
    "first_seen": "2026-08-26",
@@ -77946,7 +77946,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80102295": {
    "first_seen": "2026-08-26",
@@ -78024,7 +78024,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80102460": {
    "first_seen": "2026-08-26",
@@ -78103,7 +78103,7 @@
     "spf_label": 50,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80102512": {
    "first_seen": "2026-08-26",
@@ -78175,7 +78175,7 @@
     "spf_label": null,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80102524": {
    "first_seen": "2026-08-26",
@@ -78250,7 +78250,7 @@
     "spf_label": 50,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80102660": {
    "first_seen": "2026-08-26",
@@ -78564,7 +78564,7 @@
     "spf_label": 30,
     "status_active": false
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80102904": {
    "first_seen": "2026-08-26",
@@ -78631,7 +78631,7 @@
     "spf_label": null,
     "status_active": false
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80102917": {
    "first_seen": "2026-08-26",
@@ -78797,7 +78797,7 @@
     "spf_label": 25,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80103245": {
    "first_seen": "2026-08-26",
@@ -80728,7 +80728,7 @@
     "spf_label": 44,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80105034": {
    "first_seen": "2026-08-26",
@@ -81631,7 +81631,7 @@
     "spf_label": 25,
     "status_active": true
    },
-   "verified_at": "2026-10-09"
+   "verified_at": "2026-11-08"
   },
   "CA:NPN-80106275": {
    "first_seen": "2026-08-26",
