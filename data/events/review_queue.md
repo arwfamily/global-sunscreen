@@ -150,3 +150,10 @@
   - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5b2245e8-a877-e2ff-e063-6394a90a2935
 - **[US] JACK BLACK (AVOBENZONE/HOMOSALATE/OCTISALATE/PETROLATUM) OINTMENT** (US:SPL-5b27d9e6-2a78-80c1-e063-6394a90aa3e7, sev 1) — JACK BLACK L.L.C
   - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5b27d9e6-2a78-80c1-e063-6394a90aa3e7
+
+## 2026-11-09
+
+- **[CA] Nelly De Vuyst - SPF 30 MINERAL SUNSCREEN / FPS 30 MINERAL CRÈME SOLAIRE** (CA:NPN-80089646, sev 2) — Derme&Co
+  - added: amylopectin, calendula officinalis flower extract, ginseng (panax ginseng) extract, glyceryl behenate, iron oxide black, iron oxide red, iron oxide yellow, lactobacillus ferment, lichen extract, octyldodecanol, olive leaf extract, polyglycerin-6, polyglyceryl-6 polyhydroxystearate, polyglyceryl-6 polyricinoleate, sodium chloride, triethyl citrate, trihydroxystearin
+  - removed: benzyl alcohol, c10-18 triglycerides, isostearic acid, kaolin, lecithin, polyglyceryl-3 beeswax, polyglyceryl-3 polyricinoleate, polyglyceryl-6 distearate, salicylic acid, sodium citrate, sodium stearoyl glutamate, sorbic acid
+  - https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80089646
