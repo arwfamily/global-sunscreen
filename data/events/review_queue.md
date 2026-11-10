@@ -157,3 +157,10 @@
   - added: amylopectin, calendula officinalis flower extract, ginseng (panax ginseng) extract, glyceryl behenate, iron oxide black, iron oxide red, iron oxide yellow, lactobacillus ferment, lichen extract, octyldodecanol, olive leaf extract, polyglycerin-6, polyglyceryl-6 polyhydroxystearate, polyglyceryl-6 polyricinoleate, sodium chloride, triethyl citrate, trihydroxystearin
   - removed: benzyl alcohol, c10-18 triglycerides, isostearic acid, kaolin, lecithin, polyglyceryl-3 beeswax, polyglyceryl-3 polyricinoleate, polyglyceryl-6 distearate, salicylic acid, sodium citrate, sodium stearoyl glutamate, sorbic acid
   - https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80089646
+
+## 2026-11-10
+
+- **[US] VERTRA INVISIBLE SUNSCREEN FACE STICK BROAD SPECTRUM SPF 45 (ZINC OXIDE) STICK** (US:SPL-30a5ec14-63d7-e678-e063-6294a90abb57, sev 1) — EAI-JR 286, INC
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=30a5ec14-63d7-e678-e063-6294a90abb57
+- **[US] VERTRA MINERAL SUNSCREEN BROAD SPECTRUM SPF 50 (ZINC OXIDE) LOTION** (US:SPL-30caf1dd-142d-85d3-e063-6394a90a0c88, sev 1) — EAI-JR 286, INC
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=30caf1dd-142d-85d3-e063-6394a90a0c88
