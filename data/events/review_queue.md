@@ -164,3 +164,54 @@
   - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=30a5ec14-63d7-e678-e063-6294a90abb57
 - **[US] VERTRA MINERAL SUNSCREEN BROAD SPECTRUM SPF 50 (ZINC OXIDE) LOTION** (US:SPL-30caf1dd-142d-85d3-e063-6394a90a0c88, sev 1) — EAI-JR 286, INC
   - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=30caf1dd-142d-85d3-e063-6394a90a0c88
+
+## 2026-11-17
+
+- **[US] COPPERTONE SPORT FACE SPF 60 PLUS SUNSCREEN (AVOBENZONE 3%, HOMOSALATE 15%, OCTISALATE 5%, OCTOCRYLENE 10%) LOTION** (US:SPL-04b36eb1-bffc-c31e-e063-6294a90a8eb3, sev 2) — BEIERSDORF INC
+  - added: argan oil, disodium edta, glycerin, glyceryl monostearate
+  - removed: U:6V475AX06U, U:83K6O4FR76, glyceryl stearate se
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=04b36eb1-bffc-c31e-e063-6294a90a8eb3
+- **[US] ATTITUDE SUNLY MINERAL SUNSCREEN STICK ORANGE BLOSSOM SPF 30 (ZINC OXIDE) STICK** (US:SPL-0d840001-a648-df1b-e063-6294a90ab299, sev 2) — 9055-7588 QUEBEC INC. DBA ATTITUDE
+  - added: alpha-damascone, (e)
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0d840001-a648-df1b-e063-6294a90ab299
+- **[US] ATTITUDE SUNLY TINTED MINERAL SUNSCREEN FACE STICK UNSCENTED SPF 30 (ZINC OXIDE) STICK** (US:SPL-0d85b0a1-3705-2829-e063-6394a90a0ed7, sev 2) — 9055-7588 QUEBEC INC. DBA ATTITUDE
+  - added: jojoba oil, randomized
+  - removed: jojoba oil
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0d85b0a1-3705-2829-e063-6394a90a0ed7
+- **[US] ATTITUDE OATMEAL SENSITIVE NATURAL MINERAL SUNSCREEN FACE STICK UNSCENTED SPF 30 (ZINC OXIDE) STICK** (US:SPL-0d958343-31e3-0b7a-e063-6294a90a424a, sev 2) — 9055-7588 QUEBEC INC. DBA ATTITUDE
+  - added: jojoba oil, randomized
+  - removed: jojoba oil
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0d958343-31e3-0b7a-e063-6294a90a424a
+- **[US] 5283 SUNSCREEN (AVOBENZONE, HOMOSALATE, OCTOCRYLENE, OCTISALATE) LOTION** (US:SPL-3a06bb05-5965-4d7d-a299-3d48b163c604, sev 2) — INNOVATION SPECIALTIES
+  - added: bht, ceteth-25, disodium edta, isopropyl myristate, methylparaben, propylparaben, yellow wax
+  - removed: caprylic/capric triglyceride, caprylyl glycol, carbomer, dimethicone, disodium edta, levomenol, potassium cetyl phosphate, trolamine, vp/hexadecene copolymer
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3a06bb05-5965-4d7d-a299-3d48b163c604
+- **[US] 5298 SUNSCREEN (AVOBENZONE, HOMOSALATE, OCTOCRYLENE, OCTISALATE) LOTION** (US:SPL-667dccd6-5047-4beb-b2f0-0b8d8d79aa01, sev 2) — INNOVATION SPECIALTIES
+  - added: bht, ceteth-25, disodium edta, isopropyl myristate, methylparaben, propylparaben, yellow wax
+  - removed: caprylic/capric triglyceride, caprylyl glycol, carbomer, dimethicone, disodium edta, levomenol, potassium cetyl phosphate, trolamine, vp/hexadecene copolymer
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=667dccd6-5047-4beb-b2f0-0b8d8d79aa01
+- **[US] COPPERTONE SPORT MINERAL SUNSCREEN SPF 50 (ZINC OXIDE) LOTION** (US:SPL-b5bb6eb6-3356-e2a5-e053-2995a90aa684, sev 2) — BEIERSDORF INC
+  - added: ethylhexyl pelargonate
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b5bb6eb6-3356-e2a5-e053-2995a90aa684
+- **[US] 5299 SUNSCREEN (AVOBENZONE, HOMOSALATE, OCTOCRYLENE, OCTISALATE) LOTION** (US:SPL-f3db6bd8-cc6f-4af5-809d-95fb05f6732f, sev 2) — INNOVATION SPECIALTIES
+  - added: bht, ceteth-25, isopropyl myristate, methylparaben, propylparaben
+  - removed: caprylic/capric triglyceride, caprylyl glycol, carbomer, cetearyl alcohol, dimethicone, levomenol, potassium cetyl phosphate, trolamine, vp/hexadecene copolymer
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f3db6bd8-cc6f-4af5-809d-95fb05f6732f
+- **[US] 5407 SUNSCREEN (AVOBENZONE, HOMOSALATE, OCTOCRYLENE, OCTISALATE) LOTION** (US:SPL-f3f86164-2a2e-4f1f-a562-c1ff6cf50322, sev 2) — INNOVATION SPECIALTIES
+  - added: bht, ceteth-25, disodium edta, isopropyl myristate, methylparaben, propylparaben, yellow wax
+  - removed: caprylic/capric triglyceride, caprylyl glycol, carbomer, dimethicone, disodium edta, levomenol, potassium cetyl phosphate, trolamine, vp/hexadecene copolymer
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f3f86164-2a2e-4f1f-a562-c1ff6cf50322
+- **[US] ATTITUDE OCEANLY PHYTO-SUN TINTED OIL SPF 30 (ZINC OXIDE) STICK** (US:SPL-0e9b0642-53ed-ec94-e063-6394a90aec3d, sev 1) — 9055-7588 QUEBEC INC. DBA ATTITUDE
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0e9b0642-53ed-ec94-e063-6394a90aec3d
+- **[US] TIBENA EVERY DAY REAL SUNSTICK UV SPF 52 (AVOBENZONE, ETHYLHEXYL SALICYLATE, HOMOSALATE, OCTOCRYLENE) STICK** (US:SPL-2ab09ad7-0295-20ac-e063-6394a90afffe, sev 1) — KONAD CO LTD
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2ab09ad7-0295-20ac-e063-6394a90afffe
+- **[US] SUNSCREEN (JAPANESE SUNSCREEN SPF 50 SUPER WATER GEL SUNSCREEN 4.22FLOZ(125G) REFILL) CREAM** (US:SPL-44136f78-8789-8185-e063-6394a90ad848, sev 1) — MAIDORA CO.,LTD
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=44136f78-8789-8185-e063-6394a90ad848
+- **[US] SOL LABS FOUNTAIN OF YOUTH FACE AND BODY SPF 30 LOTION** (US:SPL-5d786f6a-f11a-04de-e063-6394a90ac584, sev 1) — LANCE (GUANGZHOU) BIOLOGICAL TECHNOLOGY CO., LTD.
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5d786f6a-f11a-04de-e063-6394a90ac584
+- **[US] SOL LABS ECOMIST SHEER FACE AND BODY SPF 50 AEROSOL, SPRAY** (US:SPL-5db199aa-bdfe-16fe-e063-6394a90a3148, sev 1) — LANCE (GUANGZHOU) BIOLOGICAL TECHNOLOGY CO., LTD.
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5db199aa-bdfe-16fe-e063-6394a90a3148
+- **[US] SOL LABS FOUNTAIN OF YOUTH FACE AND BODY SPF 30 LOTION** (US:SPL-5db2d840-672b-2dba-e063-6394a90aaef5, sev 1) — LANCE (GUANGZHOU) BIOLOGICAL TECHNOLOGY CO., LTD.
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5db2d840-672b-2dba-e063-6394a90aaef5
+- **[US] SOL LABS LUMIBRONZE INSTANT BRONZING SPF 30 ANTI AGING FACE SERUM LIQUID** (US:SPL-5db352ea-ae9f-a895-e063-6394a90a821f, sev 1) — LANCE (GUANGZHOU) BIOLOGICAL TECHNOLOGY CO., LTD.
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5db352ea-ae9f-a895-e063-6394a90a821f
