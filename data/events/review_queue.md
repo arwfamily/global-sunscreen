@@ -215,3 +215,9 @@
   - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5db2d840-672b-2dba-e063-6394a90aaef5
 - **[US] SOL LABS LUMIBRONZE INSTANT BRONZING SPF 30 ANTI AGING FACE SERUM LIQUID** (US:SPL-5db352ea-ae9f-a895-e063-6394a90a821f, sev 1) — LANCE (GUANGZHOU) BIOLOGICAL TECHNOLOGY CO., LTD.
   - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5db352ea-ae9f-a895-e063-6394a90a821f
+
+## 2026-11-18
+
+- **[CA] Express multi-action FPS SPF 30** (CA:NPN-80138441, sev 2) — Immanence Integral Dermo Correction Inc.
+  - added: geranyl acetate, hexamethylindanopyran, tetramethyl acetyloctahydronaphthalenes
+  - https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80138441
