@@ -221,3 +221,9 @@
 - **[CA] Express multi-action FPS SPF 30** (CA:NPN-80138441, sev 2) — Immanence Integral Dermo Correction Inc.
   - added: geranyl acetate, hexamethylindanopyran, tetramethyl acetyloctahydronaphthalenes
   - https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80138441
+
+## 2026-11-19
+
+- **[CA] Icarus Sunscreen - SPF 30** (CA:NPN-80142809, sev 2) — Icarus Sun Protection Inc.
+  - added: beta-sitosterol, dandelion extract, pomegranate seed oil, raspberry seed oil, sweet almond oil, verbascum thapsus extract
+  - https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80142809
