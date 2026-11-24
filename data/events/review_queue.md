@@ -227,3 +227,93 @@
 - **[CA] Icarus Sunscreen - SPF 30** (CA:NPN-80142809, sev 2) — Icarus Sun Protection Inc.
   - added: beta-sitosterol, dandelion extract, pomegranate seed oil, raspberry seed oil, sweet almond oil, verbascum thapsus extract
   - https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80142809
+
+## 2026-11-24
+
+- **[CA] COOLA Rosilliance® Daily Protection Tinted Moisturizer Zinc Oxide Sunscreen Bronze Goddess** (CA:NPN-80143425, sev 2) — COOLA LLC
+  - added: mangostin
+  - removed: garcinia mangostana fruit extract
+  - https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80143425
+- **[CA] COOLA Rosilliance® Daily Protection Tinted Moisturizer Zinc Oxide Sunscreen Golden Hour** (CA:NPN-80143426, sev 2) — COOLA LLC
+  - added: mangostin
+  - removed: garcinia mangostana fruit extract, mica
+  - https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80143426
+- **[CA] COOLA Daily Protection Rosilliance® Tinted Moisturizer Zinc Oxide Sunscreen Fresh Rose** (CA:NPN-80143428, sev 2) — COOLA LLC
+  - added: mangostin
+  - removed: garcinia mangostana fruit extract
+  - https://health-products.canada.ca/lnhpd-bdpsnh/info?licence=80143428
+- **[US] COPPERTONE TANNING SUNSCREEN SPF 8 (AVOBENZONE 2%, HOMOSALATE 5%, OCTISALATE 4.5%, OCTOCRYLENE 3%) LOTION** (US:SPL-0f113048-adfb-7d2a-e063-6294a90a2012, sev 2) — BEIERSDORF INC
+  - added: disodium edta, pentylene glycol, yellow wax
+  - removed: disodium edta-copper, synthetic beeswax
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0f113048-adfb-7d2a-e063-6294a90a2012
+- **[US] BANANA BOAT (AVOBENZONE,OCTISALATE,OCTOCRYLENE) LOTION** (US:SPL-28f08236-1f01-d759-e063-6294a90adcfa, sev 2) — EDGEWELL PERSONAL CARE BRANDS LLC
+  - added: aloe barbadensis leaf juice
+  - removed: aloe barbadensis leaf
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=28f08236-1f01-d759-e063-6294a90adcfa
+- **[US] CELIMAX PORE SKIN CLARIFYING DAILY SUNSCREEN (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) CREAM** (US:SPL-4edac8d8-523f-8b8b-e063-6294a90a1a25, sev 2) — ABSORBLAB CO., LTD
+  - added: dimethicone/vinyl dimethicone crosspolymer (hard particle), polyether-1, tocopherol, vinylpyrrolidone/eicosene copolymer
+  - removed: tocopherol
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4edac8d8-523f-8b8b-e063-6294a90a1a25
+- **[US] CLEAR SMART SHINE CONTROL SUNSCREEN BROAD SPECTRUM SPF 25 (AVOBENZONE,HOMOSALATE,OCTISALATE,OCTOCRYLENE) CREAM** (US:SPL-a57bcf44-580d-520e-e053-2a95a90a6923, sev 2) — DISTRIBUIDORA COMERCIAL JAFRA, S.A. DE C.V.
+  - added: phenoxyethanol
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a57bcf44-580d-520e-e053-2a95a90a6923
+- **[US] COOLA CLASSIC SUNSCREEN FRAGRANCE FREE (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) LOTION** (US:SPL-cfc21b1a-4a26-1573-e053-2995a90a2d50, sev 2) — COOLA, LLC
+  - added: citrus bergamia leaf
+  - removed: monarda didyma leaf
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cfc21b1a-4a26-1573-e053-2995a90a2d50
+- **[US] COPPERTONE SPORT SUNSCREEN SPF 30 (AVOBENZONE 3%, HOMOSALATE 8%, OCTISALATE 4.5%, OCTOCRYLENE 6%) LOTION** (US:SPL-d89df7a5-7741-3e1d-e053-2995a90ae275, sev 2) — BEIERSDORF INC
+  - added: acrylates/c10-30 alkyl acrylate crosspolymer, disodium edta, glyceryl monostearate, peg-100 stearate, pentylene glycol, yellow wax
+  - removed: allyl sucrose crosslinked, disodium edta-copper, glyceryl stearate se, peg-20 stearate, sodium ascorbyl phosphate, synthetic beeswax, tocopherol
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d89df7a5-7741-3e1d-e053-2995a90ae275
+- **[US] COPPERTONE SUNSCREEN SPF 50 (AVOBENZONE 3%, HOMOSALATE 10%, OCTISALATE 4.5%, OCTOCRYLENE 8%) LOTION** (US:SPL-d8b0d5ad-a82c-5304-e053-2a95a90afa63, sev 2) — BEIERSDORF INC
+  - added: acrylates/c10-30 alkyl acrylate crosspolymer, disodium edta, glyceryl monostearate, peg-100 stearate, pentylene glycol, yellow wax
+  - removed: allyl sucrose crosslinked, disodium edta-copper, glyceryl stearate se, peg-20 stearate, synthetic beeswax
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d8b0d5ad-a82c-5304-e053-2a95a90afa63
+- **[US] COPPERTONE SPORT SUNSCREEN SPF 100 (AVOBENZONE 3%, HOMOSALATE 15%, OCTISALATE 5%, OCTOCRYLENE 10%, OXYBENZONE 6%) LOTION** (US:SPL-df498e82-e1c9-51eb-e053-2a95a90a49b6, sev 2) — BEIERSDORF INC
+  - added: acrylates/c10-30 alkyl acrylate crosspolymer, disodium edta, pentylene glycol, polyamide-8
+  - removed: allyl sucrose crosslinked, disodium edta-copper
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=df498e82-e1c9-51eb-e053-2a95a90a49b6
+- **[US] COPPERTONE SPORT SUNSCREEN SPF 70 (AVOBENZONE 3%, HOMOSALATE 13%, OCTISALATE 5%, OCTOCRYLENE 10%, OXYBENZONE 6%) LOTION** (US:SPL-e468d703-fa6c-095a-e053-2a95a90a5194, sev 2) — BEIERSDORF INC
+  - added: acrylates/c10-30 alkyl acrylate crosspolymer, disodium edta, pentylene glycol, polyamide-8
+  - removed: allyl sucrose crosslinked, disodium edta-copper, vitamin a palmitate
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e468d703-fa6c-095a-e053-2a95a90a5194
+- **[US] COPPERTONE OIL FREE AND SHINE CONTROL FACE SUNSCREEN SPF 45 (AVOBENZONE 3%, HOMOSALATE 10%, OCTISALATE 5%, OCTOCRYLENE 10%) LOTION** (US:SPL-f3d163b4-6774-4c2e-e053-2a95a90afd59, sev 2) — BEIERSDORF INC
+  - added: disodium edta, glyceryl dibehenate, silica
+  - removed: disodium edta-copper, ethylhexylglyceryl behenate, titanium dioxide
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f3d163b4-6774-4c2e-e053-2a95a90afd59
+- **[US] BANANA BOAT (AVOBENZONE,HOMOSALATE,OCTISALATE ,OCTOCRYLENE) LOTION** (US:SPL-22e2b447-bd6b-5e8a-e063-6394a90a0de9, sev 1) — EDGEWELL PERSONAL CARE BRANDS LLC
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=22e2b447-bd6b-5e8a-e063-6394a90a0de9
+- **[US] INTELLIGENT ELIXIRS TINTED BROAD SPECTRUM SPF 30 - GOLDEN (AVOBENZONE, OCTISALATE, OCTINOXATE) LOTION INTELLIGENT ELIXIRS TINTED BROAD SPECTRUM SPF 30 - NATURAL (AVOBENZONE, OCTISALATE, OCTINOXATE) LOTION INTELLIGENT ELIXIRS TINTED BROAD SPECTRUM SPF 30 - TAN (AVOBENZONE, OCTISALATE, OCTINOXATE) LOTION** (US:SPL-287a61d8-0056-6211-e063-6394a90aa3da, sev 1) — INTELLIGENT ELIXIRS, LLC
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=287a61d8-0056-6211-e063-6394a90aa3da
+- **[US] BANANA BOAT (AVOBENZONE,HOMOSALATE,OCTISALATE,OCTOCRYLENE) SPRAY** (US:SPL-2edc79f8-aac5-15eb-e063-6394a90a9736, sev 1) — EDGEWELL PERSONAL CARE BRANDS LLC
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2edc79f8-aac5-15eb-e063-6394a90a9736
+- **[US] BANANA BOAT (AVOBENZONE,HOMOSALATE,OCTISALATE,OCTOCRYLENE) SPRAY** (US:SPL-2ee9b3dc-91cd-1af9-e063-6394a90a78e1, sev 1) — EDGEWELL PERSONAL CARE BRANDS LLC
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2ee9b3dc-91cd-1af9-e063-6394a90a78e1
+- **[US] BANANA BOAT (AVOBENZONE/OCTOCRYLENE/OXYBENZONE) LOTION** (US:SPL-3c414e9b-6c3e-2c8d-e063-6394a90af4a6, sev 1) — EDGEWELL PERSONAL CARE BRANDS LLC
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3c414e9b-6c3e-2c8d-e063-6394a90af4a6
+- **[US] BANANA BOAT (AVOBENZONE/OCTOCRYLENE/OXYBENZONE) LOTION** (US:SPL-3c49c623-47c6-4dc9-e063-6294a90a0096, sev 1) — EDGEWELL PERSONAL CARE BRANDS LLC
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3c49c623-47c6-4dc9-e063-6294a90a0096
+- **[US] BANANA BOAT (AVOBENZONE HOMOSALATE OCTOCRYLENE) LOTION** (US:SPL-41376da3-5274-b133-e063-6394a90afa13, sev 1) — EDGEWELL PERSONAL CARE BRANDS LLC
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=41376da3-5274-b133-e063-6394a90afa13
+- **[US] BY THE BEACH SUNCARE (SPF 30 SUNCARE MALON DAZE) CREAM** (US:SPL-4391728b-dfe7-3ffb-e063-6394a90a240e, sev 1) — BY THE BEACH SUNCARE LLC
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4391728b-dfe7-3ffb-e063-6394a90a240e
+- **[US] BY THE BEACH SUNCARE (SPF 30 SUNCARE CANDY CLOUDS) CREAM** (US:SPL-4391728b-dfe8-3ffb-e063-6394a90a240e, sev 1) — BY THE BEACH SUNCARE LLC
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4391728b-dfe8-3ffb-e063-6394a90a240e
+- **[US] BY THE BEACH SUNCARE (SPF 30 SUNCARE CITRUS CRUSH) CREAM** (US:SPL-43918d25-e947-5e17-e063-6394a90ada7c, sev 1) — BY THE BEACH SUNCARE LLC
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=43918d25-e947-5e17-e063-6394a90ada7c
+- **[US] BANANA BOAT (AVOBENZONE,HOMOSALATE,OCTISALATE,OCTOCRYLENE) LOTION** (US:SPL-44ffd469-0205-846f-e063-6294a90af6b5, sev 1) — EDGEWELL PERSONAL CARE BRANDS LLC
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=44ffd469-0205-846f-e063-6294a90af6b5
+- **[US] BANANA BOAT (AVOBENZONE,HOMOSALATE,OCTISALATE,OCTOCRYLENE) AEROSOL** (US:SPL-45117885-c674-b58a-e063-6394a90af5f4, sev 1) — EDGEWELL PERSONAL CARE BRANDS LLC
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=45117885-c674-b58a-e063-6394a90af5f4
+- **[US] BETA-GLUCAN MILD SUNSCREEN (TITANIUM DIOXIDE, ZINC OXIDE) LOTION** (US:SPL-47d6ad8b-1081-ee21-e063-6294a90a0e63, sev 1) — IUNIK CO., LTD
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=47d6ad8b-1081-ee21-e063-6294a90a0e63
+- **[US] HYDROSCREEN (HOMOSALATE, OCTISALATE, OCTOCRYLENE, AVOBENZONE) CREAM** (US:SPL-4c9d5dfd-d790-fffc-e063-6294a90a4d30, sev 1) — METHODIQ INC.
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c9d5dfd-d790-fffc-e063-6294a90a4d30
+- **[US] BUBBLE AND CO DAILY DEFENSE SUNSCREEN (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) CREAM** (US:SPL-5a8f4d9c-d53c-545c-e063-6294a90a5941, sev 1) — DEAR U INTERNATIONAL INC.
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5a8f4d9c-d53c-545c-e063-6294a90a5941
+- **[US] JUYASUYON INVISIBLE SUNSCREEN (HOMOSALATE,OCTOCRYLENE,OCTISALATE,BEMOTRIZINOL,AVOBENZONE) STICK** (US:SPL-5ab335b5-bb9e-4642-e063-6294a90a3986, sev 1) — GUANGDONG AIMU BIOLOGICAL TECHNOLOGY CO., LTD
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5ab335b5-bb9e-4642-e063-6294a90a3986
+- **[US] ESFOLIO HYALURONIC PROTECTION SUNSCREEN (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) CREAM** (US:SPL-5cd3834a-a47f-dc91-e063-6294a90a7d7e, sev 1) — BEAUTYINSIDE CO., LTD.
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5cd3834a-a47f-dc91-e063-6294a90a7d7e
+- **[US] STRIVECTIN ADVANCED RETINOL DAILY REPAIR MOISTURIZER SPF30 (AVOBENZONE, HOMOSALATE, OCTISALATE, OCTOCRYLENE) LOTION** (US:SPL-cfbdbba8-a739-fd32-e053-2a95a90a6f31, sev 1) — STRIVECTIN OPERATING COMPANY, INC.
+  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cfbdbba8-a739-fd32-e053-2a95a90a6f31
